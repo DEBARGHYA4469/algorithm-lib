@@ -23,11 +23,11 @@ using namespace std::chrono;
 template<typename ...Args>
 void logger(string vars, Args&&... values){
 	cerr << "[";
-		cerr << vars << "] = ";
-		string delimeter = "";
-		cerr << "[";
-			(..., (cerr <<  delimeter << values, delimeter=","));
-		cerr << "]\n";
+	cerr << vars << "] = ";
+	string delimeter = "";
+	cerr << "[";
+		(..., (cerr <<  delimeter << values, delimeter=","));
+	cerr << "]\n";
 }
 
 // .......................templates, typedefs & constants..........................................
