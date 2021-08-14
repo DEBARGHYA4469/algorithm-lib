@@ -52,7 +52,7 @@ int main(){
 	auto clk_start = high_resolution_clock::now();
 	
 	std::ios::sync_with_stdio(false);
-    cin.tie(0);
+	cin.tie(0);
 	
 	main_cp();
 	
