@@ -1,6 +1,6 @@
 ## Trie / Prefix Tree / Digital Tree
 
-Array Implementation
+**Array Implementation
 
 ```cpp
 int node=0;
@@ -56,7 +56,7 @@ bool search(string &s){
 }
 
 ```
-Pointer + Map Implementation
+**Pointer + Map Implementation
 
 ```cpp
 struct Trie{
@@ -97,7 +97,7 @@ void delete(Trie *u, string &s){
 }
 ```
 
-Bit-Prefix Tree 
+**Bit-Prefix Tree 
 
 Problem : A[10] = {a1, a2, a3, a4, a5, a6,..., aN}. Find the no of subarrays with XOR < k.
 
@@ -157,7 +157,7 @@ ll solve(int a[MaxN]){
 
 ```
 
-Games on Trie
+**Games on Trie
 
 Problem: Two players Alice, Bob play in turns to create a valid dictionary(given) word, one who cannot loses the game. In each round, players play in turns to insert one character. Winner of the game is the winner of the last round. Given list of valid words, who wins, if both plays optimally.
 
