@@ -156,3 +156,46 @@ ll solve(int a[MaxN]){
 
 
 ```
+
+Games on Trie
+
+Problem: Two players Alice, Bob play in turns to create a valid dictionary(given) word, one who cannot loses the game. In each round, players play in turns to insert one character. Winner of the game is the winner of the last round. Given list of valid words, who wins, if both plays optimally.
+
+Idea: </br>
+&nbsp;&nbsp;&nbsp;&nbsp; win[i] : player when reaches this state, either has a forced win(1)/ gets forced loss(0) = OR(~win[next states])
+</br>
+&nbsp;&nbsp;&nbsp;&nbsp; lose[i] :  player when reaches this state, either has a forced loss(1)/ gets forced win(0) = OR(~lose[next states])
+</br>
+Imp note: **If a player can force win/lose in a state, he might choose not to win/lose in that state but if a player does not have a forced win/loss then he definitely loses/wins in that state** </br>
+
+![Drawing-77 sketchpad](https://user-images.githubusercontent.com/21307343/129959336-69a862ac-ff68-4e80-a749-ebeb40f34d02.png)
+
+```cpp
+void dfs(int u){
+	if(!br[u]) win[u]=0,lose[u]=1;
+	else{
+		bool can_win=0, can_lose=0;
+		for(int i=0;i<26;i++){
+			int v=nxt[u][i];
+			if(v!=-1){
+				dfs(v);
+				can_win|=!win[v];
+				can_lose|=!lose[v];
+			} 
+		}
+		win[u] = can_win;
+		lose[u] = can_lose;
+	}
+}
+
+void solve(){
+	for(int i=0;i<n;i++) insert(dict[i]);
+	dfs(0);
+	if(win[0] && lose[0]) cout << "Alice" << endl;
+	else if(win[0] && !lose[0]) cout << (k&1)? "Alice" : "Bob" << endl;
+	else cout << "Bob" << endl;
+}
+```
+
+
+
