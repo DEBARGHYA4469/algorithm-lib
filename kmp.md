@@ -34,11 +34,38 @@ Each time j is decremented in the while:j loop, it corresponds to some previous(
 
 Given a pattern t and a string s, print occurences of t in s.
 
-Idea:  Consider x = t#s, x = t1 t2 t3....tN # s1 s2 ....sM
-For all i, if pi[i] = N, pos = i-2N 
+```Idea:  Consider x = t#s, x = t1 t2 t3....tN # s1 s2 ....sM```
+```For all i, if pi[i] = N, pos = i-2N```
 
 Time : O(N+M)
 </br>
 </br>
+
 2. **String Periodicity**
 
+Given a string s, and s(i+T) = s(i), for all i. find the fundamental period T.</br>
+In other words, s = [a(0)...a(k-1)][a(k).....a(2k-1)]...[a(N-k)....a(N-1)]. 
+</br>
+
+```Idea: If u = N - pi[N-1], and u divides N, s[0...u-1] is the compressed periodic string, otherwise no period exists.```
+
+```Observation: If a string as periods T1 & T2 => T1|T2```
+
+## Z-function
+
+```cpp
+int z[N];
+
+void z_function(string &s){
+    int l=0,r=0;
+    for(int i=1;i<n;++i){
+        if(i<=r) z[i] = min(r-i-1,z[i-l]);
+        while(i+z[i]<n && s[z[i]]==s[i+z[i]]) ++z[i];
+        if(i+z[i]-1>r) l=i, r=i+z[i]-1;
+    }
+}
+```
+
+1. **String Periodicity**
+
+```period = min i such that: i+z[i]=n```
