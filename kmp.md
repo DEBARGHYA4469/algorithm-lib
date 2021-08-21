@@ -49,7 +49,7 @@ In other words, s = [a(0)...a(k-1)][a(k).....a(2k-1)]...[a(N-k)....a(N-1)].
 
 ```Idea: If u = N - pi[N-1], and u divides N, s[0...u-1] is the compressed periodic string, otherwise no period exists.```
 
-```Observation: If a string as periods T1 & T2 => T1|T2```
+```Periodicity Lemma: If a string has period T1 and T2, then gcd(T1,T2) is also a period of the string!```
 
 ## Z-function
 
