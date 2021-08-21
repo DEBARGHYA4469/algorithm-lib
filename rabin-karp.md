@@ -71,5 +71,34 @@ bool compare(pii x,pii y){
     int v = mul(sub(h[y.r],h[y.l-1]),p[x.l]);
     return u==v;
 }
+```
+#### Problems
+1. Finding lexicographically minimal shift of a string of length n in O(nlog(n)). </br>
 
+<a href="https://www.codecogs.com/eqnedit.php?latex=\\s&space;=&space;s_{0}s_{1}s_{2}s_{3}...s_{n-1}\\&space;\\Shift\\&space;s_{0}s_{1}s_{2}s_{3}...s_{n-1}\\&space;s_{1}s_{2}s_{3}s_{4}...s_{0}\\&space;s_{2}s_{3}s_{4}s_{5}...s_{1}\\&space;s_{3}s_{4}s_{5}s_{6}...s_{2}\\" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\\s&space;=&space;s_{0}s_{1}s_{2}s_{3}...s_{n-1}\\&space;\\Shift\\&space;s_{0}s_{1}s_{2}s_{3}...s_{n-1}\\&space;s_{1}s_{2}s_{3}s_{4}...s_{0}\\&space;s_{2}s_{3}s_{4}s_{5}...s_{1}\\&space;s_{3}s_{4}s_{5}s_{6}...s_{2}\\" title="\\s = s_{0}s_{1}s_{2}s_{3}...s_{n-1}\\ \\Shift\\ s_{0}s_{1}s_{2}s_{3}...s_{n-1}\\ s_{1}s_{2}s_{3}s_{4}...s_{0}\\ s_{2}s_{3}s_{4}s_{5}...s_{1}\\ s_{3}s_{4}s_{5}s_{6}...s_{2}\\" /></a>
+
+Naive Approach : n-shifted strings, each string has n chars, comparing takes O(n). So worst O(n*n) 
+</br>
+
+`Hashing Approach: Compare strings in log(N)` 
+
+```cpp
+    int h[N+1];
+    s+=s;
+    init(s);
+    vector<int> pos;
+    for(int i=0;i<N;i++) pos.eb(i);
+    int x = *min_element(all(pos),[&](const int i,const int j){
+            int lo=1, hi=N;
+            bool ok = false;
+            while(lo<=hi){
+                 int mid = lo + (hi-lo)/2;
+                 if(hash(i,i+mid-1)==hash(j,j+mid-1)) lo = mid+1;
+                 else{
+                    hi = mid-1;
+                    if(s[i+mid-1] < s[j+mid-1]) ok = true;
+                    else ok = false;
+                 }
+            }
+    });
 ```
