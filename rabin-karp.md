@@ -54,3 +54,22 @@ rollhash hash(int l,int r){
 
 ```
 
+Fast Implementation Trick 
+
+```cpp
+int h[MaxN], p[MaxN];
+
+h[0] = t[0];
+p[0] = 0;
+for(int i=1;i<sz(t);i++){
+    p[i] = mul(p[i-1],P);
+    h[i] = add(h[i-1],mul(s[i],p[i])); 
+}
+
+bool compare(pii x,pii y){
+    int u = mul(sub(h[x.r],h[x.l-1]),p[y.l]);
+    int v = mul(sub(h[y.r],h[y.l-1]),p[x.l]);
+    return u==v;
+}
+
+```
