@@ -14,31 +14,29 @@ Backward Hash:
 #### Implementation (Double Hashing to avoid anti-hash test)
 
 ```cpp
-const int mod = 1e9+7;
 const int P=239017, mx=1e9+7, my=1e9+9;
 
-inline int add(int a,int b){ return (int)((a*1ll+b)%mod); }
-inline int sub(int a,int b){ return (int)((a*1ll+mod-b)%mod); }
-inline int mul(int a,int b){ return (int)((a*1ll*b)%mod); }
+inline int add(int a,int b,int mod){ return (int)((a*1ll+b)%mod); }
+inline int sub(int a,int b,int mod){ return (int)((a*1ll+mod-b)%mod); }
+inline int mul(int a,int b,int mod){ return (int)((a*1ll*b)%mod); }
 
-struct rollhash{
+struct Rollhash{
     int x,y;
-    rollhash() = default;
-    rollhash(int _x):x(_x),y(_y) {}
-    rollhash(int _x,int _y):x(_x),y(_y) {}
-    inline rollhash operator+(const int &c) const { return rollhash(add(x,c),add(y,c));}         
-    inline rollhash operator*(const int &c) const { return rollhash(mul(x,c),mul(y,c));}
-    inline rollhash operator-(const int &c) const { return rollhash(sub(x,c),sub(y,c));}
-    inline bool operator==(const rollhash &h) const { return x==h.x && y==h.y; } 
+    Rollhash() = default;
+    Rollhash(int _x):x(_x),y(_x) {}
+    Rollhash(int _x,int _y):x(_x),y(_y) {}
+    inline Rollhash operator+(const Rollhash &h) const { return Rollhash(add(x,h.x,mx),add(y,h.y,my));}         
+    inline Rollhash operator*(const Rollhash &h) const { return Rollhash(mul(x,h.x,mx),mul(y,h.y,my));}
+    inline Rollhash operator-(const Rollhash &h) const { return Rollhash(sub(x,h.x,mx),sub(y,h.y,my));}
+    inline bool operator==(const Rollhash &h) const { return x==h.x && y==h.y; } 
 };
 
-int p[MaxN];
-rollhash h[MaxN];
+Rollhash p[MaxN],h[MaxN];
 
 // get the full hash of the string 
 void init(const string &s){
     int n = sz(s);
-    h[0] = rollhash(s[0]);
+    h[0] = s[0];
     p[0] = 1;
     for(int i=1;i<n;i++){
         h[i] = h[i-1]*P + s[i];
@@ -47,14 +45,14 @@ void init(const string &s){
 }
 
 // get the hash of a substring
-rollhash hash(int l,int r){ 
+Rollhash hash(int l,int r){ 
     if(l==0) return h[r];
-    return h[r]-h[l-1]*p[r-l-1];
+    return h[r]-h[l-1]*p[r-l+1];
 }
 
 ```
 
-Fast Implementation Trick 
+Fast Implementation Trick (High probability of WA with Single Hash)
 
 ```cpp
 int h[MaxN], p[MaxN];
