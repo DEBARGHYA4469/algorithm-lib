@@ -156,6 +156,20 @@ ll solve(int a[MaxN]){
 ```
 #### Max XOR Subsequence
 `Idea: Gaussian Elimination in GF(2)`
+</br>
+`Intuition behind GE: `
+</br>
+</br>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\\S&space;=&space;{a_1,a_2,a_3.....a_N}\\&space;Under\:\bigoplus&space;\:operation,&space;we\:see\:that\:&space;\\S'=&space;{a_1\oplus&space;a_k,&space;a_2&space;\oplus&space;a_k,&space;....a_k,a_{k&plus;1},...a_{N-1},a_N}.\\&space;S&space;\:&space;and&space;\:&space;S'&space;\:are\:&space;equivalent\:&space;sets." target="_blank"><img src="https://latex.codecogs.com/gif.latex?\\S&space;=&space;{a_1,a_2,a_3.....a_N}\\&space;Under\:\bigoplus&space;\:operation,&space;we\:see\:that\:&space;\\S'=&space;{a_1\oplus&space;a_k,&space;a_2&space;\oplus&space;a_k,&space;....a_k,a_{k&plus;1},...a_{N-1},a_N}.\\&space;S&space;\:&space;and&space;\:&space;S'&space;\:are\:&space;equivalent\:&space;sets." title="\\S = {a_1,a_2,a_3.....a_N}\\ Under\:\bigoplus \:operation, we\:see\:that\: \\S'= {a_1\oplus a_k, a_2 \oplus a_k, ....a_k,a_{k+1},...a_{N-1},a_N}.\\ S \: and \: S' \:are\: equivalent\: sets." /></a>
+</br>
+</br>
+To extrapolate the idea: 
+</br>
+</br>
+In first traversal, transform S to a set where only one element has MSB bit on others off. That makes the element **fixed** in the set S'. Next, do the same thing for the next bit, make another element's MSB-1 bit on and rest 0. Now two elements are **fixed** and we have to work on the remaining transformed set S''.Next select one more element, and so on. Crux of this idea is that when working with new bits, it cannot alter the state of the previous bits.
+</br>
+`Same idea can be extended to solve xor subset with a specified value as the equivalence still holds.`
+
 ```cpp	
 	int a[MaxN];
 	int solve(){
