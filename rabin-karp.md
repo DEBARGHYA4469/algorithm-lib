@@ -78,7 +78,8 @@ bool compare(pii x,pii y){
 Naive Approach : n-shifted strings, each string has n chars, comparing takes O(n). So worst O(n*n) 
 </br>
 
-`Hashing Approach: Compare strings in log(N)` 
+`Hashing Approach: Compare strings in log(N)`
+`Idea: Binary Search on the Prefix of the string to check equality`
 
 ```cpp
     int h[N+1];
