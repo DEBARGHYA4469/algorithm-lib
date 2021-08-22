@@ -153,8 +153,30 @@ ll solve(int a[MaxN]){
       }
       return ans;
 }
-
-
+```
+#### Max XOR Subsequence
+`Idea: Gaussian Elimination in GF(2)`
+```cpp	
+	int a[MaxN];
+	int solve(){
+		for(int i=0;i<32;i++){
+			int mask = 1<<(32-i-1);
+			pii v = mp(i,-1*inf);
+			for(int j=i;j<n;j++){
+				if((a[j]&mask) && a[j]>v.se)
+					v = mp(j,a[j]);
+			}
+			if(v.se==-1*inf) continue;
+			swap(a[i],a[v.fi]);
+			
+			for(int j=0;j<n;j++){
+				if(j!=v.fi && a[j]&mask) a[j]^=a[v.fi];
+			}
+		}
+		int ans=0;
+		for(int i=0;i<n;i++) ans^=a[i];
+		return ans;
+	}
 ```
 
 **Games on Trie**
