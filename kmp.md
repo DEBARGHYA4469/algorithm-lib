@@ -69,3 +69,15 @@ void z_function(string &s){
 1. **String Periodicity**
 
 ```period = min i such that: i+z[i]=n```
+
+String Stream : To read a whole line and break it into strings.
+</br>
+```cpp
+string s,t;
+getline(cin,s);
+stringstream x(s);
+
+while(getline(x,t,' ')){
+    cout << t << endl;
+}
+```
