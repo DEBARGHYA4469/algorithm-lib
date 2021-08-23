@@ -70,6 +70,10 @@ void z_function(string &s){
 
 ```period = min i such that: i+z[i]=n```
 
+2. **Min addition at start of a string to make it palindrome**
+
+`Prefix function Trick: Form a string t by concating string s with reverse of s. find the lps of t. Ans=n-lps(t)`
+
 String Stream : To read a whole line and break it into strings.
 </br>
 ```cpp
