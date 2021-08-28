@@ -48,24 +48,26 @@
 
 `Given a string of size N, how many distinct subsequence are there of the string?`</br></br>
 
-`Classical Trick:`</br></br>
+`Formal Proof:`
 
-```
-            Let s = c0 c1 c2 c3 ....ck...cj....cn
-            
-            dp[j]: #distinct subsequences considering till jth character
-            Consider what are included in dp[j]:
-            
-            All subsequences from dp[j-1], (trivial!!)
-            Add cj to all subsequences from dp[j-1] to(possibly!) get a new subsequence.
-            But this may result in duplicate subsequences.
-            Currently dp[j-1]*2: S = (A:{t1,t2,t3,...,tm}) + (B:{t1,t2,t3,...,tm}|sj)
-            Remove all duplicates from B that are already present in A(all unique element).
-            
-            Claim: All & only subsequences from k (sk=sj and k is closest to j for all such j) are getting duplicated.             
-            Proof: Finding A intersection B:  Let sk=sj=s
-                   all {Set [k-1]}|s are included in A & B
-```
+Consider the string <a href="https://www.codecogs.com/eqnedit.php?latex=\\s=s_1s_2....s_j....s_k....s_{n}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?s=s_1s_2....s_j....s_k....s_{n}" title="s=s_1s_2....s_j....s_k....s_{n}" /></a> wher s[j]=s[k]=s' & j is maximally closest to k.</br>
+
+Denote:</br>
+Tk = set of distinct subsequences till kth index.</br>
+Pk = set of subsequences obtained by concatenating s' with Tk elements. </br>
+
+Clearly:
+<li> Elements of Pk are distinct, or Tk are not!
+<li> <a href="https://www.codecogs.com/eqnedit.php?latex=T_k&space;=&space;T_{k-1}&space;\bigcup&space;P_k" target="_blank"><img src="https://latex.codecogs.com/gif.latex?T_k&space;=&space;T_{k-1}&space;\bigcup&space;P_k" title="T_k = T_{k-1} \bigcup P_k" /></a>
+<li><a href="https://www.codecogs.com/eqnedit.php?latex=T_k&space;=&space;T_{k-1}&space;&plus;&space;P_k&space;-&space;T_{k-1}&space;\bigcap&space;P_{k}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?T_k&space;=&space;T_{k-1}&space;&plus;&space;P_k&space;-&space;T_{k-1}&space;\bigcap&space;P_{k}" title="T_k = T_{k-1} + P_k - T_{k-1} \bigcap P_{k}" /></a>
+<li><a href="https://www.codecogs.com/eqnedit.php?latex=T_{k-1}&space;\bigcap&space;P_k=T_j&space;\bigcap&space;P_k" target="_blank"><img src="https://latex.codecogs.com/gif.latex?T_{k-1}&space;\bigcap&space;P_k=T_j&space;\bigcap&space;P_k" title="T_{k-1} \bigcap P_k=T_j \bigcap P_k" /></a>  as all elements in Pk end with s'
+<li><a href="https://www.codecogs.com/eqnedit.php?latex=T_j&space;\bigcap&space;P_k=(T_{j-1}\bigcup&space;P_j)\bigcap&space;P_k" target="_blank"><img src="https://latex.codecogs.com/gif.latex?T_j&space;\bigcap&space;P_k=(T_{j-1}\bigcup&space;P_j)\bigcap&space;P_k" title="T_j \bigcap P_k=(T_{j-1}\bigcup P_j)\bigcap P_k" /></a> </br>
+
+Lemma: Any element that ends with s' belongs to P(j) and never in T(j-1)-P(j) </br>
+So, <a href="https://www.codecogs.com/eqnedit.php?latex=T_j&space;\bigcap&space;P_k=P_j\bigcap&space;P_k" target="_blank"><img src="https://latex.codecogs.com/gif.latex?T_j&space;\bigcap&space;P_k=P_j\bigcap&space;P_k" title="T_j \bigcap P_k=P_j\bigcap P_k" /></a> </br> and <a href="https://www.codecogs.com/eqnedit.php?latex=T_{j-1}\subset&space;T_{k-1}&space;\implies&space;P_j\subset&space;P_k\" target="_blank"><img src="https://latex.codecogs.com/gif.latex?T_{j-1}\subset&space;T_{k-1}&space;\implies&space;P_j\subset&space;P_k\" title="T_{j-1}\subset T_{k-1} \implies P_j\subset P_k\" /></a> </br>
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=f_k&space;=&space;\eta(T_{k-1})&plus;\eta(P_{k})&space;-&space;\eta(T_{k-1}\bigcap&space;P_k)&space;=&space;2f_{k-1}-\eta(P_j)=2f_{k-1}-f_{j-1}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f_k&space;=&space;\eta(T_{k-1})&plus;\eta(P_{k})&space;-&space;\eta(T_{k-1}\bigcap&space;P_k)&space;=&space;2f_{k-1}-\eta(P_j)=2f_{k-1}-f_{j-1}" title="f_k = \eta(T_{k-1})+\eta(P_{k}) - \eta(T_{k-1}\bigcap P_k) = 2f_{k-1}-\eta(P_j)=2f_{k-1}-f_{j-1}" /></a>
+
 
 ```cpp
       int dp[n];
