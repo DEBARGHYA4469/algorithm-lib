@@ -50,7 +50,7 @@
 
 `Formal Proof:`
 
-Consider the string <a href="https://www.codecogs.com/eqnedit.php?latex=\\s=s_1s_2....s_j....s_k....s_{n}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?s=s_1s_2....s_j....s_k....s_{n}" title="s=s_1s_2....s_j....s_k....s_{n}" /></a> wher s[j]=s[k]=s' & j is maximally closest to k.</br>
+Consider the string <a href="https://www.codecogs.com/eqnedit.php?latex=\\s=s_1s_2....s_j....s_k....s_{n}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?s=s_1s_2....s_j....s_k....s_{n}" title="s=s_1s_2....s_j....s_k....s_{n}" /></a> wher s[j]=s[k]=s' & j is closest to k.</br>
 
 Denote:</br>
 Tk = set of distinct subsequences till kth index.</br>
@@ -63,7 +63,7 @@ Clearly:
 <li><a href="https://www.codecogs.com/eqnedit.php?latex=T_{k-1}&space;\bigcap&space;P_k=T_j&space;\bigcap&space;P_k" target="_blank"><img src="https://latex.codecogs.com/gif.latex?T_{k-1}&space;\bigcap&space;P_k=T_j&space;\bigcap&space;P_k" title="T_{k-1} \bigcap P_k=T_j \bigcap P_k" /></a>  as all elements in Pk end with s'
 <li><a href="https://www.codecogs.com/eqnedit.php?latex=T_j&space;\bigcap&space;P_k=(T_{j-1}\bigcup&space;P_j)\bigcap&space;P_k" target="_blank"><img src="https://latex.codecogs.com/gif.latex?T_j&space;\bigcap&space;P_k=(T_{j-1}\bigcup&space;P_j)\bigcap&space;P_k" title="T_j \bigcap P_k=(T_{j-1}\bigcup P_j)\bigcap P_k" /></a> </br>
 
-Lemma: Any element that ends with s' belongs to P(j) and never in T(j-1)-P(j) </br>
+Lemma: Any element that ends with s' belongs to P(j) and never in T(j-1)-P(j) </br></br>
 So, <a href="https://www.codecogs.com/eqnedit.php?latex=T_j&space;\bigcap&space;P_k=P_j\bigcap&space;P_k" target="_blank"><img src="https://latex.codecogs.com/gif.latex?T_j&space;\bigcap&space;P_k=P_j\bigcap&space;P_k" title="T_j \bigcap P_k=P_j\bigcap P_k" /></a> </br> and <a href="https://www.codecogs.com/eqnedit.php?latex=T_{j-1}\subset&space;T_{k-1}&space;\implies&space;P_j\subset&space;P_k\" target="_blank"><img src="https://latex.codecogs.com/gif.latex?T_{j-1}\subset&space;T_{k-1}&space;\implies&space;P_j\subset&space;P_k\" title="T_{j-1}\subset T_{k-1} \implies P_j\subset P_k\" /></a> </br>
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=f_k&space;=&space;\eta(T_{k-1})&plus;\eta(P_{k})&space;-&space;\eta(T_{k-1}\bigcap&space;P_k)&space;=&space;2f_{k-1}-\eta(P_j)=2f_{k-1}-f_{j-1}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f_k&space;=&space;\eta(T_{k-1})&plus;\eta(P_{k})&space;-&space;\eta(T_{k-1}\bigcap&space;P_k)&space;=&space;2f_{k-1}-\eta(P_j)=2f_{k-1}-f_{j-1}" title="f_k = \eta(T_{k-1})+\eta(P_{k}) - \eta(T_{k-1}\bigcap P_k) = 2f_{k-1}-\eta(P_j)=2f_{k-1}-f_{j-1}" /></a>
@@ -78,4 +78,11 @@ So, <a href="https://www.codecogs.com/eqnedit.php?latex=T_j&space;\bigcap&space;
             if(prev[c]!=-1) dp[i]-=dp[prev[c]-1];
             prev[c] = i;
       }
+```
+
+Distinct Subsequence of particular length:
+
+```cpp
+      dp[i][j]: #distinct subsequence of length j considering till ith element.
+      dp[i][j] = dp[i-1][j]+dp[i-1][j-1]-dp[prev[c]-1][j-1];
 ```
