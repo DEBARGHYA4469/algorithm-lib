@@ -43,3 +43,37 @@
     }
     cout << ans << endl;
 ```
+
+#### Distinct Subsequences
+
+`Given a string of size N, how many distinct subsequence are there of the string?`</br></br>
+
+`Classical Trick:`</br></br>
+
+```
+            Let s = c0 c1 c2 c3 ....ck...cj....cn
+            
+            dp[j]: #distinct subsequences considering till jth character
+            Consider what are included in dp[j]:
+            
+            All subsequences from dp[j-1], (trivial!!)
+            Add cj to all subsequences from dp[j-1] to(possibly!) get a new subsequence.
+            But this may result in duplicate subsequences.
+            Currently dp[j-1]*2: S = (A:{t1,t2,t3,...,tm}) + (B:{t1,t2,t3,...,tm}|sj)
+            Remove all duplicates from B that are already present in A(all unique element).
+            
+            Claim: All & only subsequences from k (sk=sj and k is closest to j for all such j) are getting duplicated.             
+            Proof: Finding A intersection B:  Let sk=sj=s
+                   all {Set [k-1]}|s are included in A & B
+```
+
+```cpp
+      int dp[n];
+      dp[0] = 2;
+      for(int i=1;i<n;i++){
+            dp[i]=dp[i-1]*2;
+            int c = s[i]-'a';
+            if(prev[c]!=-1) dp[i]-=dp[prev[c]-1];
+            prev[c] = i;
+      }
+```
