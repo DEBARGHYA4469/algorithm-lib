@@ -141,3 +141,6 @@ void dfs(int u,int p=-1){
      }
 ```
 
+### In-Out Dp on Trees
+
+`Idea: Calculate in[v] values of node by rooting the trees and looking in subtrees, out[v] is the value by looking at the parent and ignoring the subtree, using in+out you can view the whole tree standing at a node, note that out[0]=in[0] if the tree is rooted at 0.`
