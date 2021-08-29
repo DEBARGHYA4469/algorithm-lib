@@ -7,6 +7,7 @@ There are N person & N tasks, each task alloted to a single person, Cost matrix 
 
 ```cpp
     f(k,mask): person 1...k-1 has been assigned a task now upto the kth person and the state of the assigned task is mask
+    int x = _builtin_popcount(mask);
     answer(k+1,mask|(1<<i)) = min(answer(k,mask|(1<<i),ans(mask)+cost[x][i]))
     or, quite simply,
     chmin(dp[mask|(1<<i)],dp[mask]+c[#setbits(mask)][i]);
