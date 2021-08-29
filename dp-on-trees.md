@@ -82,4 +82,62 @@ void dfs(int u,int p=-1){
                }
        }
 ```
+### Tree Distance I
+
+`Given a acyclic graph find the farthest node from each node`
+
+```cpp
+       // up_max: max height upwards(to par)
+       void solve(int u,int p=-1,int up_max){
+            vi pref,suff;
+            for(auto &v:g[u]){
+                if(v==p) continue;
+                pref.eb(d[v]);
+            }
+            
+            suff = pref;
+            for(int i=1;i<sz(pref);i++) { 
+                    pref[i] = max(pref[i-1],pref[i]);
+                    suff[m-i-1] = max(suff[m-i-1],suff[m-i]);
+            }
+            if(!pref.empty())  ans[u] = 1+max(pref.back(),up_max);
+            else ans[u] = 1+up_max;
+                 
+            int cn=0;
+            for(auto &v:g[u]){
+                    if(v==p) continue;
+                    int l=cn==0? -inf:pref[cn-1];
+                    int r=cn==m? -inf:suff[cn+1]; 
+                    solve(v,u,1+max({l,r,up_max}));
+                    cn++;
+            }
+            
+       }
+       
+```
+### Tree Distance II
+
+`Find the sum of distances of tree nodes to a given node` </br>
+`Trick: Solve-UP and Solve-DOWN technique`
+
+```cpp
+     ll f[MaxN],sz[MaxN]; // f[u]: sum from the nodes in subtree rooted at u
+     void solve_down(int u,int p=-1){
+            for(auto &v:g[u]){
+                if(v==p) continue;
+                solve_down(v,p);
+                sz[u]+=sz[v];
+                f[u]+=f[v]+sz[v];
+            }
+            sz[u]++;
+     } 
+     
+     void solve_up(int u,int p=-1,int partial_ans){
+            ans[u] = p!=-1 ? f[u] + partial_ans + N - sz[u];
+            for(auto &v:g[u]){
+                if(v==p) continue;
+                solve_up(v,u,ans[u]-(sz[v]+f[v]));
+            }
+     }
+```
 
