@@ -86,3 +86,16 @@ Distinct Subsequence of particular length:
       dp[i][j]: #distinct subsequence of length j considering till ith element.
       dp[i][j] = dp[i-1][j]+dp[i-1][j-1]-dp[prev[c]-1][j-1];
 ```
+
+#### Don't Be a Subsequence
+
+`Idea: Use prev or next function, Always look at the starting or last characters in subsequence based problems to find any optimal structure.`
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\\&space;\alpha&space;=&space;\alpha_1&space;\alpha_2&space;...&space;\alpha_{L-1}&space;\alpha_L=\beta&space;\alpha_L.\\&space;let\:s\:be\:the\:shortest\:such\:string\:for\:substring\:s[i....{N-1}]\\&space;WLOG:&space;\:if&space;\alpha_L\:is\:the\:trailing\:character\:for\:such\:substring.\:&space;\\And\:j=prev[\alpha_L]\:is\:the\:last\:occurence\:\alpha_L\\&space;Claim:&space;\beta=\alpha_1&space;\alpha_2&space;...&space;\alpha_{L-1}\:is\:such\:solution\:for\:q=s[1...j-1]\:\\&space;Proof:&space;If&space;\beta\:&space;is\:subsequence\:for\:q,\beta\alpha_L\:is\:subsequence\:of\:s\\&space;If\:smaller\:&space;\beta'\:exists\:&space;\beta'\alpha_L\:cannot\:be\:subsequence\:of\:s" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\\&space;\alpha&space;=&space;\alpha_1&space;\alpha_2&space;...&space;\alpha_{L-1}&space;\alpha_L=\beta&space;\alpha_L.\\&space;let\:s\:be\:the\:shortest\:such\:string\:for\:substring\:s[i....{N-1}]\\&space;WLOG:&space;\:if&space;\alpha_L\:is\:the\:trailing\:character\:for\:such\:substring.\:&space;\\And\:j=prev[\alpha_L]\:is\:the\:last\:occurence\:\alpha_L\\&space;Claim:&space;\beta=\alpha_1&space;\alpha_2&space;...&space;\alpha_{L-1}\:is\:such\:solution\:for\:q=s[1...j-1]\:\\&space;Proof:&space;If&space;\beta\:&space;is\:subsequence\:for\:q,\beta\alpha_L\:is\:subsequence\:of\:s\\&space;If\:smaller\:&space;\beta'\:exists\:&space;\beta'\alpha_L\:cannot\:be\:subsequence\:of\:s" title="\\ \alpha = \alpha_1 \alpha_2 ... \alpha_{L-1} \alpha_L=\beta \alpha_L.\\ let\:s\:be\:the\:shortest\:such\:string\:for\:substring\:s[i....{N-1}]\\ WLOG: \:if \alpha_L\:is\:the\:trailing\:character\:for\:such\:substring.\: \\And\:j=prev[\alpha_L]\:is\:the\:last\:occurence\:\alpha_L\\ Claim: \beta=\alpha_1 \alpha_2 ... \alpha_{L-1}\:is\:such\:solution\:for\:q=s[1...j-1]\:\\ Proof: If \beta\: is\:subsequence\:for\:q,\beta\alpha_L\:is\:subsequence\:of\:s\\ If\:smaller\: \beta'\:exists\: \beta'\alpha_L\:cannot\:be\:subsequence\:of\:s" /></a>
+
+```cpp
+      dp[i] = dp[prev[i][c]-1] + 1; // using prev function
+      dp[i] = dp[nxt[i][c]+1] + 1; // using next function
+      
+      For lexicographical order, you have to use the next function
+```
