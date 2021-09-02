@@ -20,7 +20,7 @@ Partioning is ugly.</br>
 Nice solution : **BITSETS**
 
 <li>bitset<365> v;
-<li>v.count: hamming weight
+<li>v.count(): hamming weight
 
 https://en.cppreference.com/w/cpp/utility/bitset
   
