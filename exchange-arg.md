@@ -63,3 +63,9 @@ Furthermore, if frog B carrying frog A on its back climbs up on the back of frog
 The frogs can build even higher piles of frogs this way, the only restriction is that no frog may carry other frogs of weight in total amounting to its own weight or heavier. Once a pile has been used to allow a frog to escape, the frogs in the pile jump back to the bottom of the pit and they can then form a new pile (possibly consisting of a different set of frogs). The question is simply how many frogs can escape the pit assuming they collaborate to maximize this number?
  
  `Quick Idea: Let us suppose a solution exist, say F1, F2, F3, ....., FN where F1 escapes before F2. We can see that W1 < W2. Once we get a sorted domain of solution we can apply other constraints through dp.`  
+
+####  Farm Craft (DP on Trees + Ex. Args) 
+                                                                                                                             
+You are given a rooted tree with n (n ≤ 105) vertices. You are in the root. Moving along an edge takes 1 minute. You want to visit all vertices and get back to the root as fast as possible, what takes exactly 2·(n - 1) minutes. When we visit vertex v for the first time, the countdown is started there and after av minutes that vertex will be "ready". We want to minimize the moment when all vertices are ready. When will it happen? </br>
+ 
+ `Idea: Exchange two child vertex order if 2s[u]-f[u], s[u]: size of the subtree, f[u]: sol for vertex u.`
