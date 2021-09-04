@@ -51,3 +51,15 @@ he fights bad one with H(less) and good with H-d[bad]+a[bad]=H-t. Both cases he 
         }
   }
 ```
+
+ #### Altruistic Amphibians
+ 
+ A set of frogs have accidentally fallen to the bottom of a large pit. Their only means of escaping the pit is to jump out of it. Each frog i is described by three parameters (li,wi,hi) where li is its leap capacity, wi its weight, and hi its height. The leap capacity specifies how high that frog can jump. If a frog's leap capacity is strictly larger than the depth of the pit, the frog can directly escape the pit. However, these frogs are altruistic. Rather than selfishly saving themselves and leaving the frogs with too limited leap capacity behind, they collectively aim to save as many of them from the pit as possible.
+
+The frogs realize that if a frog A climbs up on the back of frog B before it jumps, the first frog A stands a better chance of escaping the pit: it can escape if hB+lA is strictly larger than the depth of the pit.
+
+Furthermore, if frog B carrying frog A on its back climbs up on the back of frog C, the situation is even better for frog A: it can now escape the pit if hC+hB+lA is strictly larger than the depth of the pit.
+
+The frogs can build even higher piles of frogs this way, the only restriction is that no frog may carry other frogs of weight in total amounting to its own weight or heavier. Once a pile has been used to allow a frog to escape, the frogs in the pile jump back to the bottom of the pit and they can then form a new pile (possibly consisting of a different set of frogs). The question is simply how many frogs can escape the pit assuming they collaborate to maximize this number?
+ 
+ `Quick Idea: Let us suppose a solution exist, say F1, F2, F3, ....., FN where F1 escapes before F2. We can see that W1 < W2. Once we get a sorted domain of solution we can apply other constraints through dp.`  
