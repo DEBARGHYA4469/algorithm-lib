@@ -114,4 +114,10 @@ ll solve(int idx,bool tight,int r,int mask,int prev){
 ```
 
 
+#### F. Daniel and Spring Cleaning
 
+```
+    a+b=a^b => a&b=0 from sum-xor property
+    query(L,R): # pairs(a,b) s.t a in [0,L] and b in [0,R] and a&b=0.
+    ans(L,R) = query(L,R) - query(R,L-1) - query(L,R-1) + query(L-1,L-1);
+```
