@@ -23,7 +23,7 @@ int extgcd(int a,int b,int &x,int &y){
           return a;
       }
       int x1,y1;
-      int g = gcd(b,a%b,x1,y1);
+      int g = extgcd(b,a%b,x1,y1);
       x = y1;
       y = x1 - y1*(a/b);
       return g;
