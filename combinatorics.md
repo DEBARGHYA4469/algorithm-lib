@@ -40,3 +40,9 @@ void init(){
     }
 }
 ```
+
+### Catalan Number
+
+If G is the set of all good paths (#R >= #U at each step) & B is the set of all bad paths (paths which are not good). Total ways to reach (N,N) is C(2N,N).
+All bad paths form a bijection to path reaching (N+1,N-1) by all means R,U. So no of bath paths = 2N!/((N+1)!(N-1)!). No. of good paths = 1/(N+1)*2C(2N,N)
+ 
