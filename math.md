@@ -64,3 +64,4 @@ inline ll crt(ll r[],ll m[]){
 		return y[N-1];
 }
 ```
+Solving permutation with fixed points k or more: N! - Sum{D(N,k)} k = 0...K-1 https://en.wikipedia.org/wiki/Rencontres_numbers and calcuate 
