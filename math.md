@@ -30,28 +30,37 @@ If Alice has x number of apples such that she can divide the apples in mi groups
 `How to calculate modulo inverse mod some coprime number?`</br>
 
 ```cpp
-    ll mod(ll x,ll m){
-        return (x+m)%m;
-    } 
-    
-    inline ll inv(int a,int m){
+inline ll mod(ll x,ll m){ return (x%m+m)%m; }
+
+ll extgcd(ll a,ll b,ll &x,ll &y){
+      if(b==0){
+          x=1ll;
+          y=0ll;
+          return a;
+      }
+      ll x1,y1;
+      ll g = extgcd(b,a%b,x1,y1);
+      x = y1;
+      y = x1 - y1*(a/b);
+      return g;
+}
+
+inline ll inv(ll a,ll m){
             ll x,y;
             ll g = extgcd(a,m,x,y); 
             assert(g==1);
             return mod(x,m);
     }
-```
 
-```cpp
-    int crt(vector<int> r,vector<int> m){
-            int y[N+1];
-            y[0] = r[0];
-            p[0] = 1;
-            for(int i=1;i<N;i++){
-                p[i] = p[i-1]*m[i-1];
-                ll q = inv(p[i],m[i]);
-                y[i] = mod(y[n-1] + (r[i]-y[i-1])*q*p[i],p[i]*m[i]);
-            }
-            return y[N-1];
-        }
+inline ll crt(ll r[],ll m[]){
+		ll y[10],p[10];
+		y[0] = r[0]; p[0] = 1;
+		
+		for(int k=1;k<N;k++){
+				p[k] = p[k-1]*m[k-1];
+				ll q = inv(p[k],m[k]);
+				y[k] = mod(y[k-1]+(r[k]-y[k-1])*q*p[k],p[k]*m[k]);
+			}
+		return y[N-1];
+}
 ```
