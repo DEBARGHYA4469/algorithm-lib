@@ -18,3 +18,13 @@ Any line intersecting at two points cuts that plane into two halves. To get max 
 Consider a line far away(pink) which intersects with all the lines N(all diverging and sorted by slopes increasing). So maximum cuts increases by (N-1) + 2(open spaces) i.e `F[N+1] = F[N] + N+1`. Hence this is optimal proven. </br>
 
 Now coming to cake cutting problem, since this construction exists, we can zoom(scale in) out everything and fit in the cake geometry. 
+
+#### Chinese Remainder Theorem
+
+If Alice has x number of apples such that she can divide the apples in mi groups with ri remaining, for some i's. What is the minimum no of apples she posses?</br>
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\\x&space;=&space;r_1&space;(mod\:\:m_1)\\&space;x&space;=&space;r_2&space;(mod\:\:m_2)\\&space;x&space;=&space;r_3&space;(mod\:\:m_3)\\&space;\\&space;What\:is\:the\:min\:x?" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\\x&space;=&space;r_1&space;(mod\:\:m_1)\\&space;x&space;=&space;r_2&space;(mod\:\:m_2)\\&space;x&space;=&space;r_3&space;(mod\:\:m_3)\\&space;\\&space;What\:is\:the\:min\:x?" title="\\x = r_1 (mod\:\:m_1)\\ x = r_2 (mod\:\:m_2)\\ x = r_3 (mod\:\:m_3)\\ \\ What\:is\:the\:min\:x?" /></a>
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\\&space;Garner's\:\:Algorithm&space;\\&space;a&space;=&space;x_1&space;&plus;&space;x_2m_1&plus;x_3m_1m_2&plus;x_4m_1m_2m_3&plus;...&plus;x_Nm_1m_2m_3...m_{N-1}&space;\\let\:\:y_1=x_1,&space;y_2&space;=&space;x_1&space;&plus;&space;x_2m_1,&space;y_3&space;=&space;x_1&space;&plus;&space;x_2m_1&plus;x_3m_1m_2,...&space;\\&space;x_1&space;=&space;r_1&space;\\&space;x_2&space;=&space;(r_2-x_1)m_1^{-1}&space;\\&space;x_N&space;=&space;(r_N-y_{N-1})(m_1m_2...m_{N-1})^{-1}\:(mod\:\:m_N)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\\&space;Garner's\:\:Algorithm&space;\\&space;a&space;=&space;x_1&space;&plus;&space;x_2m_1&plus;x_3m_1m_2&plus;x_4m_1m_2m_3&plus;...&plus;x_Nm_1m_2m_3...m_{N-1}&space;\\let\:\:y_1=x_1,&space;y_2&space;=&space;x_1&space;&plus;&space;x_2m_1,&space;y_3&space;=&space;x_1&space;&plus;&space;x_2m_1&plus;x_3m_1m_2,...&space;\\&space;x_1&space;=&space;r_1&space;\\&space;x_2&space;=&space;(r_2-x_1)m_1^{-1}&space;\\&space;x_N&space;=&space;(r_N-y_{N-1})(m_1m_2...m_{N-1})^{-1}\:(mod\:\:m_N)" title="\\ Garner's\:\:Algorithm \\ a = x_1 + x_2m_1+x_3m_1m_2+x_4m_1m_2m_3+...+x_Nm_1m_2m_3...m_{N-1} \\let\:\:y_1=x_1, y_2 = x_1 + x_2m_1, y_3 = x_1 + x_2m_1+x_3m_1m_2,... \\ x_1 = r_1 \\ x_2 = (r_2-x_1)m_1^{-1} \\ x_N = (r_N-y_{N-1})(m_1m_2...m_{N-1})^{-1}\:(mod\:\:m_N)" /></a>
+
+`How to calculate modulo inverse mod some coprime number?`</br>
