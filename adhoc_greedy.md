@@ -24,9 +24,7 @@ A = {H1, H2, H3,...,HN-1,HN}.
 ```
 
 
-
-
-
+https://leetcode.com/problems/maximum-building-height/ (Greedy Stays Ahead!)
 
 
 
