@@ -73,3 +73,37 @@ Prime Mask:
         }
     }
 ```
+
+### Profile DP
+    
+https://cp-algorithms.com/dynamic_programming/profile-dynamics.html
+
+`Find no of ways to fill NxM matrix with 2x1 dominoes`
+    
+```cpp
+    
+    void calc(int x=0;int y=0;int mask,int next_mask){
+        if(x==n) return;
+        if(y>=m) 
+            dp[x+1][next_mask] += dp[x][mask];
+        else{
+               if(mask & (1<<y)) 
+                    calc(x,y+1,mask,next_mask);
+                else{
+                        calc(x,y+1,mask,next_mask|(1<<y));
+                        if(y+1<m && !(mask & (1<<(y+1))) 
+                               calc(x,y+2,mask,next_mask);
+                }
+        }
+    }
+    
+    ll dp[n+1][1<<m];
+    dp[0][0] = 1;
+    for(int x=0;x<n;x++)
+        for(int mask=0;mask<(1<<m);mask++)
+            calc(x,0,mask,0);
+    
+    cout << dp[n][0];
+    
+```
+    
