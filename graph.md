@@ -85,7 +85,7 @@
 `Trick 2: If a vertex is connected to other vertex by two independent type of edges, what is the number of vertex which are connected 
 to it by road and not by rails, say, mp1[root_roads[u]]-mp2[root_roads[u],root_rails[u]]` </br> </br>
 
-## Articulation Point
+## Tarjan's Articulation Point
 ![image](https://user-images.githubusercontent.com/21307343/132128610-75200a76-b2b6-44d2-a36e-c25588c1f964.png)
 
 ```cpp
@@ -106,7 +106,7 @@ to it by road and not by rails, say, mp1[root_roads[u]]-mp2[root_roads[u],root_r
       }
 ```
 
-## Bridges
+## Tarjan's Bridges Algorithm
 
 ```cpp
     void dfs(int u,int p=-1){
@@ -166,5 +166,113 @@ DFS method
             if(!vis[v]) dfs(v);
         }
         s.push(u);
+    }
+    
+    
+    void all_topo(int mask){
+         bool flag = true;
+         for(int u=0;u<V;u++){
+                if(!in[u] && !(mask&(1<<u))){
+                    for(auto v:g[u]) in[v]--;
+                    
+                    res.eb(u);
+                    mask^= 1<<u;
+                    alltopo(mask);
+                    
+                    mask^= 1<<u;
+                    res.erase(res.end()-1);
+                    for(auto v:g[u]) in[v]++;
+                    flag = false;
+                }
+         }
+         if(flag)
+         for(int i=0;i<sz(res);i++) cout << res[i] << " ";
+         cout << endl;
+    }
+```
+
+#### Kahn's Algorithm
+
+```cpp
+    void topo_sort(){
+        vi in(V,0);
+        for(int u=0;u<V;u++){
+            for(auto v:g[u]) in[v]++;
+        }
+        
+        queue<int> q;
+        for(int u=0;u<V;u++) if(!in[u]) q.push(u);
+        int cnt = 0;
+        
+        while(!q.empty()){
+            int u = q.front();
+            q.pop();
+            cout << u << " " ;
+            
+            for(auto v:g[u]) if(--in[v]==0) q.push(v);
+            cnt++;
+        }
+        assert(cnt==V);
+    } 
+```
+
+`Min Topological Ordering: Topological Sorting is lexicographically smallest, idea: normal Kahn, in[], pick lex smallest vertex everytime`
+
+`Min Topological Labelling: Topological labelling is lexicographically smallest, idea: reverse Kahn, out[], pick lex largest vertex everytime and place it in the front`
+
+#### Floyd Warshall
+```cpp
+void floyd(){
+        for(int k=0;k<V;k++){
+            for(int i=0;i<V;i++){
+                for(int j=0;j<V;j++){
+                    chmin(dp[i][j],dp[i][k]+dp[k][j]);
+                }
+            }
+        }
+}
+```
+## Minimum Spanning Tree
+
+```cpp
+    // Prim: idea, Among all the reachable vertex choose the cheapest one.
+    using minheap = priority_queue<pii,vector<pii>,greater<pii>>;
+    ll prim(int u){
+        minheap q;
+        ll ans = 0;
+        q.push(mp(0,u));
+        
+        while(!q.empty()){
+            pii u = q.top();
+            q.pop();
+            if(vis[u.se]) continue;
+            ans+=u.fi;
+            vis[u.se]=1;
+            for(auto &v:g[u.se]){
+                if(!vis[v.fi]) q.push(mp(v.se,v.fi));
+            }
+        }
+        return ans;
+    }
+```
+
+```cpp
+    // kruskal: idea, Among all edges which can be added choose the one min val
+    
+    void kruskal(){
+        sort(all(e));
+        ll ans = 0ll;
+        for(int i=0;i<sz(e);i++){
+            int u = e[i].se.fi;
+            int v = e[i].se.se;
+            int ru,rv;
+            ru = root(u);
+            rv = root(v);
+            if(ru!=rv){
+                ans+= e[i].fi;
+                Union(u,v);
+            }
+        }
+        cout << ans << endl;
     }
 ```
