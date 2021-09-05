@@ -27,3 +27,20 @@ Given, share prices for some days, [p1,p2,...,pN], transaction of second share s
 DP optimization: dp[j][k-1] + a[i]-a[j] = a[i] - (a[j]-dp[j][k-1]); 
 #### Variant-4
 `You can transact any number of shares: solution: solution: sum(local maxima-previous_minima)`</br>
+
+`std::lower_bound - returns iterator to first element in the given range which is EQUAL_TO or Greater than val.`</br>
+
+`std::upper_bound - returns iterator to first element in the given range which is Greater than val`
+
+## LIS in O(nlogn)
+#define ub upper_bound 
+```cpp
+    int lis(const vector<int> a){
+        vi d(n+1,inf);
+        d[0] = -inf;
+        for(int i=0;i<n;i++){
+            int j = ub(all(d),a[i])-d.begin();
+            if(a[i]>d[j-1]) d[j] = min(d[j],a[j]);
+        }
+    }
+```
