@@ -32,3 +32,44 @@ There are N person & N tasks, each task alloted to a single person, Cost matrix 
          return ans;
     }
 ```
+
+### Bitmask over Primes
+
+Prime Mask: 
+
+```cpp
+    void init(){
+            int p[100];
+            mem(p,1);
+            vi parr;
+            p[0]=p[1]=0;
+            for(int i=2;i<100;i++){
+                if(!p[i]) continue;
+                else parr.eb(i);
+                for(int j=2;i*j<100;j++){
+                    p[i*j]=0;
+                }
+            }
+            
+            for(int i=0;i<sz(parr);i++) 
+                for(int j=1;j<60;j++)
+                    if(j%parr[i]==0) primeMask[j] |= 1<<i;
+     }
+```
+
+#### Properties:
+
+<li> GCD of numbers = primeMask[i] & primeMask[j]
+<li> LCM of numbers = primeMask[i] | primeMask[j]
+<li> Prime Divisors = (1<<ith prime) & primesMask[i]==0 ? 
+<li> Divisors = Iterating over submasks
+    
+#### Submask Enumeration
+
+```cpp
+    void submask(int m){
+        for(int i=m;i;i=(i-1)&m){
+                // to do
+        }
+    }
+```
