@@ -276,3 +276,86 @@ void floyd(){
         cout << ans << endl;
     }
 ```
+
+`Some-times if dependency of some edge is given, then you can use edges as vertices for MST/dijkstra` </br></br>
+
+### Dijkstra
+
+```cpp
+    void dijkstra(int u){
+        for(int i=0;i<N;i++) d[i] = inf;
+        d[u] = 0;
+        
+        priority_queue<pii,vector<pii>,greater<pii>> q;
+        q.push({0,u});
+        
+        while(!q.empty()){
+            pii u = q.top();
+            q.pop();
+            if(d[u.se]!=u.fi) continue;
+            
+            for(auto &v:g[u.se]) if(chmin(d[v.se],d[u.se]+v.fi)) q.push(mp(d[v.se],v.se));
+        }
+    }
+```
+
+### Bellman ford
+
+```cpp
+    void bellman(int u){
+        for(int i=0;i<N;i++) d[i] = inf;
+        d[u] = 0;
+        
+        while(1){
+            bool opt = 0;
+            for(int i=0;i<m;i++){
+                auto [w,a,b] = e[i]; // tuple
+                if(chmin(d[b],d[a]+w)) p[b] = a , opt = 1;
+            }
+            if(!opt) break;
+        }
+    }
+```
+
+### Detect Negative Cycle
+
+```cpp
+    bool bellman(int u){
+        for(int i=0;i<N;i++) d[i] = inf;
+        d[u] = 0;
+        
+        bool opt = 0;
+        for(int i=1;i<=N;i++)
+            opt = 0;
+            for(int i=0;i<m;i++){
+                auto [w,a,b] = e[i]; // tuple
+                if(chmin(d[b],d[a]+w)) p[b] = a , opt = 1;
+            }
+        }
+        if(opt) return 1;
+        return 0;
+     }
+```
+
+### 0/1 BFS
+
+```cpp
+    void bfs_01(int s){
+        for(int i=0;i<N;i++) d[i] = inf;
+        d[s] = 0;
+        deque<int> q;
+        q.push_front(s);
+        while(!q.empty()){
+            int u = q.front();
+            q.pop();
+            
+            for(auto &[v,w]:g[u]){
+                if(chmin(d[v],d[u]+w)){
+                    if(w==0) q.push_front(v);
+                    else q.push_back(v);
+                }
+            }
+        }
+    }
+```
+
