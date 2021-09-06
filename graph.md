@@ -278,6 +278,9 @@ void floyd(){
 ```
 
 `Some-times if dependency of some edge is given, then you can use edges as vertices for MST/dijkstra` </br></br>
+`Very important dijkstra trick: Dijkstra can be used as dynamic programming strategy where the substructure is implicit` </br></br>
+
+https://atcoder.jp/contests/abc164/tasks/abc164_e
 
 ### Dijkstra
 
