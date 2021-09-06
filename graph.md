@@ -313,7 +313,10 @@ https://atcoder.jp/contests/abc164/tasks/abc164_e
             bool opt = 0;
             for(int i=0;i<m;i++){
                 auto [w,a,b] = e[i]; // tuple
-                if(chmin(d[b],d[a]+w)) p[b] = a , opt = 1;
+                if(d[a]+w < d[b]){
+                    d[b] = max(-inf,d[a]+w);
+                    p[b] = a , opt = 1;
+                }
             }
             if(!opt) break;
         }
