@@ -359,3 +359,65 @@ void floyd(){
     }
 ```
 
+### Strongly Connected Components
+
+![image](https://user-images.githubusercontent.com/21307343/132205089-151c6cab-f372-4e52-94b0-ec2c09166a4d.png)
+
+```cpp
+
+    vi g[MaxN],gr[MaxN];
+    vb vis[MaxN];
+    stack<int> s;
+    vi component;
+    
+    void dfs1(int u){
+        vis[u] = 1;
+        for(auto v:g[u]) if(!vis[v]) dfs1(u);
+        s.push(u);
+    }
+    
+    void dfs2(int u){
+        vis[u]=1;
+        component.eb(u);
+        for(auto &v:gr[u]) if(!vis[v]) dfs2(u);
+    }
+    
+    void kosaraju(){
+        vis.assign(MaxN,0);
+        for(int i=0;i<n;i++) if(!vis[i]) dfs1(i);
+        vis.assign(MaxN,0);
+        
+        while(!s.empty()){
+            int u = s.top();
+            s.pop();
+            if(!vis[u]) dfs2(u);
+            // .....got the component.....
+            component.clear();
+        }
+    }
+```
+
+## Condensed SCC
+
+```cpp
+    vi g_scc[MaxN], root[MaxN];
+    vi A;
+    void build(){
+        while(!s.empty()){
+            int u = s.top();
+            s.pop();
+            if(!vis[u]) dfs2(u);
+            int r = component.front();
+            for(auto v:component) root[v] = r; 
+            A.eb(r);
+            component.clear();
+        }
+
+        for(int u=0;u<n;u++){
+            for(auto &v:g[u]){
+                int r1 = root[u], r2 = root[v];
+                if(r1!=r2) g_scc[r1].eb(r2); // building compressed scc
+            }
+        }
+    }
+```
