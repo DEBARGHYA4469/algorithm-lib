@@ -66,4 +66,15 @@ inline ll crt(ll r[],ll m[]){
 ```
 
 ### Derangement
-Solving permutation with fixed points k or more: N! - Sum{D(N,k)} k = 0...K-1 https://en.wikipedia.org/wiki/Rencontres_numbers and calcuate 
+Solving permutation with fixed points k or more: N! - Sum{D(N,k)} k = 0...K-1 https://en.wikipedia.org/wiki/Rencontres_numbers and calcuate.
+
+<li> D[N] =  (N-1)(D[N-1]+D[N-2])
+
+### Chicken McNugget Theorem
+	
+If there are two number a,b which are relatively prime, the greatest number which can be represented using a & b is (a-1)(b-1)+1.
+	
+### Erdos Szekeres Theorem
+	
+If there are ab+1 elements in a sequence then there always exits a monotonic increasing subsequence or decreasing subsequence of length a.
+ 
