@@ -74,7 +74,11 @@ Solving permutation with fixed points k or more: N! - Sum{D(N,k)} k = 0...K-1 ht
 	
 If there are two number a,b which are relatively prime, the greatest number which can be represented using a & b is (a-1)(b-1)+1.
 	
+<li> Proof: ax + by = N, a(x+tb) + b(y-tb) = N, If N > (a-1)(b-1) then a(x+tb) + b(y-tb) > (a-1)(b-1) </br>
+<li> Fix x+tb in [0,b-1], a(b-1) + b(y-tb) > (a-1)(b-1) => y-ta >= 0, hence proved!  
+	
 ### Erdos Szekeres Theorem
 	
-If there are ab+1 elements in a sequence then there always exits a monotonic increasing subsequence or decreasing subsequence of length a.
+If there are ab+1 elements in a sequence then there always exits a monotonic increasing subsequence or decreasing subsequence of length a. </br>
+Hint : (x[i],y[i]) Consider at each point #monotonic increasing sequence vs #monotonic decreasing sequence.
  
