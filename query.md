@@ -112,3 +112,96 @@
         return prefix_sum(r) - prefix_sum(l-1);
     }
 ```
+## Sparse Table
+
+```cpp
+    int m[MaxN][LOG]; // m[i][j] : A[i.....i+2^j-1]
+    
+    void init(){
+        mem(m,0);
+        logv[1] = 0;
+        for(int i=2;i<=n;i++) logv[i] = logv[i/2] + 1;
+    }
+    
+    void build(){
+        for(int i=0;i<n;i++) m[i][0] = a[i];
+        for(int j=1;j<=logv[n];j++){
+            for(int i=0;i+(1<<j)-1<n;i++){
+                m[i][j] = min(m[i][j-1],m[i+(1<<(j-1))][j-1])
+            }
+        }
+    }
+    
+    void query(int l,int r){
+        int j = logv[r-l+1];
+        return min(m[l][j],m[r-(1<<j)+1][j]);
+    }
+    
+    void sum(int l,int r){
+        for(int i=LOG;i>=0;i--){
+            if(1<<i <= r-l+1){
+                sum += m[l][i];
+                l+=1<<i;
+            }
+        }
+    }
+```
+## Segment Trees
+
+* a[l...r] : evaluate some function, modify some values, etc
+* https://cp-algorithms.com/data_structures/segment_tree.html
+
+![Drawing-99 sketchpad](https://user-images.githubusercontent.com/21307343/132831259-5e4f62ee-2a06-49c5-96fc-9e4c5c44976c.png)
+
+```cpp
+    // find max sum subsegment inside a segment
+    struct node{
+        int sum,pref,suff,ans;
+    };
+    
+    node combine(data l,data r){
+        node res;
+        res.sum = l.sum+r.sum;
+        res.pref = max(l.pref,l.sum+r.pref);
+        res.suff = max(r.suff,r.sum+l.suff);
+        res.ans =  max({l.ans,r.ans,l.suff+r.pref});
+        return res;
+    }
+    
+    node create_node(int val){
+        node res;
+        res.sum = val;
+        res.pref = res.suff = res.ans = max(0,val);
+        return res;
+    }
+    
+    void build(int v,int tl,int tr){
+        if(tl==tr) t[v] = create_node(a[tl]);
+        else{
+            int tm = tl + (tr-tl)/2;
+            build(1<<v,tl,tm);
+            build((1<<v)+1,tm+1,tr);
+            t[v] = combine(t[1<<v],t[(1<<v)+1]);
+        }
+    }
+    
+    void point_update(int v,int tl,int tr,int i,int x){
+        if(tl==tr) t[v] = create_node(x);
+        else{
+            int tm = tl + (tr-tl)/2;
+            if(i<=tm) point_update(1<<v,tl,tm,i,x);
+            else point_update((1<<v)+1,tm+1,tr,i,x);
+            t[v] = combine(t[1<<v],t[(1<<v)+1]);
+        }
+    }
+    
+    node query(int v,int tl,int tr,int l,int r){
+        if(l>r) return create_node(0);
+        if(l==tl && tr==r) return t[v];
+        int tm = tl+(tr-tl)/2;
+        return combine(query(1<<v,tl,tm,l,min(r,tm)),
+                       query((1<<v)+1,tm+1,tr,max(l,tm+1),r));
+    }
+```
+
+
