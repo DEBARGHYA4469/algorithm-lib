@@ -386,3 +386,18 @@ void update(int i,int x){
 }
 
 ```
+
+
+# Problems: 
+
+<li> Count Inversions
+```cpp
+    int MaxN = *max_element(all(a));
+    int bit[MaxN];
+    mem(bit,0);
+    
+    for(int i=n-1;i>=0;i--){
+        ans += range_query(bit,a[i]-1);
+        point_update(bit,arr[i],1);
+    }
+```
