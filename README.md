@@ -1,5 +1,3 @@
-# algorithm-lib
-
 # cp template
 
 ```cpp
