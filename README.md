@@ -7,6 +7,7 @@
 
 #include <bits/stdc++.h>
 
+#define log(...) cerr << __LINE__ << ": "; logger(#__VA_ARGS__,__VA_ARGS__)
 #define eb push_back
 #define fi first 
 #define se second 
@@ -15,6 +16,7 @@
 #define INF (1<<62)
 #define endl "\n"
 #define mem(v,w) memset(v,w,sizeof(v))
+#define sz(v) v.size()
 #define all(v) v.begin(),v.end()
 #define rall(v) v.rbegin(),v.rend()
 #define ub upper_bound
@@ -27,6 +29,16 @@
 
 using namespace std;
 
+template<typename ...Args>
+void logger(string vars, Args&&... values){
+	cerr << "[";
+	cerr << vars << "] = ";
+	string delimeter = "";
+	cerr << "[";
+		(..., (cerr <<  delimeter << values, delimeter=","));
+	cerr << "]\n";
+}
+
 typedef pair<int,int> pii;
 typedef long long ll;
 typedef unsigned long long ull;
@@ -38,10 +50,10 @@ const int mod = 1e9+7;
 
 int main(){
 	
-  std::ios::sync_with_stdio(false);
-  cin.tie(0);
+	std::ios::sync_with_stdio(false);
+	cin.tie(0);
 	
 	
-  return 0;
+	return 0;
 }
 ```
