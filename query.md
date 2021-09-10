@@ -4,7 +4,6 @@
 * Segment Tree
 * Sqrt Decomposition
 * Sparse Table
-* MOs algorithm 
 
 ## Binary Lifting
 ![image](https://user-images.githubusercontent.com/21307343/132557959-e5de0719-db61-405b-9ba2-498f5cd67111.png)
@@ -346,6 +345,44 @@ void update_x(int vx, int lx, int rx, int x, int y, int new_val) {
             update_x(vx*2+1, mx+1, rx, x, y, new_val);
     }
     update_y(vx, lx, rx, 1, 0, m-1, x, y, new_val);
+}
+
+```
+
+## Sqrt Decomposition
+
+```cpp
+int a[MaxN], b[SqrtN];
+
+void init(){
+    blk_sz = sqrt(n);
+    mem(a,0);
+    mem(b,0);
+}
+
+void build(){
+    int j=-1;
+    for(int i=0;i<n;i++){
+        if(i%blk_sz==0) j++;
+        b[j]+=a[i];
+    }
+}
+
+int query(int l,int r){
+    int ans = 0;
+    while(l<r && l%blk_sz) ans+=a[l++];
+    while(l+blk_sz<=r){
+        ans+=b[l/blk_sz];
+        l+=blk_sz;
+    }
+    while(l<=r) ans+=a[l++];
+    return ans;
+}
+
+void update(int i,int x){
+    int j = i/blk_sz;
+    b[j]+=x-a[i];
+    a[i]=x;
 }
 
 ```
