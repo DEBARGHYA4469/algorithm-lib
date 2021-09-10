@@ -39,3 +39,76 @@
         return up[u][0];
     }
 ```
+## Fenwick Tree
+
+* https://cp-algorithms.com/data_structures/fenwick.html </br>
+* [Intuition behind update](https://www.youtube.com/watch?v=Ti_U3Q_G7yM&t=2404s) </br>
+
+<li> 1-D BIT tree
+    
+```cpp
+    int query(int i){
+        int ans=0;
+        for(;i>=0;r=i&(i+1)-1) ans+= bit[i];
+        return ans;
+    }
+    int sum(int l,int r){
+        return query(r) - query(l-1);
+    }
+    int update(int i,int x){
+        for(;i<n;i=i|(i+1)) bit[i] += x;
+    }
+```
+                   
+![image](https://user-images.githubusercontent.com/21307343/132801474-bb611c3d-4daf-478c-8693-95b011a93beb.png)
+
+<li> 2-D BIT tree
+    
+```cpp
+    int query(int x,int y){
+        int ans = 0;
+        for(int i=x;i>=0;i=i&(i+1)-1)
+            for(int j=y;j>=0;j=j&(j+1)-1) ans+=bit[i][j];
+        return ans;
+    }
+    int update(int x,int y,int d){
+        for(int i=x;i<n;i=i|(i+1))
+            for(int j=y;j<m;j=j|(j+1)) bit[i][j]+=d;
+    }
+```
+* Range update
+* Range queries
+* Point update
+* Point queries
+    
+<a href="https://www.codecogs.com/eqnedit.php?latex=\\Define\:\:f[0...j]\:\:as\:follows:\\&space;if&space;\:\:j<l:&space;f[0...j]=0\\&space;if&space;\:\:l&space;\leq&space;j&space;\leq&space;r:&space;f[0...j]=x*(j-l&plus;1)=x*j-x*(l-1)\\&space;if&space;\:\:j&space;\geq&space;r:&space;f[0...j]=x*(r-l&plus;1)=0*j-[x*(l-1)-x*r]\\" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\\Define\:\:f[0...j]\:\:as\:follows:\\&space;if&space;\:\:j<l:&space;f[0...j]=0\\&space;if&space;\:\:l&space;\leq&space;j&space;\leq&space;r:&space;f[0...j]=x*(j-l&plus;1)=x*j-x*(l-1)\\&space;if&space;\:\:j&space;\geq&space;r:&space;f[0...j]=x*(r-l&plus;1)=0*j-[x*(l-1)-x*r]\\" title="\\Define\:\:f[0...j]\:\:as\:follows:\\ if \:\:j<l: f[0...j]=0\\ if \:\:l \leq j \leq r: f[0...j]=x*(j-l+1)=x*j-x*(l-1)\\ if \:\:j \geq r: f[0...j]=x*(r-l+1)=0*j-[x*(l-1)-x*r]\\" /></a>
+
+</br>
+* Trick: Idea from difference array
+
+```cpp
+    int point_update(vi b,int i,int x){ 
+        for(;i<n;i=i|(i+1)) b[i]+=x; 
+    }
+    int range_update(int l,int r,int x){
+        point_update(b1,l,x);
+        point_update(b1,r+1,-x);
+        point_update(b2,l,x*(l-1));
+        point_update(b2,r+1,-x*r);
+    }
+    
+    int sum(vi b,int i){
+        int ans = 0;
+        for(;i>=0;i=i&(i+1)-1)
+            ans += b[i];
+        return ans;
+    }
+    
+    int prefix_sum(int i){
+        return sum(b1,i)*i-sum(b2,i);
+    }
+    
+    int range_sum(int l,int r){
+        return prefix_sum(r) - prefix_sum(l-1);
+    }
+```
