@@ -391,6 +391,7 @@ void update(int i,int x){
 # Problems: 
 
 <li> Count Inversions
+    
 ```cpp
     int MaxN = *max_element(all(a));
     int bit[MaxN];
