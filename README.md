@@ -22,6 +22,7 @@
 #define ub upper_bound
 #define lb lower_bound
 #define vi vector<int> 
+#define vvi vector<vector<int>>
 #define setbits(v) __builtin_popcount(v)
 #define setbitsll(v) __builtin_popcountll(v)
 #define MaxN 500005
