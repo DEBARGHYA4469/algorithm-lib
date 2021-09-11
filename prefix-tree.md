@@ -192,6 +192,26 @@ In first traversal, transform S to a set where only one element has MSB bit on o
 		return ans;
 	}
 ```
+* More info on Gaussian Elimination technique in GF[2]: https://codeforces.com/blog/entry/68953
+* Finding basis vectors for xor.
+
+```cpp
+
+int basis[LOG];
+int sz;
+
+void insertVector(int mask) {
+	for (int i = 0; i < LOG_A; i++) {
+		if ((mask & 1 << i) == 0) continue;
+		if (!basis[i]) {
+			basis[i] = mask;
+			++sz;
+			return;
+		}
+		mask ^= basis[i];
+	}
+}
+```
 
 **Games on Trie**
 
