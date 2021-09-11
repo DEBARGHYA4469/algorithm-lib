@@ -152,55 +152,58 @@
 
 ![image](https://user-images.githubusercontent.com/21307343/132835234-89902931-0776-4d79-aec6-6b86c3bafd7d.png)
 
+* Standard problem: https://codeforces.com/contest/1567/problem/E
+
 ```cpp
-    // find max sum subsegment inside a segment
-    struct node{
-        int sum,pref,suff,ans;
-    };
-    
-    node combine(data l,data r){
-        node res;
-        res.sum = l.sum+r.sum;
-        res.pref = max(l.pref,l.sum+r.pref);
-        res.suff = max(r.suff,r.sum+l.suff);
-        res.ans =  max({l.ans,r.ans,l.suff+r.pref});
-        return res;
-    }
-    
-    node create_node(int val){
-        node res;
-        res.sum = val;
-        res.pref = res.suff = res.ans = max(0,val);
-        return res;
-    }
-    
-    void build(int v,int tl,int tr){
-        if(tl==tr) t[v] = create_node(a[tl]);
-        else{
-            int tm = tl + (tr-tl)/2;
-            build(1<<v,tl,tm);
-            build((1<<v)+1,tm+1,tr);
-            t[v] = combine(t[1<<v],t[(1<<v)+1]);
-        }
-    }
-    
-    void point_update(int v,int tl,int tr,int i,int x){
-        if(tl==tr) t[v] = create_node(x);
-        else{
-            int tm = tl + (tr-tl)/2;
-            if(i<=tm) point_update(1<<v,tl,tm,i,x);
-            else point_update((1<<v)+1,tm+1,tr,i,x);
-            t[v] = combine(t[1<<v],t[(1<<v)+1]);
-        }
-    }
-    
-    node query(int v,int tl,int tr,int l,int r){
-        if(l>r) return create_node(0);
-        if(l==tl && tr==r) return t[v];
-        int tm = tl+(tr-tl)/2;
-        return combine(query(1<<v,tl,tm,l,min(r,tm)),
-                       query((1<<v)+1,tm+1,tr,max(l,tm+1),r));
-    }
+struct node{  
+	ll v,p,s,l,r,w; 
+	node(): v(0),p(0),s(0),l(-1),r(-1),w(0) {}
+	node(ll x) : v(1),p(1),s(1),l(x),r(x),w(1) {}
+	node(const node &T): v(T.v),p(T.p),s(T.s),l(T.l),r(T.r),w(T.w) {}
+};
+
+node t[MaxN*4];
+
+node combine(node lc,node rc){
+	if(!lc.w) return node(rc);
+	if(!rc.w) return node(lc);
+	node res;
+	res.w = lc.w+rc.w;
+	res.l = lc.l; 
+	res.r = rc.r;
+	res.v = lc.v + rc.v + ((rc.l >= lc.r)? lc.s*rc.p: 0);
+	res.p = (lc.p==lc.w && rc.l >= lc.r)? lc.w+rc.p:lc.p; 
+	res.s = (rc.s==rc.w && lc.r <= rc.l)? lc.s+rc.w:rc.s;
+	return res;
+}
+
+void update(int pos,int x,int v=1,int tl=1,int tr=n){
+	if(tl==tr) t[v] = node(x);
+	else{	
+		int tm = tl+(tr-tl)/2;
+		if(pos<=tm) update(pos,x,v<<1,tl,tm);
+		else update(pos,x,v<<1|1,tm+1,tr);
+		t[v] = combine(t[v<<1],t[v<<1|1]);
+	}
+}
+
+void build(int v=1,int tl=1,int tr=n){
+	if(tl==tr) t[v] = node(a[tl]);
+	else{	
+		int tm = tl+(tr-tl)/2;
+		build(v<<1,tl,tm);
+		build(v<<1|1,tm+1,tr);
+		t[v] = combine(t[v<<1],t[v<<1|1]);
+	}
+}
+
+node query(int l,int r,int v=1,int tl=1,int tr=n){
+	if(r<tl||tr<l) return node();
+	if(l<=tl&&tr<=r) return t[v];
+	int tm = tl+(tr-tl)/2;
+	return combine(query(l,r,v<<1,tl,tm),query(l,r,v<<1|1,tm+1,tr));
+} 
+
 ```
 ### Merge Sort Tree
 
