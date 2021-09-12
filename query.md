@@ -405,3 +405,54 @@ void update(int i,int x){
         point_update(bit,arr[i],1);
     }
 ```
+
+<li> Classic Problem on Lazy Propagation: 446C - DZY Loves Fibonacci Numbers, https://codeforces.com/contest/446/problem/C
+	
+```cpp
+int n,m;
+ll fib[MaxN], a[MaxN], t[4*MaxN];
+ll lazy[4*MaxN][2];  
+
+void build(int v=1,int tl=1,int tr=n){
+	if(tl==tr) t[v] = a[tl];
+	else{
+		build(v<<1,tl,tm);
+		build(v<<1|1,tm+1,tr);
+		t[v] = add(t[v<<1],t[v<<1|1]);
+	}
+}
+
+inline int calc(int n,int c1,int c2){ return add(mul(fib[n-2],c1),mul(fib[n-1],c2)); }
+
+void merge(int v,int tl,int tr,int c1,int c2){
+	int nx = tr-tl+1;
+	lazy[v][0] = add(lazy[v][0],c1);
+	lazy[v][1] = add(lazy[v][1],c2);
+	int z =  sub( calc(nx+2,c1,c2), c2 ); 
+	t[v] = add(t[v],z);
+}
+
+void push(int v,int tl,int tr){
+	merge(v<<1,tl,tm,lazy[v][0],lazy[v][1]);
+	merge(v<<1|1,tm+1,tr,calc(tm+2-tl,lazy[v][0],lazy[v][1]),calc(tm+3-tl,lazy[v][0],lazy[v][1]));
+	lazy[v][0] = lazy[v][1] = 0; 
+}
+
+void update(int l,int r,int v=1,int tl=1,int tr=n){
+	if(l>tr||r<tl) return;
+	if(l<=tl&&tr<=r) merge(v,tl,tr,fib[tl-l+1],fib[tl-l+2]);
+	else{
+		push(v,tl,tr);
+		update(l,r,v<<1,tl,tm);
+		update(l,r,v<<1|1,tm+1,tr);
+		t[v] = add(t[v<<1],t[v<<1|1]);
+	}
+}
+
+int query(int l,int r,int v=1,int tl=1,int tr=n){
+	if(l>tr||r<tl) return 0;
+	if(l<=tl&&tr<=r) return t[v];
+	push(v,tl,tr);
+	return add(query(l,r,v<<1,tl,tm),query(l,r,v<<1|1,tm+1,tr));
+}
+```
