@@ -1,4 +1,4 @@
-## Gaussian Elimination: Finding Basis
+## Gaussian Elimination in GF2[2]: Finding Basis
 
 * More info on Gaussian Elimination technique in GF[2]: https://codeforces.com/blog/entry/68953
 * Finding basis vectors for xor.
