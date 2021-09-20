@@ -45,18 +45,17 @@ void logger(string vars, Args&&... values){
 	cerr << "]\n";
 }
 
-template <class T>
-void remove_duplicates(vector<T> &v){
-	sort(all(v));
-	v.erase(unique(all(v)),v.end());
-}
-
 typedef long long ll;
 typedef unsigned long long ull;
 typedef pair<int,int> pii;
 typedef pair<ll,ll> pll;
 typedef tree<int, null_type, less<int>, rb_tree_tag, tree_order_statistics_node_update> ordered_set; //pbds
 
+template <class T>
+void remove_duplicates(vector<T> &v){
+	sort(all(v));
+	v.erase(unique(all(v)),v.end());
+}
 
 template <class T,class U> bool chmin(T &x, U y){ if(x>y){ x=y; return true; } return false; }
 template <class T,class U> bool chmax(T &x, U y){ if(x<y){ x=y; return true; } return false; }
