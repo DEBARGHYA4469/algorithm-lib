@@ -14,6 +14,7 @@
 #define se second 
 #define mp make_pair
 #define mt make_tuple
+#define tm ((tl+tr)>>1)
 #define INF (1<<62)
 #define endl "\n"
 #define mem(v,w) memset(v,w,sizeof(v))
@@ -42,6 +43,12 @@ void logger(string vars, Args&&... values){
 	cerr << "[";
 		(..., (cerr <<  delimeter << values, delimeter=","));
 	cerr << "]\n";
+}
+
+template <class T>
+void remove_duplicates(vector<T> &v){
+	sort(all(v));
+	v.erase(unique(all(v)),v.end());
 }
 
 typedef long long ll;
