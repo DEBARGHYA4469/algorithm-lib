@@ -518,4 +518,59 @@ int main(){
 }								    
 ```
 								    
-								    
+Sorting + Fenwick Tree + Order Statistics https://codeforces.com/contest/459/problem/D
+	
+```cpp
+	int bit[MaxN];
+ 
+int query(int i){
+	int ans=0;
+	for(;i>0;i-=i&-i) ans+=bit[i]; 
+	return ans;
+}
+ 
+void update(int i,int x){
+	for(;i<MaxN;i+=i&-i) bit[i]+=x;
+}
+ 
+//.............................................................................................
+int n;
+int a[MaxN],cnt[MaxN],L[MaxN],R[MaxN];
+vector<pii> v;
+ll ans = 0;
+ 
+//.............................................................................................
+ 
+int main(){
+	
+	std::ios::sync_with_stdio(false);
+	cin.tie(0);
+	
+	cin >> n;
+	for(int i=0;i<n;i++) { 
+		cin >> a[i];
+		v.eb({a[i],i});	
+	}
+	sort(all(v));
+	
+	int g=1;
+	a[v[0].se] = g;
+	for(int i=1;i<n;i++){
+		if(v[i].fi==v[i-1].fi) a[v[i].se] = g;
+		else a[v[i].se] = ++g;
+	}
+	
+	for(int i=0;i<n;i++) L[i] = ++cnt[a[i]]; 
+	mem(cnt,0);
+	
+	for(int i=n-1;i>=0;i--){
+		ans += query(L[i]-1);
+		R[i] = ++cnt[a[i]];
+		update(R[i],1);
+	}	
+	
+	cout << ans << endl;
+	
+	return 0;
+}
+```
