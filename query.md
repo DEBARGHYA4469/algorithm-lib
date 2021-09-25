@@ -456,3 +456,66 @@ int query(int l,int r,int v=1,int tl=1,int tr=n){
 	return add(query(l,r,v<<1,tl,tm),query(l,r,v<<1|1,tm+1,tr));
 }
 ```
+
+* Fenwick Tree + Sorting    https://atcoder.jp/contests/abc186/tasks/abc186_f
+								    
+```cpp
+int bit[MaxN];
+int H,W,M;
+int by_row[MaxN], by_col[MaxN];
+ll ans=0;
+
+struct{
+	int x,y;
+} p[MaxN];
+
+int query(int i){
+	int ans=0;
+	for(;i>0;i-=i&-i) ans+=bit[i];
+	return ans;
+}
+void update(int i,int x){
+	for(;i<MaxN;i+=i&-i) bit[i]+=x;
+}
+
+//.............................................................................................
+
+int main(){
+	
+	std::ios::sync_with_stdio(false);
+	cin.tie(0);
+	
+	cin >> H >> W >> M;
+	for(int i=0;i<M;i++) cin >> p[i].x >> p[i].y;
+	
+	for(int i=1;i<MaxN;i++) by_row[i] = W+1, by_col[i] = H+1;
+	
+	for(auto &[x,y]: p){
+		chmin(by_row[x],y);  chmin(by_col[y],x);
+	}
+	
+	vector<pii> a;
+	
+	for(int i=1;i<by_col[1];i++) { 
+		ans+=by_row[i]-1;	
+	}
+	
+	for(int i=1;i<by_row[1];i++) { 
+		ans+=by_col[i]-1;
+		a.eb(mp(by_col[i]-1,i));	
+	}
+	
+	sort(all(a));
+	
+	int i=1;
+	for(auto &[hlim,c]: a){
+		while(i<=hlim && i<by_col[1]) update(by_row[i++],1);
+		ans-=query(W+1)-query(c-1);
+	}
+	cout << ans << endl;
+	
+	return 0;
+}								    
+```
+								    
+								    
