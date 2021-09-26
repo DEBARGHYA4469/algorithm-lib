@@ -574,3 +574,9 @@ int main(){
 	return 0;
 }
 ```
+
+	
+* Sereja & Brackets https://codeforces.com/problemset/problem/380/C
+
+`Idea: Consider a optimal bracket subsequence. If we remove any balanced substring from it, optimality remains intact. Argue with { = +, } = -1`
+	
