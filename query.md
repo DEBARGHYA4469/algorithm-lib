@@ -579,4 +579,94 @@ int main(){
 * Sereja & Brackets https://codeforces.com/problemset/problem/380/C
 
 `Idea: Consider a optimal bracket subsequence. If we remove any balanced substring from it, optimality remains intact. Argue with { = +, } = -1`
+
+* Coordinate Compression on Ranges + Lazy Seg Tree  spoj.com/problems/POSTERS/
 	
+```cpp
+	int tc,n,g=1;
+vector<pair<int,pair<int,bool>>> cv; // value, idx, l/r
+vector<pii> q;
+int t[4*MaxN],lazy[4*MaxN];
+ 
+void propagate(int v){	
+	if(lazy[v]){
+		t[v<<1] = lazy[v<<1] = t[v<<1|1] = lazy[v<<1|1] = lazy[v];
+	}
+	lazy[v]=0;
+}
+ 
+void update(int l,int r,int color,int tl=1,int tr=n,int v=1){
+	if(tl>r||tr<l) return;
+	if(tl>=l&&tr<=r) t[v]=lazy[v]=color;
+	else{	
+		propagate(v);
+		update(l,r,color,tl,tm,v<<1);
+		update(l,r,color,tm+1,tr,v<<1|1);
+	}
+}
+ 
+int query(int pos,int tl=1,int tr=n,int v=1){
+	if(tl==tr) return t[v];
+	else{
+		propagate(v);
+		if(pos<=tm) return query(pos,tl,tm,v<<1);
+		else return query(pos,tm+1,tr,v<<1|1);
+	} 
+}	
+ 
+//.............................................................................................
+ 
+int main(){
+	
+	std::ios::sync_with_stdio(false);
+	cin.tie(0);
+	
+	cin >> tc;
+	while(tc--){
+		
+		cin >> n;
+		mem(t,0); mem(lazy,0); 
+		cv.clear();
+		q.clear();
+		g=1;
+		
+		for(int i=0;i<n;i++){
+			int l,r;
+			cin >> l >> r;
+			q.eb({l,r});
+			cv.eb(mp(l,mp(i,0))); 
+			cv.eb(mp(r,mp(i,1)));			
+		}
+		sort(all(cv));
+		if(cv[0].se.se==0) q[cv[0].se.fi].fi = g;  
+		
+		// coordinate compression
+		for(int i=1;i<sz(cv);i++){
+			if(cv[i].fi==cv[i-1].fi){
+				if(cv[i].se.se==0) q[cv[i].se.fi].fi = g;
+				else q[cv[i].se.fi].se = g;
+			}
+			else{
+				if(cv[i].se.se==0) q[cv[i].se.fi].fi = ++g;
+				else q[cv[i].se.fi].se = ++g;
+			}
+		}
+		
+		n=g;
+		
+		int cnt=0;
+		for(auto [l,r]: q) update(l,r,++cnt);
+		
+		set<int> ans;
+		for(int i=1;i<MaxN;i++){
+			int color = query(i);
+			if(color) ans.insert(color);
+		}  
+		
+		cout << sz(ans) << endl;
+				
+	}
+	
+	return 0;
+}
+```
