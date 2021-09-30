@@ -15,3 +15,7 @@
 <li> Ans = S/2
 
 **A more intuitive proof for case 2**. Assume that sum of the remaining element is more than the maximum element. We claim that we can always bring down the sum of the remaining element down to the maximum element and then we are done(trivial!). Only configuration which can't be reduced is [0,0,0,0,0,x], we can't bring it down to max means x>max. which is not possible
+
+###  **Problem-2 https://www.codechef.com/problems/SWAPGAME**
+  
+<li> Consider two elements a and b. a and b will only add to the value if their order gets swapped. 
