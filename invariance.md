@@ -1,4 +1,4 @@
-#### Invariance based problems: Mostly greedy
+#### Proving greedy approaches [Invariance+Extremal Principle] 
 
 ### Problem: 1  https://codeforces.com/contest/1579/problem/D
 
