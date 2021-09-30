@@ -13,3 +13,5 @@
 <li> Invariance is: S/2 > max. ele, in the new configuration, (S-2t)/2 = (S/2-t) > max. ele-t >= a[x], hence (S-2t,a[x]) maintains invariance. </br>
 <li> Only thing remaining to see is that with such a invariance condition, we can always get an operation. Hence a[x] goes to 0. </br>
 <li> Ans = S/2
+
+**A more intuitive proof for case 2**. Assume that sum of the remaining element is more than the maximum element. We claim that we can always bring down the sum of the remaining element down to the maximum element and then we are done(trivial!). Only configuration which can't be reduced is [0,0,0,0,0,x], we can't bring it down to max means x>max. which is not possible
