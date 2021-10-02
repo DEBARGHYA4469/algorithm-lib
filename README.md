@@ -62,9 +62,9 @@ template <class T,class U> bool chmax(T &x, U y){ if(x<y){ x=y; return true; } r
 
 const int mod = 1e9+7;
 
-inline int mul(int x,int y){    ll z = 1ll;   z=z*x*y;    z%=mod;    return (int)z; }
-
-inline int add(int x,int y){    ll z = 0ll;    z=z+x+y;    z%=mod;    return (int)z; }
+inline int mul(int x,int y){    ll z = 1ll; z=z*x*y;   z%=mod; return (int)z; }
+inline int add(int x,int y){    ll z = 0ll; z=z+x+y;   z%=mod; return (int)z; }
+inline int sub(int x,int y){    ll z=0ll;   z=x+mod-y; z%=mod; return (int)z; }
 
 inline int binpow(int x,int y){
     ll z = 1ll;
