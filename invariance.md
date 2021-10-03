@@ -19,3 +19,47 @@
 ###  **Problem-2 https://www.codechef.com/problems/SWAPGAME**
   
 <li> Consider two elements a and b. a and b will only add to the value if their order gets swapped. 
+
+### Problem-3 **https://codeforces.com/contest/540/problem/E**
+
+Use PBDS + Coordinate Compression 
+```cpp
+  	cin >> n;
+	vector<pair<int,int>> A;
+	vector<int> v;
+ 	for(int i=0;i<n;i++){
+		int a,b;
+		cin >> a >> b;
+		A.eb(mp(a,b));
+		v.eb(a);
+		v.eb(b);
+	}
+	
+	sort(all(v));
+	v.erase(unique(all(v)),v.end());	// remove the duplicate elements
+	
+	map<int,int> coor;
+	for(int i=0;i<sz(v);i++) coor[v[i]] = i;
+	
+	vector<int> perm(sz(v));
+	iota(all(perm),0);
+ 	
+ 	for(int i=0;i<n;i++){
+ 		int coor_x = coor[A[i].fi], coor_y = coor[A[i].se];
+ 		int tmp = perm[coor_x];
+ 		perm[coor_x] = perm[coor_y];
+ 		perm[coor_y] = tmp;
+ 	}
+ 	
+ 	ll ans=0;
+ 	for(int i=0;i<sz(v);i++) ans += abs((ll) v[perm[i]]- (ll) v[i])-abs((ll) perm[i]-(ll)i);
+	
+	ordered_set os;
+	for(int i=sz(v)-1;i>=0;i--){
+		ans += os.order_of_key(perm[i]); 
+		os.insert(perm[i]);
+	}
+	
+	cout << ans << endl; 
+  	
+```
