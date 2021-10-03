@@ -670,3 +670,44 @@ int main(){
 	return 0;
 }
 ```
+
+### Classical Fenwick Application like a Dynamic Programming
+		
+`Find the number of monotonically increasing subsequences with k elements in them.`
+```cpp
+	  inline void update(int i,int k,ll delta){
+	for(;i<100005;i+=i&-i){
+		bit[i][k]+=(ll) delta;
+	}
+}
+
+inline ll query(int i,int k){
+	ll ans=0;
+	for(;i>0;i-=i&-i){
+		ans+=(ll) bit[i][k];
+	}
+	return ans;
+}
+//.............................................................................................
+
+int main(){
+	
+	std::ios::sync_with_stdio(false);
+	cin.tie(0);
+	
+	cin >> n >> K;
+	for(int i=1;i<=n;i++) cin >> a[i];
+	
+	for(int i=1;i<=n;i++){
+		int ele = a[i];
+		for(int k=1;k<=K+1;k++){
+			if(k==1) update(ele,1,1); 
+			else update(ele,k,query(ele-1,k-1));
+		}
+	}
+	
+	cout << query(100003,K+1) << endl;
+	
+	return 0;
+}
+```
