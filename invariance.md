@@ -22,7 +22,7 @@
 
 ### Problem-3 **https://codeforces.com/contest/540/problem/E**
 
-Use PBDS + Coordinate Compression 
+Use PBDS/Fenwick Tree + Coordinate Compression 
 ```cpp
   	cin >> n;
 	vector<pair<int,int>> A;
