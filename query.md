@@ -675,7 +675,7 @@ int main(){
 		
 `Find the number of monotonically increasing subsequences with k elements in them.`
 ```cpp
-	  inline void update(int i,int k,ll delta){
+inline void update(int i,int k,ll delta){
 	for(;i<100005;i+=i&-i){
 		bit[i][k]+=(ll) delta;
 	}
