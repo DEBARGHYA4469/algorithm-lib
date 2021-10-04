@@ -711,3 +711,50 @@ int main(){
 	return 0;
 }
 ```
+	
+### Classical Seg Tree + Bit manipulation + Lazy Propagation https://codeforces.com/contest/242/problem/E
+	
+<li> Major Pitfalls: Do not forget to pushdown in the query function for lazy propagation code 
+	
+```cpp
+void build(int bit,int tl=1,int tr=n,int v=1){
+	if(tl==tr) { 
+		 t[v][bit] = (a[tl] & (1<<bit)) ? 1 : 0;
+		}
+	else{
+		build(bit,tl,tm,v<<1);
+		build(bit,tm+1,tr,v<<1|1);
+		t[v][bit] = t[v<<1][bit] + t[v<<1|1][bit]; 
+	}
+}
+
+void pushdown(int v,int bit,int tl,int m,int tr){
+	if(lazy[v][bit]){
+		t[v<<1][bit] = (m-tl+1)-t[v<<1][bit];
+		t[v<<1|1][bit] = (tr-m)-t[v<<1|1][bit];
+		lazy[v<<1][bit] ^=1;
+		lazy[v<<1|1][bit] ^=1;
+		lazy[v][bit] = 0;		 
+	}
+}
+
+void update(int bit,int l,int r,int tl=1,int tr=n,int v=1){
+	if(tl>r || tr<l) return;
+	if(tl>=l && tr<=r){
+		t[v][bit] = (tr-tl+1)-t[v][bit];
+		lazy[v][bit] ^= 1; 
+		return;
+	}
+	pushdown(v,bit,tl,tm,tr);
+	update(bit,l,r,tl,tm,v<<1);
+	update(bit,l,r,tm+1,tr,v<<1|1);	
+	t[v][bit] = t[v<<1][bit] + t[v<<1|1][bit];
+}
+
+int query(int bit,int l,int r,int tl=1,int tr=n,int v=1){
+	if(tl>r || tr<l) return 0;
+	if(tl>=l&&tr<=r) return t[v][bit];
+	pushdown(v,bit,tl,tm,tr);
+	return query(bit,l,r,tl,tm,v<<1) + query(bit,l,r,tm+1,tr,v<<1|1);
+}
+```
