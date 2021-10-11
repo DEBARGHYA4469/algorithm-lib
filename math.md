@@ -84,3 +84,6 @@ If there are two number a,b which are relatively prime, the greatest number whic
 If there are ab+1 elements in a sequence then there always exits a monotonic increasing subsequence or decreasing subsequence of length a. </br>
 Hint : (x[i],y[i]) Consider at each point #monotonic increasing sequence vs #monotonic decreasing sequence.
  
+
+* Given a sequence of some numbers find what is the min size of the sequence so that it has increasing/decreasing sequence of length k. 
+let a[i],b[i] be longest increasing/decreasing subsequence till i including x[i]. Then claim that no two tuple exists (a[i],b[i]) & (a[j],b[j]) s.t a[i]=a[j] and b[i]=b[j]. So total distinct tuples: (k-1)x(k-1), we need a sequence of (k-1)x(k-1)+1
