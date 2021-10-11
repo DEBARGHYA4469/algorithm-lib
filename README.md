@@ -9,7 +9,7 @@
 #include <bits/stdc++.h>
 
 #define log(...) cerr << __LINE__ << ": "; logger(#__VA_ARGS__,__VA_ARGS__)
-#define eb push_back
+#define eb emplace_back
 #define fi first 
 #define se second 
 #define mp make_pair
@@ -60,6 +60,7 @@ void remove_duplicates(vector<T> &v){
 template <class T,class U> bool chmin(T &x, U y){ if(x>y){ x=y; return true; } return false; }
 template <class T,class U> bool chmax(T &x, U y){ if(x<y){ x=y; return true; } return false; }
 
+const long double pi = acos(-1.0);
 const int mod = 1e9+7;
 
 inline int mul(int x,int y){    ll z = 1ll; z=z*x*y;   z%=mod; return (int)z; }
