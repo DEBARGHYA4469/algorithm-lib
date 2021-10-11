@@ -1,3 +1,24 @@
+# Euler Tour Technique
+
+https://usaco.guide/gold/tree-euler?lang=cpp
+
+```cpp	
+	int clk = 0;
+	int in[MaxN],out[MaxN];
+	
+	void dfs(int u,int p=-1){
+		in[u]=++clk;
+		for(int v:g[u]){
+			if(v!=p) dfs(v,u);
+		}
+		out[u]=clk;
+	}
+```
+
+* size of subtree rooted at ith vertex in out[i]-in[i]+1.
+* all subtree of ith root lies btw {in[i],....,out[i]}
+* Once the tree is flattened you can use range query techniques.
+
 ### Query for two vertex in the same path from root
 
 `in[i]: in-time in dfs traversal, out[i]: out-time in dfs traversal.`</br> 
