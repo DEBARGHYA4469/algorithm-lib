@@ -27,6 +27,8 @@ If Alice has x number of apples such that she can divide the apples in mi groups
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\\&space;Garner's\:\:Algorithm&space;\\&space;a&space;=&space;x_1&space;&plus;&space;x_2m_1&plus;x_3m_1m_2&plus;x_4m_1m_2m_3&plus;...&plus;x_Nm_1m_2m_3...m_{N-1}&space;\\let\:\:y_1=x_1,&space;y_2&space;=&space;x_1&space;&plus;&space;x_2m_1,&space;y_3&space;=&space;x_1&space;&plus;&space;x_2m_1&plus;x_3m_1m_2,...&space;\\&space;x_1&space;=&space;r_1&space;\\&space;x_2&space;=&space;(r_2-x_1)m_1^{-1}&space;\\&space;x_N&space;=&space;(r_N-y_{N-1})(m_1m_2...m_{N-1})^{-1}\:(mod\:\:m_N)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\\&space;Garner's\:\:Algorithm&space;\\&space;a&space;=&space;x_1&space;&plus;&space;x_2m_1&plus;x_3m_1m_2&plus;x_4m_1m_2m_3&plus;...&plus;x_Nm_1m_2m_3...m_{N-1}&space;\\let\:\:y_1=x_1,&space;y_2&space;=&space;x_1&space;&plus;&space;x_2m_1,&space;y_3&space;=&space;x_1&space;&plus;&space;x_2m_1&plus;x_3m_1m_2,...&space;\\&space;x_1&space;=&space;r_1&space;\\&space;x_2&space;=&space;(r_2-x_1)m_1^{-1}&space;\\&space;x_N&space;=&space;(r_N-y_{N-1})(m_1m_2...m_{N-1})^{-1}\:(mod\:\:m_N)" title="\\ Garner's\:\:Algorithm \\ a = x_1 + x_2m_1+x_3m_1m_2+x_4m_1m_2m_3+...+x_Nm_1m_2m_3...m_{N-1} \\let\:\:y_1=x_1, y_2 = x_1 + x_2m_1, y_3 = x_1 + x_2m_1+x_3m_1m_2,... \\ x_1 = r_1 \\ x_2 = (r_2-x_1)m_1^{-1} \\ x_N = (r_N-y_{N-1})(m_1m_2...m_{N-1})^{-1}\:(mod\:\:m_N)" /></a>
 
+Proof: https://cp-algorithms.com/algebra/chinese-remainder-theorem.html
+
 `How to calculate modulo inverse mod some coprime number?`</br>
 
 ```cpp
