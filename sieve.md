@@ -75,3 +75,38 @@ for(int i=2;i<=MaxN;i++){
     }
 ```
 `Time : Dirichlet's divisor problem: unsolved time complexity`
+
+
+### Prime Factorization Queries for large integers
+
+* Prime Sieve + Wheel Factorization https://cp-algorithms.com/algebra/factorization.html
+
+```cpp
+void init(){
+	for(int i=2;i<=MaxN;i++){
+      		if(!lp[i]){ 
+        		lp[i]=i; 
+       			p.eb(i); 
+      		}
+      		for(int j=0;j<(int)sz(p) && p[j]<=lp[i] && i*p[j]<=MaxN;j++){
+        	      	lp[i*p[j]] = p[j];      
+      		}
+	}
+}
+
+pair<ll,ll> factor(ll n) {
+    ll even=0,odd=0;
+    for (ll d : p) {
+        if (d*d > n)
+            break;
+        while (n%d == 0) {
+            if(d==2) even++;
+            else odd++;
+            n /= d;
+        }
+    }
+    if (n>1 && n%2==1) odd++;
+    else if(n>1 && n%2==0) even++;
+    return mp(even,odd);
+}
+```
