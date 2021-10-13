@@ -126,6 +126,7 @@ ll query(int l,int r,int tl=1,int tr=n,ll v=1){
 
 * Classical Idea: Store pref, suff and ans.
 * Pitfall: Handle null return segments.
+* Nice idea because array is sorted.
 
 ```cpp
 struct node{
