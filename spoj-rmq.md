@@ -122,4 +122,56 @@ ll query(int l,int r,int tl=1,int tr=n,ll v=1){
 }
 
 ```
+3. https://www.spoj.com/problems/FREQUENT/
+
+* Classical Idea: Store pref, suff and ans.
+* Pitfall: Handle null return segments.
+
+```cpp
+struct node{
+	int maxfq, pref,suff;
+	bool emp;
+	node(): emp(1),maxfq(0),pref(0),suff(0) {} 
+	node(int e): emp(0),maxfq(1),pref(1),suff(1) {} 
+};
+
+int n,q;
+int a[MaxN];
+node t[4*MaxN];
+
+node combine(node lnode,node rnode,int tl,int tr){
+	if(lnode.emp) return rnode;
+	else if(rnode.emp) return lnode;
+	
+	node tmp;
+	if(a[tm]==a[tm+1]){
+		tmp.maxfq = max( {lnode.suff+rnode.pref,lnode.maxfq,rnode.maxfq });
+		tmp.pref = (a[tl]==a[tm]) ? lnode.pref+rnode.pref:lnode.pref;
+		tmp.suff = (a[tm+1]==a[tr]) ? lnode.suff+rnode.suff:rnode.suff;
+		tmp.emp = 0;
+		return tmp;
+	}
+	
+	tmp.maxfq = max( {lnode.maxfq,rnode.maxfq} );
+	tmp.pref = lnode.pref;
+	tmp.suff = rnode.suff;
+	tmp.emp = 0;
+	return tmp;			
+}
+
+void build(int tl=1,int tr=n,int v=1){
+	if(tl==tr) t[v] = node(a[tl]);
+	else{
+		build(tl,tm,v<<1);
+		build(tm+1,tr,v<<1|1);		
+		t[v] = combine(t[v<<1],t[v<<1|1],tl,tr);
+	}
+}
+
+node query(int l,int r,int tl=1,int tr=n,int v=1){
+	if(tl>r||tr<l) return node();
+	else if(tl>=l && tr<=r) return t[v];
+	return combine(query(l,r,tl,tm,v<<1),query(l,r,tm+1,tr,v<<1|1),tl,tr); 
+}
+```
  
