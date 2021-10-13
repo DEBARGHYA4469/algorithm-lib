@@ -175,4 +175,65 @@ node query(int l,int r,int tl=1,int tr=n,int v=1){
 	return combine(query(l,r,tl,tm,v<<1),query(l,r,tm+1,tr,v<<1|1),tl,tr); 
 }
 ```
+
+4. https://www.spoj.com/problems/MKTHNUM/
+
+* Merge Sort Tree
+* Two Binary Searches
+* Binary Search on the values of array to find the kth value in a[l...r]. 
+* If #(elements in a[l..r] < a[x]) is k-1 then check for next elements.
+* Hint: If kth order statistics in a[l...r] is a[pos], all values in a[pos+1],a[pos+2], in the sorted array a has the above value > (k-1). Tough to understand intially. 
+
+```cpp
+
+int n,m;
+int l,r,k;
+int a[MaxN];
+vector<int> t[4*MaxN];
+ 
+void build(int tl=1,int tr=n,int v=1){
+	if(tl==tr){	
+		t[v]=vector<int>(1,a[tl]);
+		return;
+	}
+	build(tl,tm,v<<1);
+	build(tm+1,tr,v<<1|1);
+	merge(all(t[v<<1]),all(t[v<<1|1]),back_inserter(t[v]));
+}
+
+int query(int l,int r,int val,int tl=1,int tr=n,int v=1){
+	if(tl>r||tr<l) return 0;
+	else if(tl>=l && tr<=r) return lower_bound(all(t[v]),val) - t[v].begin();
+	return query(l,r,val,tl,tm,v<<1) + query(l,r,val,tm+1,tr,v<<1|1);
+}
+
+int main(){
+	std::ios::sync_with_stdio(false);
+	cin.tie(0);
+ 
+ 	cin >> n >> m;
+	for(int i=1;i<=n;i++) cin >> a[i];
+	
+	build();	
+	sort(a+1,a+n+1);
+	
+	while(m--){
+		int l,r,k;
+		cin >> l >> r >> k;
+		int lo=1,hi=n;
+		int pos=-1;
+		while(lo<=hi){
+			int mi=lo+(hi-lo)/2;
+			int q = query(l,r,a[mi]); 
+		 	if(q>k-1) hi=mi-1;
+		 	else{	
+		 		pos=mi;
+		 		lo=mi+1;
+		 	}
+		}
+		cout << a[pos] << endl;  
+	}
+	return 0;
+}
+```
  
