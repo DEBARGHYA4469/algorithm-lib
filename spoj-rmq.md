@@ -236,4 +236,55 @@ int main(){
 	return 0;
 }
 ```
- 
+
+5. https://www.spoj.com/problems/ANDROUND/
+
+* Simple conversion to segment tree
+* Pitfall: calculating [l,r] 
+
+```cpp
+void build(int tl=1,int tr=n,int v=1){
+	if(tl==tr){
+		t[v] = (ll) a[tl]; 
+	}
+	else{
+		build(tl,tm,v<<1);
+		build(tm+1,tr,v<<1|1);
+		t[v] = t[v<<1] & t[v<<1|1];
+	}
+}
+
+ll query(int l,int r,int tl=1,int tr=n,int v=1){
+	if(tl>r||tr<l) return (1ll<<31)-1ll;
+	else if(tl>=l && tr<=r) return t[v];
+	else return query(l,r,tl,tm,v<<1) & query(l,r,tm+1,tr,v<<1|1);
+}
+
+int main(){
+	
+	std::ios::sync_with_stdio(false);
+	cin.tie(0);
+
+	cin >> tc;
+	while(tc--){
+		mem(t,0);
+		mem(a,0);
+		
+		cin >> n >> k;
+		for(int i=1;i<=n;i++) cin >> a[i];
+		
+
+		build();
+		for(int i=1;i<=n;i++){
+			 // a[1],a[2]......,a[i-1], (a[i]), a[i+1]......a[N-1],a[N]	
+			 ll R = (i+k<=n) ? query(i,i+k) : query(i,n) & query(1,(int) min((ll) n, k-(n-i)));
+			 ll L = (k<i) ? query(i-k,i) : query(1,i) & query((int) max((ll)n-(k-i*1ll),1ll),n);
+			 cout << (L & R) << " "; 
+		}
+		cout << endl;
+	}
+
+	return 0;
+}
+
+```
