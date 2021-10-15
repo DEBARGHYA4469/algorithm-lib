@@ -288,3 +288,52 @@ int main(){
 }
 
 ```
+
+6. https://www.spoj.com/problems/DQUERY/
+
+* Offline Technique: Sort the queries by r values and count distinct elements using FW trick.
+* Sorting can be avoided in a clever way. 
+* Pitfall: non-return in a int function, although the function was intended to be of void type.
+
+```cpp
+int n;
+int a[MaxN];
+int sol[200005];
+int bit[30005];
+int last_pos[1000006];
+vector<pii> que[30005];
+inline void update(int i,int v){ for(;i<MaxN;i+=i&-i) bit[i]+=v;}
+inline int sum(int i,int ans=0){ for(;i>0;i-=i&-i) ans+=bit[i]; return ans; } 
+//.............................................................................................
+
+int main(){
+	
+	std::ios::sync_with_stdio(false);
+	cin.tie(0);
+	
+	cin >> n;
+	for(int i=1;i<=n;i++) cin >> a[i];
+ 
+	int m;
+	cin >> m;
+	for(int i=0;i<m;i++){
+		int l,r;
+		cin >> l >> r;
+		que[r].eb(l,i);
+	}
+		
+	mem(last_pos,0);
+	for(int i=1;i<=n;i++){
+		if(last_pos[a[i]]) update(last_pos[a[i]],-1);
+		
+		last_pos[a[i]]=i;
+		update(last_pos[a[i]], 1);
+		
+		for(auto &[l,id]:que[i]) sol[id] =(l==1) ? sum(i):sum(i)-sum(l-1);
+ 	}
+ 	
+ 	for(int id=0;id<m;id++) cout << sol[id] << endl;
+	
+	return 0;
+}
+```
