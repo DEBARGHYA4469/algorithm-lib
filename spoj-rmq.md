@@ -337,3 +337,34 @@ int main(){
 	return 0;
 }
 ```
+7. https://www.spoj.com/problems/MATSUM/
+![image](https://user-images.githubusercontent.com/21307343/137428207-20ab8f79-6790-4922-9676-3d72894d7ce1.png)
+
+* Pitfall: Add only the update.
+* Easy implementation of 2-D FW tree.
+
+```cpp
+int tc,n;
+int a[MaxN][MaxN], bit[MaxN][MaxN];
+
+inline void update(int x,int y,int v){
+	for(int i=x;i<MaxN;i+=i&-i) 
+		for(int j=y;j<MaxN;j+=j&-j)
+			bit[i][j]+=v;
+}
+
+inline int sum(int x,int y,int ans=0){
+	for(int i=x;i>0;i-=i&-i)
+		for(int j=y;j>0;j-=j&-j)
+			ans+=bit[i][j];
+	return ans; 
+}
+
+inline int query(int x1,int y1,int x2,int y2){
+	int a = sum(x2,y2);
+	int b = (x1==1) ? 0: sum(x1-1,y2);
+	int c = (y1==1) ? 0: sum(x2,y1-1);
+	int d = (x1==1 || y1==1) ? 0: sum(x1-1,y1-1);
+	return (int) a-b-c+d;
+}
+```
