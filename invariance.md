@@ -72,6 +72,7 @@ Idea:
 	<li> Proof: If R >= n then,
 	<li> We can't save all mice. Why? Let say we saved m-1 mice in time q. So position of cat = q & position of mth mice= R-q.
 	R >=n so, R-q >= n-q. R-q+q >=n. Mice will be chased.
-	<li> Consider R < n. Consider leftmost mice be positioned at l. So, R < n => R-(n-l) < l. So when all the other cats reaches the hole, cat is still behind leftmost mice. So can be saved. 
+	<li> Consider R < n. Consider leftmost mice be positioned at l. So, R < n => R-(n-l) < l. 
+	So when all the other cats reaches the hole, cat is still behind leftmost mice. So can be saved. 
 												 
 Invariance in the problem: Sum of distances of mice. 
