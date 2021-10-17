@@ -63,3 +63,15 @@ Use PBDS/Fenwick Tree + Coordinate Compression
 	cout << ans << endl; 
   	
 ```
+	
+# Problem 4: https://codeforces.com/contest/1593/problem/C'
+
+Idea: 
+	<li> Claim: If there is a set of mice with their distances from hole sum to R and R < n. We can save all those mices. 
+	<li> Greedily to maximize m (#mice), we choose to reduce each distances in a sorted fashion hence selecting from end makes sense.
+	<li> Proof: If R >= n then,
+	<li> We can't save all mice. Why? Let say we saved m-1 mice in time q. So position of cat = q & position of mth mice= R-q.
+	R >=n so, R-q >= n-q. R-q+q >=n. Mice will be chased.
+	<li> Consider R < n. Consider leftmost mice be positioned at l. So, R < n => R-(n-l) < l. So when all the other cats reaches the hole, cat is still behind leftmost mice. So can be saved. 
+												 
+Invariance in the problem: Sum of distances of mice. 
