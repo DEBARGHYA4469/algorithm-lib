@@ -368,3 +368,80 @@ inline int query(int x1,int y1,int x2,int y2){
 	return (int) a-b-c+d;
 }
 ```
+8. https://www.spoj.com/problems/GSS5/
+
+![image](https://user-images.githubusercontent.com/21307343/137613594-07072c9d-6b46-4fd2-a562-312aafcaf14d.png)
+
+
+```cpp
+struct node{
+	 int sum,pref,suff,bestsum;
+	 node(): pref(-inf),suff(-inf),sum(0),bestsum(-inf) {} 
+	 node(int v): pref(v),suff(v),sum(v),bestsum(v) {}
+};
+
+int a[10005],b[10005];
+node t[4*10005];
+
+node combine(node l,node r){
+	node tmp;
+	tmp.sum  = l.sum + r.sum;
+	tmp.pref = max(l.pref,l.sum+r.pref);
+	tmp.suff = max(r.suff,l.suff+r.sum);
+	tmp.bestsum =  max({l.bestsum,r.bestsum,l.suff+r.pref});
+	return tmp;
+}
+
+void build(int tl=1,int tr=n,int v=1){
+	if(tl==tr) t[v] = node(a[tl]);
+	else{
+		build(tl,tm,v<<1);
+		build(tm+1,tr,v<<1|1);
+		t[v] = combine(t[v<<1],t[v<<1|1]);
+	}
+}
+
+node query(int l,int r,int tl=1,int tr=n,int v=1){
+	if(tl>r||tr<l||l>r) return node();
+	else if(tl>=l && tr<=r) return t[v];
+	return combine(query(l,r,tl,tm,v<<1),query(l,r,tm+1,tr,v<<1|1));
+}
+//.............................................................................................
+
+int main(){
+	
+	std::ios::sync_with_stdio(false);
+	cin.tie(0);
+	
+	cin >> tc;
+	while(tc--){
+		mem(a,0);
+		mem(b,0);
+		mem(t,0);
+		cin >> n;
+		for(int i=1;i<=n;i++) {
+			cin >> a[i];
+			b[i]=b[i-1]+a[i];
+		}
+		build();
+	
+	cin >> m;
+	for(int i=0;i<m;i++){
+		int x1,y1,x2,y2;
+		cin >> x1 >> y1 >> x2 >> y2;
+		
+		int ans=-inf;
+		
+		if(x2>y1) ans=max(ans,query(x1,y1).suff+query(y1+1,x2-1).sum+query(x2,y2).pref);
+		else{
+			ans=max(ans,query(x1,x2).suff+query(x2,y2).pref-a[x2]);
+			ans=max(ans,query(x2,y1).bestsum);
+			ans=max(ans,query(x2,y1).suff+query(y1,y2).pref-a[y1]);
+		}
+		cout << ans << endl; 
+		}
+	}
+	
+	return 0;
+}
+```
