@@ -64,7 +64,7 @@ Use PBDS/Fenwick Tree + Coordinate Compression
   	
 ```
 	
-# Problem 4: https://codeforces.com/contest/1593/problem/C'
+# Problem 4: https://codeforces.com/contest/1593/problem/C
 
 Idea: 
 	<li> Claim: If there is a set of mice with their distances from hole sum to R and R < n. We can save all those mices. 
