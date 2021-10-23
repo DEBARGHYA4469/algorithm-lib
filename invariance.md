@@ -76,3 +76,16 @@ Idea:
 	So when all the other cats reaches the hole, cat is still behind leftmost mice. So can be saved. 
 												 
 Invariance in the problem: Sum of distances of mice. 
+
+												 
+# Problem 5: 
+
+In a round robin tournament, what is the maximum number of wins player ranked k can have? 
+
+<li> Claim 1: In a greedy way let every player ranked i>k loses vs every player j<k. Minimum wins among bottom i teams i>k = C(N-k,2)
+<li> Claim 2: No of wins left for top j<=k teams to disribute maintaining the condition= C(K,2). Kth player should win floor(C(K,2)/K) games among them. 
+												 
+![image](https://user-images.githubusercontent.com/21307343/138549750-d1eb8361-59e2-4cdb-b786-81915a972658.png)
+
+												 
+						
