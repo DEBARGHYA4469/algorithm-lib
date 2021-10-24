@@ -74,8 +74,8 @@ int main(){
 }
 ```
  
-https://cses.fi/problemset/task/1723 : [No. of Paths in a Graph, Matrix Exponentiation] https://cp-algorithms.com/graph/fixed_length_paths.html </br> 
-https://cses.fi/problemset/task/2209 </br>
+https://cses.fi/problemset/task/1723 : [Paths in a Graph, Matrix Exponentiation] https://cp-algorithms.com/graph/fixed_length_paths.html </br> 
+https://cses.fi/problemset/task/2209 : [Burnside Lemma] https://www.geeksforgeeks.org/orbit-counting-theorem-or-burnsides-lemma/ </br>
 https://cses.fi/problemset/task/2187 </br>
 https://cses.fi/problemset/task/2064 </br>
 https://cses.fi/problemset/task/1716 </br>
