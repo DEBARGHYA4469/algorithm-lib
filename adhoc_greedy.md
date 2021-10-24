@@ -28,3 +28,5 @@ https://leetcode.com/problems/maximum-building-height/ (Greedy Stays Ahead!)
 
 https://www.geeksforgeeks.org/minimum-increment-decrement-to-make-array-elements-equal/
 
+Good Adhoc Problems:
+* https://codeforces.com/contest/1582/problem/D [Nice Observation]
