@@ -1,6 +1,6 @@
 ## Mathematics
 
-https://cses.fi/problemset/task/2417 </br>
+https://cses.fi/problemset/task/2417 [No. of Coprime Pairs] </br>
 
 `Idea: Inclusion+Exclusion + Bitmasking`
 
@@ -73,10 +73,8 @@ int main(){
 	return 0;
 }
 ```
-
-https://cses.fi/problemset/task/1730 </br>
-https://cses.fi/problemset/task/1098 </br>
-https://cses.fi/problemset/task/1723 </br>
+ 
+https://cses.fi/problemset/task/1723 : [No. of Paths in a Graph, Matrix Exponentiation] https://cp-algorithms.com/graph/fixed_length_paths.html </br> 
 https://cses.fi/problemset/task/2210 </br>
 https://cses.fi/problemset/task/2209 </br>
 https://cses.fi/problemset/task/2187 </br>
