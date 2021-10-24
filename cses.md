@@ -75,7 +75,6 @@ int main(){
 ```
  
 https://cses.fi/problemset/task/1723 : [No. of Paths in a Graph, Matrix Exponentiation] https://cp-algorithms.com/graph/fixed_length_paths.html </br> 
-https://cses.fi/problemset/task/2210 </br>
 https://cses.fi/problemset/task/2209 </br>
 https://cses.fi/problemset/task/2187 </br>
 https://cses.fi/problemset/task/2064 </br>
