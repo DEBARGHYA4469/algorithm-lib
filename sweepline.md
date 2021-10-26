@@ -1,5 +1,5 @@
 
-* Pair with minimum Euclidean distance 
+* Pair with minimum Euclidean Distance 
 Idea: https://codeforces.com/blog/entry/58747
 
 ```cpp
