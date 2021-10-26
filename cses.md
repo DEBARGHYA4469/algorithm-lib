@@ -146,3 +146,5 @@ ll solveSubsetSum(ll a[], int n, ll S)
 ```
 ## Catalan Numbers 
 [Tutorial] Catalan Numbers and Catalan Convolution  https://codeforces.com/blog/entry/87585
+
+`Idea: Catalan Convolution: Think in Dyck Path way!!`
