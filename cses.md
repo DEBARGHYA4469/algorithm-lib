@@ -144,3 +144,4 @@ ll solveSubsetSum(ll a[], int n, ll S)
 		}
 	}
 ```
+[Tutorial] Catalan Numbers and Catalan Convolution  https://codeforces.com/blog/entry/87585
