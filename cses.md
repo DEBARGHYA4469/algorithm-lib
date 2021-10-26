@@ -76,19 +76,9 @@ int main(){
  
 https://cses.fi/problemset/task/1723 : [Paths in a Graph, Matrix Exponentiation] https://cp-algorithms.com/graph/fixed_length_paths.html </br> 
 https://cses.fi/problemset/task/2209 : [Burnside Lemma] https://www.geeksforgeeks.org/orbit-counting-theorem-or-burnsides-lemma/ </br>
-https://cses.fi/problemset/task/2187 </br>
-https://cses.fi/problemset/task/2064 </br>
-https://cses.fi/problemset/task/1716 </br>
 
-## Geometry
+Burnside Lemma: https://www.youtube.com/watch?v=D0d9bYZ_qDY
 
-https://cses.fi/problemset/task/2189
-https://cses.fi/problemset/task/2190
-https://cses.fi/problemset/task/2191
-https://cses.fi/problemset/task/2192
-https://cses.fi/problemset/task/2193
-https://cses.fi/problemset/task/2194
-https://cses.fi/problemset/task/2195
 
 # MiTM
 
