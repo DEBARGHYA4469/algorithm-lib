@@ -80,6 +80,67 @@ https://cses.fi/problemset/task/2209 : [Burnside Lemma] https://www.geeksforgeek
 Burnside Lemma: https://www.youtube.com/watch?v=D0d9bYZ_qDY
 
 
-# MiTM
+# MiTM [Meet In The Middle]
 
 https://codeforces.com/blog/entry/95571
+
+* Subset Sum
+
+Given a set of n integers where n <= 40. Each of them is at most 10^12, determine the maximum sum subset having sum less than or equal S where S <= 10^18.
+
+```cpp
+ll X[2000005],Y[2000005];
+void calcsubarray(ll a[], ll x[], int n, int c)
+{
+    for (int i=0; i<(1<<n); i++)
+    {
+        ll s = 0;
+        for (int j=0; j<n; j++)
+            if (i & (1<<j))
+                s += a[j+c];
+        x[i] = s;
+    }
+}
+ 
+ll solveSubsetSum(ll a[], int n, ll S)
+{
+    calcsubarray(a, X, n/2, 0);
+    calcsubarray(a, Y, n-n/2, n/2);
+ 
+    int size_X = 1<<(n/2);
+    int size_Y = 1<<(n-n/2);
+
+    sort(Y, Y+size_Y);
+    ll max = 0;
+    
+    for (int i=0; i<size_X; i++)
+    {
+        if (X[i] <= S)
+            int p = lower_bound(Y, Y+size_Y, S-X[i]) - Y;
+            if (p == size_Y || Y[p] != (S-X[i]))
+                p--;
+            if ((Y[p]+X[i]) > max)
+                max = Y[p]+X[i];
+        }
+    }
+    return max;
+}
+```
+
+* 4-SUM 
+
+```cpp	
+	set<int> pairs;
+	for(int i=0;i<n;i++){
+		for(int j=i+1;j<n;j++){
+			int missing = target-a[i]-a[j];
+			if(pairs.count(missing)){
+				found = true;
+				return;
+			}
+		}
+		for(int k=0;k<i;k++){
+			pairs.insert(a[i]+a[k]);
+		}
+	}
+```
