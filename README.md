@@ -1,10 +1,6 @@
 # cp template
 
 ```cpp
-#define GCC target ("avx2")
-#define GCC optimization("O3")
-#define GCC optimization("unroll-loops")
-
 #include <ext/pb_ds/assoc_container.hpp>
 #include <bits/stdc++.h>
 
