@@ -7,3 +7,5 @@
 * https://codeforces.com/gym/350789/problem/C [Fenwick Tree+Inversion Count]
 * https://codeforces.com/problemset/problem/1348/D [Constructive+Greedy]
 * https://codeforces.com/contest/1358/problem/D [Prefix Sum+Binary Search]
+* https://codeforces.com/contest/1604/problem/B [Parity+Math]
+* https://codeforces.com/contest/1604/problem/C [LCM+Induction] 
