@@ -5,3 +5,4 @@
 * https://codeforces.com/contest/1580/problem/A [Suffix Minimum+DP+Implementation]
 * https://codeforces.com/contest/1593/problem/D2 [Extremal Principle]
 * https://codeforces.com/gym/350789/problem/C [Fenwick Tree+Inversion Count]
+* https://codeforces.com/problemset/problem/1348/D [Constructive+Greedy]
