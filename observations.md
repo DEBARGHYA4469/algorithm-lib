@@ -9,3 +9,4 @@
 * https://codeforces.com/contest/1358/problem/D [Prefix Sum+Binary Search]
 * https://codeforces.com/contest/1604/problem/B [Parity+Math]
 * https://codeforces.com/contest/1604/problem/C [LCM+Induction] 
+* https://codeforces.com/problemset/problem/1197/C [Invariance+Greedy]
