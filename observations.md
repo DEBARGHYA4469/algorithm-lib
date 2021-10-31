@@ -11,3 +11,4 @@
 * https://codeforces.com/contest/1604/problem/C [LCM+Induction] 
 * https://codeforces.com/problemset/problem/1197/C [Invariance+Greedy]
 * https://codeforces.com/problemset/problem/1264/B [CaseWork+Constructive]
+* https://codeforces.com/contest/448/submission/133744247 [Divide and Conquer+Greedy]
