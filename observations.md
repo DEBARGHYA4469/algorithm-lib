@@ -10,3 +10,4 @@
 * https://codeforces.com/contest/1604/problem/B [Parity+Math]
 * https://codeforces.com/contest/1604/problem/C [LCM+Induction] 
 * https://codeforces.com/problemset/problem/1197/C [Invariance+Greedy]
+* https://codeforces.com/problemset/problem/1264/B [CaseWork+Constructive]
