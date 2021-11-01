@@ -31,5 +31,5 @@ https://www.geeksforgeeks.org/minimum-increment-decrement-to-make-array-elements
 Good Adhoc Problems:
 * https://codeforces.com/contest/1582/problem/D [Nice Observation]
 * https://codeforces.com/problemset/problem/343/C [Greedy+Binary Search]
-![image](https://user-images.githubusercontent.com/21307343/139724179-081dee8f-f1e6-40c3-a615-8d3caa23eddb.png)
+![image](https://user-images.githubusercontent.com/21307343/139724308-fd245b75-e8b0-4771-90e0-c1428124e1ca.png)
 
