@@ -15,3 +15,4 @@
 * https://codeforces.com/problemset/problem/1119/E [Exchange Argument+Greedy+Hard Proof] 
 * https://codeforces.com/contest/839/problem/B [Implementation+Constructive+Hard Greedy]
 * https://codeforces.com/contest/1494/problem/C [UpperBound+LowerBound] 
+* https://codeforces.com/contest/343/problem/C [Greedy+Binary Search]
