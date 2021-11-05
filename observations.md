@@ -17,3 +17,4 @@
 * https://codeforces.com/contest/1494/problem/C [UpperBound+LowerBound] 
 * https://codeforces.com/contest/343/problem/C [Greedy+Binary Search]
 * https://codeforces.com/contest/1607/problem/D [Greedy+Invariance+Exchange Argument]
+* https://codeforces.com/problemset/problem/1439/A2 [Matrix+Implementation] 
