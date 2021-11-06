@@ -18,17 +18,20 @@ Sieve of Eratosthenes having Linear Time Complexity </br>
 <a href="https://www.codecogs.com/eqnedit.php?latex=\\x&space;=&space;2^23^35\\&space;5&space;\rightarrow&space;3^15\rightarrow&space;3^25\rightarrow&space;3^35\rightarrow&space;2^13^35\rightarrow&space;2^23^35" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\\x&space;=&space;2^23^35\\&space;5&space;\rightarrow&space;3^15\rightarrow&space;3^25\rightarrow&space;3^35\rightarrow&space;2^13^35\rightarrow&space;2^23^35" title="\\x = 2^23^35\\ 5 \rightarrow 3^15\rightarrow 3^25\rightarrow 3^35\rightarrow 2^13^35\rightarrow 2^23^35" /></a>
 
 ```cpp
-int lp[MaxN];
-vector<int> p;
-for(int i=2;i<=MaxN;i++){
-      if(!lp[i]){ 
-        lp[i]=i; 
-        p.eb(i); 
-      }
-      for(int j=0;j<(int)sz(p) && p[j]<=lp[i] && i*p[j]<=MaxN;j++){
-              lp[i*p[j]] = p[j];      
-      }
+ void sieve(){
+	
+	vector<int> p;
+	for(int i=2;i<=MaxN;i++){
+      		if(!lp[i]){ 
+        		lp[i]=i; 
+        		p.eb(i); 
+      		}
+      		for(int j=0;j<(int)sz(p) && p[j]<=lp[i] && i*p[j]<=MaxN;j++){
+        		lp[i*p[j]] = p[j];      
+      		}
+	}
 }
+
 ```
 
 #### Prime Factorization: 
