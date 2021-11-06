@@ -19,3 +19,4 @@
 * https://codeforces.com/contest/1607/problem/D [Greedy+Invariance+Exchange Argument]
 * https://codeforces.com/problemset/problem/1439/A2 [Matrix+Implementation] 
 * https://codeforces.com/contest/1477/problem/B [Lazy Propagation]
+* https://codeforces.com/problemset/problem/888/D [Derangement] 
