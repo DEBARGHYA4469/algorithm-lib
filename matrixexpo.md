@@ -39,3 +39,9 @@ vvi binpow(vvi x,int y){
   return z;
 }
 ```
+
+* Problem-1: </br> </br> ![image](https://user-images.githubusercontent.com/21307343/140632928-50268359-3aa1-4522-ba27-cfbd52f044cd.png)
+* ![image](https://user-images.githubusercontent.com/21307343/140633114-fa9c5663-4dc4-4261-8b4f-10f2663f85c0.png)
+
+
+
