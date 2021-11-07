@@ -21,3 +21,4 @@
 * https://codeforces.com/contest/1477/problem/B [Lazy Propagation+Reversible+Offline Technique]
 * https://codeforces.com/problemset/problem/888/D [Derangement] 
 * https://codeforces.com/contest/863/problem/D [Reversible Process+Offline Technique]
+* https://codeforces.com/contest/691/problem/E [Combinatorics+Matrix Exponentiation]
