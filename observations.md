@@ -23,3 +23,4 @@
 * https://codeforces.com/contest/863/problem/D [Reversible Process+Offline Technique]
 * https://codeforces.com/contest/691/problem/E [Combinatorics+Matrix Exponentiation]
 * https://codeforces.com/contest/792/problem/D [Tree+Inorder+Bit]
+* https://codeforces.com/contest/803/problem/E [Dynamic Programming+Solution Construction]
