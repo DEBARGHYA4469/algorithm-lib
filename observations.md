@@ -22,3 +22,4 @@
 * https://codeforces.com/problemset/problem/888/D [Derangement] 
 * https://codeforces.com/contest/863/problem/D [Reversible Process+Offline Technique]
 * https://codeforces.com/contest/691/problem/E [Combinatorics+Matrix Exponentiation]
+* https://codeforces.com/contest/792/problem/D [Tree+Inorder+Bit]
