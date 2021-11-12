@@ -7,7 +7,7 @@ Problem on [MEX]
 * [K. Mikasa](https://codeforces.com/problemset/problem/1554/C) 
 * [B. MIN-MEX Cut](https://codeforces.cc/problemset/problem/1566/B)
 * [D. Vitya and Strange Lesson](https://codeforces.com/problemset/problem/842/D) -- AC
-* [C. MAX-MEX Cut](https://codeforces.com/problemset/problem/1566/C)
+* [C. MAX-MEX Cut](https://codeforces.com/problemset/problem/1566/C) -- AC
 * [C. Ehab and Prefix MEXs](https://codeforces.com/problemset/problem/1364/C)
 * [B. Alyona and Mex](https://codeforces.com/problemset/problem/682/B)
 * [D. MEX maximizing](https://codeforces.com/problemset/problem/1294/D) -- AC
