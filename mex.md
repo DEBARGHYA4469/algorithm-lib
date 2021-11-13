@@ -8,8 +8,8 @@ Problem on [MEX]
 * [D. Vitya and Strange Lesson](https://codeforces.com/problemset/problem/842/D) -- AC
 * [C. MAX-MEX Cut](https://codeforces.com/problemset/problem/1566/C) -- AC
 * [C. Ehab and Prefix MEXs](https://codeforces.com/problemset/problem/1364/C) -- AC
-* [B. Alyona and Mex](https://codeforces.com/problemset/problem/682/B)
 * [D. MEX maximizing](https://codeforces.com/problemset/problem/1294/D) -- AC
+* [B. Alyona and Mex](https://codeforces.com/problemset/problem/682/B)
 * [MEXPROB](https://www.codechef.com/problems/MEXPROB)
 * [MEX](https://www.codechef.com/problems/MEX)
 * [MEXSTR](https://www.codechef.com/problems/MEXSTR)
