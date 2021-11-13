@@ -9,4 +9,4 @@ Problem on [MEX]
 * [C. MAX-MEX Cut](https://codeforces.com/problemset/problem/1566/C) -- AC
 * [C. Ehab and Prefix MEXs](https://codeforces.com/problemset/problem/1364/C) -- AC
 * [D. MEX maximizing](https://codeforces.com/problemset/problem/1294/D) -- AC
-* [B. Alyona and Mex](https://codeforces.com/problemset/problem/682/B)
+* [B. Alyona and Mex](https://codeforces.com/problemset/problem/682/B) --AC
