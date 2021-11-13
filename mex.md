@@ -12,5 +12,4 @@ Problem on [MEX]
 * [D. MEX maximizing](https://codeforces.com/problemset/problem/1294/D) -- AC
 * [MEXPROB](https://www.codechef.com/problems/MEXPROB)
 * [MEX](https://www.codechef.com/problems/MEX)
-* [MEXSUB](https://www.codechef.com/problems/MEXSUB)
 * [MEXSTR](https://www.codechef.com/problems/MEXSTR)
