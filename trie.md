@@ -255,3 +255,5 @@ void solve(){
 
 * Nice Problem on Binary Trie & MEX: https://codeforces.com/problemset/problem/842/D
 
+![image](https://user-images.githubusercontent.com/21307343/141613520-df3d499e-6d58-46a0-93ef-966e7deb57f3.png)
+
