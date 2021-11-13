@@ -13,6 +13,4 @@ Problem on [MEX]
 * [MEXPROB](https://www.codechef.com/problems/MEXPROB)
 * [MEX](https://www.codechef.com/problems/MEX)
 * [MEXSUB](https://www.codechef.com/problems/MEXSUB)
-* [MEXUM](codechef.com/problems/MEXUM)
 * [MEXSTR](https://www.codechef.com/problems/MEXSTR)
-* [MEXOR](https://www.codechef.com/problems/MEXOR)
