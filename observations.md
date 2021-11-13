@@ -24,3 +24,5 @@
 * https://codeforces.com/contest/691/problem/E [Combinatorics+Matrix Exponentiation]
 * https://codeforces.com/contest/792/problem/D [Tree+Inorder+Bit]
 * https://codeforces.com/contest/803/problem/E [Dynamic Programming+Solution Construction]
+* https://codeforces.com/contest/842/problem/D [Binary Trie+MEX]
+* https://codeforces.com/contest/1554/problem/C [Implicit Binary Trie+MEX+XOR]
