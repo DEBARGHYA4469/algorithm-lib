@@ -10,6 +10,3 @@ Problem on [MEX]
 * [C. Ehab and Prefix MEXs](https://codeforces.com/problemset/problem/1364/C) -- AC
 * [D. MEX maximizing](https://codeforces.com/problemset/problem/1294/D) -- AC
 * [B. Alyona and Mex](https://codeforces.com/problemset/problem/682/B)
-* [MEXPROB](https://www.codechef.com/problems/MEXPROB)
-* [MEX](https://www.codechef.com/problems/MEX)
-* [MEXSTR](https://www.codechef.com/problems/MEXSTR)
