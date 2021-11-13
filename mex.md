@@ -4,7 +4,7 @@
 Problem on [MEX]
 
 * [D. Replace by MEX](https://codeforces.com/problemset/problem/1375/D) -- AC
-* [K. Mikasa](https://codeforces.com/problemset/problem/1554/C) 
+* [K. Mikasa](https://codeforces.com/problemset/problem/1554/C) --AC
 * [B. MIN-MEX Cut](https://codeforces.cc/problemset/problem/1566/B)
 * [D. Vitya and Strange Lesson](https://codeforces.com/problemset/problem/842/D) -- AC
 * [C. MAX-MEX Cut](https://codeforces.com/problemset/problem/1566/C) -- AC
