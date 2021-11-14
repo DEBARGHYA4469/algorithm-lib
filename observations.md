@@ -26,3 +26,4 @@
 * https://codeforces.com/contest/803/problem/E [Dynamic Programming+Solution Construction]
 * https://codeforces.com/contest/842/problem/D [Binary Trie+MEX]
 * https://codeforces.com/contest/1554/problem/C [Implicit Binary Trie+MEX+XOR]
+* https://codeforces.com/problemset/problem/1605/D [XOR+Bipartite]
