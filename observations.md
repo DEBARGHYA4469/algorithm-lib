@@ -27,3 +27,4 @@
 * https://codeforces.com/contest/842/problem/D [Binary Trie+MEX]
 * https://codeforces.com/contest/1554/problem/C [Implicit Binary Trie+MEX+XOR]
 * https://codeforces.com/problemset/problem/1605/D [XOR+Bipartite]
+* https://codeforces.com/contest/1406/problem/D [Hard Constructive+Greedy]
