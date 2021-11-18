@@ -87,3 +87,7 @@ Hint : (x[i],y[i]) Consider at each point #monotonic increasing sequence vs #mon
 
 * Given a sequence of some numbers find what is the min size of the sequence so that it has increasing/decreasing sequence of length k. 
 let a[i],b[i] be longest increasing/decreasing subsequence till i including x[i]. Then claim that no two tuple exists (a[i],b[i]) & (a[j],b[j]) s.t a[i]=a[j] and b[i]=b[j]. So total distinct tuples: (k-1)x(k-1), we need a sequence of (k-1)x(k-1)+1
+
+# Cyclicity
+
+![image](https://user-images.githubusercontent.com/21307343/142450332-ebf17b94-a154-4307-afef-b31d9a364158.png)
