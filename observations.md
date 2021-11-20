@@ -30,3 +30,4 @@
 * https://codeforces.com/contest/1406/problem/D [Hard Constructive+Greedy]
 * https://codeforces.com/contest/1336/problem/A [Exchange Argument+Tree DFS]
 * https://codeforces.com/contest/1367/problem/E [Binary Search Answer+Factoring]
+* https://codeforces.com/contest/1363/problem/C [Games]
