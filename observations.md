@@ -32,3 +32,4 @@
 * https://codeforces.com/contest/1367/problem/E [Binary Search Answer+Factoring]
 * https://codeforces.com/contest/1363/problem/C [Games]
 * https://codeforces.com/contest/1427/problem/C [DP+Optimization]
+* https://www.codechef.com/COOK135A/problems/PRDTPAIN [Median+Greedy]
