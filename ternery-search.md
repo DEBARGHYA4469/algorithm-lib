@@ -16,3 +16,50 @@
 * https://codeforces.com/problemset/problem/250/D
 * https://codeforces.com/problemset/problem/1355/E
 * https://codeforces.com/contest/626/problem/E
+
+
+[Restoration Distance] 	
+```cpp
+int main(){
+		
+		std::ios::sync_with_stdio(false);
+		cin.tie(0);
+		
+		int n,a,r,m;
+		cin >> n >> a >> r >> m;
+		int h[n];
+		ll pref[n];
+		for(int i=0;i<n;i++) cin >> h[i];
+ 
+		sort(h,h+n);;
+		for(int i=0;i<n;i++){
+			if(!i) pref[i]=h[i];
+			else pref[i]=pref[i-1]+(ll)h[i];
+		}
+ 
+		auto check=[&](ll H)->ll{
+			int idx=upper_bound(h,h+n,H)-h;
+			ll na=idx? H*idx-pref[idx-1]:0;
+			ll nr=idx? pref[n-1]-pref[idx-1]-H*(n-idx):pref[n-1]-H*n;
+			if(na<nr) return na*min(a+r,m)+(nr-na)*r;
+			return nr*min(a+r,m)+(na-nr)*a;
+		};
+ 
+	 	ll lo=0,hi=1e9,ans=(ll)1e19;
+	 	while(lo<hi){
+	 		ll mid=lo+(hi-lo)/2;
+	 		ll u=check(mid), v=check(mid+1);
+	 		if(u<v){
+	 			chmin(ans,u);
+	 			hi=mid-1;
+	 		}
+	 		else{
+	 			chmin(ans,v);
+	 			lo=mid+1;
+	 		}
+	 	}
+ 
+	 	cout << ans << endl;
+ 
+		return 0;
+	}```
