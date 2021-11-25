@@ -14,7 +14,7 @@
 * https://codeforces.com/problemset/problem/939/E
 * https://codeforces.com/problemset/problem/865/B
 * https://codeforces.com/problemset/problem/250/D
-* https://codeforces.com/problemset/problem/1355/E
+* https://codeforces.com/problemset/problem/1355/E [Analytical/ Ternery Search]
 * https://codeforces.com/contest/626/problem/E
 
 
