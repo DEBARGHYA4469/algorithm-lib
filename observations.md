@@ -34,3 +34,4 @@
 * https://codeforces.com/contest/1427/problem/C [DP+Optimization]
 * https://www.codechef.com/COOK135A/problems/PRDTPAIN [Median+Greedy]
 * https://codeforces.com/contest/1586/problem/E [Graph+Spanning Tree+Inductive]
+* https://codeforces.com/contest/1611/problem/C [Constructive+Extremal]
