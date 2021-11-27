@@ -113,3 +113,32 @@ pair<ll,ll> factor(ll n) {
     return mp(even,odd);
 }
 ```
+# All Divisors:
+```cpp
+void sieve(){
+	for(int i=2;i<=MaxN;i++){
+      		if(!lp[i]){ 
+        		lp[i]=i; 
+       			p[idx++]=i; 
+      		}
+      		for(int j=0;j<idx && p[j]<=lp[i] && i*p[j]<=MaxN;j++){
+        	      	lp[i*p[j]] = p[j];      
+      		}
+	}
+}
+
+vi divisors(int num){
+	vi d={1};
+	while(num>1){
+		int spf=lp[num];
+		int m=0;
+		while(num%spf==0) num/=spf,m++;
+		int dz=(int)sz(d);
+		int pw=spf;
+		for(int i=0;i<m;i++){
+			for(int k=0;k<dz;k++) d.eb(d[k]*pw);
+			pw*=spf;
+		}
+	}
+	return d;
+}```
