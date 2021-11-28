@@ -38,3 +38,4 @@
 * https://codeforces.com/contest/1611/problem/E2 [Invariance+Tree+BFS]
 * https://codeforces.com/contest/1614/problem/C [Sum of XOR over Subsets]
 * https://codeforces.com/contest/1614/problem/D2 [Sieve+DP]
+* https://codeforces.com/contest/1569/problem/D [Implementation+Geometry Trick]
