@@ -37,3 +37,4 @@
 * Technocup 2019 - Elimination Round 3
 * Educational Codeforces Round 40 (Rated for Div. 2)
 * Technocup 2018 Elimination Round 4
+* Good Bye 2015
