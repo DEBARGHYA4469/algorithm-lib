@@ -29,7 +29,7 @@
 * https://codeforces.com/contest/1334/problem/E
 * https://codeforces.com/contest/1205/problem/B
 
-**Contest to Virtual: **
+**Contest to Virtual:**
 
 * Codeforces Global Round 17
 * Codeforces Round #751 (Div. 2)
