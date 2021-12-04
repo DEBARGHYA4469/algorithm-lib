@@ -18,6 +18,7 @@ Medium:
 * https://codeforces.com/contest/733/problem/C
 * https://codeforces.com/contest/635/problem/C
 * https://codeforces.com/contest/687/problem/C
+* https://codeforces.com/contest/1467/problem/B
 
 Hard:
 
