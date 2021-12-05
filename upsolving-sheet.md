@@ -4,14 +4,14 @@
 
 **Medium:**
 
-* https://codeforces.com/problemset/problem/1328/D
+* https://codeforces.com/problemset/problem/1328/D [Constructive]
 * https://codeforces.com/problemset/problem/1172/B
 * https://codeforces.com/problemset/problem/1000/D
 * https://codeforces.com/problemset/problem/1582/F1
 * https://codeforces.com/problemset/problem/19/B
 * https://codeforces.com/problemset/problem/835/D
 * https://codeforces.com/contest/1363/problem/E
-* https://codeforces.com/contest/1469/problem/D
+* https://codeforces.com/contest/1469/problem/D [Math]
 * https://codeforces.com/contest/1392/problem/D
 * https://codeforces.com/contest/733/problem/C
 * https://codeforces.com/contest/635/problem/C
