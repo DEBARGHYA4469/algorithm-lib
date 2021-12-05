@@ -26,7 +26,7 @@
 * https://codeforces.com/problemset/problem/213/C
 * https://codeforces.com/problemset/problem/478/D
 * https://codeforces.com/contest/1333/problem/D
-* https://codeforces.com/contest/1334/problem/E
+* https://codeforces.com/contest/1334/problem/E [Math]
 * https://codeforces.com/contest/1205/problem/B
 
 **Contest to Virtual:**
