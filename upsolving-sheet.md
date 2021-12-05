@@ -6,7 +6,7 @@
 
 * https://codeforces.com/problemset/problem/1328/D [Constructive]
 * https://codeforces.com/problemset/problem/1172/B
-* https://codeforces.com/problemset/problem/1000/D
+* https://codeforces.com/problemset/problem/1000/D [DP+Combinatorics]
 * https://codeforces.com/problemset/problem/1582/F1
 * https://codeforces.com/problemset/problem/19/B
 * https://codeforces.com/problemset/problem/835/D
