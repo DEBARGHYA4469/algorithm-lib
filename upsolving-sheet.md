@@ -12,7 +12,7 @@
 * https://codeforces.com/problemset/problem/835/D
 * https://codeforces.com/contest/1363/problem/E
 * https://codeforces.com/contest/1469/problem/D [Math]
-* https://codeforces.com/contest/1392/problem/D
+* https://codeforces.com/contest/1392/problem/D [Good Constructive]
 * https://codeforces.com/contest/733/problem/C
 * https://codeforces.com/contest/635/problem/C
 * https://codeforces.com/contest/687/problem/C
