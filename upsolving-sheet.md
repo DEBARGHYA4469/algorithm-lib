@@ -8,7 +8,7 @@
 * https://codeforces.com/problemset/problem/1172/B [Combinatorics+Interesting Observation]
 * https://codeforces.com/problemset/problem/1000/D [DP+Combinatorics]
 * https://codeforces.com/problemset/problem/1582/F1 [Classical+Increasing Subsequence DP]
-* https://codeforces.com/problemset/problem/19/B
+* https://codeforces.com/problemset/problem/19/B [Observation+0/1 Knapsack Conversion]
 * https://codeforces.com/problemset/problem/835/D
 * https://codeforces.com/contest/1363/problem/E
 * https://codeforces.com/contest/1469/problem/D [Math]
