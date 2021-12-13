@@ -96,14 +96,15 @@ https://codeforces.com/contest/1367/problem/E
 
 
 # Parity of Permutation: 
-https://www.geeksforgeeks.org/number-of-transpositions-in-a-permutation/
-https://www.geeksforgeeks.org/even-and-odd-permutations-and-their-theorems/
+<li> https://www.geeksforgeeks.org/number-of-transpositions-in-a-permutation/
+<li> https://www.geeksforgeeks.org/even-and-odd-permutations-and-their-theorems/
 
-Idea: Parity of permutation does not change after doing three cycle swaps. So if starts with parity=0, you can reach sorted permutation as parity of permutation=parity of inversion count.
+Idea: Parity of permutation does not change after doing three cycle swaps. So if starts with parity=0, you can reach sorted permutation as parity of permutation=parity of inversion count.</br>
 
-Proof: 
+Proof:</br> 
     * [abc] after 3 cycle sort is [bca].
-    * [abc]--->[bac](1)---->[bca](1)
+    * [abc]--->[bac]---->[bca]. Parity=+(1+1)%2=0
     * Each adjacent swaps changes inversion count by 1.
-Problem: https://codeforces.com/contest/1585/problem/D
+    
+* Problem: https://codeforces.com/contest/1585/problem/D
 
