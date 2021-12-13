@@ -93,3 +93,17 @@ let a[i],b[i] be longest increasing/decreasing subsequence till i including x[i]
 https://codeforces.com/contest/1367/problem/E
 
 ![image](https://user-images.githubusercontent.com/21307343/142450332-ebf17b94-a154-4307-afef-b31d9a364158.png)
+
+
+# Parity of Permutation: 
+https://www.geeksforgeeks.org/number-of-transpositions-in-a-permutation/
+https://www.geeksforgeeks.org/even-and-odd-permutations-and-their-theorems/
+
+Idea: Parity of permutation does not change after doing three cycle swaps. So if starts with parity=0, you can reach sorted permutation as parity of permutation=parity of inversion count.
+
+Proof: 
+    * [abc] after 3 cycle sort is [bca].
+    * [abc]--->[bac](1)---->[bca](1)
+    * Each adjacent swaps changes inversion count by 1.
+Problem: https://codeforces.com/contest/1585/problem/D
+
