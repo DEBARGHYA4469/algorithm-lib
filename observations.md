@@ -41,3 +41,4 @@
 * https://codeforces.com/contest/1569/problem/D [Implementation+Geometry Trick]
 * https://codeforces.com/contest/1613/problem/D [Hard+DP on Configurations]
 * https://codeforces.com/problemset/problem/19/B [Observation+0/1 Knapsack Conversion]
+* https://codeforces.com/contest/1618/problem/D [Greedy+Exch. Argument]
