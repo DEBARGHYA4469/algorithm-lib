@@ -9,6 +9,22 @@ for(int i=2;i*i<MaxN;i++){
       }
 }
 ```
+
+```
+	auto sieve=[&]()->vector<int>{
+		vector<int> p;
+		for(int i=2;i<=1000;i++){
+      		if(!lp[i]){ 
+        		lp[i]=i; 
+        		p.eb(i); 
+      		}
+      		for(int j=0;j<(int)sz(p) && p[j]<=lp[i] && i*p[j]<=1000;j++){
+        		lp[i*p[j]] = p[j];      
+      		}
+		}
+		return p;
+	}
+```
 `Time : O(Nlog log(N))`
 
 Sieve of Eratosthenes having Linear Time Complexity </br>
