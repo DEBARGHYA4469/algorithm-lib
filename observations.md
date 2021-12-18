@@ -43,3 +43,4 @@
 * https://codeforces.com/problemset/problem/19/B [Observation+0/1 Knapsack Conversion]
 * https://codeforces.com/contest/1618/problem/D [Greedy+Exchange Args.]
 * https://codeforces.com/contest/1610/problem/C [Binary Search Answer+Exchange Args.]
+* https://codeforces.com/contest/1610/problem/D [Number Theory+Bezout's Theorem]
