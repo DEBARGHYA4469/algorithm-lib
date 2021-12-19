@@ -44,3 +44,4 @@
 * https://codeforces.com/contest/1618/problem/D [Greedy+Exchange Args.]
 * https://codeforces.com/contest/1610/problem/C [Binary Search Answer+Exchange Args.]
 * https://codeforces.com/contest/1610/problem/D [Number Theory+Bezout's Theorem]
+* https://codeforces.com/contest/1620/problem/C [Encoding to arbitrary bases+Rank]
