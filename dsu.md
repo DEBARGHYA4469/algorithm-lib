@@ -32,3 +32,37 @@ void unite(int u,int v){
     	chmax(max_size,compsize[r1]);
     }
 }
+```
+# Small To Large Trick 
+
+Problem: https://codeforces.com/contest/1620/problem/E
+
+```cpp
+	const int XMAX=5e5+5; 
+	vector<int> pos[XMAX];
+ 
+	int j=0;
+	for(int i=0;i<q;i++){
+		int t,x,y;
+		cin >> t;
+		if(t==1){
+			cin >> x;
+			pos[x].eb(j++);
+		}
+		else{
+			cin >> x >> y;
+			if(x!=y){
+				if(sz(pos[x])>sz(pos[y])) pos[x].swap(pos[y]);
+				for(int k:pos[x]) pos[y].eb(k);
+				pos[x].clear();
+			}
+		}
+	}
+ 
+	vector<int> ans(j);
+	for(int x=0;x<XMAX;x++){
+		for(int y:pos[x]) ans[y]=x;
+	}
+```
+
+Concept: Each value get merged from small to large set, increasing set size by atleast twice the size of small set. So max log N copying
