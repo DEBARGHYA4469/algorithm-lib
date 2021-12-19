@@ -108,3 +108,22 @@ Proof:</br>
     
 * Problem: https://codeforces.com/contest/1585/problem/D
 
+# Rank in Arbitrary Bases
+
+Lets say the wts of the groups be given as:   (w8|w7|w6|w5|w4|w3|w2|w1|w0)
+
+What is the representation of the rank=x element?
+rank is calulated from 1 but we calculate from 0, so x=x-1.
+
+* Horner-type representation: 
+Rep(x)= x8*(w7*w6*....*w0)+x7*(w6.....w0)+x6*(w5.....w0)+x5*(w4.....w0)+...+x0*1
+
+How to get the vector <x8,x7,....x0>?
+
+**Algorithm:** 
+
+x0 = x % w0 ---> x/=w0
+x1 = x % w1 ---> x/=w1.... and so on!
+
+
+
