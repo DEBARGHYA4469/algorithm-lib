@@ -47,3 +47,4 @@
 * https://codeforces.com/contest/1620/problem/C [Encoding to arbitrary bases+Rank]
 * https://codeforces.com/contest/1620/problem/D [Case Work using Brute Force]
 * https://codeforces.com/contest/1620/problem/E [Offline Reverse Query| Small to Heavy Merge Trick]
+* https://codeforces.com/contest/1619/problem/E [MEX+Greedy Exchange Args.]
