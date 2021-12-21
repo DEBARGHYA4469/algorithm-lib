@@ -24,6 +24,7 @@
 #define setbits(v) __builtin_popcount(v)
 #define setbitsll(v) __builtin_popcountll(v)
 #define MaxN 500005
+#define UFMAX 1
 #define LOG 17
 #define nth_element(s,n) *(s.find_by_order(n-1)) 
 #define count_smaller(s,n) s.order_of_key(n)  
@@ -59,11 +60,102 @@ template <class T,class U> bool chmax(T &x, U y){ if(x<y){ x=y; return true; } r
 const long double pi = acos(-1.0);
 const int mod = 1e9+7;
 
+int par[UFMAX],rnk[UFMAX];
+int compsize[UFMAX];
+int max_comp_size=0;
+
+int root(int u){
+
+	if(par[u]==u) return u;
+	return par[u]=root(par[u]);
+}
+
+void unite(int u,int v){
+
+	int r1 = root(u), r2 = root(v);
+	if(r1==r2) return;
+    if(rnk[r1]>rnk[r2]){
+    	par[r2] = r1;
+    	compsize[r1]+=compsize[r2];
+    	compsize[r2]=0;
+    	chmax(max_comp_size,compsize[r1]);
+    }
+    else if(rnk[r1]<rnk[r2]){
+    	par[r1] = r2;
+   		compsize[r2]+=compsize[r1];
+   		compsize[r1]=0;
+   		chmax(max_comp_size,compsize[r2]);
+    }
+    else{
+    	par[r2] = r1, rnk[r1]++;
+    	compsize[r1]+=compsize[r2];
+    	compsize[r2]=0;
+    	chmax(max_comp_size,compsize[r1]);
+    }
+}
+
+// Use Wheel factorization for large PMax
+vector<int> sieve(const int PMax){ 
+	
+	vector<int> prime;
+	vector<int> lp(PMax+2,0);
+
+	for(int i=2;i<=PMax;i++){
+  		if(!lp[i]){ 
+    		lp[i]=i; 
+    		prime.eb(i); 
+  		}
+  		for(int j=0;j<(int)sz(prime) && prime[j]<=lp[i] && i*prime[j]<=PMax;j++){
+    		lp[i*prime[j]] = prime[j];      
+  		}
+	}
+
+	return lp;
+}
+
+vector<int> factor(int num,const vector<int> lp){
+
+	vector<int> f;
+	while(num!=1){
+		f.eb(lp[num]);
+		num/=lp[num];
+	}
+	return f;
+}
+
+vector<int> divisors(int num,const vector<int> lp){
+
+	vector<int> d={1};
+	while(num>1){
+		int spf=lp[num];
+		int m=0;
+		while(num%spf==0) num/=spf,m++;
+
+		int dz = (int)sz(d);
+		int pw = spf;
+
+		for(int i=0;i<m;i++){
+			for(int k=0;k<dz;k++){
+				d.eb(d[k]*pw);
+			}
+			pw*=spf;
+		}
+
+	}
+	return d;
+}
+
+inline int ceildiv(int a,int b){
+	if(a==0) return 0;
+	else return (a-1)/b+1;
+}	
+
 inline int mul(int x,int y){    ll z = 1ll; z=z*x*y;   z%=mod; return (int)z; }
 inline int add(int x,int y){    ll z = 0ll; z=z+x+y;   z%=mod; return (int)z; }
 inline int sub(int x,int y){    ll z=0ll;   z=x+mod-y; z%=mod; return (int)z; }
 
 inline int binpow(int x,int y){
+
     ll z = 1ll;
     while(y){
         if(y&1) z=mul(z,x);
@@ -75,11 +167,16 @@ inline int binpow(int x,int y){
 
 inline int inv(int x){ return binpow(x,mod-2); }
 
+void output_vector(const vector<int> v){
+	for(int k:v) cout << k << " ";
+	cout << endl;
+}
+
 int main(){
 	
 	std::ios::sync_with_stdio(false);
 	cin.tie(0);
-	
+
 	return 0;
 }
 ```
