@@ -13,21 +13,12 @@
 * https://codeforces.com/contest/1363/problem/E [DP+Tree+LCA+Greedy]
 * https://codeforces.com/contest/1469/problem/D [Math]
 * https://codeforces.com/contest/1392/problem/D [Good Constructive]
-* https://codeforces.com/contest/733/problem/C
-* https://codeforces.com/contest/635/problem/C
-* https://codeforces.com/contest/687/problem/C
-* https://codeforces.com/contest/1467/problem/B
 
 **Hard:**
 
-* https://codeforces.com/problemset/problem/1513/D
-* https://codeforces.com/problemset/problem/796/D
-* https://codeforces.com/problemset/problem/260/D
-* https://codeforces.com/problemset/problem/213/C
 * https://codeforces.com/problemset/problem/478/D [Math+Hard+Optimizations]
-* https://codeforces.com/contest/1333/problem/D
 * https://codeforces.com/contest/1334/problem/E [Math]
-* https://codeforces.com/contest/1205/problem/B
+
 
 **Contest to Virtual:**
 
@@ -38,3 +29,43 @@
 * Educational Codeforces Round 40 (Rated for Div. 2)
 * Technocup 2018 Elimination Round 4
 * Good Bye 2015
+
+**Hard Problems for practice: Christmas Practice: [4/day x 8 = 32]**
+
+
+-----------------------------------------------------------------------
+
+1. * https://codeforces.com/problemset/problem/1611/F
+2. * https://codeforces.com/problemset/problem/865/B
+3. * https://www.codechef.com/COOK106A/problems/XORCMPNT
+4. * https://codeforces.com/problemset/problem/282/E
+5. * https://codeforces.com/contest/841/problem/C
+6. * https://codeforces.com/contest/817/problem/E
+7. * https://codeforces.com/problemset/problem/706/D
+8. * https://codeforces.com/problemset/problem/1601/B
+9. * https://codeforces.com/problemset/problem/1583/D
+10. * https://codeforces.com/problemset/problem/1527/B2
+11. * https://codeforces.com/problemset/problem/1355/C
+12. * https://codeforces.com/problemset/problem/584/D
+13. * https://codeforces.com/problemset/problem/1338/B
+14. * https://codeforces.com/problemset/problem/500/E
+15. * https://www.spoj.com/problems/BOBAINV/
+16. * https://codeforces.com/contest/1433/problem/F
+17. * https://codeforces.com/problemset/problem/547/B
+18. * https://codeforces.com/problemset/problem/1370/D
+19. * https://atcoder.jp/contests/abc157/tasks/abc157_d
+20. * https://atcoder.jp/contests/abc203/tasks/abc203_d
+21. * https://atcoder.jp/contests/abc214/tasks/abc214_c
+22. * https://atcoder.jp/contests/abc226/tasks/abc226_c
+23. * https://atcoder.jp/contests/abc201/tasks/abc201_e
+24. * https://atcoder.jp/contests/abc117/tasks/abc117_c
+25. * https://atcoder.jp/contests/abc116/tasks/abc116_c
+26. * https://atcoder.jp/contests/abc126/tasks/abc126_c
+27. * https://atcoder.jp/contests/abc125/tasks/abc125_d
+28. * https://atcoder.jp/contests/abc134/tasks/abc134_d
+29. * https://atcoder.jp/contests/abc132/tasks/abc132_d
+30. * https://atcoder.jp/contests/abc146/tasks/abc146_d
+31. * https://atcoder.jp/contests/abc175/tasks/abc175_d
+32. * https://atcoder.jp/contests/abc174/tasks/abc174_d
+
+--------------------------------------------------------------------
