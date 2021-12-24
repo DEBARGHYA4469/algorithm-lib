@@ -49,3 +49,4 @@
 * https://codeforces.com/contest/1620/problem/E [Offline Reverse Query| Small to Heavy Merge Trick]
 * https://codeforces.com/contest/1619/problem/E [MEX+Greedy Exchange Args.]
 * https://codeforces.com/contest/359/problem/D [Sparse Table|Stack]
+* https://codeforces.com/contest/1615/problem/C [Invariance+Difficult Observation]
