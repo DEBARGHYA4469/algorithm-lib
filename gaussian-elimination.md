@@ -4,19 +4,20 @@
 * Finding basis vectors for xor.
 
 ```cpp
+ll basis[32];
+int basis_size=0;
 
-int basis[LOG];
-int sz;
-
-void insertVector(int mask) {
-	for (int i = 0; i < LOG_A; i++) {
-		if ((mask & 1 << i) == 0) continue;
-		if (!basis[i]) {
-			basis[i] = mask;
-			++sz;
-			return;
+void insert_vector(ll v){
+	for(int bit=0; bit<32; bit++){
+		ll msk = 1ll << bit;
+		if(v & msk){
+			if(!basis[bit]){
+				basis[bit] = v;
+				++basis_size;
+				return;
+			}
+			v ^= basis[bit];
 		}
-		mask ^= basis[i];
 	}
 }
 ```
