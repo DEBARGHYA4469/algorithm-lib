@@ -65,7 +65,7 @@
 28. * https://atcoder.jp/contests/abc134/tasks/abc134_d
 29. * https://atcoder.jp/contests/abc132/tasks/abc132_d
 30. * https://atcoder.jp/contests/abc146/tasks/abc146_d
-31. * https://atcoder.jp/contests/abc175/tasks/abc175_d
-32. * https://atcoder.jp/contests/abc174/tasks/abc174_d
+31. * https://atcoder.jp/contests/abc175/tasks/abc175_d (done)
+32. * https://atcoder.jp/contests/abc174/tasks/abc174_d (done)
 
 --------------------------------------------------------------------
