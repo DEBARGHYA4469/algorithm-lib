@@ -50,3 +50,4 @@
 * https://codeforces.com/contest/1619/problem/E [MEX+Greedy Exchange Args.]
 * https://codeforces.com/contest/359/problem/D [Sparse Table|Stack]
 * https://codeforces.com/contest/1615/problem/C [Invariance+Difficult Observation]
+* https://codeforces.com/contest/865/problem/B [Hard Greedy]
