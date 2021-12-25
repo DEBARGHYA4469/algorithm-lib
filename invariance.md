@@ -88,9 +88,6 @@ In a round robin tournament, what is the maximum number of wins player ranked k 
 ![image](https://user-images.githubusercontent.com/21307343/138549750-d1eb8361-59e2-4cdb-b786-81915a972658.png)
 
 https://codeforces.com/contest/1608/problem/C [Good greedy based problem]
-Idea-1:
-					  
-![image](https://user-images.githubusercontent.com/21307343/145688552-fa24a297-936d-440e-9429-c1767d695ac9.png)
 					  
 Idea 2: Graph Based. Standard trick: if A[i]->[A[i+1],A[i+2],....] for all i, consider only the edges with consecutive
 
