@@ -95,5 +95,7 @@ Idea-1:
 Idea 2: Graph Based. Standard trick: if A[i]->[A[i+1],A[i+2],....] for all i, consider only the edges with consecutive
 
 
-												 
+# Problem 6: https://codeforces.com/contest/1615/problem/C 
+	
+Idea: Whenever there is some weird process going on, think about the bipartiteness, if btw consecutive operations some structure remains intact. Then greedily solve for the varying part.
 						
