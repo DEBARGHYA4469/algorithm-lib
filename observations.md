@@ -51,3 +51,4 @@
 * https://codeforces.com/contest/359/problem/D [Sparse Table|Stack]
 * https://codeforces.com/contest/1615/problem/C [Invariance+Difficult Observation]
 * https://codeforces.com/contest/865/problem/B [Hard Greedy]
+* https://www.codechef.com/COOK106A/problems/XORCMPNT [Gaussian Elimination to find Basis Vectors]
