@@ -35,7 +35,7 @@
 
 -----------------------------------------------------------------------
 
-1. * https://codeforces.com/problemset/problem/1611/F
+1. * https://codeforces.com/problemset/problem/1611/F [done]
 2. * https://codeforces.com/problemset/problem/865/B
 3. * https://www.codechef.com/COOK106A/problems/XORCMPNT
 4. * https://codeforces.com/problemset/problem/282/E
