@@ -145,7 +145,7 @@ vector<int> divisors(int num,const vector<int> lp){
 	return d;
 }
 
-inline int ceildiv(int a,int b){
+inline ll ceildiv(ll a,ll b){
 	if(a==0) return 0;
 	else return (a-1)/b+1;
 }	
