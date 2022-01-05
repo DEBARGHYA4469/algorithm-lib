@@ -118,14 +118,14 @@ A2OJ Ladder
 |<ul><li>- [ ] Done</li></ul>|7|[Porcelain](http://codeforces.com/problemset/problem/148/E)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|8|[Devu and his Brother](http://codeforces.com/problemset/problem/439/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|9|[Pashmak and Graph](http://codeforces.com/problemset/problem/459/E)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|10|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|10|[Turn Off The TV](https://codeforces.com/problemset/problem/863/E)|Codeforces|5|
 
 # Ladder Name: I
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
-|<ul><li>- [ ] Done</li></ul>|1|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|2|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|1|[Remove Adjacent](https://codeforces.com/problemset/problem/1321/C)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|2|[Chamber of Secrets](https://codeforces.com/problemset/problem/173/B)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|3|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|4|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|5|[]()|Codeforces|5|
@@ -139,8 +139,8 @@ A2OJ Ladder
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
-|<ul><li>- [ ] Done</li></ul>|1|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|2|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|1|[Min Cost String](https://codeforces.com/problemset/problem/1511/D)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|2|[Coffee Break](https://codeforces.com/problemset/problem/1041/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|3|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|4|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|5|[]()|Codeforces|5|
@@ -154,11 +154,11 @@ A2OJ Ladder
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
-|<ul><li>- [ ] Done</li></ul>|1|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|1|[Danil and a Part-time Job](https://codeforces.com/problemset/problem/877/E)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|2|[Infinite Prefixes](https://codeforces.com/problemset/problem/1295/B)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|3|[Baby Ehab Partitions Again](https://codeforces.com/problemset/problem/1516/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|4|[Searching Local Minimum](https://codeforces.com/problemset/problem/1479/A)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|5|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|5|[GCD Table](https://codeforces.com/problemset/problem/582/A)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|6|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|7|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|8|[]()|Codeforces|5|
@@ -169,12 +169,12 @@ A2OJ Ladder
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
-|<ul><li>- [ ] Done</li></ul>|1|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|2|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|3|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|4|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|5|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|6|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|1|[Packmen](https://codeforces.com/problemset/problem/847/E)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|2|[Bash and a Tough Math Puzzle](https://codeforces.com/problemset/problem/914/D)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|3|[The Intriguing Obsession](https://codeforces.com/problemset/problem/869/C)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|4|[Distance in Tree](https://codeforces.com/problemset/problem/161/D)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|5|[Directed Roads](https://codeforces.com/problemset/problem/711/D)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|6|[Kay and Snowflake](https://codeforces.com/problemset/problem/685/B)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|7|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|8|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|9|[]()|Codeforces|5|
@@ -188,11 +188,11 @@ A2OJ Ladder
 |<ul><li>- [ ] Done</li></ul>|2|[Boboniu Chats with Du](https://codeforces.com/problemset/problem/1394/A)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|3|[Bicolorings](https://codeforces.com/problemset/problem/1051/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|4|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|5|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|5|[Minimum Array](https://codeforces.com/problemset/problem/1157/E)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|6|[Explorer Space](https://codeforces.com/problemset/problem/1517/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|7|[Tree Tag](https://codeforces.com/problemset/problem/1404/B)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|8|[Vasya And Array](https://codeforces.com/contest/1187/problem/C)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|9|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|9|[Maximal Intersection](https://codeforces.com/problemset/problem/1029/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|10|[]()|Codeforces|5|
 
 # Ladder Name: N
@@ -205,7 +205,7 @@ A2OJ Ladder
 |<ul><li>- [ ] Done</li></ul>|4|[Hacking Cypher](https://codeforces.com/problemset/problem/490/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|5|[Dr. Evil Underscores](https://codeforces.com/problemset/problem/1285/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|6|[Cleaning the Phone](https://codeforces.com/problemset/problem/1475/D)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|7|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|7|[Tic-tac-toe](https://codeforces.com/problemset/problem/3/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|8|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|9|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|10|[]()|Codeforces|5|
@@ -305,20 +305,20 @@ A2OJ Ladder
 |---|:---:|:---:|---|---|
 |<ul><li>- [ ] Done</li></ul>|1|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|2|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|3|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|4|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|5|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|6|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|7|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|8|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|9|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|10|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|3|[Increasing Subsequence (hard version)](https://codeforces.com/problemset/problem/1157/C2)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|4|[Booking System](https://codeforces.com/problemset/problem/416/C)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|5|[Minimum Euler Cycle](https://codeforces.com/problemset/problem/1334/D)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|6|[Two Arrays and Sum of Functions](https://codeforces.com/problemset/problem/1165/E)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|7|[Stoned Game](https://codeforces.com/problemset/problem/1396/B)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|8|[Ticket Game](https://codeforces.com/problemset/problem/1215/D)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|9|[Kth Excluded](https://atcoder.jp/contests/abc205/tasks/abc205_d)|AtCoder|5|
+|<ul><li>- [ ] Done</li></ul>|10|[Permutation](https://atcoder.jp/contests/abc199/tasks/abc199_e)|Codeforces|5|
 
 # Ladder Name: V
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
-|<ul><li>- [ ] Done</li></ul>|1|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|1|[Preparing for Merge Sort](https://codeforces.com/problemset/problem/847/B)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|2|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|3|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|4|[]()|Codeforces|5|
@@ -340,7 +340,7 @@ A2OJ Ladder
 |<ul><li>- [ ] Done</li></ul>|5|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|6|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|7|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|8|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|8|[Circle Game](https://codeforces.com/problemset/problem/1451/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|9|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|10|[]()|Codeforces|5|
 
@@ -363,14 +363,14 @@ A2OJ Ladder
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
-|<ul><li>- [ ] Done</li></ul>|1|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|1|[Median String](https://codeforces.com/problemset/problem/1144/E)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|2|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|3|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|4|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|5|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|4|[Fill The Bag](https://codeforces.com/problemset/problem/1303/D)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|5|[Ehab and the Expected XOR Problem](https://codeforces.com/problemset/problem/1174/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|6|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|7|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|8|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|7|[Knapsack for All Segments](https://atcoder.jp/contests/abc159/tasks/abc159_f)|AtCoder|5|
+|<ul><li>- [ ] Done</li></ul>|8|[Get Everything](https://atcoder.jp/contests/abc142/tasks/abc142_e)|AtCoder|5|
 |<ul><li>- [ ] Done</li></ul>|9|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|10|[]()|Codeforces|5|
 
@@ -379,8 +379,8 @@ A2OJ Ladder
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
 |<ul><li>- [ ] Done</li></ul>|1|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|2|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|3|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|2|[MADMAX](https://codeforces.com/problemset/problem/917/B)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|3|[Posterized](https://codeforces.com/problemset/problem/980/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|4|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|5|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|6|[]()|Codeforces|5|
