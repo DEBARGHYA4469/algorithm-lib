@@ -127,10 +127,10 @@ A2OJ Ladder
 |<ul><li>- [ ] Done</li></ul>|1|[Remove Adjacent](https://codeforces.com/problemset/problem/1321/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|2|[Chamber of Secrets](https://codeforces.com/problemset/problem/173/B)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|3|[Renting Bikes](https://codeforces.com/contest/363/problem/D)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|4|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|5|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|6|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|7|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|4|[Chef and Digit Jumps](https://www.codechef.com/JUNE14/problems/DIGJUMP)|CodeChef|5|
+|<ul><li>- [ ] Done</li></ul>|5|[Bon Appetit](https://www.codechef.com/problems/FGFS)|CodeChef|5|
+|<ul><li>- [ ] Done</li></ul>|6|[Dessert Wizard](https://www.codechef.com/problems/DELISH)|CodeChef|5|
+|<ul><li>- [ ] Done</li></ul>|7|[Little Elephant and Mouses](https://www.codechef.com/JUNE13/problems/LEMOUSE)|CodeChef|5|
 |<ul><li>- [ ] Done</li></ul>|8|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|9|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|10|[]()|Codeforces|5|
@@ -144,10 +144,10 @@ A2OJ Ladder
 |<ul><li>- [ ] Done</li></ul>|3|[R2D2 and Droid Army](https://codeforces.com/contest/514/problem/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|4|[One-Dimensional Battle Ships](https://codeforces.com/contest/567/problem/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|5|[As Fast As Possible](https://codeforces.com/contest/700/problem/A)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|6|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|6|[Little Elephant and Balloons](https://www.codechef.com/problems/LEBALONS)|CodeChef|5|
 |<ul><li>- [ ] Done</li></ul>|7|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|8|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|9|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|9|[Maxim and Progressions](https://www.codechef.com/problems/MAXPR)|CodeChef|5|
 |<ul><li>- [ ] Done</li></ul>|10|[]()|Codeforces|5|
 
 # Ladder Name: K
@@ -208,7 +208,7 @@ A2OJ Ladder
 |<ul><li>- [ ] Done</li></ul>|7|[Tic-tac-toe](https://codeforces.com/problemset/problem/3/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|8|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|9|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|10|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|10|[Pizza Delivery](https://www.codechef.com/problems/DBOY/)|CodeChef|5|
 
 # Ladder Name: O
 
@@ -319,8 +319,8 @@ A2OJ Ladder
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
 |<ul><li>- [ ] Done</li></ul>|1|[Preparing for Merge Sort](https://codeforces.com/problemset/problem/847/B)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|2|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|3|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|2|[Nearest Opposite Parity](https://codeforces.com/contest/1272/problem/E)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|3|[Spongebob and Squares](https://codeforces.com/contest/599/problem/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|4|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|5|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|6|[]()|Codeforces|5|
@@ -382,7 +382,7 @@ A2OJ Ladder
 |<ul><li>- [ ] Done</li></ul>|2|[MADMAX](https://codeforces.com/problemset/problem/917/B)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|3|[Posterized](https://codeforces.com/problemset/problem/980/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|4|[Petya and Spiders](https://codeforces.com/problemset/problem/111/C)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|5|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|5|[Flea](https://codeforces.com/problemset/problem/32/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|6|[Catch Overflow!](https://codeforces.com/contest/1175/problem/B)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|7|[Memory for Arrays](https://codeforces.com/contest/309/problem/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|8|[Single-use Stones](https://codeforces.com/contest/965/problem/D)|Codeforces|5|
