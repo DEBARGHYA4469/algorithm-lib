@@ -298,3 +298,95 @@ A2OJ Ladder
 |<ul><li>- [ ] Done</li></ul>|8|[Number of Ways](https://codeforces.com/problemset/problem/466/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|9|[Minimum and Maximum](https://codeforces.com/problemset/problem/730/B)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|10|[Clique Problem](https://codeforces.com/problemset/problem/527/D)|Codeforces|5|
+
+# Ladder Name: U
+
+| Checkbox | ID  | Problem Name | Online Judge | Difficulty |
+|---|:---:|:---:|---|---|
+|<ul><li>- [ ] Done</li></ul>|1|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|2|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|3|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|4|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|5|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|6|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|7|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|8|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|9|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|10|[]()|Codeforces|5|
+
+# Ladder Name: V
+
+| Checkbox | ID  | Problem Name | Online Judge | Difficulty |
+|---|:---:|:---:|---|---|
+|<ul><li>- [ ] Done</li></ul>|1|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|2|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|3|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|4|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|5|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|6|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|7|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|8|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|9|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|10|[]()|Codeforces|5|
+
+# Ladder Name: W
+
+| Checkbox | ID  | Problem Name | Online Judge | Difficulty |
+|---|:---:|:---:|---|---|
+|<ul><li>- [ ] Done</li></ul>|1|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|2|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|3|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|4|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|5|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|6|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|7|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|8|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|9|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|10|[]()|Codeforces|5|
+
+# Ladder Name: X
+
+| Checkbox | ID  | Problem Name | Online Judge | Difficulty |
+|---|:---:|:---:|---|---|
+|<ul><li>- [ ] Done</li></ul>|1|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|2|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|3|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|4|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|5|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|6|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|7|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|8|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|9|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|10|[]()|Codeforces|5|
+
+# Ladder Name: Y
+
+| Checkbox | ID  | Problem Name | Online Judge | Difficulty |
+|---|:---:|:---:|---|---|
+|<ul><li>- [ ] Done</li></ul>|1|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|2|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|3|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|4|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|5|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|6|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|7|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|8|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|9|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|10|[]()|Codeforces|5|
+
+# Ladder Name: Z
+
+| Checkbox | ID  | Problem Name | Online Judge | Difficulty |
+|---|:---:|:---:|---|---|
+|<ul><li>- [ ] Done</li></ul>|1|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|2|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|3|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|4|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|5|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|6|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|7|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|8|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|9|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|10|[]()|Codeforces|5|
+
+
