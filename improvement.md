@@ -163,7 +163,7 @@ A2OJ Ladder
 |<ul><li>- [ ] Done</li></ul>|7|[Optimal Number Permutation](https://codeforces.com/contest/622/problem/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|8|[Road to Post Office](https://codeforces.com/contest/702/problem/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|9|[Bomber](https://atcoder.jp/contests/abc176/tasks/abc176_e)|AtCoder|5|
-|<ul><li>- [ ] Done</li></ul>|10|[Amusement Park](https://atcoder.jp/contests/abc216/tasks/abc216_e)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|10|[Amusement Park](https://atcoder.jp/contests/abc216/tasks/abc216_e)|AtCoder|5|
 
 # Ladder Name: L
 
@@ -184,10 +184,10 @@ A2OJ Ladder
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
-|<ul><li>- [ ] Done</li></ul>|1|[Distance on Large Perfect Binary Tree](https://atcoder.jp/contests/abc220/tasks/abc220_e)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|1|[Distance on Large Perfect Binary Tree](https://atcoder.jp/contests/abc220/tasks/abc220_e)|AtCoder|5|
 |<ul><li>- [ ] Done</li></ul>|2|[Boboniu Chats with Du](https://codeforces.com/problemset/problem/1394/A)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|3|[Bicolorings](https://codeforces.com/problemset/problem/1051/D)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|4|[Gluttony](https://atcoder.jp/contests/abc144/tasks/abc144_e)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|4|[Gluttony](https://atcoder.jp/contests/abc144/tasks/abc144_e)|AtCoder|5|
 |<ul><li>- [ ] Done</li></ul>|5|[Minimum Array](https://codeforces.com/problemset/problem/1157/E)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|6|[Explorer Space](https://codeforces.com/problemset/problem/1517/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|7|[Tree Tag](https://codeforces.com/problemset/problem/1404/B)|Codeforces|5|
@@ -312,7 +312,7 @@ A2OJ Ladder
 |<ul><li>- [ ] Done</li></ul>|7|[Stoned Game](https://codeforces.com/problemset/problem/1396/B)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|8|[Ticket Game](https://codeforces.com/problemset/problem/1215/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|9|[Kth Excluded](https://atcoder.jp/contests/abc205/tasks/abc205_d)|AtCoder|5|
-|<ul><li>- [ ] Done</li></ul>|10|[Permutation](https://atcoder.jp/contests/abc199/tasks/abc199_e)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|10|[Permutation](https://atcoder.jp/contests/abc199/tasks/abc199_e)|AtCoder|5|
 
 # Ladder Name: V
 
