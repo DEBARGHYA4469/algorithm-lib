@@ -185,13 +185,13 @@ A2OJ Ladder
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
 |<ul><li>- [ ] Done</li></ul>|1|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|2|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|3|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|2|[Boboniu Chats with Du](https://codeforces.com/problemset/problem/1394/A)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|3|[Bicolorings](https://codeforces.com/problemset/problem/1051/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|4|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|5|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|6|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|7|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|8|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|6|[Explorer Space](https://codeforces.com/problemset/problem/1517/D)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|7|[Tree Tag](https://codeforces.com/problemset/problem/1404/B)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|8|[Vasya And Array](https://codeforces.com/contest/1187/problem/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|9|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|10|[]()|Codeforces|5|
 
@@ -214,16 +214,15 @@ A2OJ Ladder
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
-|<ul><li>- [ ] Done</li></ul>|1|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|2|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|3|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|1|[Short Task](https://codeforces.com/problemset/problem/1512/G)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|2|[Two Hundred Twenty One (easy version)](https://codeforces.com/problemset/problem/1562/D1)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|4|[Orac and Medians](https://codeforces.com/problemset/problem/1349/B)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|5|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|5|[Skyscrapers (hard version)](https://codeforces.com/problemset/problem/1313/C2)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|6|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|7|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|8|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|9|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|10|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|10|[Mike and gcd problem](https://codeforces.com/problemset/problem/798/C)|Codeforces|5|
 
 # Ladder Name: P
 
@@ -233,7 +232,7 @@ A2OJ Ladder
 |<ul><li>- [ ] Done</li></ul>|2|[String Transformation 1](https://codeforces.com/problemset/problem/1383/A)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|3|[TediousLee](https://codeforces.com/problemset/problem/1369/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|4|[Sleeping Schedule](https://codeforces.com/problemset/problem/1324/E)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|5|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|5|[AB-string](https://codeforces.com/problemset/problem/1238/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|6|[Colored Rectangles](https://codeforces.com/problemset/problem/1398/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|7|[Hills And Valleys](https://codeforces.com/problemset/problem/1467/B)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|8|[Pinkie Pie Eats Patty-cakes](https://codeforces.com/problemset/problem/1393/C)|Codeforces|5|
@@ -250,10 +249,10 @@ A2OJ Ladder
 |<ul><li>- [ ] Done</li></ul>|4|[Match Points](https://codeforces.com/problemset/problem/1156/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|5|[Checkposts](https://codeforces.com/problemset/problem/427/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|6|[Dwarves, Hats and Extrasensory Abilities](https://codeforces.com/problemset/problem/1063/C)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|7|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|8|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|9|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|10|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|7|[Tree with Maximum Cost](https://codeforces.com/problemset/problem/1092/F)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|8|[GameGame](https://codeforces.com/problemset/problem/1383/B)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|9|[The Fair Nut and the Best Path](https://codeforces.com/problemset/problem/1083/A)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|10|[Yet Another Subarray Problem](https://codeforces.com/problemset/problem/1197/D)|Codeforces|5|
 
 # Ladder Name: R
 
@@ -282,7 +281,7 @@ A2OJ Ladder
 |<ul><li>- [ ] Done</li></ul>|6|[The Contest](https://codeforces.com/problemset/problem/1257/E)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|7|[Yet Another Subarray Problem](https://codeforces.com/problemset/problem/1197/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|8|[Odd-Even Subsequence](https://codeforces.com/problemset/problem/1370/D)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|9|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|9|[Recycling Bottles](https://codeforces.com/problemset/problem/671/A)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|10|[Omkar and Medians](https://codeforces.com/problemset/problem/1536/D)|Codeforces|5|
 
 # Ladder Name: T
@@ -296,6 +295,6 @@ A2OJ Ladder
 |<ul><li>- [ ] Done</li></ul>|5|[Vanya and Scales](https://codeforces.com/problemset/problem/552/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|6|[Captain Flint and Treasure](https://codeforces.com/problemset/problem/1388/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|7|[Let's Go Hiking](https://codeforces.com/problemset/problem/1495/B)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|8|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|8|[Number of Ways](https://codeforces.com/problemset/problem/466/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|9|[Minimum and Maximum](https://codeforces.com/problemset/problem/730/B)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|10|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|10|[Clique Problem](https://codeforces.com/problemset/problem/527/D)|Codeforces|5|
