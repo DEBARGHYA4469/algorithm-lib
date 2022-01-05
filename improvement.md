@@ -155,9 +155,9 @@ A2OJ Ladder
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
 |<ul><li>- [ ] Done</li></ul>|1|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|2|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|3|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|4|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|2|[Infinite Prefixes](https://codeforces.com/problemset/problem/1295/B)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|3|[Baby Ehab Partitions Again](https://codeforces.com/problemset/problem/1516/C)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|4|[Searching Local Minimum](https://codeforces.com/problemset/problem/1479/A)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|5|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|6|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|7|[]()|Codeforces|5|
@@ -201,10 +201,10 @@ A2OJ Ladder
 |---|:---:|:---:|---|---|
 |<ul><li>- [ ] Done</li></ul>|1|[Painting the Array I](https://codeforces.com/problemset/problem/1479/B1)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|2|[K-periodic Garland](https://codeforces.com/problemset/problem/1353/E)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|3|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|4|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|3|[Bear and Prime Numbers](https://codeforces.com/problemset/problem/385/C)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|4|[Hacking Cypher](https://codeforces.com/problemset/problem/490/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|5|[Dr. Evil Underscores](https://codeforces.com/problemset/problem/1285/D)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|6|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|6|[Cleaning the Phone](https://codeforces.com/problemset/problem/1475/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|7|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|8|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|9|[]()|Codeforces|5|
@@ -229,27 +229,27 @@ A2OJ Ladder
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
-|<ul><li>- [ ] Done</li></ul>|1|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|2|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|1|[Three Blocks Palindrome (easy version)](https://codeforces.com/problemset/problem/1335/E1)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|2|[String Transformation 1](https://codeforces.com/problemset/problem/1383/A)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|3|[TediousLee](https://codeforces.com/problemset/problem/1369/D)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|4|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|4|[Sleeping Schedule](https://codeforces.com/problemset/problem/1324/E)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|5|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|6|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|7|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|8|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|9|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|10|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|6|[Colored Rectangles](https://codeforces.com/problemset/problem/1398/D)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|7|[Hills And Valleys](https://codeforces.com/problemset/problem/1467/B)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|8|[Pinkie Pie Eats Patty-cakes](https://codeforces.com/problemset/problem/1393/C)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|9|[Baby Ehab Partitions Again](https://codeforces.com/problemset/problem/1516/C)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|10|[Ayoub's function](https://codeforces.com/problemset/problem/1301/C)|Codeforces|5|
 
 # Ladder Name: Q
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
-|<ul><li>- [ ] Done</li></ul>|1|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|1|[Tree Diameter](https://codeforces.com/problemset/problem/1146/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|2|[Choosing flowers](https://codeforces.com/problemset/problem/1379/C)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|3|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|3|[XOR Guessing](https://codeforces.com/problemset/problem/1207/E)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|4|[Match Points](https://codeforces.com/problemset/problem/1156/C)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|5|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|6|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|5|[Checkposts](https://codeforces.com/problemset/problem/427/C)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|6|[Dwarves, Hats and Extrasensory Abilities](https://codeforces.com/problemset/problem/1063/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|7|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|8|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|9|[]()|Codeforces|5|
@@ -259,7 +259,7 @@ A2OJ Ladder
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
-|<ul><li>- [ ] Done</li></ul>|1|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|1|[Little Girl and Maximum XOR](https://codeforces.com/problemset/problem/276/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|2|[Obtain a Permutation](https://codeforces.com/problemset/problem/1294/E)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|3|[Cut and Stick](https://codeforces.com/problemset/problem/1514/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|4|[Beautiful Array](https://codeforces.com/problemset/problem/1155/D)|Codeforces|5|
@@ -274,9 +274,9 @@ A2OJ Ladder
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
-|<ul><li>- [ ] Done</li></ul>|1|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|1|[Pick Heroes](https://codeforces.com/problemset/problem/1056/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|2|[Array Destruction](https://codeforces.com/problemset/problem/1474/C)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|3|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|3|[Intersecting Subtrees](https://codeforces.com/problemset/problem/1044/B)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|4|[Make Them Equal](https://codeforces.com/problemset/problem/1416/B)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|5|[Salary Changing](https://codeforces.com/problemset/problem/1251/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|6|[The Contest](https://codeforces.com/problemset/problem/1257/E)|Codeforces|5|
@@ -297,5 +297,5 @@ A2OJ Ladder
 |<ul><li>- [ ] Done</li></ul>|6|[Captain Flint and Treasure](https://codeforces.com/problemset/problem/1388/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|7|[Let's Go Hiking](https://codeforces.com/problemset/problem/1495/B)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|8|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|9|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|9|[Minimum and Maximum](https://codeforces.com/problemset/problem/730/B)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|10|[]()|Codeforces|5|
