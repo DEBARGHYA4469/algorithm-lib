@@ -365,10 +365,10 @@ A2OJ Ladder
 |---|:---:|:---:|---|---|
 |<ul><li>- [ ] Done</li></ul>|1|[Median String](https://codeforces.com/problemset/problem/1144/E)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|2|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|3|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|3|[Russian Roulette](https://codeforces.com/problemset/problem/103/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|4|[Fill The Bag](https://codeforces.com/problemset/problem/1303/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|5|[Ehab and the Expected XOR Problem](https://codeforces.com/problemset/problem/1174/D)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|6|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|6|[End of Exams](https://codeforces.com/problemset/problem/93/B)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|7|[Knapsack for All Segments](https://atcoder.jp/contests/abc159/tasks/abc159_f)|AtCoder|5|
 |<ul><li>- [ ] Done</li></ul>|8|[Get Everything](https://atcoder.jp/contests/abc142/tasks/abc142_e)|AtCoder|5|
 |<ul><li>- [ ] Done</li></ul>|9|[]()|Codeforces|5|
@@ -381,7 +381,7 @@ A2OJ Ladder
 |<ul><li>- [ ] Done</li></ul>|1|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|2|[MADMAX](https://codeforces.com/problemset/problem/917/B)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|3|[Posterized](https://codeforces.com/problemset/problem/980/C)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|4|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|4|[Petya and Spiders](https://codeforces.com/problemset/problem/111/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|5|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|6|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|7|[]()|Codeforces|5|
