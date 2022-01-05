@@ -126,7 +126,7 @@ A2OJ Ladder
 |---|:---:|:---:|---|---|
 |<ul><li>- [ ] Done</li></ul>|1|[Remove Adjacent](https://codeforces.com/problemset/problem/1321/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|2|[Chamber of Secrets](https://codeforces.com/problemset/problem/173/B)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|3|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|3|[Renting Bikes](https://codeforces.com/contest/363/problem/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|4|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|5|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|6|[]()|Codeforces|5|
@@ -141,9 +141,9 @@ A2OJ Ladder
 |---|:---:|:---:|---|---|
 |<ul><li>- [ ] Done</li></ul>|1|[Min Cost String](https://codeforces.com/problemset/problem/1511/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|2|[Coffee Break](https://codeforces.com/problemset/problem/1041/C)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|3|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|4|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|5|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|3|[R2D2 and Droid Army](https://codeforces.com/contest/514/problem/D)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|4|[One-Dimensional Battle Ships](https://codeforces.com/contest/567/problem/D)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|5|[As Fast As Possible](https://codeforces.com/contest/700/problem/A)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|6|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|7|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|8|[]()|Codeforces|5|
@@ -371,8 +371,8 @@ A2OJ Ladder
 |<ul><li>- [ ] Done</li></ul>|6|[End of Exams](https://codeforces.com/problemset/problem/93/B)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|7|[Knapsack for All Segments](https://atcoder.jp/contests/abc159/tasks/abc159_f)|AtCoder|5|
 |<ul><li>- [ ] Done</li></ul>|8|[Get Everything](https://atcoder.jp/contests/abc142/tasks/abc142_e)|AtCoder|5|
-|<ul><li>- [ ] Done</li></ul>|9|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|10|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|9|[Present](https://codeforces.com/contest/460/problem/C)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|10|[Psychos in a Line](https://codeforces.com/contest/319/problem/B)|Codeforces|5|
 
 # Ladder Name: Z
 
@@ -383,9 +383,9 @@ A2OJ Ladder
 |<ul><li>- [ ] Done</li></ul>|3|[Posterized](https://codeforces.com/problemset/problem/980/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|4|[Petya and Spiders](https://codeforces.com/problemset/problem/111/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|5|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|6|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|7|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|8|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|6|[Catch Overflow!](https://codeforces.com/contest/1175/problem/B)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|7|[Memory for Arrays](https://codeforces.com/contest/309/problem/C)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|8|[Single-use Stones](https://codeforces.com/contest/965/problem/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|9|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|10|[]()|Codeforces|5|
 
