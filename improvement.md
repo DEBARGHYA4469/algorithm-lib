@@ -321,43 +321,43 @@ A2OJ Ladder
 |<ul><li>- [ ] Done</li></ul>|1|[Preparing for Merge Sort](https://codeforces.com/problemset/problem/847/B)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|2|[Nearest Opposite Parity](https://codeforces.com/contest/1272/problem/E)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|3|[Spongebob and Squares](https://codeforces.com/contest/599/problem/D)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|4|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|5|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|6|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|7|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|8|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|9|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|10|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|4|[Frog 3](https://atcoder.jp/contests/dp/tasks/dp_z)|AtCoder|5|
+|<ul><li>- [ ] Done</li></ul>|5|[Grid 2](https://atcoder.jp/contests/dp/tasks/dp_y)|AtCoder|5|
+|<ul><li>- [ ] Done</li></ul>|6|[Tower](https://atcoder.jp/contests/dp/tasks/dp_x)|AtCoder|5|
+|<ul><li>- [ ] Done</li></ul>|7|[Intervals](https://atcoder.jp/contests/dp/tasks/dp_w)|AtCoder|5|
+|<ul><li>- [ ] Done</li></ul>|8|[Subtree](https://atcoder.jp/contests/dp/tasks/dp_v)|AtCoder5|
+|<ul><li>- [ ] Done</li></ul>|9|[Grouping](https://atcoder.jp/contests/dp/tasks/dp_u)|AtCoder|5|
+|<ul><li>- [ ] Done</li></ul>|10|[Permutation](https://atcoder.jp/contests/dp/tasks/dp_t)|AtCoder|5|
 
 # Ladder Name: W
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
-|<ul><li>- [ ] Done</li></ul>|1|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|2|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|3|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|4|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|5|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|6|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|7|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|8|[Circle Game](https://codeforces.com/problemset/problem/1451/D)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|9|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|10|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|1|[Frog 1](https://atcoder.jp/contests/dp/tasks/dp_a)|AtCoder|5|
+|<ul><li>- [ ] Done</li></ul>|2|[Frog 2](https://atcoder.jp/contests/dp/tasks/dp_b)|AtCoder|5|
+|<ul><li>- [ ] Done</li></ul>|3|[Vacation](https://atcoder.jp/contests/dp/tasks/dp_c)|AtCoder|5|
+|<ul><li>- [ ] Done</li></ul>|4|[Knapsack 1](https://atcoder.jp/contests/dp/tasks/dp_d)|AtCoder|5|
+|<ul><li>- [ ] Done</li></ul>|5|[Knapsack 2](https://atcoder.jp/contests/dp/tasks/dp_e)|AtCoder|5|
+|<ul><li>- [ ] Done</li></ul>|6|[LCS](https://atcoder.jp/contests/dp/tasks/dp_f)|AtCoder|5|
+|<ul><li>- [ ] Done</li></ul>|7|[Longest Path](https://atcoder.jp/contests/dp/tasks/dp_g)|AtCoder|5|
+|<ul><li>- [ ] Done</li></ul>|8|[Circle Game](https://codeforces.com/problemset/problem/1451/D)|AtCoder|5|
+|<ul><li>- [ ] Done</li></ul>|9|[Grid 1](https://atcoder.jp/contests/dp/tasks/dp_h)|AtCoder|5|
+|<ul><li>- [ ] Done</li></ul>|10|[Coins](https://atcoder.jp/contests/dp/tasks/dp_i)|AtCoder|5|
 
 # Ladder Name: X
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
-|<ul><li>- [ ] Done</li></ul>|1|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|2|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|3|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|4|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|5|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|6|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|7|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|8|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|9|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|10|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|1|[Sushi](https://atcoder.jp/contests/dp/tasks/dp_j)|AtCoder|5|
+|<ul><li>- [ ] Done</li></ul>|2|[Stones](https://atcoder.jp/contests/dp/tasks/dp_k)|AtCoder|5|
+|<ul><li>- [ ] Done</li></ul>|3|[Deque](https://atcoder.jp/contests/dp/tasks/dp_l)|AtCoder|5|
+|<ul><li>- [ ] Done</li></ul>|4|[Candies](https://atcoder.jp/contests/dp/tasks/dp_m)|AtCoder|5|
+|<ul><li>- [ ] Done</li></ul>|5|[Slimes](https://atcoder.jp/contests/dp/tasks/dp_n)|AtCoder|5|
+|<ul><li>- [ ] Done</li></ul>|6|[Matching](https://atcoder.jp/contests/dp/tasks/dp_o)|AtCoder|5|
+|<ul><li>- [ ] Done</li></ul>|7|[Independent Set](https://atcoder.jp/contests/dp/tasks/dp_p)|AtCoder|5|
+|<ul><li>- [ ] Done</li></ul>|8|[Flowers](https://atcoder.jp/contests/dp/tasks/dp_q)|AtCoder|5|
+|<ul><li>- [ ] Done</li></ul>|9|[Walk](https://atcoder.jp/contests/dp/tasks/dp_r)|AtCoder|5|
+|<ul><li>- [ ] Done</li></ul>|10|[Digit Sum](https://atcoder.jp/contests/dp/tasks/dp_s)|AtCoder|5|
 
 # Ladder Name: Y
 
