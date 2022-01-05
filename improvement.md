@@ -131,9 +131,9 @@ A2OJ Ladder
 |<ul><li>- [ ] Done</li></ul>|5|[Bon Appetit](https://www.codechef.com/problems/FGFS)|CodeChef|5|
 |<ul><li>- [ ] Done</li></ul>|6|[Dessert Wizard](https://www.codechef.com/problems/DELISH)|CodeChef|5|
 |<ul><li>- [ ] Done</li></ul>|7|[Little Elephant and Mouses](https://www.codechef.com/JUNE13/problems/LEMOUSE)|CodeChef|5|
-|<ul><li>- [ ] Done</li></ul>|8|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|9|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|10|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|8|[New Year and Fireworks](https://codeforces.com/contest/750/problem/D)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|9|[High Load](https://codeforces.com/contest/828/problem/D)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|10|[Tree Queries](https://codeforces.com/problemset/problem/1328/E)|Codeforces|5|
 
 # Ladder Name: J
 
@@ -145,10 +145,10 @@ A2OJ Ladder
 |<ul><li>- [ ] Done</li></ul>|4|[One-Dimensional Battle Ships](https://codeforces.com/contest/567/problem/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|5|[As Fast As Possible](https://codeforces.com/contest/700/problem/A)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|6|[Little Elephant and Balloons](https://www.codechef.com/problems/LEBALONS)|CodeChef|5|
-|<ul><li>- [ ] Done</li></ul>|7|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|8|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|7|[Array Stabilization (GCD version)](https://codeforces.com/problemset/problem/1547/F)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|8|[GCD operations](https://www.codechef.com/problems/GCDOPS)|CodeChef|5|
 |<ul><li>- [ ] Done</li></ul>|9|[Maxim and Progressions](https://www.codechef.com/problems/MAXPR)|CodeChef|5|
-|<ul><li>- [ ] Done</li></ul>|10|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|10|[Bank Hacking](https://codeforces.com/problemset/problem/796/C)|Codeforces|5|
 
 # Ladder Name: K
 
@@ -159,9 +159,9 @@ A2OJ Ladder
 |<ul><li>- [ ] Done</li></ul>|3|[Baby Ehab Partitions Again](https://codeforces.com/problemset/problem/1516/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|4|[Searching Local Minimum](https://codeforces.com/problemset/problem/1479/A)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|5|[GCD Table](https://codeforces.com/problemset/problem/582/A)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|6|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|7|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|8|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|6|[Up the Strip](https://codeforces.com/problemset/problem/1558/B)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|7|[Optimal Number Permutation](https://codeforces.com/contest/622/problem/D)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|8|[Road to Post Office](https://codeforces.com/contest/702/problem/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|9|[]()|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|10|[]()|Codeforces|5|
 
@@ -206,8 +206,8 @@ A2OJ Ladder
 |<ul><li>- [ ] Done</li></ul>|5|[Dr. Evil Underscores](https://codeforces.com/problemset/problem/1285/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|6|[Cleaning the Phone](https://codeforces.com/problemset/problem/1475/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|7|[Tic-tac-toe](https://codeforces.com/problemset/problem/3/C)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|8|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|9|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|8|[Cow and Snacks](https://codeforces.com/problemset/problem/1209/D)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|9|[Cover it!](https://codeforces.com/problemset/problem/1176/E)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|10|[Pizza Delivery](https://www.codechef.com/problems/DBOY/)|CodeChef|5|
 
 # Ladder Name: O
@@ -218,10 +218,10 @@ A2OJ Ladder
 |<ul><li>- [ ] Done</li></ul>|2|[Two Hundred Twenty One (easy version)](https://codeforces.com/problemset/problem/1562/D1)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|4|[Orac and Medians](https://codeforces.com/problemset/problem/1349/B)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|5|[Skyscrapers (hard version)](https://codeforces.com/problemset/problem/1313/C2)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|6|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|7|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|8|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|9|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|6|[Recover it!](https://codeforces.com/problemset/problem/1176/D)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|7|[Colored Rooks](https://codeforces.com/problemset/problem/1068/C)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|8|[Clear Symmetry](https://codeforces.com/problemset/problem/201/A)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|9|[Substring and Subsequence](https://codeforces.com/problemset/problem/163/A)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|10|[Mike and gcd problem](https://codeforces.com/problemset/problem/798/C)|Codeforces|5|
 
 # Ladder Name: P
@@ -303,8 +303,8 @@ A2OJ Ladder
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
-|<ul><li>- [ ] Done</li></ul>|1|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|2|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|1|[Mouse Hunt](https://codeforces.com/problemset/problem/1027/D)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|2|[A Mist of Florescence](https://codeforces.com/problemset/problem/989/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|3|[Increasing Subsequence (hard version)](https://codeforces.com/problemset/problem/1157/C2)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|4|[Booking System](https://codeforces.com/problemset/problem/416/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|5|[Minimum Euler Cycle](https://codeforces.com/problemset/problem/1334/D)|Codeforces|5|
@@ -364,7 +364,7 @@ A2OJ Ladder
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
 |<ul><li>- [ ] Done</li></ul>|1|[Median String](https://codeforces.com/problemset/problem/1144/E)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|2|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|2|[Military Problem](https://codeforces.com/problemset/problem/1006/E)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|3|[Russian Roulette](https://codeforces.com/problemset/problem/103/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|4|[Fill The Bag](https://codeforces.com/problemset/problem/1303/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|5|[Ehab and the Expected XOR Problem](https://codeforces.com/problemset/problem/1174/D)|Codeforces|5|
@@ -378,7 +378,7 @@ A2OJ Ladder
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
-|<ul><li>- [ ] Done</li></ul>|1|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|1|[Too Many Segments (easy version)](https://codeforces.com/problemset/problem/1249/D1)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|2|[MADMAX](https://codeforces.com/problemset/problem/917/B)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|3|[Posterized](https://codeforces.com/problemset/problem/980/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|4|[Petya and Spiders](https://codeforces.com/problemset/problem/111/C)|Codeforces|5|
@@ -386,7 +386,7 @@ A2OJ Ladder
 |<ul><li>- [ ] Done</li></ul>|6|[Catch Overflow!](https://codeforces.com/contest/1175/problem/B)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|7|[Memory for Arrays](https://codeforces.com/contest/309/problem/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|8|[Single-use Stones](https://codeforces.com/contest/965/problem/D)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|9|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|10|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|9|[Christmas Trees](https://codeforces.com/problemset/problem/1283/D)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|10|[Edge Deletion](https://codeforces.com/problemset/problem/1076/D)|Codeforces|5|
 
 
