@@ -162,8 +162,8 @@ A2OJ Ladder
 |<ul><li>- [ ] Done</li></ul>|6|[Up the Strip](https://codeforces.com/problemset/problem/1558/B)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|7|[Optimal Number Permutation](https://codeforces.com/contest/622/problem/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|8|[Road to Post Office](https://codeforces.com/contest/702/problem/D)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|9|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|10|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|9|[Bomber](https://atcoder.jp/contests/abc176/tasks/abc176_e)|AtCoder|5|
+|<ul><li>- [ ] Done</li></ul>|10|[Amusement Park](https://atcoder.jp/contests/abc216/tasks/abc216_e)|Codeforces|5|
 
 # Ladder Name: L
 
@@ -175,25 +175,25 @@ A2OJ Ladder
 |<ul><li>- [ ] Done</li></ul>|4|[Distance in Tree](https://codeforces.com/problemset/problem/161/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|5|[Directed Roads](https://codeforces.com/problemset/problem/711/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|6|[Kay and Snowflake](https://codeforces.com/problemset/problem/685/B)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|7|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|8|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|9|[]()|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|10|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|7|[Journey](https://codeforces.com/problemset/problem/1476/D)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|8|[Camel Train](https://atcoder.jp/contests/aising2020/tasks/aising2020_e)|AtCoder|5|
+|<ul><li>- [ ] Done</li></ul>|9|[Lamps](https://atcoder.jp/contests/hhkb2020/tasks/hhkb2020_e)|AtCoder|5|
+|<ul><li>- [ ] Done</li></ul>|10|[Handshake](https://atcoder.jp/contests/abc149/tasks/abc149_e)|AtCoder|5|
 
 # Ladder Name: M
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
-|<ul><li>- [ ] Done</li></ul>|1|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|1|[Distance on Large Perfect Binary Tree](https://atcoder.jp/contests/abc220/tasks/abc220_e)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|2|[Boboniu Chats with Du](https://codeforces.com/problemset/problem/1394/A)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|3|[Bicolorings](https://codeforces.com/problemset/problem/1051/D)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|4|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|4|[Gluttony](https://atcoder.jp/contests/abc144/tasks/abc144_e)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|5|[Minimum Array](https://codeforces.com/problemset/problem/1157/E)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|6|[Explorer Space](https://codeforces.com/problemset/problem/1517/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|7|[Tree Tag](https://codeforces.com/problemset/problem/1404/B)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|8|[Vasya And Array](https://codeforces.com/contest/1187/problem/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|9|[Maximal Intersection](https://codeforces.com/problemset/problem/1029/C)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|10|[]()|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|10|[Balanced Path](https://atcoder.jp/contests/abc147/tasks/abc147_e)|AtCoder|5|
 
 # Ladder Name: N
 
