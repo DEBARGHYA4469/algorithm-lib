@@ -2,9 +2,9 @@ A2OJ Ladder
 
 # Ladder Name: A
 
-| Checkbox | ID  | Problem Name | Online Judge | Difficulty |
-|---|:---:|:---:|---|---|
-|<ul><li>- [ ] Done</li></ul>|1|[Wonder Room](http://codeforces.com/problemset/problem/466/B)|Codeforces|5|
+| Checkbox | ID  | Problem Name | Online Judge | Difficulty | Ideas |
+|---|:---:|:---:|---|---|---|
+|<ul><li>- [x] Done</li></ul>|1|[Wonder Room](http://codeforces.com/problemset/problem/466/B)|Codeforces|5|Factoring Trick, Sqrt. Optimize brute force, Nice Idea|
 |<ul><li>- [ ] Done</li></ul>|2|[Devu and his Brother](http://codeforces.com/problemset/problem/439/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|3|[Dima and Bacteria](http://codeforces.com/problemset/problem/400/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|4|[Watto and Mechanism](http://codeforces.com/problemset/problem/514/C)|Codeforces|5|
