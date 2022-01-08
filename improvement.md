@@ -1,6 +1,6 @@
 A2OJ Ladder
 
-# Ladder Name: A
+# Ladder Name: A [Jan-8] 
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty | Ideas |
 |---|:---:|:---:|---|---|---|
