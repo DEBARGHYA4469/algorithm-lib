@@ -7,7 +7,7 @@ A2OJ Ladder
 |<ul><li>- [x] Done</li></ul>|1|[Wonder Room](http://codeforces.com/problemset/problem/466/B)|Codeforces|5|Factoring Trick, Sqrt. Optimize brute force, Nice Idea|
 |<ul><li>- [x] Done</li></ul>|2|[Devu and his Brother](http://codeforces.com/problemset/problem/439/D)|Codeforces|5|Ternery Search|
 |<ul><li>- [x] Done</li></ul>|3|[Dima and Bacteria](http://codeforces.com/problemset/problem/400/D)|Codeforces|5|Floyd Warshall, DFS|
-|<ul><li>- [ ] Done</li></ul>|4|[Watto and Mechanism](http://codeforces.com/problemset/problem/514/C)|Codeforces|5|
+|<ul><li>- [x] Done</li></ul>|4|[Watto and Mechanism](http://codeforces.com/problemset/problem/514/C)|Codeforces|5|Polynomial Hashing|
 |<ul><li>- [ ] Done</li></ul>|5|[Restore Graph](http://codeforces.com/problemset/problem/404/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|6|[Riding in a Lift](http://codeforces.com/problemset/problem/479/E)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|7|[Count Good Substrings](http://codeforces.com/problemset/problem/451/D)|Codeforces|5|
