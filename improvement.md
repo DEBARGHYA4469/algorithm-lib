@@ -11,7 +11,7 @@ A2OJ Ladder
 |<ul><li>- [x] Done</li></ul>|5|[Restore Graph](http://codeforces.com/problemset/problem/404/C)|Codeforces|Greedy|INT overflow|
 |<ul><li>- [x] Done</li></ul>|6|[Riding in a Lift](http://codeforces.com/problemset/problem/479/E)|Codeforces|DP+Prefix Sums|Matrix Expo TLE'd, mat size ~ 100| 
 |<ul><li>- [x] Done</li></ul>|7|[Count Good Substrings](http://codeforces.com/problemset/problem/451/D)|Codeforces|Nice Observation|Missing Critical Observations|
-|<ul><li>- [ ] Done</li></ul>|8|[Devu and Partitioning of the Array](http://codeforces.com/problemset/problem/439/C)|Codeforces|
+|<ul><li>- [x] Done</li></ul>|8|[Devu and Partitioning of the Array](http://codeforces.com/problemset/problem/439/C)|Codeforces|Easy Implementation||
 |<ul><li>- [ ] Done</li></ul>|9|[MUH and Cube Walls](http://codeforces.com/problemset/problem/471/D)|Codeforces|
 |<ul><li>- [ ] Done</li></ul>|10|[Bad Luck Island](http://codeforces.com/problemset/problem/540/D)|Codeforces|
 
