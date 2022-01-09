@@ -2,18 +2,18 @@ A2OJ Ladder
 
 # Ladder Name: A [Jan-8] 
 
-| Checkbox | ID  | Problem Name | Online Judge | Difficulty | Ideas | Mistakes |
-|---|:---:|:---:|---|---|---|---|
-|<ul><li>- [x] Done</li></ul>|1|[Wonder Room](http://codeforces.com/problemset/problem/466/B)|Codeforces|5|Factoring Trick, Sqrt. Optimize brute force, Nice Idea|Thinking brute force solution|
-|<ul><li>- [x] Done</li></ul>|2|[Devu and his Brother](http://codeforces.com/problemset/problem/439/D)|Codeforces|5|Ternery Search|
-|<ul><li>- [x] Done</li></ul>|3|[Dima and Bacteria](http://codeforces.com/problemset/problem/400/D)|Codeforces|5|Floyd Warshall, DFS|
-|<ul><li>- [x] Done</li></ul>|4|[Watto and Mechanism](http://codeforces.com/problemset/problem/514/C)|Codeforces|5|Polynomial Hashing|
-|<ul><li>- [x] Done</li></ul>|5|[Restore Graph](http://codeforces.com/problemset/problem/404/C)|Codeforces|5|Greedy|INT overflow|
-|<ul><li>- [ ] Done</li></ul>|6|[Riding in a Lift](http://codeforces.com/problemset/problem/479/E)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|7|[Count Good Substrings](http://codeforces.com/problemset/problem/451/D)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|8|[Devu and Partitioning of the Array](http://codeforces.com/problemset/problem/439/C)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|9|[MUH and Cube Walls](http://codeforces.com/problemset/problem/471/D)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|10|[Bad Luck Island](http://codeforces.com/problemset/problem/540/D)|Codeforces|5|
+| Checkbox | ID  | Problem Name | Online Judge | Ideas | Mistakes |
+|---|:---:|:---:|---|---|---|
+|<ul><li>- [x] Done</li></ul>|1|[Wonder Room](http://codeforces.com/problemset/problem/466/B)|Codeforces|Factoring Trick, Sqrt. Optimize brute force, Nice Idea|Thinking brute force solution|
+|<ul><li>- [x] Done</li></ul>|2|[Devu and his Brother](http://codeforces.com/problemset/problem/439/D)|Codeforces|Ternery Search|
+|<ul><li>- [x] Done</li></ul>|3|[Dima and Bacteria](http://codeforces.com/problemset/problem/400/D)|Codeforces|Floyd Warshall, DFS|
+|<ul><li>- [x] Done</li></ul>|4|[Watto and Mechanism](http://codeforces.com/problemset/problem/514/C)|Codeforces|Polynomial Hashing|
+|<ul><li>- [x] Done</li></ul>|5|[Restore Graph](http://codeforces.com/problemset/problem/404/C)|Codeforces|Greedy|INT overflow|
+|<ul><li>- [ ] Done</li></ul>|6|[Riding in a Lift](http://codeforces.com/problemset/problem/479/E)|Codeforces|
+|<ul><li>- [ ] Done</li></ul>|7|[Count Good Substrings](http://codeforces.com/problemset/problem/451/D)|Codeforces|
+|<ul><li>- [ ] Done</li></ul>|8|[Devu and Partitioning of the Array](http://codeforces.com/problemset/problem/439/C)|Codeforces|
+|<ul><li>- [ ] Done</li></ul>|9|[MUH and Cube Walls](http://codeforces.com/problemset/problem/471/D)|Codeforces|
+|<ul><li>- [ ] Done</li></ul>|10|[Bad Luck Island](http://codeforces.com/problemset/problem/540/D)|Codeforces|
 
 # Ladder Name: B
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
