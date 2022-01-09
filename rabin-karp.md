@@ -11,6 +11,8 @@ Backward Hash:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\\H(s)=s_0p_{n-1}&plus;s_1p_{n-2}&plus;...&plus;s_{n-2}p&plus;s_{n-1}=\sum_{i=0}^{n-1}&space;s_ip_{n-i-1}\\&space;H(s[0...j])=s_{0}p_{j}&plus;s_{1}p_{j-1}&plus;s_2p_{j-2}&plus;..&plus;s_{i-1}p_{j-i&plus;1}&plus;s_ip_{j-i}&space;&plus;..s_{j-1}p&plus;s_j\\&space;H(s[0...i-1])=s_0p_{i-1}&plus;s_1p_{i-2}&plus;....&plus;s_{i-1}\\&space;H(s[i...j])=&space;s_ip_{j-i}&plus;....&plus;s_j&space;=&space;H(s[0...j])-H(s[0...i-1])p_{j-i&plus;1}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\\H(s)=s_0p_{n-1}&plus;s_1p_{n-2}&plus;...&plus;s_{n-2}p&plus;s_{n-1}=\sum_{i=0}^{n-1}&space;s_ip_{n-i-1}\\&space;H(s[0...j])=s_{0}p_{j}&plus;s_{1}p_{j-1}&plus;s_2p_{j-2}&plus;..&plus;s_{i-1}p_{j-i&plus;1}&plus;s_ip_{j-i}&space;&plus;..s_{j-1}p&plus;s_j\\&space;H(s[0...i-1])=s_0p_{i-1}&plus;s_1p_{i-2}&plus;....&plus;s_{i-1}\\&space;H(s[i...j])=&space;s_ip_{j-i}&plus;....&plus;s_j&space;=&space;H(s[0...j])-H(s[0...i-1])p_{j-i&plus;1}" title="\\H(s)=s_0p_{n-1}+s_1p_{n-2}+...+s_{n-2}p+s_{n-1}=\sum_{i=0}^{n-1} s_ip_{n-i-1}\\ H(s[0...j])=s_{0}p_{j}+s_{1}p_{j-1}+s_2p_{j-2}+..+s_{i-1}p_{j-i+1}+s_ip_{j-i} +..s_{j-1}p+s_j\\ H(s[0...i-1])=s_0p_{i-1}+s_1p_{i-2}+....+s_{i-1}\\ H(s[i...j])= s_ip_{j-i}+....+s_j = H(s[0...j])-H(s[0...i-1])p_{j-i+1}" /></a>
 
+### Beware of negative numbers, Use Padding with large numbers to shift everything to positive side
+
 #### Implementation (Double Hashing to avoid anti-hash test)
 
 ```cpp
