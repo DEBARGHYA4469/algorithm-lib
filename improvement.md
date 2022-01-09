@@ -9,7 +9,7 @@ A2OJ Ladder
 |<ul><li>- [x] Done</li></ul>|3|[Dima and Bacteria](http://codeforces.com/problemset/problem/400/D)|Codeforces|Floyd Warshall, DFS|
 |<ul><li>- [x] Done</li></ul>|4|[Watto and Mechanism](http://codeforces.com/problemset/problem/514/C)|Codeforces|Polynomial Hashing|
 |<ul><li>- [x] Done</li></ul>|5|[Restore Graph](http://codeforces.com/problemset/problem/404/C)|Codeforces|Greedy|INT overflow|
-|<ul><li>- [ ] Done</li></ul>|6|[Riding in a Lift](http://codeforces.com/problemset/problem/479/E)|Codeforces|DP+Prefix Sums|Matrix Expo TLE'd, mat size ~ 100| 
+|<ul><li>- [x] Done</li></ul>|6|[Riding in a Lift](http://codeforces.com/problemset/problem/479/E)|Codeforces|DP+Prefix Sums|Matrix Expo TLE'd, mat size ~ 100| 
 |<ul><li>- [ ] Done</li></ul>|7|[Count Good Substrings](http://codeforces.com/problemset/problem/451/D)|Codeforces|
 |<ul><li>- [ ] Done</li></ul>|8|[Devu and Partitioning of the Array](http://codeforces.com/problemset/problem/439/C)|Codeforces|
 |<ul><li>- [ ] Done</li></ul>|9|[MUH and Cube Walls](http://codeforces.com/problemset/problem/471/D)|Codeforces|
