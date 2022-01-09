@@ -10,7 +10,7 @@ int p[n];
 void prefixfunc(string &s){
     for(int i=1;i<n;i++){
         int j = pi[i-1];
-        while(j>0 && s[i]!=s[j]) j=pi[i-1];
+        while(j>0 && s[i]!=s[j]) j=pi[j-1];
         if(j!=0) pi[i]=j+1;
     }
 }
