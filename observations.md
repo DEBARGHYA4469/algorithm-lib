@@ -54,4 +54,4 @@
 * https://www.codechef.com/COOK106A/problems/XORCMPNT [Gaussian Elimination to find Basis Vectors]
 * https://codeforces.com/contest/1079/problem/C [DP to find correct structure]
 * https://codeforces.com/contest/1616/problem/D [Greedy + Average Trick + Exchange Args.]
-* https://codeforces.com/contest/1624/problem/G [TLE with DFS, Always use DSU in place of DFS for AC!]
+* https://codeforces.com/contest/1624/problem/G [DSU is faster than DFS, Bit related minimization]
