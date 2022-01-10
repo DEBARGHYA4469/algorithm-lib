@@ -26,3 +26,7 @@ https://en.cppreference.com/w/cpp/utility/bitset
   
 **Sum-Xor property**</br></br>
   <a href="https://www.codecogs.com/eqnedit.php?latex=\\A&space;&plus;&space;B&space;=&space;A|B&space;&plus;&space;A\&B\\&space;A&plus;B=A\oplus&space;B&space;&plus;&space;2(A\&B)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\\A&space;&plus;&space;B&space;=&space;A|B&space;&plus;&space;A\&B\\&space;A&plus;B=A\oplus&space;B&space;&plus;&space;2(A\&B)" title="\\A + B = A|B + A\&B\\ A+B=A\oplus B + 2(A\&B)" /></a>
+  
+  #### Greedy Bitwise
+  
+  For problems related to maximising or minimization some bitwise SUM/PRODUCT, go bitwise from MSB TO LSB greedily.
