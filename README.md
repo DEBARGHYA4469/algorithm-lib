@@ -64,8 +64,16 @@ int par[UFMAX],rnk[UFMAX];
 int compsize[UFMAX];
 int max_comp_size=0;
 
-int root(int u){
+void initdsu(int n){
+	for(int i=1;i<=n;i++){
+		par[i] = i;
+		rnk[i] = 1;
+		compsize[i]=1;
+	}
+	max_comp_size=0;
+}
 
+int root(int u){
 	if(par[u]==u) return u;
 	return par[u]=root(par[u]);
 }
