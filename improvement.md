@@ -339,7 +339,7 @@ A2OJ Ladder
 |<ul><li>- [x] Done</li></ul>|4|[Knapsack 1](https://atcoder.jp/contests/dp/tasks/dp_d)|AtCoder|5|||
 |<ul><li>- [x] Done</li></ul>|5|[Knapsack 2](https://atcoder.jp/contests/dp/tasks/dp_e)|AtCoder|5|Reordering DP state, based on constraints.||
 |<ul><li>- [x] Done</li></ul>|6|[LCS](https://atcoder.jp/contests/dp/tasks/dp_f)|AtCoder|5|Classical|Constructing solution from dp can get tricky.|
-|<ul><li>- [ ] Done</li></ul>|7|[Longest Path](https://atcoder.jp/contests/dp/tasks/dp_g)|AtCoder|5|
+|<ul><li>- [x] Done</li></ul>|7|[Longest Path](https://atcoder.jp/contests/dp/tasks/dp_g)|AtCoder|5|Classical, Longest Path in Directed Graph||
 |<ul><li>- [ ] Done</li></ul>|8|[Circle Game](https://codeforces.com/problemset/problem/1451/D)|AtCoder|5|
 |<ul><li>- [ ] Done</li></ul>|9|[Grid 1](https://atcoder.jp/contests/dp/tasks/dp_h)|AtCoder|5|
 |<ul><li>- [ ] Done</li></ul>|10|[Coins](https://atcoder.jp/contests/dp/tasks/dp_i)|AtCoder|5|
