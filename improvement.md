@@ -331,16 +331,16 @@ A2OJ Ladder
 
 # Ladder Name: W
 
-| Checkbox | ID  | Problem Name | Online Judge | Difficulty | Ideas | Mistakes |
-|---|:---:|:---:|---|---|---|---|
-|<ul><li>- [x] Done</li></ul>|1|[Frog 1](https://atcoder.jp/contests/dp/tasks/dp_a)|AtCoder|5|||
-|<ul><li>- [x] Done</li></ul>|2|[Frog 2](https://atcoder.jp/contests/dp/tasks/dp_b)|AtCoder|5|||
-|<ul><li>- [x] Done</li></ul>|3|[Vacation](https://atcoder.jp/contests/dp/tasks/dp_c)|AtCoder|5|||
-|<ul><li>- [x] Done</li></ul>|4|[Knapsack 1](https://atcoder.jp/contests/dp/tasks/dp_d)|AtCoder|5|||
-|<ul><li>- [x] Done</li></ul>|5|[Knapsack 2](https://atcoder.jp/contests/dp/tasks/dp_e)|AtCoder|5|Reordering DP state, based on constraints.||
-|<ul><li>- [x] Done</li></ul>|6|[LCS](https://atcoder.jp/contests/dp/tasks/dp_f)|AtCoder|5|Classical|Constructing solution from dp can get tricky.|
-|<ul><li>- [x] Done</li></ul>|7|[Longest Path](https://atcoder.jp/contests/dp/tasks/dp_g)|AtCoder|5|Classical, Longest Path in Directed Graph||
-|<ul><li>- [ ] Done</li></ul>|8|[Circle Game](https://codeforces.com/problemset/problem/1451/D)|AtCoder|5|
+| Checkbox | ID  | Problem Name | Online Judge | Ideas | Mistakes |
+|---|:---:|:---:|---|---|---|
+|<ul><li>- [x] Done</li></ul>|1|[Frog 1](https://atcoder.jp/contests/dp/tasks/dp_a)|AtCoder|||
+|<ul><li>- [x] Done</li></ul>|2|[Frog 2](https://atcoder.jp/contests/dp/tasks/dp_b)|AtCoder|||
+|<ul><li>- [x] Done</li></ul>|3|[Vacation](https://atcoder.jp/contests/dp/tasks/dp_c)|AtCoder|||
+|<ul><li>- [x] Done</li></ul>|4|[Knapsack 1](https://atcoder.jp/contests/dp/tasks/dp_d)|AtCoder|||
+|<ul><li>- [x] Done</li></ul>|5|[Knapsack 2](https://atcoder.jp/contests/dp/tasks/dp_e)|AtCoder|Reordering DP state, based on constraints.||
+|<ul><li>- [x] Done</li></ul>|6|[LCS](https://atcoder.jp/contests/dp/tasks/dp_f)|AtCoder|Classical|Constructing solution from dp can get tricky.|
+|<ul><li>- [x] Done</li></ul>|7|[Longest Path](https://atcoder.jp/contests/dp/tasks/dp_g)|AtCoder|Classical, Longest Path in Directed Graph||
+|<ul><li>- [x] Done</li></ul>|8|[Circle Game](https://codeforces.com/problemset/problem/1451/D)|Codeforces|Game-Theory, Strategy|Pitfall: Game-theoretic approach gave TLE, Math observation was hard.|
 |<ul><li>- [ ] Done</li></ul>|9|[Grid 1](https://atcoder.jp/contests/dp/tasks/dp_h)|AtCoder|5|
 |<ul><li>- [ ] Done</li></ul>|10|[Coins](https://atcoder.jp/contests/dp/tasks/dp_i)|AtCoder|5|
 
