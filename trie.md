@@ -261,3 +261,5 @@ void solve(){
 ![image](https://user-images.githubusercontent.com/21307343/141613520-df3d499e-6d58-46a0-93ef-966e7deb57f3.png)
 
 * https://codeforces.com/contest/1554/problem/C [Implicit Binary Trie+MEX+XOR]
+
+Binary Spider: Excellent Example of using 0/1 TRIE: https://codeforces.com/contest/1625/submission/142741971
