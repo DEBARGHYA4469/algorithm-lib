@@ -1,5 +1,8 @@
 ## Trie / Prefix Tree / Digital Tree
 
+* Min Xor can be found by taking xor of neighbouring elements in a sorted list
+* Max/ Min Xor can be better/ efficiently found using Trie
+
 **Array Implementation**
 
 ```cpp
