@@ -341,8 +341,8 @@ A2OJ Ladder
 |<ul><li>- [x] Done</li></ul>|6|[LCS](https://atcoder.jp/contests/dp/tasks/dp_f)|AtCoder|Classical|Constructing solution from dp can get tricky.|
 |<ul><li>- [x] Done</li></ul>|7|[Longest Path](https://atcoder.jp/contests/dp/tasks/dp_g)|AtCoder|Classical, Longest Path in Directed Graph||
 |<ul><li>- [x] Done</li></ul>|8|[Circle Game](https://codeforces.com/problemset/problem/1451/D)|Codeforces|Game-Theory, Strategy|Pitfall: Game-theoretic approach gave TLE, Math observation was hard.|
-|<ul><li>- [ ] Done</li></ul>|9|[Grid 1](https://atcoder.jp/contests/dp/tasks/dp_h)|AtCoder|5|
-|<ul><li>- [ ] Done</li></ul>|10|[Coins](https://atcoder.jp/contests/dp/tasks/dp_i)|AtCoder|5|
+|<ul><li>- [x] Done</li></ul>|9|[Grid 1](https://atcoder.jp/contests/dp/tasks/dp_h)|AtCoder|Easy||
+|<ul><li>- [x] Done</li></ul>|10|[Coins](https://atcoder.jp/contests/dp/tasks/dp_i)|AtCoder|Probability DP||
 
 # Ladder Name: X
 
