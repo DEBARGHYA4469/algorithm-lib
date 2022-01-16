@@ -1,4 +1,9 @@
-A2OJ Ladder
+A2OJ Ladder:
+
+* Ladders completed: 2 
+* Ladders left: 24
+
+Weeks: 2 
 
 # Ladder Name: A 
 
