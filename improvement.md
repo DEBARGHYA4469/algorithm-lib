@@ -351,9 +351,9 @@ Weeks: 2
 
 # Ladder Name: X
 
-| Checkbox | ID  | Problem Name | Online Judge | Difficulty |
-|---|:---:|:---:|---|---|
-|<ul><li>- [ ] Done</li></ul>|1|[Sushi](https://atcoder.jp/contests/dp/tasks/dp_j)|AtCoder|5|
+| Checkbox | ID  | Problem Name | Online Judge | Difficulty | Ideas | Mistakes|
+|---|:---:|:---:|---|---|---|---|
+|<ul><li>- [ ] Done</li></ul>|1|[Sushi](https://atcoder.jp/contests/dp/tasks/dp_j)|AtCoder|5|| Need to Learn Expected Value Math|
 |<ul><li>- [ ] Done</li></ul>|2|[Stones](https://atcoder.jp/contests/dp/tasks/dp_k)|AtCoder|5|
 |<ul><li>- [ ] Done</li></ul>|3|[Deque](https://atcoder.jp/contests/dp/tasks/dp_l)|AtCoder|5|
 |<ul><li>- [ ] Done</li></ul>|4|[Candies](https://atcoder.jp/contests/dp/tasks/dp_m)|AtCoder|5|
