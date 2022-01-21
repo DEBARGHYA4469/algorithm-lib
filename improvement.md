@@ -3,6 +3,9 @@ A2OJ Ladder:
 * Ladders completed: 2 
 * Ladders left: 24
 
+Problems Left : 240 problems/ 70 day => 80 days [Jan' 21, Feb' 21, Mar'21] 
+4 problems/ day is okayish!!
+
 Weeks: 2 
 
 # Ladder Name: A 
