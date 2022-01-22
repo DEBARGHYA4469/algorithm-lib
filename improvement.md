@@ -360,7 +360,7 @@ Weeks: 2
 |<ul><li>- [x] Done</li></ul>|2|[Stones](https://atcoder.jp/contests/dp/tasks/dp_k)|AtCoder|5| Easy Game Theoretic DP||
 |<ul><li>- [x] Done</li></ul>|3|[Deque](https://atcoder.jp/contests/dp/tasks/dp_l)|AtCoder|5| Easy Game Theoretic DP||
 |<ul><li>- [x] Done</li></ul>|4|[Candies](https://atcoder.jp/contests/dp/tasks/dp_m)|AtCoder|5| Classical: DP+Prefix Sum | Missed Prefix Sum Opt|
-|<ul><li>- [x] Done</li></ul>|5|[Slimes](https://atcoder.jp/contests/dp/tasks/dp_n)|AtCoder|5|Classical: Matrix Chain|| 
+|<ul><li>- [x] Done</li></ul>|5|[Slimes](https://atcoder.jp/contests/dp/tasks/dp_n)|AtCoder|5|Classical: Matrix Chain|Learn Knuth Optimization O(n^2)| 
 |<ul><li>- [x] Done</li></ul>|6|[Matching](https://atcoder.jp/contests/dp/tasks/dp_o)|AtCoder|5|Classical: BitMask||
 |<ul><li>- [x] Done</li></ul>|7|[Independent Set](https://atcoder.jp/contests/dp/tasks/dp_p)|AtCoder|5|Tree DP||
 |<ul><li>- [ ] Done</li></ul>|8|[Flowers](https://atcoder.jp/contests/dp/tasks/dp_q)|AtCoder|5|
