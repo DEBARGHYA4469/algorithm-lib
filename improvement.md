@@ -365,7 +365,7 @@ Weeks: 2
 |<ul><li>- [x] Done</li></ul>|7|[Independent Set](https://atcoder.jp/contests/dp/tasks/dp_p)|AtCoder|5|Tree DP||
 |<ul><li>- [x] Done</li></ul>|8|[Flowers](https://atcoder.jp/contests/dp/tasks/dp_q)|AtCoder|5|Increasing Subsequence DP: Fenwick Tree||
 |<ul><li>- [x] Done</li></ul>|9|[Walk](https://atcoder.jp/contests/dp/tasks/dp_r)|AtCoder|5|Matrix Exponentiation DP||
-|<ul><li>- [ ] Done</li></ul>|10|[Digit Sum](https://atcoder.jp/contests/dp/tasks/dp_s)|AtCoder|5|
+|<ul><li>- [x] Done</li></ul>|10|[Digit Sum](https://atcoder.jp/contests/dp/tasks/dp_s)|AtCoder|5|Classic: Digit DP||
 
 # Ladder Name: Y
 
