@@ -326,16 +326,16 @@ Weeks: 2
 
 | Checkbox | ID  | Problem Name | Online Judge | Ideas | Mistakes |
 |---|:---:|:---:|---|---|---|
-|<ul><li>- [ ] Done</li></ul>|1|[Preparing for Merge Sort](https://codeforces.com/problemset/problem/847/B)|Codeforces|5|||
-|<ul><li>- [ ] Done</li></ul>|2|[Nearest Opposite Parity](https://codeforces.com/contest/1272/problem/E)|Codeforces|5|||
+|<ul><li>- [ ] Done</li></ul>|1|[Preparing for Merge Sort](https://codeforces.com/problemset/problem/847/B)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|2|[Nearest Opposite Parity](https://codeforces.com/contest/1272/problem/E)|Codeforces|||
 |<ul><li>- [ ] Done</li></ul>|3|[Spongebob and Squares](https://codeforces.com/contest/599/problem/D)|Codeforces|5|||
-|<ul><li>- [ ] Done</li></ul>|4|[Frog 3](https://atcoder.jp/contests/dp/tasks/dp_z)|AtCoder|5|Learn Convex Hull Trick!||
-|<ul><li>- [ ] Done</li></ul>|5|[Grid 2](https://atcoder.jp/contests/dp/tasks/dp_y)|AtCoder|5|||
-|<ul><li>- [ ] Done</li></ul>|6|[Tower](https://atcoder.jp/contests/dp/tasks/dp_x)|AtCoder|5|||
-|<ul><li>- [ ] Done</li></ul>|7|[Intervals](https://atcoder.jp/contests/dp/tasks/dp_w)|AtCoder|5|||
-|<ul><li>- [ ] Done</li></ul>|8|[Subtree](https://atcoder.jp/contests/dp/tasks/dp_v)|AtCoder|5|||
-|<ul><li>- [ ] Done</li></ul>|9|[Grouping](https://atcoder.jp/contests/dp/tasks/dp_u)|AtCoder|5|||
-|<ul><li>- [ ] Done</li></ul>|10|[Permutation](https://atcoder.jp/contests/dp/tasks/dp_t)|AtCoder|5|||
+|<ul><li>- [ ] Done</li></ul>|4|[Frog 3](https://atcoder.jp/contests/dp/tasks/dp_z)|AtCoder|Learn Convex Hull Trick!||
+|<ul><li>- [ ] Done</li></ul>|5|[Grid 2](https://atcoder.jp/contests/dp/tasks/dp_y)|AtCoder|||
+|<ul><li>- [ ] Done</li></ul>|6|[Tower](https://atcoder.jp/contests/dp/tasks/dp_x)|AtCoder|||
+|<ul><li>- [ ] Done</li></ul>|7|[Intervals](https://atcoder.jp/contests/dp/tasks/dp_w)|AtCoder|||
+|<ul><li>- [ ] Done</li></ul>|8|[Subtree](https://atcoder.jp/contests/dp/tasks/dp_v)|AtCoder|||
+|<ul><li>- [ ] Done</li></ul>|9|[Grouping](https://atcoder.jp/contests/dp/tasks/dp_u)|AtCoder|||
+|<ul><li>- [ ] Done</li></ul>|10|[Permutation](https://atcoder.jp/contests/dp/tasks/dp_t)|AtCoder|||
 
 # Ladder Name: W
 
@@ -354,18 +354,18 @@ Weeks: 2
 
 # Ladder Name: X
 
-| Checkbox | ID  | Problem Name | Online Judge | Difficulty | Ideas | Mistakes|
-|---|:---:|:---:|---|---|---|---|
-|<ul><li>- [ ] Done</li></ul>|1|[Sushi](https://atcoder.jp/contests/dp/tasks/dp_j)|AtCoder|5|| Need to Learn Expected Value Math|
-|<ul><li>- [x] Done</li></ul>|2|[Stones](https://atcoder.jp/contests/dp/tasks/dp_k)|AtCoder|5| Easy Game Theoretic DP||
-|<ul><li>- [x] Done</li></ul>|3|[Deque](https://atcoder.jp/contests/dp/tasks/dp_l)|AtCoder|5| Easy Game Theoretic DP||
-|<ul><li>- [x] Done</li></ul>|4|[Candies](https://atcoder.jp/contests/dp/tasks/dp_m)|AtCoder|5| Classical: DP+Prefix Sum | Missed Prefix Sum Opt|
-|<ul><li>- [x] Done</li></ul>|5|[Slimes](https://atcoder.jp/contests/dp/tasks/dp_n)|AtCoder|5|Classical: Matrix Chain|Learn Knuth Optimization O(n^2)| 
-|<ul><li>- [x] Done</li></ul>|6|[Matching](https://atcoder.jp/contests/dp/tasks/dp_o)|AtCoder|5|Classical: BitMask||
-|<ul><li>- [x] Done</li></ul>|7|[Independent Set](https://atcoder.jp/contests/dp/tasks/dp_p)|AtCoder|5|Tree DP||
-|<ul><li>- [x] Done</li></ul>|8|[Flowers](https://atcoder.jp/contests/dp/tasks/dp_q)|AtCoder|5|Increasing Subsequence DP: Fenwick Tree||
-|<ul><li>- [x] Done</li></ul>|9|[Walk](https://atcoder.jp/contests/dp/tasks/dp_r)|AtCoder|5|Matrix Exponentiation DP||
-|<ul><li>- [x] Done</li></ul>|10|[Digit Sum](https://atcoder.jp/contests/dp/tasks/dp_s)|AtCoder|5|Classic: Digit DP||
+| Checkbox | ID  | Problem Name | Online Judge | Ideas | Mistakes|
+|---|:---:|:---:|---|---|---|
+|<ul><li>- [ ] Done</li></ul>|1|[Sushi](https://atcoder.jp/contests/dp/tasks/dp_j)|AtCoder| Need to Learn Expected Value Math|
+|<ul><li>- [x] Done</li></ul>|2|[Stones](https://atcoder.jp/contests/dp/tasks/dp_k)|AtCoder|Easy Game Theoretic DP||
+|<ul><li>- [x] Done</li></ul>|3|[Deque](https://atcoder.jp/contests/dp/tasks/dp_l)|AtCoder|Easy Game Theoretic DP||
+|<ul><li>- [x] Done</li></ul>|4|[Candies](https://atcoder.jp/contests/dp/tasks/dp_m)|AtCoder|Classical: DP+Prefix Sum | Missed Prefix Sum Opt|
+|<ul><li>- [x] Done</li></ul>|5|[Slimes](https://atcoder.jp/contests/dp/tasks/dp_n)|AtCoder|Classical: Matrix Chain|Learn Knuth Optimization O(n^2)| 
+|<ul><li>- [x] Done</li></ul>|6|[Matching](https://atcoder.jp/contests/dp/tasks/dp_o)|AtCoder|Classical: BitMask||
+|<ul><li>- [x] Done</li></ul>|7|[Independent Set](https://atcoder.jp/contests/dp/tasks/dp_p)|AtCoder|Tree DP||
+|<ul><li>- [x] Done</li></ul>|8|[Flowers](https://atcoder.jp/contests/dp/tasks/dp_q)|AtCoder|Increasing Subsequence DP: Fenwick Tree||
+|<ul><li>- [x] Done</li></ul>|9|[Walk](https://atcoder.jp/contests/dp/tasks/dp_r)|AtCoder|Matrix Exponentiation DP||
+|<ul><li>- [x] Done</li></ul>|10|[Digit Sum](https://atcoder.jp/contests/dp/tasks/dp_s)|AtCoder|Classic: Digit DP||
 
 # Ladder Name: Y
 
