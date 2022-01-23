@@ -325,7 +325,7 @@ Weeks: 2
 # Ladder Name: V
 
 | Checkbox | ID  | Problem Name | Online Judge | Ideas | Mistakes |
-|---|:---:|:---:|---|---|
+|---|:---:|:---:|---|---|---|
 |<ul><li>- [ ] Done</li></ul>|1|[Preparing for Merge Sort](https://codeforces.com/problemset/problem/847/B)|Codeforces|5|||
 |<ul><li>- [ ] Done</li></ul>|2|[Nearest Opposite Parity](https://codeforces.com/contest/1272/problem/E)|Codeforces|5|||
 |<ul><li>- [ ] Done</li></ul>|3|[Spongebob and Squares](https://codeforces.com/contest/599/problem/D)|Codeforces|5|||
