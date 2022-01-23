@@ -324,12 +324,12 @@ Weeks: 2
 
 # Ladder Name: V
 
-| Checkbox | ID  | Problem Name | Online Judge | Difficulty |
+| Checkbox | ID  | Problem Name | Online Judge | Ideas | Mistakes |
 |---|:---:|:---:|---|---|
 |<ul><li>- [ ] Done</li></ul>|1|[Preparing for Merge Sort](https://codeforces.com/problemset/problem/847/B)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|2|[Nearest Opposite Parity](https://codeforces.com/contest/1272/problem/E)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|3|[Spongebob and Squares](https://codeforces.com/contest/599/problem/D)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|4|[Frog 3](https://atcoder.jp/contests/dp/tasks/dp_z)|AtCoder|5|
+|<ul><li>- [ ] Done</li></ul>|4|[Frog 3](https://atcoder.jp/contests/dp/tasks/dp_z)|AtCoder|5||Learn Convex Hull Trick!|
 |<ul><li>- [ ] Done</li></ul>|5|[Grid 2](https://atcoder.jp/contests/dp/tasks/dp_y)|AtCoder|5|
 |<ul><li>- [ ] Done</li></ul>|6|[Tower](https://atcoder.jp/contests/dp/tasks/dp_x)|AtCoder|5|
 |<ul><li>- [ ] Done</li></ul>|7|[Intervals](https://atcoder.jp/contests/dp/tasks/dp_w)|AtCoder|5|
