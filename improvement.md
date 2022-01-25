@@ -205,7 +205,7 @@ Weeks: 2
 
 # Ladder Name: N
 
-| Checkbox | ID  | Problem Name | Online Judge | Difficulty | Idea | Mistakes | 
+| Checkbox | ID  | Problem Name | Online Judge | Idea | Mistakes | 
 |---|:---:|:---:|---|---|---|
 |<ul><li>- [ ] Done</li></ul>|1|[Painting the Array I](https://codeforces.com/problemset/problem/1479/B1)|Codeforces|||
 |<ul><li>- [ ] Done</li></ul>|2|[K-periodic Garland](https://codeforces.com/problemset/problem/1353/E)|Codeforces|||
