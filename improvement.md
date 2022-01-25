@@ -205,18 +205,18 @@ Weeks: 2
 
 # Ladder Name: N
 
-| Checkbox | ID  | Problem Name | Online Judge | Difficulty |
-|---|:---:|:---:|---|---|
-|<ul><li>- [ ] Done</li></ul>|1|[Painting the Array I](https://codeforces.com/problemset/problem/1479/B1)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|2|[K-periodic Garland](https://codeforces.com/problemset/problem/1353/E)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|3|[Bear and Prime Numbers](https://codeforces.com/problemset/problem/385/C)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|4|[Hacking Cypher](https://codeforces.com/problemset/problem/490/C)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|5|[Dr. Evil Underscores](https://codeforces.com/problemset/problem/1285/D)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|6|[Cleaning the Phone](https://codeforces.com/problemset/problem/1475/D)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|7|[Tic-tac-toe](https://codeforces.com/problemset/problem/3/C)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|8|[Cow and Snacks](https://codeforces.com/problemset/problem/1209/D)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|9|[Cover it!](https://codeforces.com/problemset/problem/1176/E)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|10|[Pizza Delivery](https://www.codechef.com/problems/DBOY/)|CodeChef|5|
+| Checkbox | ID  | Problem Name | Online Judge | Difficulty | Idea | Mistakes | 
+|---|:---:|:---:|---|---|---|
+|<ul><li>- [ ] Done</li></ul>|1|[Painting the Array I](https://codeforces.com/problemset/problem/1479/B1)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|2|[K-periodic Garland](https://codeforces.com/problemset/problem/1353/E)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|3|[Bear and Prime Numbers](https://codeforces.com/problemset/problem/385/C)|Codeforces|||
+|<ul><li>- [x] Done</li></ul>|4|[Hacking Cypher](https://codeforces.com/problemset/problem/490/C)|Codeforces|Prefix Sum + Modular Arithmetic| Easy|
+|<ul><li>- [ ] Done</li></ul>|5|[Dr. Evil Underscores](https://codeforces.com/problemset/problem/1285/D)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|6|[Cleaning the Phone](https://codeforces.com/problemset/problem/1475/D)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|7|[Tic-tac-toe](https://codeforces.com/problemset/problem/3/C)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|8|[Cow and Snacks](https://codeforces.com/problemset/problem/1209/D)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|9|[Cover it!](https://codeforces.com/problemset/problem/1176/E)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|10|[Pizza Delivery](https://www.codechef.com/problems/DBOY/)|CodeChef|||
 
 # Ladder Name: O
 
