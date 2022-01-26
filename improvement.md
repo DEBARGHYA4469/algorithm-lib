@@ -333,7 +333,7 @@ Weeks: 2
 |<ul><li>- [x] Done</li></ul>|5|[Grid 2](https://atcoder.jp/contests/dp/tasks/dp_y)|AtCoder|Use DP to optimize. Educational!|Could not optimize using DP. Classic Idea: Revisit Later!|
 |<ul><li>- [x] Done</li></ul>|6|[Tower](https://atcoder.jp/contests/dp/tasks/dp_x)|AtCoder|Classical: Exchange Argument DP|Pitfall: Order of iteration imp while optimizing space|
 |<ul><li>- [ ] Done</li></ul>|7|[Intervals](https://atcoder.jp/contests/dp/tasks/dp_w)|AtCoder|||
-|<ul><li>- [ ] Done</li></ul>|8|[Subtree](https://atcoder.jp/contests/dp/tasks/dp_v)|AtCoder|||
+|<ul><li>- [x] Done</li></ul>|8|[Subtree](https://atcoder.jp/contests/dp/tasks/dp_v)|AtCoder|Classical: In-Out DP: Trees|use MOD for each operation|
 |<ul><li>- [x] Done</li></ul>|9|[Grouping](https://atcoder.jp/contests/dp/tasks/dp_u)|AtCoder|Classical: DP on Submasks|Easy bitmask|
 |<ul><li>- [x] Done</li></ul>|10|[Permutation](https://atcoder.jp/contests/dp/tasks/dp_t)|AtCoder|Classical: DP on structure, Structure: Order|Missed the observation on structure.|
 
