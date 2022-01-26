@@ -150,3 +150,135 @@ void dfs(int u,int p=-1){
 ![image](https://user-images.githubusercontent.com/21307343/132102913-09671330-93f0-4e5d-a0ea-783e9d3dbd21.png)
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\\Rooted-Tree\:at\:u_0&space;\\Let\:{\color{Red}&space;out}\:denote\:info\:passed\:from\:parent\:to\:vertex\:{\color{Blue}u}&space;\\When\:detaching\:p-u,&space;S_1:&space;parent\:set|\:\:S_2:child\:set&space;\\ans&space;=&space;max(h[x]&plus;h[y],dia[x])*out[p].dia&space;\\Constructing\:{\color{Magenta}&space;out[p].dia}\:for\:u\::\\&space;{\color{DarkOrange}&space;out[u].dia}&space;=&space;max(h[x_v/v]&plus;h[y_v/v],dia[x_v/v],out[p].dist&plus;h[x_v/v]\\&space;{\color{DarkBlue}&space;out[u].dist}=&space;max(out[p].dist,out[p].h)&plus;1\\&space;{\color{DarkGreen}&space;out[u].h}&space;=&space;max\:h[x_v/u]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\\Rooted-Tree\:at\:u_0&space;\\Let\:{\color{Red}&space;out}\:denote\:info\:passed\:from\:parent\:to\:vertex\:{\color{Blue}u}&space;\\When\:detaching\:p-u,&space;S_1:&space;parent\:set|\:\:S_2:child\:set&space;\\ans&space;=&space;max(h[x]&plus;h[y],dia[x])*out[p].dia&space;\\Constructing\:{\color{Magenta}&space;out[p].dia}\:for\:u\::\\&space;{\color{DarkOrange}&space;out[u].dia}&space;=&space;max(h[x_v/v]&plus;h[y_v/v],dia[x_v/v],out[p].dist&plus;h[x_v/v]\\&space;{\color{DarkBlue}&space;out[u].dist}=&space;max(out[p].dist,out[p].h)&plus;1\\&space;{\color{DarkGreen}&space;out[u].h}&space;=&space;max\:h[x_v/u]" title="\\Rooted-Tree\:at\:u_0 \\Let\:{\color{Red} out}\:denote\:info\:passed\:from\:parent\:to\:vertex\:{\color{Blue}u} \\When\:detaching\:p-u, S_1: parent\:set|\:\:S_2:child\:set \\ans = max(h[x]+h[y],dia[x])*out[p].dia \\Constructing\:{\color{Magenta} out[p].dia}\:for\:u\::\\ {\color{DarkOrange} out[u].dia} = max(h[x_v/v]+h[y_v/v],dia[x_v/v],out[p].dist+h[x_v/v]\\ {\color{DarkBlue} out[u].dist}= max(out[p].dist,out[p].h)+1\\ {\color{DarkGreen} out[u].h} = max\:h[x_v/u]" /></a>
+
+
+* Nice Example of In-Out DP Technique: Atcoder DP Contest: Subtree
+
+```cpp
+#include <ext/pb_ds/assoc_container.hpp>
+#include <bits/stdc++.h>
+
+#define log(...) cerr << __LINE__ << ": "; logger(#__VA_ARGS__,__VA_ARGS__)
+#define eb emplace_back
+#define fi first 
+#define se second 
+#define mp make_pair
+#define mt make_tuple
+#define tm ((tl+tr)>>1)
+#define INF (1<<62)
+#define endl "\n"
+#define mem(v,w) memset(v,w,sizeof(v))
+#define sz(v) v.size()
+#define all(v) v.begin(),v.end()
+#define rall(v) v.rbegin(),v.rend()
+#define ub upper_bound
+#define lb lower_bound
+#define vi vector<int> 
+#define vvi vector<vector<int>>
+#define setbits(v) __builtin_popcount(v)
+#define setbitsll(v) __builtin_popcountll(v)
+#define MaxN 500005
+#define UFMAX 1
+#define LOG 17
+#define nth_element(s,n) *(s.find_by_order(n-1)) 
+#define count_smaller(s,n) s.order_of_key(n)  
+
+using namespace std;
+using namespace __gnu_pbds;
+
+template<typename ...Args>
+void logger(string vars, Args&&... values){
+	cerr << "[";
+	cerr << vars << "] = ";
+	string delimeter = "";
+	cerr << "[";
+		(..., (cerr <<  delimeter << values, delimeter=","));
+	cerr << "]\n";
+}
+
+typedef long long ll;
+typedef unsigned long long ull;
+typedef pair<int,int> pii;
+typedef pair<ll,ll> pll;
+typedef tree<int, null_type, less<int>, rb_tree_tag, tree_order_statistics_node_update> ordered_set; //pbds
+
+template <class T>
+void remove_duplicates(vector<T> &v){
+	sort(all(v));
+	v.erase(unique(all(v)),v.end());
+}
+
+template <class T,class U> bool chmin(T &x, U y){ if(x>y){ x=y; return true; } return false; }
+template <class T,class U> bool chmax(T &x, U y){ if(x<y){ x=y; return true; } return false; }
+
+int N,M;
+vi g[100006];
+
+ll dp1[100006]; 
+void dfs1(int u=1,int p=-1){
+	dp1[u] = 1;
+	for(int v: g[u]){
+		if(v!=p){
+			dfs1(v, u);
+			dp1[u] *= (1+dp1[v]);
+			dp1[u] %= M; 
+		}
+	}
+}
+
+ll ans[100006];
+void dfs2(int u=1,int p=-1,ll par=0){
+	ans[u] = (dp1[u] * (1+par)) % M;
+
+	int c = 0;
+	vector<ll> tmp;
+	tmp.eb(1);
+
+	for(int v: g[u]){
+		if(v!=p){
+			c++;
+			tmp.eb(1+dp1[v]);
+		}
+	}
+
+	vector<ll> pref(c+5, 1), suff(c+5, 1);
+	pref[1] = tmp[1], suff[c] = tmp[c];
+
+	for(int i=1; i<c; i++){
+		pref[i+1] = (pref[i]*tmp[i+1]) % M;
+		suff[c-i] = (suff[c-i+1]*tmp[c-i]) % M;
+	}
+
+	int z = 1;
+	for(int v: g[u]){
+		if(v!=p){
+			ll L, R;
+			L = pref[z-1];
+			R = suff[z+1];
+			ll down = (((L*R)%M)*(1+par)) % M;
+			dfs2(v, u, down); 
+			z++;
+		}
+	}
+}
+ 
+int main(){
+	
+	std::ios::sync_with_stdio(false);
+	cin.tie(0);
+
+	cin >> N >> M;
+	for(int i=0; i<N-1; i++){
+		int x, y; cin >> x >> y;
+		g[x].eb(y);
+		g[y].eb(x);
+	}
+
+	dfs1();
+	dfs2();
+
+	for(int i=1; i<=N; i++) cout << ans[i] << endl;
+	 
+	return 0;
+}
+```
