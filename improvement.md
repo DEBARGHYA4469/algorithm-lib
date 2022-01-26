@@ -331,7 +331,7 @@ Weeks: 2
 |<ul><li>- [ ] Done</li></ul>|3|[Spongebob and Squares](https://codeforces.com/contest/599/problem/D)|Codeforces|||
 |<ul><li>- [ ] Done</li></ul>|4|[Frog 3](https://atcoder.jp/contests/dp/tasks/dp_z)|AtCoder||Learn Convex Hull Trick!|
 |<ul><li>- [x] Done</li></ul>|5|[Grid 2](https://atcoder.jp/contests/dp/tasks/dp_y)|AtCoder|Use DP to optimize. Educational!|Could not optimize using DP. Classic Idea: Revisit Later!|
-|<ul><li>- [ ] Done</li></ul>|6|[Tower](https://atcoder.jp/contests/dp/tasks/dp_x)|AtCoder|||
+|<ul><li>- [x] Done</li></ul>|6|[Tower](https://atcoder.jp/contests/dp/tasks/dp_x)|AtCoder|Classical: Exchange Argument DP|Pitfall: Order of iteration imp while optimizing space|
 |<ul><li>- [ ] Done</li></ul>|7|[Intervals](https://atcoder.jp/contests/dp/tasks/dp_w)|AtCoder|||
 |<ul><li>- [ ] Done</li></ul>|8|[Subtree](https://atcoder.jp/contests/dp/tasks/dp_v)|AtCoder|||
 |<ul><li>- [x] Done</li></ul>|9|[Grouping](https://atcoder.jp/contests/dp/tasks/dp_u)|AtCoder|Classical: DP on Submasks|Easy bitmask|
