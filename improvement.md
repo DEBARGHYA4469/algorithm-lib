@@ -335,7 +335,7 @@ Weeks: 2
 |<ul><li>- [ ] Done</li></ul>|7|[Intervals](https://atcoder.jp/contests/dp/tasks/dp_w)|AtCoder|||
 |<ul><li>- [ ] Done</li></ul>|8|[Subtree](https://atcoder.jp/contests/dp/tasks/dp_v)|AtCoder|||
 |<ul><li>- [ ] Done</li></ul>|9|[Grouping](https://atcoder.jp/contests/dp/tasks/dp_u)|AtCoder|||
-|<ul><li>- [ ] Done</li></ul>|10|[Permutation](https://atcoder.jp/contests/dp/tasks/dp_t)|AtCoder|||
+|<ul><li>- [x] Done</li></ul>|10|[Permutation](https://atcoder.jp/contests/dp/tasks/dp_t)|AtCoder|Classical: DP on structure, Structure: Order|Missed the observation on structure.|
 
 # Ladder Name: W
 
