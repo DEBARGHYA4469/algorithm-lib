@@ -8,7 +8,7 @@ Problems Left : 240 problems/ 70 day => 80 days [Jan' 21, Feb' 21, Mar'21]
 
 Weeks: 2 
 
-# Ladder Name: A 
+# Ladder Name: A [Completed]
 
 | Checkbox | ID  | Problem Name | Online Judge | Ideas | Mistakes |
 |---|:---:|:---:|---|---|---|
@@ -322,7 +322,7 @@ Weeks: 2
 |<ul><li>- [ ] Done</li></ul>|9|[Kth Excluded](https://atcoder.jp/contests/abc205/tasks/abc205_d)|AtCoder|5|
 |<ul><li>- [ ] Done</li></ul>|10|[Permutation](https://atcoder.jp/contests/abc199/tasks/abc199_e)|AtCoder|5|
 
-# Ladder Name: V
+# Ladder Name: V [Completed]
 
 | Checkbox | ID  | Problem Name | Online Judge | Ideas | Mistakes |
 |---|:---:|:---:|---|---|---|
@@ -337,7 +337,7 @@ Weeks: 2
 |<ul><li>- [x] Done</li></ul>|9|[Grouping](https://atcoder.jp/contests/dp/tasks/dp_u)|AtCoder|Classical: DP on Submasks|Easy bitmask|
 |<ul><li>- [x] Done</li></ul>|10|[Permutation](https://atcoder.jp/contests/dp/tasks/dp_t)|AtCoder|Classical: DP on structure, Structure: Order|Missed the observation on structure.|
 
-# Ladder Name: W
+# Ladder Name: W [Completed]
 
 | Checkbox | ID  | Problem Name | Online Judge | Ideas | Mistakes |
 |---|:---:|:---:|---|---|---|
@@ -352,7 +352,7 @@ Weeks: 2
 |<ul><li>- [x] Done</li></ul>|9|[Grid 1](https://atcoder.jp/contests/dp/tasks/dp_h)|AtCoder|Easy||
 |<ul><li>- [x] Done</li></ul>|10|[Coins](https://atcoder.jp/contests/dp/tasks/dp_i)|AtCoder|Probability DP||
 
-# Ladder Name: X
+# Ladder Name: X [Completed]
 
 | Checkbox | ID  | Problem Name | Online Judge | Ideas | Mistakes|
 |---|:---:|:---:|---|---|---|
