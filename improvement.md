@@ -1,7 +1,5 @@
 A2OJ Ladder:
-
-* Ladders completed: 2 
-* Ladders left: 24
+Ladders = 26
 
 Problems Left : 240 problems/ 70 day => 80 days [Jan' 21, Feb' 21, Mar'21] 
 4 problems/ day is okayish!!
@@ -327,7 +325,7 @@ Weeks: 2
 | Checkbox | ID  | Problem Name | Online Judge | Ideas | Mistakes |
 |---|:---:|:---:|---|---|---|
 |<ul><li>- [x] Done</li></ul>|1|[Preparing for Merge Sort](https://codeforces.com/problemset/problem/847/B)|Codeforces|Binary Search, Nice Observation||
-|<ul><li>- [ ] Done</li></ul>|2|[Nearest Opposite Parity](https://codeforces.com/contest/1272/problem/E)|Codeforces|||
+|<ul><li>- [x] Done</li></ul>|2|[Nearest Opposite Parity](https://codeforces.com/contest/1272/problem/E)|Codeforces|Nice Observation: Multisource BFS|Failed to get the complete idea!!|
 |<ul><li>- [ ] Done</li></ul>|3|[Spongebob and Squares](https://codeforces.com/contest/599/problem/D)|Codeforces|||
 |<ul><li>- [ ] Done</li></ul>|4|[Frog 3](https://atcoder.jp/contests/dp/tasks/dp_z)|AtCoder||Learn Convex Hull Trick!|
 |<ul><li>- [x] Done</li></ul>|5|[Grid 2](https://atcoder.jp/contests/dp/tasks/dp_y)|AtCoder|Use DP to optimize. Educational!|Could not optimize using DP. Classic Idea: Revisit Later!|
