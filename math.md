@@ -125,5 +125,7 @@ How to get the vector <x8,x7,....x0>?
 x0 = x % w0 ---> x/=w0
 x1 = x % w1 ---> x/=w1.... and so on!
 
+![image](https://user-images.githubusercontent.com/21307343/151416181-5eea8fa1-905b-4511-9132-3d96ff92bc38.png)
+
 
 
