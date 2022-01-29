@@ -21,6 +21,67 @@ Weeks: 2
 |<ul><li>- [x] Done</li></ul>|9|[MUH and Cube Walls](http://codeforces.com/problemset/problem/471/D)|Codeforces|KMP, Rabin Karp||
 |<ul><li>- [x] Done</li></ul>|10|[Bad Luck Island](http://codeforces.com/problemset/problem/540/D)|Codeforces|DP, Conditional Probability| Learn probability states equation|
 
+# Ladder Name: V [Completed]
+
+| Checkbox | ID  | Problem Name | Online Judge | Ideas | Mistakes |
+|---|:---:|:---:|---|---|---|
+|<ul><li>- [x] Done</li></ul>|1|[Preparing for Merge Sort](https://codeforces.com/problemset/problem/847/B)|Codeforces|Binary Search, Nice Observation||
+|<ul><li>- [x] Done</li></ul>|2|[Nearest Opposite Parity](https://codeforces.com/contest/1272/problem/E)|Codeforces|Nice Observation: Multisource BFS|Failed to get the complete idea!!|
+|<ul><li>- [x] Done</li></ul>|3|[Spongebob and Squares](https://codeforces.com/contest/599/problem/D)|Codeforces|Math: Calculations|more care to check monotonicity|
+|<ul><li>- [ ] Done</li></ul>|4|[Frog 3](https://atcoder.jp/contests/dp/tasks/dp_z)|AtCoder||Learn Convex Hull Trick!|
+|<ul><li>- [x] Done</li></ul>|5|[Grid 2](https://atcoder.jp/contests/dp/tasks/dp_y)|AtCoder|Use DP to optimize. Educational!|Could not optimize using DP. Classic Idea: Revisit Later!|
+|<ul><li>- [x] Done</li></ul>|6|[Tower](https://atcoder.jp/contests/dp/tasks/dp_x)|AtCoder|Classical: Exchange Argument DP|Pitfall: Order of iteration imp while optimizing space|
+|<ul><li>- [ ] Done</li></ul>|7|[Intervals](https://atcoder.jp/contests/dp/tasks/dp_w)|AtCoder|||
+|<ul><li>- [x] Done</li></ul>|8|[Subtree](https://atcoder.jp/contests/dp/tasks/dp_v)|AtCoder|Classical: In-Out DP: Trees|use MOD for each operation|
+|<ul><li>- [x] Done</li></ul>|9|[Grouping](https://atcoder.jp/contests/dp/tasks/dp_u)|AtCoder|Classical: DP on Submasks|Easy bitmask|
+|<ul><li>- [x] Done</li></ul>|10|[Permutation](https://atcoder.jp/contests/dp/tasks/dp_t)|AtCoder|Classical: DP on structure, Structure: Order|Missed the observation on structure.|
+
+# Ladder Name: W [Completed]
+
+| Checkbox | ID  | Problem Name | Online Judge | Ideas | Mistakes |
+|---|:---:|:---:|---|---|---|
+|<ul><li>- [x] Done</li></ul>|1|[Frog 1](https://atcoder.jp/contests/dp/tasks/dp_a)|AtCoder|||
+|<ul><li>- [x] Done</li></ul>|2|[Frog 2](https://atcoder.jp/contests/dp/tasks/dp_b)|AtCoder|||
+|<ul><li>- [x] Done</li></ul>|3|[Vacation](https://atcoder.jp/contests/dp/tasks/dp_c)|AtCoder|||
+|<ul><li>- [x] Done</li></ul>|4|[Knapsack 1](https://atcoder.jp/contests/dp/tasks/dp_d)|AtCoder|||
+|<ul><li>- [x] Done</li></ul>|5|[Knapsack 2](https://atcoder.jp/contests/dp/tasks/dp_e)|AtCoder|Reordering DP state, based on constraints.||
+|<ul><li>- [x] Done</li></ul>|6|[LCS](https://atcoder.jp/contests/dp/tasks/dp_f)|AtCoder|Classical|Constructing solution from dp can get tricky.|
+|<ul><li>- [x] Done</li></ul>|7|[Longest Path](https://atcoder.jp/contests/dp/tasks/dp_g)|AtCoder|Classical, Longest Path in Directed Graph||
+|<ul><li>- [x] Done</li></ul>|8|[Circle Game](https://codeforces.com/problemset/problem/1451/D)|Codeforces|Game-Theory, Strategy|Pitfall: Game-theoretic approach gave TLE, Math observation was hard.|
+|<ul><li>- [x] Done</li></ul>|9|[Grid 1](https://atcoder.jp/contests/dp/tasks/dp_h)|AtCoder|Easy||
+|<ul><li>- [x] Done</li></ul>|10|[Coins](https://atcoder.jp/contests/dp/tasks/dp_i)|AtCoder|Probability DP||
+
+# Ladder Name: X [Completed]
+
+| Checkbox | ID  | Problem Name | Online Judge | Ideas | Mistakes|
+|---|:---:|:---:|---|---|---|
+|<ul><li>- [ ] Done</li></ul>|1|[Sushi](https://atcoder.jp/contests/dp/tasks/dp_j)|AtCoder| Need to Learn Expected Value Math|
+|<ul><li>- [x] Done</li></ul>|2|[Stones](https://atcoder.jp/contests/dp/tasks/dp_k)|AtCoder|Easy Game Theoretic DP||
+|<ul><li>- [x] Done</li></ul>|3|[Deque](https://atcoder.jp/contests/dp/tasks/dp_l)|AtCoder|Easy Game Theoretic DP||
+|<ul><li>- [x] Done</li></ul>|4|[Candies](https://atcoder.jp/contests/dp/tasks/dp_m)|AtCoder|Classical: DP+Prefix Sum | Missed Prefix Sum Opt|
+|<ul><li>- [x] Done</li></ul>|5|[Slimes](https://atcoder.jp/contests/dp/tasks/dp_n)|AtCoder|Classical: Matrix Chain|Learn Knuth Optimization O(n^2)| 
+|<ul><li>- [x] Done</li></ul>|6|[Matching](https://atcoder.jp/contests/dp/tasks/dp_o)|AtCoder|Classical: BitMask||
+|<ul><li>- [x] Done</li></ul>|7|[Independent Set](https://atcoder.jp/contests/dp/tasks/dp_p)|AtCoder|Tree DP||
+|<ul><li>- [x] Done</li></ul>|8|[Flowers](https://atcoder.jp/contests/dp/tasks/dp_q)|AtCoder|Increasing Subsequence DP: Fenwick Tree||
+|<ul><li>- [x] Done</li></ul>|9|[Walk](https://atcoder.jp/contests/dp/tasks/dp_r)|AtCoder|Matrix Exponentiation DP||
+|<ul><li>- [x] Done</li></ul>|10|[Digit Sum](https://atcoder.jp/contests/dp/tasks/dp_s)|AtCoder|Classic: Digit DP||
+
+# Ladder Name: N
+
+| Checkbox | ID  | Problem Name | Online Judge | Idea | Mistakes | 
+|---|:---:|:---:|---|---|---|
+|<ul><li>- [ ] Done</li></ul>|1|[Painting the Array I](https://codeforces.com/problemset/problem/1479/B1)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|2|[K-periodic Garland](https://codeforces.com/problemset/problem/1353/E)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|3|[Bear and Prime Numbers](https://codeforces.com/problemset/problem/385/C)|Codeforces|||
+|<ul><li>- [x] Done</li></ul>|4|[Hacking Cypher](https://codeforces.com/problemset/problem/490/C)|Codeforces|Prefix Sum + Modular Arithmetic| Easy|
+|<ul><li>- [ ] Done</li></ul>|5|[Dr. Evil Underscores](https://codeforces.com/problemset/problem/1285/D)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|6|[Cleaning the Phone](https://codeforces.com/problemset/problem/1475/D)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|7|[Tic-tac-toe](https://codeforces.com/problemset/problem/3/C)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|8|[Cow and Snacks](https://codeforces.com/problemset/problem/1209/D)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|9|[Cover it!](https://codeforces.com/problemset/problem/1176/E)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|10|[Pizza Delivery](https://www.codechef.com/problems/DBOY/)|CodeChef|||
+
+
 # Ladder Name: B
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
@@ -201,21 +262,6 @@ Weeks: 2
 |<ul><li>- [ ] Done</li></ul>|9|[Maximal Intersection](https://codeforces.com/problemset/problem/1029/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|10|[Balanced Path](https://atcoder.jp/contests/abc147/tasks/abc147_e)|AtCoder|5|
 
-# Ladder Name: N
-
-| Checkbox | ID  | Problem Name | Online Judge | Idea | Mistakes | 
-|---|:---:|:---:|---|---|---|
-|<ul><li>- [ ] Done</li></ul>|1|[Painting the Array I](https://codeforces.com/problemset/problem/1479/B1)|Codeforces|||
-|<ul><li>- [ ] Done</li></ul>|2|[K-periodic Garland](https://codeforces.com/problemset/problem/1353/E)|Codeforces|||
-|<ul><li>- [ ] Done</li></ul>|3|[Bear and Prime Numbers](https://codeforces.com/problemset/problem/385/C)|Codeforces|||
-|<ul><li>- [x] Done</li></ul>|4|[Hacking Cypher](https://codeforces.com/problemset/problem/490/C)|Codeforces|Prefix Sum + Modular Arithmetic| Easy|
-|<ul><li>- [ ] Done</li></ul>|5|[Dr. Evil Underscores](https://codeforces.com/problemset/problem/1285/D)|Codeforces|||
-|<ul><li>- [ ] Done</li></ul>|6|[Cleaning the Phone](https://codeforces.com/problemset/problem/1475/D)|Codeforces|||
-|<ul><li>- [ ] Done</li></ul>|7|[Tic-tac-toe](https://codeforces.com/problemset/problem/3/C)|Codeforces|||
-|<ul><li>- [ ] Done</li></ul>|8|[Cow and Snacks](https://codeforces.com/problemset/problem/1209/D)|Codeforces|||
-|<ul><li>- [ ] Done</li></ul>|9|[Cover it!](https://codeforces.com/problemset/problem/1176/E)|Codeforces|||
-|<ul><li>- [ ] Done</li></ul>|10|[Pizza Delivery](https://www.codechef.com/problems/DBOY/)|CodeChef|||
-
 # Ladder Name: O
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
@@ -319,51 +365,6 @@ Weeks: 2
 |<ul><li>- [ ] Done</li></ul>|8|[Ticket Game](https://codeforces.com/problemset/problem/1215/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|9|[Kth Excluded](https://atcoder.jp/contests/abc205/tasks/abc205_d)|AtCoder|5|
 |<ul><li>- [ ] Done</li></ul>|10|[Permutation](https://atcoder.jp/contests/abc199/tasks/abc199_e)|AtCoder|5|
-
-# Ladder Name: V [Completed]
-
-| Checkbox | ID  | Problem Name | Online Judge | Ideas | Mistakes |
-|---|:---:|:---:|---|---|---|
-|<ul><li>- [x] Done</li></ul>|1|[Preparing for Merge Sort](https://codeforces.com/problemset/problem/847/B)|Codeforces|Binary Search, Nice Observation||
-|<ul><li>- [x] Done</li></ul>|2|[Nearest Opposite Parity](https://codeforces.com/contest/1272/problem/E)|Codeforces|Nice Observation: Multisource BFS|Failed to get the complete idea!!|
-|<ul><li>- [x] Done</li></ul>|3|[Spongebob and Squares](https://codeforces.com/contest/599/problem/D)|Codeforces|Math: Calculations|more care to check monotonicity|
-|<ul><li>- [ ] Done</li></ul>|4|[Frog 3](https://atcoder.jp/contests/dp/tasks/dp_z)|AtCoder||Learn Convex Hull Trick!|
-|<ul><li>- [x] Done</li></ul>|5|[Grid 2](https://atcoder.jp/contests/dp/tasks/dp_y)|AtCoder|Use DP to optimize. Educational!|Could not optimize using DP. Classic Idea: Revisit Later!|
-|<ul><li>- [x] Done</li></ul>|6|[Tower](https://atcoder.jp/contests/dp/tasks/dp_x)|AtCoder|Classical: Exchange Argument DP|Pitfall: Order of iteration imp while optimizing space|
-|<ul><li>- [ ] Done</li></ul>|7|[Intervals](https://atcoder.jp/contests/dp/tasks/dp_w)|AtCoder|||
-|<ul><li>- [x] Done</li></ul>|8|[Subtree](https://atcoder.jp/contests/dp/tasks/dp_v)|AtCoder|Classical: In-Out DP: Trees|use MOD for each operation|
-|<ul><li>- [x] Done</li></ul>|9|[Grouping](https://atcoder.jp/contests/dp/tasks/dp_u)|AtCoder|Classical: DP on Submasks|Easy bitmask|
-|<ul><li>- [x] Done</li></ul>|10|[Permutation](https://atcoder.jp/contests/dp/tasks/dp_t)|AtCoder|Classical: DP on structure, Structure: Order|Missed the observation on structure.|
-
-# Ladder Name: W [Completed]
-
-| Checkbox | ID  | Problem Name | Online Judge | Ideas | Mistakes |
-|---|:---:|:---:|---|---|---|
-|<ul><li>- [x] Done</li></ul>|1|[Frog 1](https://atcoder.jp/contests/dp/tasks/dp_a)|AtCoder|||
-|<ul><li>- [x] Done</li></ul>|2|[Frog 2](https://atcoder.jp/contests/dp/tasks/dp_b)|AtCoder|||
-|<ul><li>- [x] Done</li></ul>|3|[Vacation](https://atcoder.jp/contests/dp/tasks/dp_c)|AtCoder|||
-|<ul><li>- [x] Done</li></ul>|4|[Knapsack 1](https://atcoder.jp/contests/dp/tasks/dp_d)|AtCoder|||
-|<ul><li>- [x] Done</li></ul>|5|[Knapsack 2](https://atcoder.jp/contests/dp/tasks/dp_e)|AtCoder|Reordering DP state, based on constraints.||
-|<ul><li>- [x] Done</li></ul>|6|[LCS](https://atcoder.jp/contests/dp/tasks/dp_f)|AtCoder|Classical|Constructing solution from dp can get tricky.|
-|<ul><li>- [x] Done</li></ul>|7|[Longest Path](https://atcoder.jp/contests/dp/tasks/dp_g)|AtCoder|Classical, Longest Path in Directed Graph||
-|<ul><li>- [x] Done</li></ul>|8|[Circle Game](https://codeforces.com/problemset/problem/1451/D)|Codeforces|Game-Theory, Strategy|Pitfall: Game-theoretic approach gave TLE, Math observation was hard.|
-|<ul><li>- [x] Done</li></ul>|9|[Grid 1](https://atcoder.jp/contests/dp/tasks/dp_h)|AtCoder|Easy||
-|<ul><li>- [x] Done</li></ul>|10|[Coins](https://atcoder.jp/contests/dp/tasks/dp_i)|AtCoder|Probability DP||
-
-# Ladder Name: X [Completed]
-
-| Checkbox | ID  | Problem Name | Online Judge | Ideas | Mistakes|
-|---|:---:|:---:|---|---|---|
-|<ul><li>- [ ] Done</li></ul>|1|[Sushi](https://atcoder.jp/contests/dp/tasks/dp_j)|AtCoder| Need to Learn Expected Value Math|
-|<ul><li>- [x] Done</li></ul>|2|[Stones](https://atcoder.jp/contests/dp/tasks/dp_k)|AtCoder|Easy Game Theoretic DP||
-|<ul><li>- [x] Done</li></ul>|3|[Deque](https://atcoder.jp/contests/dp/tasks/dp_l)|AtCoder|Easy Game Theoretic DP||
-|<ul><li>- [x] Done</li></ul>|4|[Candies](https://atcoder.jp/contests/dp/tasks/dp_m)|AtCoder|Classical: DP+Prefix Sum | Missed Prefix Sum Opt|
-|<ul><li>- [x] Done</li></ul>|5|[Slimes](https://atcoder.jp/contests/dp/tasks/dp_n)|AtCoder|Classical: Matrix Chain|Learn Knuth Optimization O(n^2)| 
-|<ul><li>- [x] Done</li></ul>|6|[Matching](https://atcoder.jp/contests/dp/tasks/dp_o)|AtCoder|Classical: BitMask||
-|<ul><li>- [x] Done</li></ul>|7|[Independent Set](https://atcoder.jp/contests/dp/tasks/dp_p)|AtCoder|Tree DP||
-|<ul><li>- [x] Done</li></ul>|8|[Flowers](https://atcoder.jp/contests/dp/tasks/dp_q)|AtCoder|Increasing Subsequence DP: Fenwick Tree||
-|<ul><li>- [x] Done</li></ul>|9|[Walk](https://atcoder.jp/contests/dp/tasks/dp_r)|AtCoder|Matrix Exponentiation DP||
-|<ul><li>- [x] Done</li></ul>|10|[Digit Sum](https://atcoder.jp/contests/dp/tasks/dp_s)|AtCoder|Classic: Digit DP||
 
 # Ladder Name: Y
 
