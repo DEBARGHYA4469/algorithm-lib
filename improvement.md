@@ -70,7 +70,7 @@ Weeks: 2
 
 | Checkbox | ID  | Problem Name | Online Judge | Idea | Mistakes | 
 |---|:---:|:---:|---|---|---|
-|<ul><li>- [x] Done</li></ul>|1|[Painting the Array I](https://codeforces.com/problemset/problem/1479/B1)|Codeforces|Greedy+Exchange Args|Improve in greedy ideas|
+|<ul><li>- [x] Done</li></ul>|1|[Painting the Array I](https://codeforces.com/problemset/problem/1479/B1)|Codeforces|Belady: Greedy+Exchange Args|Improve in greedy ideas|
 |<ul><li>- [ ] Done</li></ul>|2|[K-periodic Garland](https://codeforces.com/problemset/problem/1353/E)|Codeforces|||
 |<ul><li>- [ ] Done</li></ul>|3|[Bear and Prime Numbers](https://codeforces.com/problemset/problem/385/C)|Codeforces|||
 |<ul><li>- [x] Done</li></ul>|4|[Hacking Cypher](https://codeforces.com/problemset/problem/490/C)|Codeforces|Prefix Sum + Modular Arithmetic| Easy|
