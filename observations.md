@@ -56,3 +56,4 @@
 * https://codeforces.com/contest/1616/problem/D [Greedy + Average Trick + Exchange Args.]
 * https://codeforces.com/contest/1624/problem/G [DSU is faster than DFS, Greedy Bitwise]
 * https://codeforces.com/contest/1625/problem/D [0/1 Trie, DP on Trie, Hard!!]
+* https://atcoder.jp/contests/abc236/tasks/abc236_e [Average/Median Maximization Trick]
