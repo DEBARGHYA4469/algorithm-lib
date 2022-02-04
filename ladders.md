@@ -74,8 +74,8 @@ Weeks: 2
 |<ul><li>- [x] Done</li></ul>|2|[K-periodic Garland](https://codeforces.com/problemset/problem/1353/E)|Codeforces|DP||
 |<ul><li>- [x] Done</li></ul>|3|[Bear and Prime Numbers](https://codeforces.com/problemset/problem/385/C)|Codeforces|Sieve of Eratosthenes|Thematic Idea|
 |<ul><li>- [x] Done</li></ul>|4|[Hacking Cypher](https://codeforces.com/problemset/problem/490/C)|Codeforces|Prefix Sum + Modular Arithmetic| Easy|
-|<ul><li>- [ ] Done</li></ul>|5|[Dr. Evil Underscores](https://codeforces.com/problemset/problem/1285/D)|Codeforces|||
-|<ul><li>- [ ] Done</li></ul>|6|[Cleaning the Phone](https://codeforces.com/problemset/problem/1475/D)|Codeforces|||
+|<ul><li>- [x] Done</li></ul>|5|[Dr. Evil Underscores](https://codeforces.com/problemset/problem/1285/D)|Codeforces|Bit Trie+Greedy||
+|<ul><li>- [x] Done</li></ul>|6|[Cleaning the Phone](https://codeforces.com/problemset/problem/1475/D)|Codeforces|Greedy+Prefix Sum|Classical Idea|
 |<ul><li>- [ ] Done</li></ul>|7|[Tic-tac-toe](https://codeforces.com/problemset/problem/3/C)|Codeforces|||
 |<ul><li>- [ ] Done</li></ul>|8|[Cow and Snacks](https://codeforces.com/problemset/problem/1209/D)|Codeforces|||
 |<ul><li>- [ ] Done</li></ul>|9|[Cover it!](https://codeforces.com/problemset/problem/1176/E)|Codeforces|||
