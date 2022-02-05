@@ -68,7 +68,7 @@ Weeks: 2
                                            
                                            Intense Coding Month!
                                           
-# Ladder Name: 5 [Ongoing]
+# Ladder Name: 5 [Completed]
 
 | Checkbox | ID  | Problem Name | Online Judge | Idea | Mistakes | 
 |---|:---:|:---:|---|---|---|
