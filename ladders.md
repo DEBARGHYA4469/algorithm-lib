@@ -80,7 +80,7 @@ Weeks: 2
 |<ul><li>- [x] Done</li></ul>|6|[Cleaning the Phone](https://codeforces.com/problemset/problem/1475/D)|Codeforces|Greedy+Prefix Sum|Classical Idea|
 |<ul><li>- [x] Done</li></ul>|7|[Tic-tac-toe](https://codeforces.com/problemset/problem/3/C)|Codeforces|Case work|Missed lots of cases!|
 |<ul><li>- [x] Done</li></ul>|8|[Cow and Snacks](https://codeforces.com/problemset/problem/1209/D)|Codeforces|Connected Component|Missed the connection|
-|<ul><li>- [ ] Done</li></ul>|9|[Cover it!](https://codeforces.com/problemset/problem/1176/E)|Codeforces|||
+|<ul><li>- [x] Done</li></ul>|9|[Cover it!](https://codeforces.com/problemset/problem/1176/E)|Codeforces|Spanning Tree||
 |<ul><li>- [ ] Done</li></ul>|10|[Pizza Delivery](https://www.codechef.com/problems/DBOY/)|CodeChef|||
 
 
