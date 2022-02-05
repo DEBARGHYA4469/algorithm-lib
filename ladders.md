@@ -85,18 +85,18 @@ Weeks: 2
 
 
 # Ladder Name: 6 [ Feb 5, Saturday ]
-| Checkbox | ID  | Problem Name | Online Judge | Difficulty |
-|---|:---:|:---:|---|---|
-|<ul><li>- [ ] Done</li></ul>|1|[Multiplication Table](http://codeforces.com/problemset/problem/448/D)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|2|[Pashmak and Buses](http://codeforces.com/problemset/problem/459/C)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|3|[Bag of mice](http://codeforces.com/problemset/problem/148/D)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|4|[Gargari and Bishops](http://codeforces.com/problemset/problem/463/C)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|5|[Gargari and Permutations](http://codeforces.com/problemset/problem/463/D)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|6|[R2D2 and Droid Army](http://codeforces.com/problemset/problem/514/D)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|7|[Bear and Prime Numbers](http://codeforces.com/problemset/problem/385/C)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|8|[Table Decorations](http://codeforces.com/problemset/problem/478/C)|Codeforces|4|
-|<ul><li>- [ ] Done</li></ul>|9|[Checkposts](http://codeforces.com/problemset/problem/427/C)|Codeforces|4|
-|<ul><li>- [ ] Done</li></ul>|10|[Valera and Elections](http://codeforces.com/problemset/problem/369/C)|Codeforces|4|
+| Checkbox | ID  | Problem Name | Online Judge | Idea | Mistakes | 
+|---|:---:|:---:|---|---|---|
+|<ul><li>- [x] Done</li></ul>|1|[Multiplication Table](http://codeforces.com/problemset/problem/448/D)|Codeforces|Binary Search||
+|<ul><li>- [ ] Done</li></ul>|2|[Pashmak and Buses](http://codeforces.com/problemset/problem/459/C)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|3|[Bag of mice](http://codeforces.com/problemset/problem/148/D)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|4|[Gargari and Bishops](http://codeforces.com/problemset/problem/463/C)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|5|[Gargari and Permutations](http://codeforces.com/problemset/problem/463/D)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|6|[R2D2 and Droid Army](http://codeforces.com/problemset/problem/514/D)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|7|[Bear and Prime Numbers](http://codeforces.com/problemset/problem/385/C)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|8|[Table Decorations](http://codeforces.com/problemset/problem/478/C)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|9|[Checkposts](http://codeforces.com/problemset/problem/427/C)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|10|[Valera and Elections](http://codeforces.com/problemset/problem/369/C)|Codeforces|||
 
 # Ladder Name: 7 [ Feb 6, Sunday ]
 
