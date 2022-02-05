@@ -65,7 +65,9 @@ Weeks: 2
 |<ul><li>- [x] Done</li></ul>|8|[Flowers](https://atcoder.jp/contests/dp/tasks/dp_q)|AtCoder|Increasing Subsequence DP: Fenwick Tree||
 |<ul><li>- [x] Done</li></ul>|9|[Walk](https://atcoder.jp/contests/dp/tasks/dp_r)|AtCoder|Matrix Exponentiation DP||
 |<ul><li>- [x] Done</li></ul>|10|[Digit Sum](https://atcoder.jp/contests/dp/tasks/dp_s)|AtCoder|Classic: Digit DP||
-
+                                           
+                                           Intense Coding Month!
+                                          
 # Ladder Name: 5 [Ongoing]
 
 | Checkbox | ID  | Problem Name | Online Judge | Idea | Mistakes | 
@@ -82,7 +84,7 @@ Weeks: 2
 |<ul><li>- [ ] Done</li></ul>|10|[Pizza Delivery](https://www.codechef.com/problems/DBOY/)|CodeChef|||
 
 
-# Ladder Name: 6
+# Ladder Name: 6 [ Feb 5, Saturday ]
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
 |<ul><li>- [ ] Done</li></ul>|1|[Multiplication Table](http://codeforces.com/problemset/problem/448/D)|Codeforces|5|
@@ -96,7 +98,7 @@ Weeks: 2
 |<ul><li>- [ ] Done</li></ul>|9|[Checkposts](http://codeforces.com/problemset/problem/427/C)|Codeforces|4|
 |<ul><li>- [ ] Done</li></ul>|10|[Valera and Elections](http://codeforces.com/problemset/problem/369/C)|Codeforces|4|
 
-# Ladder Name: 7
+# Ladder Name: 7 [ Feb 6, Sunday ]
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
@@ -112,7 +114,7 @@ Weeks: 2
 |<ul><li>- [ ] Done</li></ul>|10|[Zero Tree](http://codeforces.com/problemset/problem/274/B)|Codeforces|4|
 
 
-# Ladder Name: 8
+# Ladder Name: 8 [ Feb 7-11 ]
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
@@ -127,7 +129,7 @@ Weeks: 2
 |<ul><li>- [ ] Done</li></ul>|9|[Xenia and Weights](http://codeforces.com/problemset/problem/339/C)|Codeforces|4|
 |<ul><li>- [ ] Done</li></ul>|10|[Color Stripe](http://codeforces.com/problemset/problem/219/C)|Codeforces|4|
 
-# Ladder Name: 9
+# Ladder Name: 9 [ Feb 12 Saturday ] 
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
@@ -142,7 +144,7 @@ Weeks: 2
 |<ul><li>- [ ] Done</li></ul>|9|[GukiZ hates Boxes](http://codeforces.com/problemset/problem/551/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|10|[Regular Bridge](http://codeforces.com/problemset/problem/550/D)|Codeforces|5|
 
-# Ladder Name: 10
+# Ladder Name: 10 [ Feb 13 Sunday ]
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
@@ -157,7 +159,7 @@ Weeks: 2
 |<ul><li>- [ ] Done</li></ul>|9|[Equivalent Strings](http://codeforces.com/problemset/problem/559/B)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|10|[Book of Evil](http://codeforces.com/problemset/problem/337/D)|Codeforces|5|
 
-# Ladder Name: 11
+# Ladder Name: 11 [ Feb 14-18 ]
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
@@ -172,7 +174,7 @@ Weeks: 2
 |<ul><li>- [ ] Done</li></ul>|9|[A and B and Lecture Rooms](http://codeforces.com/problemset/problem/519/E)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|10|[Water Tree](http://codeforces.com/problemset/problem/343/D)|Codeforces|5|
 
-# Ladder Name: 12
+# Ladder Name: 12 [ Feb 19 Sat]
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
@@ -187,7 +189,7 @@ Weeks: 2
 |<ul><li>- [ ] Done</li></ul>|9|[Pashmak and Graph](http://codeforces.com/problemset/problem/459/E)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|10|[Turn Off The TV](https://codeforces.com/problemset/problem/863/E)|Codeforces|5|
 
-# Ladder Name: 13
+# Ladder Name: 13 [ Feb 20 Sun]
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
@@ -202,7 +204,7 @@ Weeks: 2
 |<ul><li>- [ ] Done</li></ul>|9|[High Load](https://codeforces.com/contest/828/problem/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|10|[Tree Queries](https://codeforces.com/problemset/problem/1328/E)|Codeforces|5|
 
-# Ladder Name: 14
+# Ladder Name: 14 [ Feb 21-25 ]
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
@@ -217,7 +219,7 @@ Weeks: 2
 |<ul><li>- [ ] Done</li></ul>|9|[Maxim and Progressions](https://www.codechef.com/problems/MAXPR)|CodeChef|5|
 |<ul><li>- [ ] Done</li></ul>|10|[Bank Hacking](https://codeforces.com/problemset/problem/796/C)|Codeforces|5|
 
-# Ladder Name: 15
+# Ladder Name: 15 [ Feb 26, Sat]
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
@@ -232,7 +234,7 @@ Weeks: 2
 |<ul><li>- [ ] Done</li></ul>|9|[Bomber](https://atcoder.jp/contests/abc176/tasks/abc176_e)|AtCoder|5|
 |<ul><li>- [ ] Done</li></ul>|10|[Amusement Park](https://atcoder.jp/contests/abc216/tasks/abc216_e)|AtCoder|5|
 
-# Ladder Name: 16
+# Ladder Name: 16 [ Feb 27, Sun]
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
@@ -247,7 +249,7 @@ Weeks: 2
 |<ul><li>- [ ] Done</li></ul>|9|[Lamps](https://atcoder.jp/contests/hhkb2020/tasks/hhkb2020_e)|AtCoder|5|
 |<ul><li>- [ ] Done</li></ul>|10|[Handshake](https://atcoder.jp/contests/abc149/tasks/abc149_e)|AtCoder|5|
 
-# Ladder Name: 17
+# Ladder Name: 17 [ Feb 28- Mar 4]
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
@@ -262,7 +264,7 @@ Weeks: 2
 |<ul><li>- [ ] Done</li></ul>|9|[Maximal Intersection](https://codeforces.com/problemset/problem/1029/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|10|[Balanced Path](https://atcoder.jp/contests/abc147/tasks/abc147_e)|AtCoder|5|
 
-# Ladder Name: 18
+# Ladder Name: 18 [ Mar 5 Sat]
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
@@ -276,7 +278,7 @@ Weeks: 2
 |<ul><li>- [ ] Done</li></ul>|9|[Substring and Subsequence](https://codeforces.com/problemset/problem/163/A)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|10|[Mike and gcd problem](https://codeforces.com/problemset/problem/798/C)|Codeforces|5|
 
-# Ladder Name: 19
+# Ladder Name: 19 [ Mar 6 Sun]
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
@@ -291,7 +293,7 @@ Weeks: 2
 |<ul><li>- [ ] Done</li></ul>|9|[Baby Ehab Partitions Again](https://codeforces.com/problemset/problem/1516/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|10|[Ayoub's function](https://codeforces.com/problemset/problem/1301/C)|Codeforces|5|
 
-# Ladder Name: 20
+# Ladder Name: 20 [ Mar 7-11 ]
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
@@ -306,7 +308,7 @@ Weeks: 2
 |<ul><li>- [ ] Done</li></ul>|9|[The Fair Nut and the Best Path](https://codeforces.com/problemset/problem/1083/A)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|10|[Yet Another Subarray Problem](https://codeforces.com/problemset/problem/1197/D)|Codeforces|5|
 
-# Ladder Name: 21
+# Ladder Name: 21 [ Mar 12 Sat ]
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
@@ -321,7 +323,7 @@ Weeks: 2
 |<ul><li>- [ ] Done</li></ul>|9|[Make It Connected](https://codeforces.com/problemset/problem/1095/F)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|10|[Paths and Trees](https://codeforces.com/problemset/problem/545/E)|Codeforces|5|
 
-# Ladder Name: 22
+# Ladder Name: 22 [ Mar 13 Sun]
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
@@ -336,7 +338,7 @@ Weeks: 2
 |<ul><li>- [ ] Done</li></ul>|9|[Recycling Bottles](https://codeforces.com/problemset/problem/671/A)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|10|[Omkar and Medians](https://codeforces.com/problemset/problem/1536/D)|Codeforces|5|
 
-# Ladder Name: 23
+# Ladder Name: 23 [ Mar 14-18 ]
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
@@ -351,7 +353,7 @@ Weeks: 2
 |<ul><li>- [ ] Done</li></ul>|9|[Minimum and Maximum](https://codeforces.com/problemset/problem/730/B)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|10|[Clique Problem](https://codeforces.com/problemset/problem/527/D)|Codeforces|5|
 
-# Ladder Name: 24
+# Ladder Name: 24 [ Mar 19 Sat]
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
@@ -366,7 +368,7 @@ Weeks: 2
 |<ul><li>- [ ] Done</li></ul>|9|[Kth Excluded](https://atcoder.jp/contests/abc205/tasks/abc205_d)|AtCoder|5|
 |<ul><li>- [ ] Done</li></ul>|10|[Permutation](https://atcoder.jp/contests/abc199/tasks/abc199_e)|AtCoder|5|
 
-# Ladder Name: 25
+# Ladder Name: 25 [ Mar 20 Sun]
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
@@ -381,7 +383,7 @@ Weeks: 2
 |<ul><li>- [ ] Done</li></ul>|9|[Present](https://codeforces.com/contest/460/problem/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|10|[Psychos in a Line](https://codeforces.com/contest/319/problem/B)|Codeforces|5|
 
-# Ladder Name: 26
+# Ladder Name: 26 [ Mar 21-25 ]
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
