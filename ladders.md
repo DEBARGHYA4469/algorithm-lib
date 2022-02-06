@@ -89,8 +89,8 @@ Weeks: 2
 |---|:---:|:---:|---|---|---|
 |<ul><li>- [x] Done</li></ul>|1|[Multiplication Table](http://codeforces.com/problemset/problem/448/D)|Codeforces|Binary Search||
 |<ul><li>- [x] Done</li></ul>|2|[Pashmak and Buses](http://codeforces.com/problemset/problem/459/C)|Codeforces|Math+Pigeon Hole||
-|<ul><li>- [ ] Done</li></ul>|3|[Bag of mice](http://codeforces.com/problemset/problem/148/D)|Codeforces|||
-|<ul><li>- [ ] Done</li></ul>|4|[Gargari and Bishops](http://codeforces.com/problemset/problem/463/C)|Codeforces|||
+|<ul><li>- [x] Done</li></ul>|3|[Bag of mice](http://codeforces.com/problemset/problem/148/D)|Codeforces|Probability DP||
+|<ul><li>- [x] Done</li></ul>|4|[Gargari and Bishops](http://codeforces.com/problemset/problem/463/C)|Codeforces|Diagonal Traversal||
 |<ul><li>- [ ] Done</li></ul>|5|[Gargari and Permutations](http://codeforces.com/problemset/problem/463/D)|Codeforces|||
 |<ul><li>- [ ] Done</li></ul>|6|[R2D2 and Droid Army](http://codeforces.com/problemset/problem/514/D)|Codeforces|||
 |<ul><li>- [ ] Done</li></ul>|7|[Bear and Prime Numbers](http://codeforces.com/problemset/problem/385/C)|Codeforces|||
