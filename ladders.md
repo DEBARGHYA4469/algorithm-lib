@@ -92,7 +92,7 @@ Weeks: 2
 |<ul><li>- [x] Done</li></ul>|3|[Bag of mice](http://codeforces.com/problemset/problem/148/D)|Codeforces|Probability DP||
 |<ul><li>- [x] Done</li></ul>|4|[Gargari and Bishops](http://codeforces.com/problemset/problem/463/C)|Codeforces|Diagonal Traversal||
 |<ul><li>- [x] Done</li></ul>|5|[Gargari and Permutations](http://codeforces.com/problemset/problem/463/D)|Codeforces|Graph+LCS|Tranformation to Graph idea|
-|<ul><li>- [ ] Done</li></ul>|6|[R2D2 and Droid Army](http://codeforces.com/problemset/problem/514/D)|Codeforces|||
+|<ul><li>- [x] Done</li></ul>|6|[R2D2 and Droid Army](http://codeforces.com/problemset/problem/514/D)|Codeforces|Classic: Sliding Window||
 |<ul><li>- [ ] Done</li></ul>|7|[Bear and Prime Numbers](http://codeforces.com/problemset/problem/385/C)|Codeforces|||
 |<ul><li>- [ ] Done</li></ul>|8|[Table Decorations](http://codeforces.com/problemset/problem/478/C)|Codeforces|||
 |<ul><li>- [ ] Done</li></ul>|9|[Checkposts](http://codeforces.com/problemset/problem/427/C)|Codeforces|||
