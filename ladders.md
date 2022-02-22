@@ -84,7 +84,7 @@ Weeks: 2
 |<ul><li>- [x] Done</li></ul>|10|[Pizza Delivery](https://www.codechef.com/problems/DBOY/)|CodeChef|Coin Change DP||
 
 
-# Ladder Name: 6 [ Feb 5, Saturday ]
+# Ladder Name: 6 [ Completed ]
 | Checkbox | ID  | Problem Name | Online Judge | Idea | Mistakes | 
 |---|:---:|:---:|---|---|---|
 |<ul><li>- [x] Done</li></ul>|1|[Multiplication Table](http://codeforces.com/problemset/problem/448/D)|Codeforces|Binary Search||
@@ -93,10 +93,10 @@ Weeks: 2
 |<ul><li>- [x] Done</li></ul>|4|[Gargari and Bishops](http://codeforces.com/problemset/problem/463/C)|Codeforces|Diagonal Traversal||
 |<ul><li>- [x] Done</li></ul>|5|[Gargari and Permutations](http://codeforces.com/problemset/problem/463/D)|Codeforces|Graph+LCS|Tranformation to Graph idea|
 |<ul><li>- [x] Done</li></ul>|6|[R2D2 and Droid Army](http://codeforces.com/problemset/problem/514/D)|Codeforces|Classic: Sliding Window||
-|<ul><li>- [ ] Done</li></ul>|7|[Bear and Prime Numbers](http://codeforces.com/problemset/problem/385/C)|Codeforces|||
-|<ul><li>- [ ] Done</li></ul>|8|[Table Decorations](http://codeforces.com/problemset/problem/478/C)|Codeforces|||
-|<ul><li>- [ ] Done</li></ul>|9|[Checkposts](http://codeforces.com/problemset/problem/427/C)|Codeforces|||
-|<ul><li>- [ ] Done</li></ul>|10|[Valera and Elections](http://codeforces.com/problemset/problem/369/C)|Codeforces|||
+|<ul><li>- [x] Done</li></ul>|7|[Bear and Prime Numbers](http://codeforces.com/problemset/problem/385/C)|Codeforces|Classic: Sieve DP||
+|<ul><li>- [x] Done</li></ul>|8|[Table Decorations](http://codeforces.com/problemset/problem/478/C)|Codeforces|Greedy + Intuition||
+|<ul><li>- [x] Done</li></ul>|9|[Checkposts](http://codeforces.com/problemset/problem/427/C)|Codeforces|SCC, Kosaraju||
+|<ul><li>- [x] Done</li></ul>|10|[Valera and Elections](http://codeforces.com/problemset/problem/369/C)|Codeforces|Greedy+Tree||
 
 # Ladder Name: 7 [ Feb 6, Sunday ]
 
