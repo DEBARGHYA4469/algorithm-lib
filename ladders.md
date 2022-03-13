@@ -104,8 +104,8 @@ Weeks: 2
 |---|:---:|:---:|---|---|---|---|
 |<ul><li>- [x] Done</li></ul>|1|[Psychos in a Line](http://codeforces.com/problemset/problem/319/B)|Codeforces|Monotone Stack, Optimization|Tricky to figure|
 |<ul><li>- [ ] Done</li></ul>|2|[Counting Rectangles is Fun](http://codeforces.com/problemset/problem/372/B)|Codeforces|||
-|<ul><li>- [ ] Done</li></ul>|3|[Greg and Graph](http://codeforces.com/problemset/problem/295/B)|Codeforces|||
-|<ul><li>- [ ] Done</li></ul>|4|[Little Girl and Maximum Sum](http://codeforces.com/problemset/problem/276/C)|Codeforces|||
+|<ul><li>- [x] Done</li></ul>|3|[Greg and Graph](http://codeforces.com/problemset/problem/295/B)|Codeforces||
+|<ul><li>- [x] Done</li></ul>|4|[Little Girl and Maximum Sum](http://codeforces.com/problemset/problem/276/C)|Codeforces|||
 |<ul><li>- [ ] Done</li></ul>|5|[Renting Bikes](http://codeforces.com/problemset/problem/363/D)|Codeforces|||
 |<ul><li>- [ ] Done</li></ul>|6|[Treasure](http://codeforces.com/problemset/problem/494/A)|Codeforces|||
 |<ul><li>- [ ] Done</li></ul>|7|[DZY Loves Sequences](http://codeforces.com/problemset/problem/446/A)|Codeforces|||
