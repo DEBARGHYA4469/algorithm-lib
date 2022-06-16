@@ -108,7 +108,7 @@ Weeks: 2
 |<ul><li>- [x] Done</li></ul>|4|[Little Girl and Maximum Sum](http://codeforces.com/problemset/problem/276/C)|Codeforces|||
 |<ul><li>- [x] Done</li></ul>|5|[Renting Bikes](http://codeforces.com/problemset/problem/363/D)|Codeforces|Binary Search||
 |<ul><li>- [x] Done</li></ul>|6|[Treasure](http://codeforces.com/problemset/problem/494/A)|Codeforces|Balancing Parenthesis|Think in terms of prefix sum|
-|<ul><li>- [ ] Done</li></ul>|7|[DZY Loves Sequences](http://codeforces.com/problemset/problem/446/A)|Codeforces|||
+|<ul><li>- [x] Done</li></ul>|7|[DZY Loves Sequences](http://codeforces.com/problemset/problem/446/A)|Codeforces|Prefix, Suffix Max|Be careful about lower, upper limits|
 |<ul><li>- [ ] Done</li></ul>|8|[Color the Fence](http://codeforces.com/problemset/problem/349/B)|Codeforces|||
 |<ul><li>- [ ] Done</li></ul>|9|[Colorful Graph](http://codeforces.com/problemset/problem/246/D)|Codeforces|||
 |<ul><li>- [ ] Done</li></ul>|10|[Zero Tree](http://codeforces.com/problemset/problem/274/B)|Codeforces|||
