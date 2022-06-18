@@ -109,16 +109,16 @@ Weeks: 2
 |<ul><li>- [x] Done</li></ul>|5|[Renting Bikes](http://codeforces.com/problemset/problem/363/D)|Codeforces|Binary Search||
 |<ul><li>- [x] Done</li></ul>|6|[Treasure](http://codeforces.com/problemset/problem/494/A)|Codeforces|Balancing Parenthesis|Think in terms of prefix sum|
 |<ul><li>- [x] Done</li></ul>|7|[DZY Loves Sequences](http://codeforces.com/problemset/problem/446/A)|Codeforces|Prefix, Suffix Max|Be careful about lower, upper limits|
-|<ul><li>- [ ] Done</li></ul>|8|[Color the Fence](http://codeforces.com/problemset/problem/349/B)|Codeforces|||
-|<ul><li>- [ ] Done</li></ul>|9|[Colorful Graph](http://codeforces.com/problemset/problem/246/D)|Codeforces|||
-|<ul><li>- [ ] Done</li></ul>|10|[Zero Tree](http://codeforces.com/problemset/problem/274/B)|Codeforces|||
+|<ul><li>- [x] Done</li></ul>|8|[Color the Fence](http://codeforces.com/problemset/problem/349/B)|Codeforces|Greedy||
+|<ul><li>- [x] Done</li></ul>|9|[Colorful Graph](http://codeforces.com/problemset/problem/246/D)|Codeforces|Basic Graph||
+|<ul><li>- [x] Done</li></ul>|10|[Zero Tree](http://codeforces.com/problemset/problem/274/B)|Codeforces|DP on Tree||
 
 
 # Ladder Name: 8 [ Feb 7-11 ]
 
-| Checkbox | ID  | Problem Name | Online Judge | Difficulty |
-|---|:---:|:---:|---|---|
-|<ul><li>- [ ] Done</li></ul>|1|[King's Path](http://codeforces.com/problemset/problem/242/C)|Codeforces|4|
+| Checkbox | ID  | Problem Name | Online Judge | Idea | Mistakes | 
+|---|:---:|:---:|---|---|---|
+|<ul><li>- [x] Done</li></ul>|1|[King's Path](http://codeforces.com/problemset/problem/242/C)|Codeforces|BFS||
 |<ul><li>- [ ] Done</li></ul>|2|[Greenhouse Effect](http://codeforces.com/problemset/problem/269/B)|Codeforces|4|
 |<ul><li>- [ ] Done</li></ul>|3|[The Brand New Function](http://codeforces.com/problemset/problem/243/A)|Codeforces|4|
 |<ul><li>- [ ] Done</li></ul>|4|[Dima and Hares](http://codeforces.com/problemset/problem/358/D)|Codeforces|4|
