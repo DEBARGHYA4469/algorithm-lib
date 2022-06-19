@@ -1,4 +1,6 @@
-# Next Array Technique is used in many bitwise subarray/subsequence problems like OR, AND. 
+# Next Array Technique 
+
+It is used in many bitwise subarray/subsequence problems like OR, AND. 
 
 One Example: https://codeforces.com/contest/243/problem/A
 
