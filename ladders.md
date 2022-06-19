@@ -120,8 +120,8 @@ Weeks: 2
 |---|:---:|:---:|---|---|---|
 |<ul><li>- [x] Done</li></ul>|1|[King's Path](http://codeforces.com/problemset/problem/242/C)|Codeforces|BFS||
 |<ul><li>- [x] Done</li></ul>|2|[Greenhouse Effect](http://codeforces.com/problemset/problem/269/B)|Codeforces|LIS||
-|<ul><li>- [ ] Done</li></ul>|3|[The Brand New Function](http://codeforces.com/problemset/problem/243/A)|Codeforces|4||
-|<ul><li>- [ ] Done</li></ul>|4|[Dima and Hares](http://codeforces.com/problemset/problem/358/D)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|3|[The Brand New Function](http://codeforces.com/problemset/problem/243/A)|Codeforces|||
+|<ul><li>- [x] Done</li></ul>|4|[Dima and Hares](http://codeforces.com/problemset/problem/358/D)|Codeforces|DP Transition|DP state formulation|
 |<ul><li>- [ ] Done</li></ul>|5|[Almost Arithmetical Progression](http://codeforces.com/problemset/problem/255/C)|Codeforces|4||
 |<ul><li>- [ ] Done</li></ul>|6|[Hamburgers](http://codeforces.com/problemset/problem/371/C)|Codeforces|4||
 |<ul><li>- [ ] Done</li></ul>|7|[Petya and Divisors](http://codeforces.com/problemset/problem/111/B)|Codeforces|4||
