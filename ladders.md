@@ -108,7 +108,7 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|10|[Zero Tree](http://codeforces.com/problemset/problem/274/B)|Codeforces|DP on Tree||
 
 
-# Ladder Name: 8 [ June ]
+# Ladder Name: 8 [ Completed ]
 
 | Checkbox | ID  | Problem Name | Online Judge | Idea | Mistakes | 
 |---|:---:|:---:|---|---|---|
@@ -125,7 +125,7 @@ Ladders = 26
 
 # Ladder Name: 9 [ June ]
 
-| Checkbox | ID  | Problem Name | Online Judge | Difficulty |
+| Checkbox | ID  | Problem Name | Online Judge | Idea | Mistakes | 
 |---|:---:|:---:|---|---|---|
 |<ul><li>- [x] Done</li></ul>|1|[Ciel and Robot](http://codeforces.com/problemset/problem/321/A)|Codeforces|Math||
 |<ul><li>- [ ] Done</li></ul>|2|[Little Elephant and Cards](http://codeforces.com/problemset/problem/204/B)|Codeforces|||
