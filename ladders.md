@@ -120,23 +120,23 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|6|[Hamburgers](http://codeforces.com/problemset/problem/371/C)|Codeforces|Binary Search||
 |<ul><li>- [x] Done</li></ul>|7|[Petya and Divisors](http://codeforces.com/problemset/problem/111/B)|Codeforces|Math+Divisors||
 |<ul><li>- [x] Done</li></ul>|8|[Matrix](http://codeforces.com/problemset/problem/364/A)|Codeforces|Math||
-|<ul><li>- [x] Done</li></ul>|9|[Xenia and Weights](http://codeforces.com/problemset/problem/339/C)|Codeforces|4|DP, State Transition|
-|<ul><li>- [ ] Done</li></ul>|10|[Color Stripe](http://codeforces.com/problemset/problem/219/C)|Codeforces|4||
+|<ul><li>- [x] Done</li></ul>|9|[Xenia and Weights](http://codeforces.com/problemset/problem/339/C)|Codeforces|DP, State Transition||
+|<ul><li>- [x] Done</li></ul>|10|[Color Stripe](http://codeforces.com/problemset/problem/219/C)|Codeforces|Greedy||
 
 # Ladder Name: 9 [ June ]
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
-|---|:---:|:---:|---|---|
-|<ul><li>- [ ] Done</li></ul>|1|[Ciel and Robot](http://codeforces.com/problemset/problem/321/A)|Codeforces|4|
-|<ul><li>- [ ] Done</li></ul>|2|[Little Elephant and Cards](http://codeforces.com/problemset/problem/204/B)|Codeforces|4|
-|<ul><li>- [ ] Done</li></ul>|3|[Good Sequences](http://codeforces.com/problemset/problem/264/B)|Codeforces|4|
-|<ul><li>- [ ] Done</li></ul>|4|[k-Tree](http://codeforces.com/problemset/problem/431/C)|Codeforces|4|
-|<ul><li>- [ ] Done</li></ul>|5|[Mike and Feet](http://codeforces.com/problemset/problem/547/B)|Codeforces|4|
-|<ul><li>- [ ] Done</li></ul>|6|[Andrey and Problem](http://codeforces.com/problemset/problem/442/B)|Codeforces|4|
-|<ul><li>- [ ] Done</li></ul>|7|[Maximum Submatrix 2](http://codeforces.com/problemset/problem/375/B)|Codeforces|4|
-|<ul><li>- [ ] Done</li></ul>|8|[Password](http://codeforces.com/problemset/problem/126/B)|Codeforces|4|
-|<ul><li>- [ ] Done</li></ul>|9|[GukiZ hates Boxes](http://codeforces.com/problemset/problem/551/C)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|10|[Regular Bridge](http://codeforces.com/problemset/problem/550/D)|Codeforces|5|
+|---|:---:|:---:|---|---|---|
+|<ul><li>- [x] Done</li></ul>|1|[Ciel and Robot](http://codeforces.com/problemset/problem/321/A)|Codeforces|Math||
+|<ul><li>- [ ] Done</li></ul>|2|[Little Elephant and Cards](http://codeforces.com/problemset/problem/204/B)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|3|[Good Sequences](http://codeforces.com/problemset/problem/264/B)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|4|[k-Tree](http://codeforces.com/problemset/problem/431/C)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|5|[Mike and Feet](http://codeforces.com/problemset/problem/547/B)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|6|[Andrey and Problem](http://codeforces.com/problemset/problem/442/B)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|7|[Maximum Submatrix 2](http://codeforces.com/problemset/problem/375/B)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|8|[Password](http://codeforces.com/problemset/problem/126/B)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|9|[GukiZ hates Boxes](http://codeforces.com/problemset/problem/551/C)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|10|[Regular Bridge](http://codeforces.com/problemset/problem/550/D)|Codeforces|||
 
 # Ladder Name: 10 [ July ]
 
