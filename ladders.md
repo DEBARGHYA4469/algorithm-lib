@@ -120,7 +120,7 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|6|[Hamburgers](http://codeforces.com/problemset/problem/371/C)|Codeforces|Binary Search||
 |<ul><li>- [x] Done</li></ul>|7|[Petya and Divisors](http://codeforces.com/problemset/problem/111/B)|Codeforces|Math+Divisors||
 |<ul><li>- [x] Done</li></ul>|8|[Matrix](http://codeforces.com/problemset/problem/364/A)|Codeforces|Math||
-|<ul><li>- [ ] Done</li></ul>|9|[Xenia and Weights](http://codeforces.com/problemset/problem/339/C)|Codeforces|4||
+|<ul><li>- [x] Done</li></ul>|9|[Xenia and Weights](http://codeforces.com/problemset/problem/339/C)|Codeforces|4|DP, State Transition|
 |<ul><li>- [ ] Done</li></ul>|10|[Color Stripe](http://codeforces.com/problemset/problem/219/C)|Codeforces|4||
 
 # Ladder Name: 9 [ June ]
