@@ -104,10 +104,11 @@ void unite(int u,int v){
 }
 
 // Use Wheel factorization for large PMax
-vector<int> sieve(const int PMax){ 
+const int PMax = 1e5+5;
+int lp[PMax];
+void sieve(){ 
 	
 	vector<int> prime;
-	vector<int> lp(PMax+2,0);
 
 	for(int i=2;i<=PMax;i++){
   		if(!lp[i]){ 
@@ -119,15 +120,16 @@ vector<int> sieve(const int PMax){
   		}
 	}
 
-	return lp;
 }
 
-vector<int> factor(int num,const vector<int> lp){
+vector<int> factor(int num){
 
 	vector<int> f;
 	while(num!=1){
 		f.eb(lp[num]);
-		num/=lp[num];
+
+		int tmp = lp[num];
+		while(num>0 && num % tmp==0) num /= tmp;
 	}
 	return f;
 }
