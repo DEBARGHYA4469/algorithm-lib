@@ -128,9 +128,9 @@ Ladders = 26
 | Checkbox | ID  | Problem Name | Online Judge | Idea | Mistakes | 
 |---|:---:|:---:|---|---|---|
 |<ul><li>- [x] Done</li></ul>|1|[Ciel and Robot](http://codeforces.com/problemset/problem/321/A)|Codeforces|Math||
-|<ul><li>- [ ] Done</li></ul>|2|[Little Elephant and Cards](http://codeforces.com/problemset/problem/204/B)|Codeforces|||
-|<ul><li>- [ ] Done</li></ul>|3|[Good Sequences](http://codeforces.com/problemset/problem/264/B)|Codeforces|||
-|<ul><li>- [ ] Done</li></ul>|4|[k-Tree](http://codeforces.com/problemset/problem/431/C)|Codeforces|||
+|<ul><li>- [x] Done</li></ul>|2|[Little Elephant and Cards](http://codeforces.com/problemset/problem/204/B)|Codeforces|Maps||
+|<ul><li>- [x] Done</li></ul>|3|[Good Sequences](http://codeforces.com/problemset/problem/264/B)|Codeforces|DP+Factor||
+|<ul><li>- [x] Done</li></ul>|4|[k-Tree](http://codeforces.com/problemset/problem/431/C)|Codeforces|DP+Combinations||
 |<ul><li>- [ ] Done</li></ul>|5|[Mike and Feet](http://codeforces.com/problemset/problem/547/B)|Codeforces|||
 |<ul><li>- [ ] Done</li></ul>|6|[Andrey and Problem](http://codeforces.com/problemset/problem/442/B)|Codeforces|||
 |<ul><li>- [ ] Done</li></ul>|7|[Maximum Submatrix 2](http://codeforces.com/problemset/problem/375/B)|Codeforces|||
