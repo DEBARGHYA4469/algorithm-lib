@@ -126,12 +126,12 @@
         for(int i=0;i<n;i++) m[i][0] = a[i];
         for(int j=1;j<=logv[n];j++){
             for(int i=0;i+(1<<j)-1<n;i++){
-                m[i][j] = min(m[i][j-1],m[i+(1<<(j-1))][j-1])
+                m[i][j] = min(m[i][j-1],m[i+(1<<(j-1))][j-1]);
             }
         }
     }
     
-    void query(int l,int r){
+    int query(int l,int r){
         int j = logv[r-l+1];
         return min(m[l][j],m[r-(1<<j)+1][j]);
     }
