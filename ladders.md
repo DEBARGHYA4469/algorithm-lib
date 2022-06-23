@@ -131,9 +131,9 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|2|[Little Elephant and Cards](http://codeforces.com/problemset/problem/204/B)|Codeforces|Maps||
 |<ul><li>- [x] Done</li></ul>|3|[Good Sequences](http://codeforces.com/problemset/problem/264/B)|Codeforces|DP+Factor||
 |<ul><li>- [x] Done</li></ul>|4|[k-Tree](http://codeforces.com/problemset/problem/431/C)|Codeforces|DP+Combinations||
-|<ul><li>- [ ] Done</li></ul>|5|[Mike and Feet](http://codeforces.com/problemset/problem/547/B)|Codeforces|||
+|<ul><li>- [x] Done</li></ul>|5|[Mike and Feet](http://codeforces.com/problemset/problem/547/B)|Codeforces|Monotonic Stack|Graph Idea: Interesting!|
+|<ul><li>- [x] Done</li></ul>|7|[Maximum Submatrix 2](http://codeforces.com/problemset/problem/375/B)|Codeforces|Suffix Max|Got fixated on BITSET idea, does not work|
 |<ul><li>- [ ] Done</li></ul>|6|[Andrey and Problem](http://codeforces.com/problemset/problem/442/B)|Codeforces|||
-|<ul><li>- [ ] Done</li></ul>|7|[Maximum Submatrix 2](http://codeforces.com/problemset/problem/375/B)|Codeforces|||
 |<ul><li>- [ ] Done</li></ul>|8|[Password](http://codeforces.com/problemset/problem/126/B)|Codeforces|||
 |<ul><li>- [ ] Done</li></ul>|9|[GukiZ hates Boxes](http://codeforces.com/problemset/problem/551/C)|Codeforces|||
 |<ul><li>- [ ] Done</li></ul>|10|[Regular Bridge](http://codeforces.com/problemset/problem/550/D)|Codeforces|||
