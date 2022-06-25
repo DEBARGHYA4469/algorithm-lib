@@ -8,11 +8,22 @@ Efficient Algorithm (Online):
 int p[n];
 
 void prefixfunc(string &s){
-    for(int i=1;i<n;i++){
-        int j = pi[i-1];
-        while(j>0 && s[i]!=s[j]) j=pi[j-1];
-        if(j!=0) pi[i]=j+1;
-    }
+        
+        int n = sz(s);
+        
+    	for(int i=1; i<n; i++){
+
+		int j = lps[i-1];
+
+		while(j>0 && str[i]!=str[j]) j = lps[j-1];
+
+		if(str[i] == str[j]) lps[i] = j+1;
+
+		else lps[i] = 0;
+		
+		// log(i, str[i], lps[i]);
+
+	}
 }
 ```
 </br>
