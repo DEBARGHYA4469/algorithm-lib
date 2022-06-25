@@ -123,7 +123,7 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|9|[Xenia and Weights](http://codeforces.com/problemset/problem/339/C)|Codeforces|DP, State Transition||
 |<ul><li>- [x] Done</li></ul>|10|[Color Stripe](http://codeforces.com/problemset/problem/219/C)|Codeforces|Greedy||
 
-# Ladder Name: 9 [ June ]
+# Ladder Name: 9 [ Completed ]
 
 | Checkbox | ID  | Problem Name | Online Judge | Idea | Mistakes | 
 |---|:---:|:---:|---|---|---|
