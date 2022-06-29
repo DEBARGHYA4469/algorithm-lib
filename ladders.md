@@ -143,15 +143,15 @@ Ladders = 26
 | Checkbox | ID  | Problem Name | Online Judge | Idea | Mistakes |
 |---|:---:|:---:|---|---|---|
 |<ul><li>- [x] Done</li></ul>|1|[MUH and Cube Walls](http://codeforces.com/problemset/problem/471/D)|Codeforces|KMP||
-|<ul><li>- [ ] Done</li></ul>|2|[Obsessive String](http://codeforces.com/problemset/problem/494/B)|Codeforces|5||
+|<ul><li>- [ ] Done</li></ul>|2|[Obsessive String](http://codeforces.com/problemset/problem/494/B)|Codeforces|||
 |<ul><li>- [x] Done</li></ul>|3|[Gargari and Bishops](http://codeforces.com/problemset/problem/463/C)|Codeforces|Maps||
-|<ul><li>- [ ] Done</li></ul>|4|[Lucky Tree](http://codeforces.com/problemset/problem/109/C)|Codeforces|5||
-|<ul><li>- [ ] Done</li></ul>|5|[Missile Silos](http://codeforces.com/problemset/problem/144/D)|Codeforces|5||
-|<ul><li>- [ ] Done</li></ul>|6|[Sereja and the Arrangement of Numbers](http://codeforces.com/problemset/problem/367/C)|Codeforces|5||
-|<ul><li>- [ ] Done</li></ul>|7|[Enemy is weak](http://codeforces.com/problemset/problem/61/E)|Codeforces|5||
-|<ul><li>- [ ] Done</li></ul>|8|[A and B and Interesting Substrings](http://codeforces.com/problemset/problem/519/D)|Codeforces|5||
-|<ul><li>- [ ] Done</li></ul>|9|[Equivalent Strings](http://codeforces.com/problemset/problem/559/B)|Codeforces|5||
-|<ul><li>- [ ] Done</li></ul>|10|[Book of Evil](http://codeforces.com/problemset/problem/337/D)|Codeforces|5||
+|<ul><li>- [ ] Done</li></ul>|4|[Lucky Tree](http://codeforces.com/problemset/problem/109/C)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|5|[Missile Silos](http://codeforces.com/problemset/problem/144/D)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|6|[Sereja and the Arrangement of Numbers](http://codeforces.com/problemset/problem/367/C)|Codeforces|||
+|<ul><li>- [x] Done</li></ul>|7|[Enemy is weak](http://codeforces.com/problemset/problem/61/E)|Codeforces|Fenwick Tree||
+|<ul><li>- [ ] Done</li></ul>|8|[A and B and Interesting Substrings](http://codeforces.com/problemset/problem/519/D)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|9|[Equivalent Strings](http://codeforces.com/problemset/problem/559/B)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|10|[Book of Evil](http://codeforces.com/problemset/problem/337/D)|Codeforces|||
 
 # Ladder Name: 11  [ July ]
 
