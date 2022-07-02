@@ -65,6 +65,7 @@ int par[UFMAX],rnk[UFMAX];
 int compsize[UFMAX];
 int max_comp_size=0;
 
+// SET UFMAX
 void initdsu(int n){
 	for(int i=1;i<=n;i++){
 		par[i] = i;
