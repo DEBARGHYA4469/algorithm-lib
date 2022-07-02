@@ -143,7 +143,7 @@ Ladders = 26
 | Checkbox | ID  | Problem Name | Online Judge | Idea | Mistakes |
 |---|:---:|:---:|---|---|---|
 |<ul><li>- [x] Done</li></ul>|1|[MUH and Cube Walls](http://codeforces.com/problemset/problem/471/D)|Codeforces|KMP||
-|<ul><li>- [ ] Done</li></ul>|2|[Obsessive String](http://codeforces.com/problemset/problem/494/B)|Codeforces|||
+|<ul><li>- [x] Done</li></ul>|2|[Obsessive String](http://codeforces.com/problemset/problem/494/B)|Codeforces|KMP+DP||
 |<ul><li>- [x] Done</li></ul>|3|[Gargari and Bishops](http://codeforces.com/problemset/problem/463/C)|Codeforces|Maps||
 |<ul><li>- [ ] Done</li></ul>|4|[Lucky Tree](http://codeforces.com/problemset/problem/109/C)|Codeforces|||
 |<ul><li>- [x] Done</li></ul>|5|[Missile Silos](http://codeforces.com/problemset/problem/144/D)|Codeforces|Dijktra||
