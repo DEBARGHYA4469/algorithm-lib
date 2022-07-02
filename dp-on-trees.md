@@ -226,3 +226,5 @@ int main(){
 	return 0;
 }
 ```
+
+Practise Problems: https://codeforces.com/contest/109/problem/C
