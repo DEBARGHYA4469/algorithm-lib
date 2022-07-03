@@ -145,9 +145,9 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|1|[MUH and Cube Walls](http://codeforces.com/problemset/problem/471/D)|Codeforces|KMP||
 |<ul><li>- [x] Done</li></ul>|2|[Obsessive String](http://codeforces.com/problemset/problem/494/B)|Codeforces|KMP+DP||
 |<ul><li>- [x] Done</li></ul>|3|[Gargari and Bishops](http://codeforces.com/problemset/problem/463/C)|Codeforces|Maps||
-|<ul><li>- [x] Done</li></ul>|4|[Lucky Tree](http://codeforces.com/problemset/problem/109/C)|Codeforces|Rerooting Technique, Tree|rng's DSU solution is cool|
-|<ul><li>- [x] Done</li></ul>|5|[Missile Silos](http://codeforces.com/problemset/problem/144/D)|Codeforces|Dijktra||
-|<ul><li>- [ ] Done</li></ul>|6|[Sereja and the Arrangement of Numbers](http://codeforces.com/problemset/problem/367/C)|Codeforces|||
+|<ul><li>- [x] Done</li></ul>|4|[Lucky Tree](http://codeforces.com/problemset/problem/109/C)|Codeforces|Rerooting Technique, Tree|DSU with Complement Graph|
+|<ul><li>- [x] Done</li></ul>|5|[Missile Silos](http://codeforces.com/problemset/problem/144/D)|Codeforces|Dijkstra||
+|<ul><li>- [x] Done</li></ul>|6|[Sereja and the Arrangement of Numbers](http://codeforces.com/problemset/problem/367/C)|Codeforces|Semi-Eulerian Paths|Oveflow condition|
 |<ul><li>- [x] Done</li></ul>|7|[Enemy is weak](http://codeforces.com/problemset/problem/61/E)|Codeforces|Fenwick Tree||
 |<ul><li>- [ ] Done</li></ul>|8|[A and B and Interesting Substrings](http://codeforces.com/problemset/problem/519/D)|Codeforces|||
 |<ul><li>- [ ] Done</li></ul>|9|[Equivalent Strings](http://codeforces.com/problemset/problem/559/B)|Codeforces|||
