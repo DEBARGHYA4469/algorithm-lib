@@ -150,7 +150,7 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|6|[Sereja and the Arrangement of Numbers](http://codeforces.com/problemset/problem/367/C)|Codeforces|Semi-Eulerian Paths|Oveflow condition|
 |<ul><li>- [x] Done</li></ul>|7|[Enemy is weak](http://codeforces.com/problemset/problem/61/E)|Codeforces|Fenwick Tree||
 |<ul><li>- [x] Done</li></ul>|8|[A and B and Interesting Substrings](http://codeforces.com/problemset/problem/519/D)|Codeforces|Maps||
-|<ul><li>- [ ] Done</li></ul>|9|[Equivalent Strings](http://codeforces.com/problemset/problem/559/B)|Codeforces|||
+|<ul><li>- [x] Done</li></ul>|9|[Equivalent Strings](http://codeforces.com/problemset/problem/559/B)|Codeforces|Equivalence|Equivalence+Lexicographical Smallest|
 |<ul><li>- [ ] Done</li></ul>|10|[Book of Evil](http://codeforces.com/problemset/problem/337/D)|Codeforces|||
 
 # Ladder Name: 11  [ July ]
