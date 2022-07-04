@@ -147,11 +147,11 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|3|[Gargari and Bishops](http://codeforces.com/problemset/problem/463/C)|Codeforces|Maps||
 |<ul><li>- [x] Done</li></ul>|4|[Lucky Tree](http://codeforces.com/problemset/problem/109/C)|Codeforces|Rerooting Technique, Tree|DSU with Complement Graph|
 |<ul><li>- [x] Done</li></ul>|5|[Missile Silos](http://codeforces.com/problemset/problem/144/D)|Codeforces|Dijkstra||
-|<ul><li>- [x] Done</li></ul>|6|[Sereja and the Arrangement of Numbers](http://codeforces.com/problemset/problem/367/C)|Codeforces|Semi-Eulerian Paths|Oveflow condition|
+|<ul><li>- [x] Done</li></ul>|6|[Sereja and the Arrangement of Numbers](http://codeforces.com/problemset/problem/367/C)|Codeforces|Semi-Eulerian Paths|Overflow condition|
 |<ul><li>- [x] Done</li></ul>|7|[Enemy is weak](http://codeforces.com/problemset/problem/61/E)|Codeforces|Fenwick Tree||
 |<ul><li>- [x] Done</li></ul>|8|[A and B and Interesting Substrings](http://codeforces.com/problemset/problem/519/D)|Codeforces|Maps||
-|<ul><li>- [x] Done</li></ul>|9|[Equivalent Strings](http://codeforces.com/problemset/problem/559/B)|Codeforces|Equivalence|Equivalence+Lexicographical Smallest|
-|<ul><li>- [ ] Done</li></ul>|10|[Book of Evil](http://codeforces.com/problemset/problem/337/D)|Codeforces|||
+|<ul><li>- [x] Done</li></ul>|9|[Equivalent Strings](http://codeforces.com/problemset/problem/559/B)|Codeforces|Equivalence|Equivalence + Lexicographical Smallest|
+|<ul><li>- [x] Done</li></ul>|10|[Book of Evil](http://codeforces.com/problemset/problem/337/D)|Codeforces|Classic Rerooting DP on Trees||
 
 # Ladder Name: 11  [ July ]
 
