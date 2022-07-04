@@ -159,7 +159,7 @@ Ladders = 26
 |---|:---:|:---:|---|---|---|
 |<ul><li>- [x] Done</li></ul>|1|[Dima and Bacteria](http://codeforces.com/problemset/problem/400/D)|Codeforces|Floyd Warshal||
 |<ul><li>- [x] Done</li></ul>|2|[Present](http://codeforces.com/problemset/problem/460/C)|Codeforces|Difference Array + BS||
-|<ul><li>- [ ] Done</li></ul>|3|[Ciel the Commander](http://codeforces.com/problemset/problem/321/C)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|3|[Ciel the Commander](http://codeforces.com/problemset/problem/321/C)|Codeforces||Learn Centeroid Decomposition!|
 |<ul><li>- [x] Done</li></ul>|4|[Pashmak and Buses](http://codeforces.com/problemset/problem/459/C)|Codeforces|Math||
 |<ul><li>- [x] Done</li></ul>|5|[Count Good Substrings](http://codeforces.com/problemset/problem/451/D)|Codeforces|Math||
 |<ul><li>- [ ] Done</li></ul>|6|[MEX and DIFF](https://codeforces.com/problemset/problem/1684/E)|Codeforces|||
