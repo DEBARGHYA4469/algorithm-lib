@@ -138,7 +138,7 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|9|[GukiZ hates Boxes](http://codeforces.com/problemset/problem/551/C)|Codeforces|Exchange Argument+Binary Search|Process in reverse order|
 |<ul><li>- [x] Done</li></ul>|10|[Regular Bridge](http://codeforces.com/problemset/problem/550/D)|Codeforces|Constructive||
 
-# Ladder Name: 10 [ July ]
+# Ladder Name: 10 [ Completed ]
 
 | Checkbox | ID  | Problem Name | Online Judge | Idea | Mistakes |
 |---|:---:|:---:|---|---|---|
