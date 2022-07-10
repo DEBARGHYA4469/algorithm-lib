@@ -174,12 +174,12 @@ Ladders = 26
 |---|:---:|:---:|---|---|---|
 |<ul><li>- [x] Done</li></ul>|1|[Watto and Mechanism](http://codeforces.com/problemset/problem/514/C)|Codeforces|Rolling Hash||
 |<ul><li>- [x] Done</li></ul>|2|[Multiplication Table](http://codeforces.com/problemset/problem/448/D)|Codeforces|Binary Search||
-|<ul><li>- [ ] Done</li></ul>|3|[Characteristics of Rectangles](http://codeforces.com/problemset/problem/333/D)|Codeforces|Ternery Search|
+|<ul><li>- [ ] Done</li></ul>|3|[Characteristics of Rectangles](http://codeforces.com/problemset/problem/333/D)|Codeforces||
 |<ul><li>- [ ] Done</li></ul>|4|[Lucky Common Subsequence](http://codeforces.com/problemset/problem/346/B)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|5|[Prefixes and Suffixes](http://codeforces.com/problemset/problem/432/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|6|[Sereja ans Anagrams](http://codeforces.com/problemset/problem/367/B)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|7|[Porcelain](http://codeforces.com/problemset/problem/148/E)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|8|[Devu and his Brother](http://codeforces.com/problemset/problem/439/D)|Codeforces|5|
+|<ul><li>- [x] Done</li></ul>|8|[Devu and his Brother](http://codeforces.com/problemset/problem/439/D)|Codeforces|Ternery Search|
 |<ul><li>- [ ] Done</li></ul>|9|[Pashmak and Graph](http://codeforces.com/problemset/problem/459/E)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|10|[Turn Off The TV](https://codeforces.com/problemset/problem/863/E)|Codeforces|5|
 
