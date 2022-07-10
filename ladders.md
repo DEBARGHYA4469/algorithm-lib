@@ -153,7 +153,7 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|9|[Equivalent Strings](http://codeforces.com/problemset/problem/559/B)|Codeforces|Equivalence|Equivalence + Lexicographical Smallest|
 |<ul><li>- [x] Done</li></ul>|10|[Book of Evil](http://codeforces.com/problemset/problem/337/D)|Codeforces|Classic Rerooting DP on Trees||
 
-# Ladder Name: 11  [ July ]
+# Ladder Name: 11  [ Completed ]
 
 | Checkbox | ID  | Problem Name | Online Judge | Idea | Mistakes |
 |---|:---:|:---:|---|---|---|
