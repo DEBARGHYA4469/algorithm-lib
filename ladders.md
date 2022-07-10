@@ -166,7 +166,7 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|7|[Civilization](http://codeforces.com/problemset/problem/455/C)|Codeforces|DSU+Tree|Nice Idea::Tree Diameter|
 |<ul><li>- [x] Done</li></ul>|8|[Choosing Balls](http://codeforces.com/problemset/problem/264/C)|Codeforces|DP|Mistake with Bounds|
 |<ul><li>- [x] Done</li></ul>|9|[A and B and Lecture Rooms](http://codeforces.com/problemset/problem/519/E)|Codeforces|Binary Lifting|Handling edge cases|
-|<ul><li>- [ ] Done</li></ul>|10|[Water Tree](http://codeforces.com/problemset/problem/343/D)|Codeforces|||
+|<ul><li>- [x] Done</li></ul>|10|[Water Tree](http://codeforces.com/problemset/problem/343/D)|Codeforces|Euler-Tour Trick + Lazy Prop + Segment Tree||
 
 # Ladder Name: 12 [ July ]
 
