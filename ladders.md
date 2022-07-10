@@ -170,11 +170,11 @@ Ladders = 26
 
 # Ladder Name: 12 [ July ]
 
-| Checkbox | ID  | Problem Name | Online Judge | Difficulty |
-|---|:---:|:---:|---|---|
-|<ul><li>- [ ] Done</li></ul>|1|[Watto and Mechanism](http://codeforces.com/problemset/problem/514/C)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|2|[Multiplication Table](http://codeforces.com/problemset/problem/448/D)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|3|[Characteristics of Rectangles](http://codeforces.com/problemset/problem/333/D)|Codeforces|5|
+| Checkbox | ID  | Problem Name | Online Judge | Idea | Mistakes |
+|---|:---:|:---:|---|---|---|
+|<ul><li>- [x] Done</li></ul>|1|[Watto and Mechanism](http://codeforces.com/problemset/problem/514/C)|Codeforces|Rolling Hash||
+|<ul><li>- [x] Done</li></ul>|2|[Multiplication Table](http://codeforces.com/problemset/problem/448/D)|Codeforces|Binary Search||
+|<ul><li>- [ ] Done</li></ul>|3|[Characteristics of Rectangles](http://codeforces.com/problemset/problem/333/D)|Codeforces|Ternery Search|
 |<ul><li>- [ ] Done</li></ul>|4|[Lucky Common Subsequence](http://codeforces.com/problemset/problem/346/B)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|5|[Prefixes and Suffixes](http://codeforces.com/problemset/problem/432/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|6|[Sereja ans Anagrams](http://codeforces.com/problemset/problem/367/B)|Codeforces|5|
