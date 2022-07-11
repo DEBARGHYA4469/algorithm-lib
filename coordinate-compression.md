@@ -27,3 +27,6 @@
 ` Counter way: but this is a little tedious`
 
 eg. https://codeforces.com/contest/102/submission/130560359
+
+
+* Major Pitfall: lets say there are three segments, [1, 2] , [2, 10] , [10, 100]. Now if you use plain compression you get [1, 2], [2, 3], [3, 4]. So [2, 3] sort of becomes redundant as it is not covering any distinct integer points. Hence always consider one up/ one down each coordinate. like include l-1, r+1 in the compression algorithm.  
