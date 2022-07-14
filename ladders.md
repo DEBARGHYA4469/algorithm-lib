@@ -176,7 +176,7 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|2|[Multiplication Table](http://codeforces.com/problemset/problem/448/D)|Codeforces|Binary Search||
 |<ul><li>- [x] Done</li></ul>|3|[Characteristics of Rectangles](http://codeforces.com/problemset/problem/333/D)|Codeforces|Binary Search+Pigeon Hole|Use arrays instead of maps|
 |<ul><li>- [ ] Done</li></ul>|4|[Lucky Common Subsequence](http://codeforces.com/problemset/problem/346/B)|Codeforces||Learn::Aho-Corasick Automation|
-|<ul><li>- [ ] Done</li></ul>|5|[Prefixes and Suffixes](http://codeforces.com/problemset/problem/432/D)|Codeforces|||
+|<ul><li>- [x] Done</li></ul>|5|[Prefixes and Suffixes](http://codeforces.com/problemset/problem/432/D)|Codeforces|KMP::Substring Count DP||
 |<ul><li>- [ ] Done</li></ul>|6|[Sereja ans Anagrams](http://codeforces.com/problemset/problem/367/B)|Codeforces|||
 |<ul><li>- [ ] Done</li></ul>|7|[Porcelain](http://codeforces.com/problemset/problem/148/E)|Codeforces|||
 |<ul><li>- [x] Done</li></ul>|8|[Devu and his Brother](http://codeforces.com/problemset/problem/439/D)|Codeforces|Ternery Search||
