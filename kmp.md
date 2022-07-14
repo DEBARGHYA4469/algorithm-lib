@@ -96,3 +96,23 @@ while(getline(x,t,' ')){
     cout << t << endl;
 }
 ```
+
+3. **No of substrings of a string which is equal to its prefix**
+
+```
+       Consider at index::i, a[0...i]. Now what is the max length substring ending at i which is a prefix. Ans = pi[i] and the pref is a[0...pi[i]-1].
+       What is the next such string, a[0....pi[pi[i]-1]-1] and so on. 
+       
+       But realize the structure here.
+       
+       Any prefix of length x i.e a[0...x-1] will contribute to pi[x-1], pi[pi[x-1]-1], ......
+       
+       Use dp to solve this
+       
+       vecto<int> cnt(n+1,0);
+       
+       for(int i=0;i<n;i++) cnt[pi[i]]++;
+       for(int i=len;i>=0;i--) cnt[pi[i]-1] += cnt[i];
+       for(int i=1;i<=len;i++) cnt[i]++;
+              
+```
