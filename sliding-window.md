@@ -31,7 +31,6 @@ How to apply sliding window generically?
 
 * Interesting Technique 
 * eg. https://codeforces.com/contest/367/problem/B
-* 
 Building a subarray element in a running fashion and comparing it with another array
 
 
