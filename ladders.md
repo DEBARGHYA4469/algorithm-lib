@@ -185,18 +185,18 @@ Ladders = 26
 
 # Ladder Name: 13 [ July ]
 
-| Checkbox | ID  | Problem Name | Online Judge | Difficulty |
-|---|:---:|:---:|---|---|
-|<ul><li>- [ ] Done</li></ul>|1|[Remove Adjacent](https://codeforces.com/problemset/problem/1321/C)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|2|[Chamber of Secrets](https://codeforces.com/problemset/problem/173/B)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|3|[Renting Bikes](https://codeforces.com/contest/363/problem/D)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|4|[Chef and Digit Jumps](https://www.codechef.com/JUNE14/problems/DIGJUMP)|CodeChef|5|
-|<ul><li>- [ ] Done</li></ul>|5|[Bon Appetit](https://www.codechef.com/problems/FGFS)|CodeChef|5|
-|<ul><li>- [ ] Done</li></ul>|6|[Dessert Wizard](https://www.codechef.com/problems/DELISH)|CodeChef|5|
-|<ul><li>- [ ] Done</li></ul>|7|[Little Elephant and Mouses](https://www.codechef.com/JUNE13/problems/LEMOUSE)|CodeChef|5|
-|<ul><li>- [ ] Done</li></ul>|8|[New Year and Fireworks](https://codeforces.com/contest/750/problem/D)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|9|[High Load](https://codeforces.com/contest/828/problem/D)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|10|[Tree Queries](https://codeforces.com/problemset/problem/1328/E)|Codeforces|5|
+| Checkbox | ID  | Problem Name | Online Judge | Idea | Mistakes | 
+|---|:---:|:---:|---|---|---|
+|<ul><li>- [ ] Done</li></ul>|1|[Remove Adjacent](https://codeforces.com/problemset/problem/1321/C)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|2|[Chamber of Secrets](https://codeforces.com/problemset/problem/173/B)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|3|[Renting Bikes](https://codeforces.com/contest/363/problem/D)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|4|[Chef and Digit Jumps](https://www.codechef.com/JUNE14/problems/DIGJUMP)|CodeChef|||
+|<ul><li>- [ ] Done</li></ul>|5|[Bon Appetit](https://www.codechef.com/problems/FGFS)|CodeChef|||
+|<ul><li>- [ ] Done</li></ul>|6|[Dessert Wizard](https://www.codechef.com/problems/DELISH)|CodeChef|||
+|<ul><li>- [ ] Done</li></ul>|7|[Little Elephant and Mouses](https://www.codechef.com/JUNE13/problems/LEMOUSE)|CodeChef|||
+|<ul><li>- [ ] Done</li></ul>|8|[New Year and Fireworks](https://codeforces.com/contest/750/problem/D)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|9|[High Load](https://codeforces.com/contest/828/problem/D)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|10|[Tree Queries](https://codeforces.com/problemset/problem/1328/E)|Codeforces|||
 
 # Ladder Name: 14 [ July ]
 
