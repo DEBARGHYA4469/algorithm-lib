@@ -168,7 +168,7 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|9|[A and B and Lecture Rooms](http://codeforces.com/problemset/problem/519/E)|Codeforces|Binary Lifting|Handling edge cases|
 |<ul><li>- [x] Done</li></ul>|10|[Water Tree](http://codeforces.com/problemset/problem/343/D)|Codeforces|Euler-Tour Trick + Lazy Prop + Segment Tree|Idea:: Pushing up the empty path to its ancestor and querying for empty vert in subtree was hard!|
 
-# Ladder Name: 12 [ July ]
+# Ladder Name: 12 [ Completed ]
 
 | Checkbox | ID  | Problem Name | Online Judge | Idea | Mistakes |
 |---|:---:|:---:|---|---|---|
@@ -180,7 +180,7 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|6|[Sereja ans Anagrams](http://codeforces.com/problemset/problem/367/B)|Codeforces|Sliding Window|Learnt new technique for comparing running windows|
 |<ul><li>- [x] Done</li></ul>|7|[Porcelain](http://codeforces.com/problemset/problem/148/E)|Codeforces|DP+Precalculation||
 |<ul><li>- [x] Done</li></ul>|8|[Devu and his Brother](http://codeforces.com/problemset/problem/439/D)|Codeforces|Ternery Search||
-|<ul><li>- [x] Done</li></ul>|9|[Pashmak and Graph](http://codeforces.com/problemset/problem/459/E)|Codeforces|Graph::Edge Relaxation|Imp Technique: Build graph greedily to hit the optimal path, similar idea to FW, BF|
+|<ul><li>- [x] Done</li></ul>|9|[Pashmak and Graph](http://codeforces.com/problemset/problem/459/E)|Codeforces|DP, Graph::Edge Relaxation|Imp Technique: Build graph greedily to hit the optimal path, similar idea to FW, BF|
 |<ul><li>- [x] Done</li></ul>|10|[Turn Off The TV](https://codeforces.com/problemset/problem/863/E)|Codeforces|Coordinate Compression + Greedy|Store l,r,l+1,l-1,r+1,r-1 for compression|
 
 # Ladder Name: 13 [ July ]
