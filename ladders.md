@@ -180,7 +180,7 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|6|[Sereja ans Anagrams](http://codeforces.com/problemset/problem/367/B)|Codeforces|Sliding Window|Learnt new technique for comparing running windows|
 |<ul><li>- [x] Done</li></ul>|7|[Porcelain](http://codeforces.com/problemset/problem/148/E)|Codeforces|DP+Precalculation||
 |<ul><li>- [x] Done</li></ul>|8|[Devu and his Brother](http://codeforces.com/problemset/problem/439/D)|Codeforces|Ternery Search||
-|<ul><li>- [ ] Done</li></ul>|9|[Pashmak and Graph](http://codeforces.com/problemset/problem/459/E)|Codeforces|||
+|<ul><li>- [x] Done</li></ul>|9|[Pashmak and Graph](http://codeforces.com/problemset/problem/459/E)|Codeforces|Graph::Edge Relaxation|Imp Technique: Build graph greedily to hit the optimal path, similar idea to FW, BF|
 |<ul><li>- [x] Done</li></ul>|10|[Turn Off The TV](https://codeforces.com/problemset/problem/863/E)|Codeforces|Coordinate Compression + Greedy|Store l,r,l+1,l-1,r+1,r-1 for compression|
 
 # Ladder Name: 13 [ July ]
