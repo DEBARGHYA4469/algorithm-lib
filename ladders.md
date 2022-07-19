@@ -191,7 +191,7 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|2|[Chamber of Secrets](https://codeforces.com/problemset/problem/173/B)|Codeforces|Bipartite+BFS||
 |<ul><li>- [x] Done</li></ul>|3|[Renting Bikes](https://codeforces.com/contest/363/problem/D)|Codeforces|Binary Search||
 |<ul><li>- [x] Done</li></ul>|4|[Chef and Digit Jumps](https://www.codechef.com/JUNE14/problems/DIGJUMP)|CodeChef|BFS||
-|<ul><li>- [ ] Done</li></ul>|6|[River Locks](https://codeforces.com/problemset/problem/1700/D)|Codeforces|||
+|<ul><li>- [x] Done</li></ul>|6|[River Locks](https://codeforces.com/problemset/problem/1700/D)|Codeforces|Binary Search||
 |<ul><li>- [ ] Done</li></ul>|7|[Zero Path](https://codeforces.com/problemset/problem/1695/C)|Codeforces|||
 |<ul><li>- [ ] Done</li></ul>|8|[New Year and Fireworks](https://codeforces.com/contest/750/problem/D)|Codeforces|||
 |<ul><li>- [ ] Done</li></ul>|9|[High Load](https://codeforces.com/contest/828/problem/D)|Codeforces|||
