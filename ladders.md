@@ -189,7 +189,7 @@ Ladders = 26
 |---|:---:|:---:|---|---|---|
 |<ul><li>- [x] Done</li></ul>|1|[Remove Adjacent](https://codeforces.com/problemset/problem/1321/C)|Codeforces|Greedy||
 |<ul><li>- [x] Done</li></ul>|2|[Chamber of Secrets](https://codeforces.com/problemset/problem/173/B)|Codeforces|Bipartite+BFS||
-|<ul><li>- [ ] Done</li></ul>|3|[Renting Bikes](https://codeforces.com/contest/363/problem/D)|Codeforces|||
+|<ul><li>- [x] Done</li></ul>|3|[Renting Bikes](https://codeforces.com/contest/363/problem/D)|Codeforces|Binary Search||
 |<ul><li>- [ ] Done</li></ul>|4|[Chef and Digit Jumps](https://www.codechef.com/JUNE14/problems/DIGJUMP)|CodeChef|||
 |<ul><li>- [ ] Done</li></ul>|5|[Bon Appetit](https://www.codechef.com/problems/FGFS)|CodeChef|||
 |<ul><li>- [ ] Done</li></ul>|6|[Dessert Wizard](https://www.codechef.com/problems/DELISH)|CodeChef|||
