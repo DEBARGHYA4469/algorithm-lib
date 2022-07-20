@@ -193,7 +193,7 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|4|[Chef and Digit Jumps](https://www.codechef.com/JUNE14/problems/DIGJUMP)|CodeChef|BFS||
 |<ul><li>- [x] Done</li></ul>|6|[River Locks](https://codeforces.com/problemset/problem/1700/D)|Codeforces|Binary Search||
 |<ul><li>- [x] Done</li></ul>|7|[Zero Path](https://codeforces.com/problemset/problem/1695/C)|Codeforces|DP:Intermediate Value Theorem with Max, Min|Even/Odd Idea|
-|<ul><li>- [ ] Done</li></ul>|8|[New Year and Fireworks](https://codeforces.com/contest/750/problem/D)|Codeforces|||
+|<ul><li>- [x] Done</li></ul>|8|[New Year and Fireworks](https://codeforces.com/contest/750/problem/D)|Codeforces|Bitmask+DP||
 |<ul><li>- [ ] Done</li></ul>|9|[High Load](https://codeforces.com/contest/828/problem/D)|Codeforces|||
 |<ul><li>- [ ] Done</li></ul>|10|[Tree Queries](https://codeforces.com/problemset/problem/1328/E)|Codeforces|||
 
