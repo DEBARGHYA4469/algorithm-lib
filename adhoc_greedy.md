@@ -1,4 +1,4 @@
-* Largest Rectange in a Histogram
+Largest Rectange in a Histogram
 
 A = {H1, H2, H3,...,HN-1,HN}. 
 
