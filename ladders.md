@@ -192,25 +192,25 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|3|[Renting Bikes](https://codeforces.com/contest/363/problem/D)|Codeforces|Binary Search||
 |<ul><li>- [x] Done</li></ul>|4|[Chef and Digit Jumps](https://www.codechef.com/JUNE14/problems/DIGJUMP)|CodeChef|BFS||
 |<ul><li>- [x] Done</li></ul>|6|[River Locks](https://codeforces.com/problemset/problem/1700/D)|Codeforces|Binary Search||
-|<ul><li>- [x] Done</li></ul>|7|[Zero Path](https://codeforces.com/problemset/problem/1695/C)|Codeforces|Intermediate Value Theorem|Even/Odd|
+|<ul><li>- [x] Done</li></ul>|7|[Zero Path](https://codeforces.com/problemset/problem/1695/C)|Codeforces|DP:Intermediate Value Theorem with Max, Min|Even/Odd Idea|
 |<ul><li>- [ ] Done</li></ul>|8|[New Year and Fireworks](https://codeforces.com/contest/750/problem/D)|Codeforces|||
 |<ul><li>- [ ] Done</li></ul>|9|[High Load](https://codeforces.com/contest/828/problem/D)|Codeforces|||
 |<ul><li>- [ ] Done</li></ul>|10|[Tree Queries](https://codeforces.com/problemset/problem/1328/E)|Codeforces|||
 
 # Ladder Name: 14 [ July ]
 
-| Checkbox | ID  | Problem Name | Online Judge | Difficulty |
-|---|:---:|:---:|---|---|
-|<ul><li>- [ ] Done</li></ul>|1|[Min Cost String](https://codeforces.com/problemset/problem/1511/D)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|2|[Coffee Break](https://codeforces.com/problemset/problem/1041/C)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|3|[R2D2 and Droid Army](https://codeforces.com/contest/514/problem/D)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|4|[One-Dimensional Battle Ships](https://codeforces.com/contest/567/problem/D)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|5|[As Fast As Possible](https://codeforces.com/contest/700/problem/A)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|6|[Gambling](https://codeforces.com/problemset/problem/1692/H)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|7|[Array Stabilization (GCD version)](https://codeforces.com/problemset/problem/1547/F)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|8|[Lena and Matrix](https://codeforces.com/problemset/problem/1689/D)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|9|[Tokitsukaze and Two Colorful Tapes](https://codeforces.com/problemset/problem/1677/C)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|10|[Bank Hacking](https://codeforces.com/problemset/problem/796/C)|Codeforces|5|
+| Checkbox | ID  | Problem Name | Online Judge | Idea | Mistakes | 
+|---|:---:|:---:|---|---|---|
+|<ul><li>- [ ] Done</li></ul>|1|[Min Cost String](https://codeforces.com/problemset/problem/1511/D)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|2|[Coffee Break](https://codeforces.com/problemset/problem/1041/C)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|3|[R2D2 and Droid Army](https://codeforces.com/contest/514/problem/D)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|4|[One-Dimensional Battle Ships](https://codeforces.com/contest/567/problem/D)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|5|[As Fast As Possible](https://codeforces.com/contest/700/problem/A)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|6|[Gambling](https://codeforces.com/problemset/problem/1692/H)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|7|[Array Stabilization (GCD version)](https://codeforces.com/problemset/problem/1547/F)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|8|[Lena and Matrix](https://codeforces.com/problemset/problem/1689/D)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|9|[Tokitsukaze and Two Colorful Tapes](https://codeforces.com/problemset/problem/1677/C)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>|10|[Bank Hacking](https://codeforces.com/problemset/problem/796/C)|Codeforces|||
 
 # Ladder Name: 15 [ August ]
 
