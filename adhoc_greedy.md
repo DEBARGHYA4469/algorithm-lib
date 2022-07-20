@@ -1,4 +1,4 @@
-### Largest Rectange in a Histogram
+* Largest Rectange in a Histogram
 
 A = {H1, H2, H3,...,HN-1,HN}. 
 
@@ -31,3 +31,7 @@ https://www.geeksforgeeks.org/minimum-increment-decrement-to-make-array-elements
 Good Adhoc Problems:
 * https://codeforces.com/contest/1582/problem/D [Nice Observation]
 * https://codeforces.com/problemset/problem/343/C [Greedy+Binary Search]
+
+
+Intermediate Value Prop: Take max and min and increase that. Check the distance between two consecutive points. Observe the interval
+eg. https://codeforces.com/contest/1695/submission/164965524
