@@ -183,7 +183,7 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|9|[Pashmak and Graph](http://codeforces.com/problemset/problem/459/E)|Codeforces|DP, Graph::Edge Relaxation|Imp Technique: Build graph greedily to hit the optimal path, similar idea to FW, BF|
 |<ul><li>- [x] Done</li></ul>|10|[Turn Off The TV](https://codeforces.com/problemset/problem/863/E)|Codeforces|Coordinate Compression + Greedy|Store l,r,l+1,l-1,r+1,r-1 for compression|
 
-# Ladder Name: 13 [ July ]
+# Ladder Name: 13 [ Completed ]
 
 | Checkbox | ID  | Problem Name | Online Judge | Idea | Mistakes | 
 |---|:---:|:---:|---|---|---|
@@ -195,7 +195,7 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|7|[Zero Path](https://codeforces.com/problemset/problem/1695/C)|Codeforces|DP:Intermediate Value Theorem with Max, Min|Even/Odd Idea|
 |<ul><li>- [x] Done</li></ul>|8|[New Year and Fireworks](https://codeforces.com/contest/750/problem/D)|Codeforces|Bitmask+DP||
 |<ul><li>- [x] Done</li></ul>|9|[High Load](https://codeforces.com/contest/828/problem/D)|Codeforces|Implementation|Think constructive problems more cleanly|
-|<ul><li>- [ ] Done</li></ul>|10|[Tree Queries](https://codeforces.com/problemset/problem/1328/E)|Codeforces|||
+|<ul><li>- [x] Done</li></ul>|10|[Tree Queries](https://codeforces.com/problemset/problem/1328/E)|Codeforces|Binary Lifting+LCA|Also Euler Tour works!|
 
 # Ladder Name: 14 [ July ]
 
