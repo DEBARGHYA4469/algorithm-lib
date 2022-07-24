@@ -202,7 +202,7 @@ Ladders = 26
 | Checkbox | ID  | Problem Name | Online Judge | Idea | Mistakes | 
 |---|:---:|:---:|---|---|---|
 |<ul><li>- [x] Done</li></ul>|1|[Min Cost String](https://codeforces.com/problemset/problem/1511/D)|Codeforces|Euler Circuit|Greedy Proof: Think cost in terms of edges in euler circuit|
-|<ul><li>- [ ] Done</li></ul>|2|[Coffee Break](https://codeforces.com/problemset/problem/1041/C)|Codeforces|||
+|<ul><li>- [x] Done</li></ul>|2|[Coffee Break](https://codeforces.com/problemset/problem/1041/C)|Codeforces|Sets: Implementation|TLE::Vectors take O(N) for deletion|
 |<ul><li>- [x] Done</li></ul>|3|[R2D2 and Droid Army](https://codeforces.com/contest/514/problem/D)|Codeforces|Sliding Window||
 |<ul><li>- [ ] Done</li></ul>|4|[One-Dimensional Battle Ships](https://codeforces.com/contest/567/problem/D)|Codeforces|||
 |<ul><li>- [x] Done</li></ul>|5|[As Fast As Possible](https://codeforces.com/contest/700/problem/A)|Codeforces|Binary Search::Floating Point||
