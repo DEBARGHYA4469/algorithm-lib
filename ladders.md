@@ -207,7 +207,7 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|4|[One-Dimensional Battle Ships](https://codeforces.com/contest/567/problem/D)|Codeforces|SQRT Decomposition or Sets: Upperbound, Lowerbound|Seg Tree is overkill. Use prev,next for set iteration, Ptr subtraction works for same dtype, Careful of edges in SQRT decomposition|
 |<ul><li>- [x] Done</li></ul>|5|[As Fast As Possible](https://codeforces.com/contest/700/problem/A)|Codeforces|Binary Search::Floating Point||
 |<ul><li>- [x] Done</li></ul>|6|[Gambling](https://codeforces.com/problemset/problem/1692/H)|Codeforces|Inequality+Maps||
-|<ul><li>- [ ] Done</li></ul>|7|[Array Stabilization (GCD version)](https://codeforces.com/problemset/problem/1547/F)|Codeforces|||
+|<ul><li>- [x] Done</li></ul>|7|[Array Stabilization (GCD version)](https://codeforces.com/problemset/problem/1547/F)|Codeforces|Segment Tree||
 |<ul><li>- [ ] Done</li></ul>|8|[Lena and Matrix](https://codeforces.com/problemset/problem/1689/D)|Codeforces|||
 |<ul><li>- [ ] Done</li></ul>|9|[Tokitsukaze and Two Colorful Tapes](https://codeforces.com/problemset/problem/1677/C)|Codeforces|||
 |<ul><li>- [ ] Done</li></ul>|10|[Bank Hacking](https://codeforces.com/problemset/problem/796/C)|Codeforces|||
