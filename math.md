@@ -128,4 +128,13 @@ x1 = x % w1 ---> x/=w1.... and so on!
 ![image](https://user-images.githubusercontent.com/21307343/151416181-5eea8fa1-905b-4511-9132-3d96ff92bc38.png)
 
 
+# Manhatten Trick
+
+Also called 45 degree rotation trick, given any Manhatten metric convert it to Chebyshev metric.
+|x| = max(x,-x) </br>
+dist(x1,x2) = |x1-x2|+|y1-y2| = max(x1-x2,x2-x1) + max(y1-y2,y2-y1) = **max(x1+y1-x2-y2,x1-y1-x2+y2,-x1+y1+x2-y2,-x1-y1+x2+y2)**
+
+Given a specific point, to find closest or farthest distance from it:
+
+> ans= max(dist(x0, x)) = max(max(x0+y0-x-y,x0-y0-x+y,-x0+y0+x-y,-x0-y0+x+y))) = max(x0+y0-min(x+y),x0-y0-min(x-y),-x0+y0+max(x-y),-x0-y0+max(x,y))
 
