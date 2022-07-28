@@ -209,7 +209,7 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|6|[Gambling](https://codeforces.com/problemset/problem/1692/H)|Codeforces|Inequality+Maps||
 |<ul><li>- [x] Done</li></ul>|7|[Array Stabilization (GCD version)](https://codeforces.com/problemset/problem/1547/F)|Codeforces|Segment Tree||
 |<ul><li>- [x] Done</li></ul>|8|[Lena and Matrix](https://codeforces.com/problemset/problem/1689/D)|Codeforces|Manhatten Trick/45 rotation trick|Nice Idea, DP idea is also good|
-|<ul><li>- [ ] Done</li></ul>|9|[Tokitsukaze and Two Colorful Tapes](https://codeforces.com/problemset/problem/1677/C)|Codeforces|||
+|<ul><li>- [x] Done</li></ul>|9|[Tokitsukaze and Two Colorful Tapes](https://codeforces.com/problemset/problem/1677/C)|Codeforces|Math::Cyclicity||
 |<ul><li>- [ ] Done</li></ul>|10|[Bank Hacking](https://codeforces.com/problemset/problem/796/C)|Codeforces|||
 
 # Ladder Name: 15 [ August ]
