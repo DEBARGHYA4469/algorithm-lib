@@ -1,4 +1,4 @@
-#### Custom Ceil function
+# Custom Ceil function
 
 ```cpp
     inline int ceildiv(int a,int b){
@@ -7,7 +7,7 @@
     }
 ```
 
-#### Lazy Caterer
+# Lazy Caterer
 
 `F[N] = F[N-1] + N`
 
@@ -19,7 +19,7 @@ Consider a line far away(pink) which intersects with all the lines N(all divergi
 
 Now coming to cake cutting problem, since this construction exists, we can zoom(scale in) out everything and fit in the cake geometry. 
 
-#### Chinese Remainder Theorem
+# Chinese Remainder Theorem
 
 If Alice has x number of apples such that she can divide the apples in mi groups with ri remaining, for some i's. What is the minimum no of apples she posses?</br>
 
@@ -67,7 +67,7 @@ inline ll crt(ll r[],ll m[]){
 }
 ```
 
-### Derangement
+# Derangement
 Solving permutation with fixed points k or more: N! - Sum{D(N,k)} k = 0...K-1 https://en.wikipedia.org/wiki/Rencontres_numbers and calcuate.
 
 <li> D[N] =  (N-1)(D[N-1]+D[N-2])
