@@ -212,7 +212,7 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|9|[Tokitsukaze and Two Colorful Tapes](https://codeforces.com/problemset/problem/1677/C)|Codeforces|Math::Cyclicity||
 |<ul><li>- [x] Done</li></ul>|10|[Bank Hacking](https://codeforces.com/problemset/problem/796/C)|Codeforces|Case work||
 
-# Ladder Name: 15 [ August ]
+# Ladder Name: 15 [ Week 1 ] 
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
@@ -227,7 +227,7 @@ Ladders = 26
 |<ul><li>- [ ] Done</li></ul>|9|[Bomber](https://atcoder.jp/contests/abc176/tasks/abc176_e)|AtCoder|5|
 |<ul><li>- [ ] Done</li></ul>|10|[Amusement Park](https://atcoder.jp/contests/abc216/tasks/abc216_e)|AtCoder|5|
 
-# Ladder Name: 16  [ August ]
+# Ladder Name: 16  [ Week 1 ]
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
@@ -242,7 +242,7 @@ Ladders = 26
 |<ul><li>- [ ] Done</li></ul>|9|[Lamps](https://atcoder.jp/contests/hhkb2020/tasks/hhkb2020_e)|AtCoder|5|
 |<ul><li>- [ ] Done</li></ul>|10|[Handshake](https://atcoder.jp/contests/abc149/tasks/abc149_e)|AtCoder|5|
 
-# Ladder Name: 17 [ August ]
+# Ladder Name: 17 [ Week 2 ]
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
@@ -257,7 +257,7 @@ Ladders = 26
 |<ul><li>- [ ] Done</li></ul>|9|[Maximal Intersection](https://codeforces.com/problemset/problem/1029/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|10|[Balanced Path](https://atcoder.jp/contests/abc147/tasks/abc147_e)|AtCoder|5|
 
-# Ladder Name: 18  [ August ]
+# Ladder Name: 18  [ Week 2 ]
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
@@ -271,7 +271,7 @@ Ladders = 26
 |<ul><li>- [ ] Done</li></ul>|9|[Substring and Subsequence](https://codeforces.com/problemset/problem/163/A)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|10|[Mike and gcd problem](https://codeforces.com/problemset/problem/798/C)|Codeforces|5|
 
-# Ladder Name: 19  [ August ]
+# Ladder Name: 19  [ Week 3 ]
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
@@ -286,7 +286,7 @@ Ladders = 26
 |<ul><li>- [ ] Done</li></ul>|9|[Baby Ehab Partitions Again](https://codeforces.com/problemset/problem/1516/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|10|[Ayoub's function](https://codeforces.com/problemset/problem/1301/C)|Codeforces|5|
 
-# Ladder Name: 20   [ August ]
+# Ladder Name: 20   [ Week 3 ]
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
@@ -301,7 +301,7 @@ Ladders = 26
 |<ul><li>- [ ] Done</li></ul>|9|[The Fair Nut and the Best Path](https://codeforces.com/problemset/problem/1083/A)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|10|[Yet Another Subarray Problem](https://codeforces.com/problemset/problem/1197/D)|Codeforces|5|
 
-# Ladder Name: 21  [ August ]
+# Ladder Name: 21  [ Week 4 ]
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
@@ -316,7 +316,7 @@ Ladders = 26
 |<ul><li>- [ ] Done</li></ul>|9|[Make It Connected](https://codeforces.com/problemset/problem/1095/F)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|10|[Paths and Trees](https://codeforces.com/problemset/problem/545/E)|Codeforces|5|
 
-# Ladder Name: 22   [ September ]
+# Ladder Name: 22   [ Week 4 ]
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
@@ -331,7 +331,7 @@ Ladders = 26
 |<ul><li>- [ ] Done</li></ul>|9|[Recycling Bottles](https://codeforces.com/problemset/problem/671/A)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|10|[Omkar and Medians](https://codeforces.com/problemset/problem/1536/D)|Codeforces|5|
 
-# Ladder Name: 23   [ September ]
+# Ladder Name: 23   [ Week 5 ]
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
@@ -346,7 +346,7 @@ Ladders = 26
 |<ul><li>- [ ] Done</li></ul>|9|[Minimum and Maximum](https://codeforces.com/problemset/problem/730/B)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|10|[Clique Problem](https://codeforces.com/problemset/problem/527/D)|Codeforces|5|
 
-# Ladder Name: 24 [ September ]
+# Ladder Name: 24 [ Week 5 ]
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
@@ -361,7 +361,7 @@ Ladders = 26
 |<ul><li>- [ ] Done</li></ul>|9|[Kth Excluded](https://atcoder.jp/contests/abc205/tasks/abc205_d)|AtCoder|5|
 |<ul><li>- [ ] Done</li></ul>|10|[Permutation](https://atcoder.jp/contests/abc199/tasks/abc199_e)|AtCoder|5|
 
-# Ladder Name: 25 [ September ]
+# Ladder Name: 25 [ Week 6 ]
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
@@ -376,7 +376,7 @@ Ladders = 26
 |<ul><li>- [ ] Done</li></ul>|9|[Present](https://codeforces.com/contest/460/problem/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|10|[Psychos in a Line](https://codeforces.com/contest/319/problem/B)|Codeforces|5|
 
-# Ladder Name: 26 [ September ]
+# Ladder Name: 26 [ Week 6 ]
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
