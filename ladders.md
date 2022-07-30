@@ -197,7 +197,7 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|9|[High Load](https://codeforces.com/contest/828/problem/D)|Codeforces|Implementation|Think constructive problems more cleanly|
 |<ul><li>- [x] Done</li></ul>|10|[Tree Queries](https://codeforces.com/problemset/problem/1328/E)|Codeforces|Binary Lifting+LCA|Also Euler Tour works!|
 
-# Ladder Name: 14 [ July ]
+# Ladder Name: 14 [ Completed ]
 
 | Checkbox | ID  | Problem Name | Online Judge | Idea | Mistakes | 
 |---|:---:|:---:|---|---|---|
