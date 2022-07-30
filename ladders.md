@@ -286,7 +286,7 @@ Ladders = 26
 |<ul><li>- [ ] Done</li></ul>|9|[Baby Ehab Partitions Again](https://codeforces.com/problemset/problem/1516/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|10|[Ayoub's function](https://codeforces.com/problemset/problem/1301/C)|Codeforces|5|
 
-# Ladder Name: 20   [ September ]
+# Ladder Name: 20   [ August ]
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
@@ -301,7 +301,7 @@ Ladders = 26
 |<ul><li>- [ ] Done</li></ul>|9|[The Fair Nut and the Best Path](https://codeforces.com/problemset/problem/1083/A)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|10|[Yet Another Subarray Problem](https://codeforces.com/problemset/problem/1197/D)|Codeforces|5|
 
-# Ladder Name: 21  [ September ]
+# Ladder Name: 21  [ August ]
 
 | Checkbox | ID  | Problem Name | Online Judge | Difficulty |
 |---|:---:|:---:|---|---|
