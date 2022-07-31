@@ -69,7 +69,7 @@ int main(){
 ```
 
 
-# Alternate Technique for ternery search for finding global minima, or any local minima
+### Alternate Technique for ternery search for finding global minima, or any local minima
 
 a[] = {a1, a2, a3, ... , aN}
 
