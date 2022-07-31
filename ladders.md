@@ -219,7 +219,7 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|1|[Danil and a Part-time Job](https://codeforces.com/problemset/problem/877/E)|Codeforces|Euler Trick+Lazy Propagation||
 |<ul><li>- [x] Done</li></ul>|2|[Infinite Prefixes](https://codeforces.com/problemset/problem/1295/B)|Codeforces|Math|Nice Observation|
 |<ul><li>- [x] Done</li></ul>|3|[Baby Ehab Partitions Again](https://codeforces.com/problemset/problem/1516/C)|Codeforces|Math|Nice Idea|
-|<ul><li>- [ ] Done</li></ul>|4|[Searching Local Minimum](https://codeforces.com/problemset/problem/1479/A)|Codeforces|||
+|<ul><li>- [x] Done</li></ul>|4|[Searching Local Minimum](https://codeforces.com/problemset/problem/1479/A)|Codeforces|Ternery Search, Interactive Problem||
 |<ul><li>- [ ] Done</li></ul>|5|[GCD Table](https://codeforces.com/problemset/problem/582/A)|Codeforces|||
 |<ul><li>- [ ] Done</li></ul>|6|[Up the Strip](https://codeforces.com/problemset/problem/1558/B)|Codeforces|||
 |<ul><li>- [ ] Done</li></ul>|7|[Optimal Number Permutation](https://codeforces.com/contest/622/problem/D)|Codeforces|||
