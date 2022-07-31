@@ -19,7 +19,9 @@
 
 
 [Restoration Distance] 	
+
 ```cpp
+
 int main(){
 		
 		std::ios::sync_with_stdio(false);
@@ -62,7 +64,9 @@ int main(){
 	 	cout << ans << endl;
  
 		return 0;
-	}```
+}
+
+```cpp
 
 
 # Alternate Technique for ternery search for finding global minima, or any local minima
