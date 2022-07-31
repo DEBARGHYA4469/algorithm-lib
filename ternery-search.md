@@ -66,7 +66,7 @@ int main(){
 		return 0;
 }
 
-```cpp
+```
 
 
 # Alternate Technique for ternery search for finding global minima, or any local minima
