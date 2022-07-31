@@ -63,3 +63,25 @@ int main(){
  
 		return 0;
 	}```
+
+
+# Alternate Technique for ternery search for finding global minima, or any local minima
+
+a[] = {a1, a2, a3, ... , aN}
+
+a[0] = a[N+1] = inf
+
+```cpp
+      int lo = 1 , hi = N;
+      while(lo<=hi){
+            int mid = (lo + hi) / 2;
+	    if(a[mid] < a[mid+1]){
+		if(a[mid] < a[mid-1]){
+			answer = mid;
+			break;
+		}
+		hi = mid - 1;
+	    }
+	    else lo = mid + 1;
+      }
+```
