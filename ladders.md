@@ -222,7 +222,7 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|4|[Searching Local Minimum](https://codeforces.com/problemset/problem/1479/A)|Codeforces|Ternery Search, Interactive Problem||
 |<ul><li>- [x] Done</li></ul>|5|[GCD Table](https://codeforces.com/problemset/problem/582/A)|Codeforces|Math|Use of Multiset|
 |<ul><li>- [x] Done</li></ul>|6|[Up the Strip](https://codeforces.com/problemset/problem/1558/B)|Codeforces|DP+Math|Amortized: Harmonic Series Approximation, Imp|
-|<ul><li>- [ ] Done</li></ul>|7|[Optimal Number Permutation](https://codeforces.com/contest/622/problem/D)|Codeforces|||
+|<ul><li>- [x] Done</li></ul>|7|[Optimal Number Permutation](https://codeforces.com/contest/622/problem/D)|Codeforces|Parity Trick, Observation|Nice Construction|
 |<ul><li>- [ ] Done</li></ul>|8|[Road to Post Office](https://codeforces.com/contest/702/problem/D)|Codeforces|||
 |<ul><li>- [ ] Done</li></ul>|9|[Bomber](https://atcoder.jp/contests/abc176/tasks/abc176_e)|AtCoder|||
 |<ul><li>- [ ] Done</li></ul>|10|[Amusement Park](https://atcoder.jp/contests/abc216/tasks/abc216_e)|AtCoder|||
