@@ -212,7 +212,7 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|9|[Tokitsukaze and Two Colorful Tapes](https://codeforces.com/problemset/problem/1677/C)|Codeforces|Math::Cyclicity||
 |<ul><li>- [x] Done</li></ul>|10|[Bank Hacking](https://codeforces.com/problemset/problem/796/C)|Codeforces|Case work||
 
-# Ladder Name: 15 [ Week 1 ] 
+# Ladder Name: 15 [ Completed ] 
 
 | Checkbox | ID  | Problem Name | Online Judge | Idea | Mistakes |
 |---|:---:|:---:|---|---|---|
