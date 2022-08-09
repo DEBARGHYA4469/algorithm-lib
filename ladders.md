@@ -225,7 +225,7 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|7|[Optimal Number Permutation](https://codeforces.com/contest/622/problem/D)|Codeforces|Parity Trick, Observation|Nice Construction|
 |<ul><li>- [x] Done</li></ul>|8|[Road to Post Office](https://codeforces.com/contest/702/problem/D)|Codeforces|Math|Mistakes: Applying BS for formula which are not dependent on BS param|
 |<ul><li>- [x] Done</li></ul>|9|[Bomber](https://atcoder.jp/contests/abc176/tasks/abc176_e)|AtCoder|Math|Nice Idea|
-|<ul><li>- [ ] Done</li></ul>|10|[Amusement Park](https://atcoder.jp/contests/abc216/tasks/abc216_e)|AtCoder|||
+|<ul><li>- [x] Done</li></ul>|10|[Amusement Park](https://atcoder.jp/contests/abc216/tasks/abc216_e)|AtCoder|Math+Implementation|Think around BS|
 
 # Ladder Name: 16  [ Week 1 ]
 
