@@ -220,7 +220,7 @@ VC-25
 |---|:---:|:---:|---|---|---|---|
 |<ul><li>- [ ] Done</li></ul>|8|[Get Everything](https://atcoder.jp/contests/abc142/tasks/abc142_e)|AtCoder|5|
 |<ul><li>- [ ] Done</li></ul>|9|[Present](https://codeforces.com/contest/460/problem/C)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|10|[Psychos in a Line](https://codeforces.com/contest/319/problem/B)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|10|[Special Grid](https://codeforces.com/problemset/problem/435/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|1|[Too Many Segments (easy version)](https://codeforces.com/problemset/problem/1249/D1)|Codeforces|5|
 
 VC-26
