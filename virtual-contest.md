@@ -1,4 +1,14 @@
-VC-1
+
+VC-0 :: Date - Aug 13, 2022 
+
+| Checkbox | Status  | Problem Name | Online Judge | Ideas | Mistakes | Time Required |
+|---|:---:|:---:|---|---|---|---|
+|<ul><li>- [x] Done</li></ul>|P|[Edge Deletion](https://codeforces.com/problemset/problem/1076/D)|Codeforces|Dijkstra||20 mins|
+|<ul><li>- [x] Done</li></ul>|F|[Robot in a Hallway](https://codeforces.com/contest/1716/problem/C)|Codeforces|Prefix Sum::DP|Hard Implemetation|!|
+|<ul><li>- [x] Done</li></ul>|F|[Primitive Primes](https://codeforces.com/contest/1316/problem/C)|Codeforces|Extremal Principle|Nice Observation|!|
+|<ul><li>- [x] Done</li></ul>|P|[Close Tuples](https://codeforces.com/contest/1462/problem/E2)|Codeforces|Combinatorics|Easy|20 mins|
+
+VC-1 :: Date - Aug 14, 2022, 
 
 | Checkbox | ID  | Problem Name | Online Judge | Ideas | Mistakes | Time Required |
 |---|:---:|:---:|---|---|---|---|
@@ -241,11 +251,3 @@ VC-27
 |<ul><li>- [ ] Done</li></ul>|8|[Single-use Stones](https://codeforces.com/contest/965/problem/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|9|[Christmas Trees](https://codeforces.com/problemset/problem/1283/D)|Codeforces|5|
 
-VC-28 :: Date - Aug 13, 2022, Start Time:: 4:30, End Time:: 7:00
-
-| Checkbox | Status  | Problem Name | Online Judge | Ideas | Mistakes | Time Required |
-|---|:---:|:---:|---|---|---|---|
-|<ul><li>- [x] Done</li></ul>|P|[Edge Deletion](https://codeforces.com/problemset/problem/1076/D)|Codeforces|Dijkstra||20 mins|
-|<ul><li>- [x] Done</li></ul>|F|[Robot in a Hallway](https://codeforces.com/contest/1716/problem/C)|Codeforces|Prefix Sum::DP|Hard Implemetation|!|
-|<ul><li>- [x] Done</li></ul>|F|[Primitive Primes](https://codeforces.com/contest/1316/problem/C)|Codeforces|Extremal Principle|Nice Observation|!|
-|<ul><li>- [x] Done</li></ul>|P|[Close Tuples](https://codeforces.com/contest/1462/problem/E2)|Codeforces|Combinatorics|Easy|20 mins|
