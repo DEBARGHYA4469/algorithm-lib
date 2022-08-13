@@ -241,11 +241,11 @@ VC-27
 |<ul><li>- [ ] Done</li></ul>|8|[Single-use Stones](https://codeforces.com/contest/965/problem/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|9|[Christmas Trees](https://codeforces.com/problemset/problem/1283/D)|Codeforces|5|
 
-VC-28
+VC-28 :: Date - Aug 13, 2022, Start Time:: 4:30, End Time:: 7:00
 
 | Checkbox | ID  | Problem Name | Online Judge | Ideas | Mistakes | Time Required |
 |---|:---:|:---:|---|---|---|---|
-|<ul><li>- [ ] Done</li></ul>|10|[Edge Deletion](https://codeforces.com/problemset/problem/1076/D)|Codeforces||||
-|<ul><li>- [ ] Done</li></ul>|10|[Robot in a Hallway](https://codeforces.com/contest/1716/problem/C)|Codeforces||||
-|<ul><li>- [ ] Done</li></ul>|10|[Primitive Primes](https://codeforces.com/contest/1316/problem/C)|Codeforces||||
-|<ul><li>- [ ] Done</li></ul>|10|[Close Tuples](https://codeforces.com/contest/1462/problem/E2)|Codeforces||||
+|<ul><li>- [ ] Done</li></ul>|A|[Edge Deletion](https://codeforces.com/problemset/problem/1076/D)|Codeforces||||
+|<ul><li>- [ ] Done</li></ul>|B|[Robot in a Hallway](https://codeforces.com/contest/1716/problem/C)|Codeforces||||
+|<ul><li>- [ ] Done</li></ul>|C|[Primitive Primes](https://codeforces.com/contest/1316/problem/C)|Codeforces||||
+|<ul><li>- [ ] Done</li></ul>|D|[Close Tuples](https://codeforces.com/contest/1462/problem/E2)|Codeforces||||
