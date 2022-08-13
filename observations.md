@@ -58,3 +58,4 @@
 * https://codeforces.com/contest/1625/problem/D [0/1 Trie, DP on Trie, Hard!!]
 * https://atcoder.jp/contests/abc236/tasks/abc236_e [Average/Median Maximization Trick]
 * https://codeforces.com/contest/1684/problem/E [Nice Observation required around MEX, Greedy]
+* https://codeforces.com/contest/1316/problem/C [Extremal Principle + Nice Observation]
