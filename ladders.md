@@ -236,7 +236,7 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|F|[Robot in a Hallway](https://codeforces.com/contest/1716/problem/C)|Codeforces|Prefix Sum::DP|Hard Implemetation|!|
 |<ul><li>- [x] Done</li></ul>|F|[Primitive Primes](https://codeforces.com/contest/1316/problem/C)|Codeforces|Extremal Principle|Nice Observation|!|
 |<ul><li>- [x] Done</li></ul>|P|[Close Tuples](https://codeforces.com/contest/1462/problem/E2)|Codeforces|Combinatorics|Easy|20 mins|
-|<ul><li>- [ ] Done</li></ul>|1|[Packmen](https://codeforces.com/problemset/problem/847/E)|Codeforces||||
+|<ul><li>- [x] Done</li></ul>|P|[Packmen](https://codeforces.com/problemset/problem/847/E)|Codeforces|Binary Search|Classical|45 mins|
 |<ul><li>- [ ] Done</li></ul>|2|[Bash and a Tough Math Puzzle](https://codeforces.com/problemset/problem/914/D)|Codeforces||||
 |<ul><li>- [ ] Done</li></ul>|3|[The Intriguing Obsession](https://codeforces.com/problemset/problem/869/C)|Codeforces||||
 |<ul><li>- [ ] Done</li></ul>|4|[Distance in Tree](https://codeforces.com/problemset/problem/161/D)|Codeforces||||
