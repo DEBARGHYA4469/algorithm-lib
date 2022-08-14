@@ -242,13 +242,13 @@ Ladders = 26
 |<ul><li>- [ ] Done</li></ul>|4|[Distance in Tree](https://codeforces.com/problemset/problem/161/D)|Codeforces||||
 |<ul><li>- [ ] Done</li></ul>|5|[Directed Roads](https://codeforces.com/problemset/problem/711/D)|Codeforces||||
 |<ul><li>- [ ] Done</li></ul>|6|[Kay and Snowflake](https://codeforces.com/problemset/problem/685/B)|Codeforces||||
-|<ul><li>- [ ] Done</li></ul>|7|[Journey](https://codeforces.com/problemset/problem/1476/D)|Codeforces||||
-|<ul><li>- [ ] Done</li></ul>|8|[Camel Train](https://atcoder.jp/contests/aising2020/tasks/aising2020_e)|AtCoder||||
 
 # Ladder 17 [] 
 
 | Checkbox | ID  | Problem Name | Online Judge | Ideas | Mistakes | Time Required |
 |---|:---:|:---:|---|---|---|---|
+|<ul><li>- [ ] Done</li></ul>|7|[Journey](https://codeforces.com/problemset/problem/1476/D)|Codeforces||||
+|<ul><li>- [ ] Done</li></ul>|8|[Camel Train](https://atcoder.jp/contests/aising2020/tasks/aising2020_e)|AtCoder||||
 |<ul><li>- [ ] Done</li></ul>|9|[Lamps](https://atcoder.jp/contests/hhkb2020/tasks/hhkb2020_e)|AtCoder||||
 |<ul><li>- [ ] Done</li></ul>|10|[Handshake](https://atcoder.jp/contests/abc149/tasks/abc149_e)|AtCoder||||
 |<ul><li>- [ ] Done</li></ul>|1|[Distance on Large Perfect Binary Tree](https://atcoder.jp/contests/abc220/tasks/abc220_e)|AtCoder|5|
