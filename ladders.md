@@ -239,7 +239,7 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|P|[Packmen](https://codeforces.com/problemset/problem/847/E)|Codeforces|Binary Search|Classical|45 mins|
 |<ul><li>- [x] Done</li></ul>|P|[Bash and a Tough Math Puzzle](https://codeforces.com/problemset/problem/914/D)|Codeforces|Segment Tree|tl==tr case: dont traverse down|60 mins|
 |<ul><li>- [x] Done</li></ul>|F|[The Intriguing Obsession](https://codeforces.com/problemset/problem/869/C)|Codeforces|Combinatorics|Did not get the idea of separating the combinations|!|
-|<ul><li>- [ ] Done</li></ul>|4|[Distance in Tree](https://codeforces.com/problemset/problem/161/D)|Codeforces||||
+|<ul><li>- [x] Done</li></ul>|F|[Distance in Tree](https://codeforces.com/problemset/problem/161/D)|Codeforces|DP on Trees, Rerooting technique|MLE::Think about combining dp1, dp2|!|
 |<ul><li>- [ ] Done</li></ul>|5|[Directed Roads](https://codeforces.com/problemset/problem/711/D)|Codeforces||||
 |<ul><li>- [ ] Done</li></ul>|6|[Kay and Snowflake](https://codeforces.com/problemset/problem/685/B)|Codeforces||||
 
