@@ -63,9 +63,35 @@
 ```
 
 ### All simple cycles in a undirected graph
+<img width="615" alt="image" src="https://user-images.githubusercontent.com/21307343/185361935-5d501484-7283-462b-9642-b64a17a34389.png">
+
+Think in terms of DFS Tree! This algorithm does not work for composite cycles.
 
 ```cpp
+int parent[N], who[N], color[N];
+int cycle = 0;
 
+void dfs(int u,int p=-1){
+    if(color[u]==2) return;
+    if(color[u]==1){
+        cycle++;
+        int curr = p;
+        who[cur] = cycle;
+        while(curr!=u){
+            cur = parent[cur];
+            who[cur] = cycle;
+        }
+        return;
+    }
+    parent[u] = p; 
+    color[u] = 1;
+    
+    for(int v:g[u]){
+        if(v==p) continue;
+        dfs(v,u);
+    }
+    color[u] = 2;
+}
 ```
 
 ### DSU: Union Find
