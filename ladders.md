@@ -228,7 +228,7 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|10|[Amusement Park](https://atcoder.jp/contests/abc216/tasks/abc216_e)|AtCoder|Math+Implementation|Think around BS|
 
 
-# Ladder 16 [ Ongoing ] :: 16
+# Ladder 16 [ Completed ] :: 16
 
 | Checkbox | Status  | Problem Name | Online Judge | Ideas | Mistakes | Time Required |
 |---|:---:|:---:|---|---|---|---|
@@ -241,7 +241,7 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|F|[The Intriguing Obsession](https://codeforces.com/problemset/problem/869/C)|Codeforces|Combinatorics|Did not get the idea of separating the combinations|!|
 |<ul><li>- [x] Done</li></ul>|F|[Distance in Tree](https://codeforces.com/problemset/problem/161/D)|Codeforces|DP on Trees, Rerooting technique|MLE::Think about combining dp1, dp2|!|
 |<ul><li>- [x] Done</li></ul>|P|[Directed Roads](https://codeforces.com/problemset/problem/711/D)|Codeforces|Graph::Cycles, Implementation|Edge Cases|>2 hrs|
-|<ul><li>- [ ] Done</li></ul>|6|[Kay and Snowflake](https://codeforces.com/problemset/problem/685/B)|Codeforces||||
+|<ul><li>- [x] Done</li></ul>|F|[Kay and Snowflake](https://codeforces.com/problemset/problem/685/B)|Codeforces|Centeroid+Merger Sets|Segment Tree::MLE|!|
 
 # Ladder 17 [] :: 17, 18, 19
 
