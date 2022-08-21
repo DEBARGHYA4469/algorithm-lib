@@ -247,7 +247,7 @@ Ladders = 26
 
 | Checkbox | Status | Problem Name | Online Judge | Ideas | Mistakes | Time Required |
 |---|:---:|:---:|---|---|---|---|
-|<ul><li>- [ ] Done</li></ul>||[Journey](https://codeforces.com/problemset/problem/1476/D)|Codeforces||||
+|<ul><li>- [x] Done</li></ul>|P|[Journey](https://codeforces.com/problemset/problem/1476/D)|Codeforces|DP||15 mins|
 |<ul><li>- [ ] Done</li></ul>||[Camel Train](https://atcoder.jp/contests/aising2020/tasks/aising2020_e)|AtCoder||||
 |<ul><li>- [ ] Done</li></ul>||[Lamps](https://atcoder.jp/contests/hhkb2020/tasks/hhkb2020_e)|AtCoder||||
 |<ul><li>- [ ] Done</li></ul>||[Handshake](https://atcoder.jp/contests/abc149/tasks/abc149_e)|AtCoder||||
