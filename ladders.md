@@ -228,7 +228,7 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|10|[Amusement Park](https://atcoder.jp/contests/abc216/tasks/abc216_e)|AtCoder|Math+Implementation|Think around BS|
 
 
-# Ladder 16 [ Completed ] :: 16
+# Ladder 16 [ Completed ] 16-21
 
 | Checkbox | Status  | Problem Name | Online Judge | Ideas | Mistakes | Time Required |
 |---|:---:|:---:|---|---|---|---|
@@ -243,20 +243,20 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|P|[Directed Roads](https://codeforces.com/problemset/problem/711/D)|Codeforces|Graph::Cycles, Implementation|Edge Cases|>2 hrs|
 |<ul><li>- [x] Done</li></ul>|F|[Kay and Snowflake](https://codeforces.com/problemset/problem/685/B)|Codeforces|Centeroid+Merger Sets|Segment Tree::MLE|!|
 
-# Ladder 17 [] :: 17, 18, 19
+# Ladder 17 [ Ongoing ] 
 
-| Checkbox | ID  | Problem Name | Online Judge | Ideas | Mistakes | Time Required |
+| Checkbox | Status | Problem Name | Online Judge | Ideas | Mistakes | Time Required |
 |---|:---:|:---:|---|---|---|---|
-|<ul><li>- [ ] Done</li></ul>|1|[Journey](https://codeforces.com/problemset/problem/1476/D)|Codeforces||||
-|<ul><li>- [ ] Done</li></ul>|2|[Camel Train](https://atcoder.jp/contests/aising2020/tasks/aising2020_e)|AtCoder||||
-|<ul><li>- [ ] Done</li></ul>|3|[Lamps](https://atcoder.jp/contests/hhkb2020/tasks/hhkb2020_e)|AtCoder||||
-|<ul><li>- [ ] Done</li></ul>|4|[Handshake](https://atcoder.jp/contests/abc149/tasks/abc149_e)|AtCoder||||
-|<ul><li>- [ ] Done</li></ul>|5|[Distance on Large Perfect Binary Tree](https://atcoder.jp/contests/abc220/tasks/abc220_e)|AtCoder|5|
-|<ul><li>- [ ] Done</li></ul>|6|[Boboniu Chats with Du](https://codeforces.com/problemset/problem/1394/A)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|7|[Bicolorings](https://codeforces.com/problemset/problem/1051/D)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|8|[Gluttony](https://atcoder.jp/contests/abc144/tasks/abc144_e)|AtCoder|5|
-|<ul><li>- [ ] Done</li></ul>|9|[Minimum Array](https://codeforces.com/problemset/problem/1157/E)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|10|[Explorer Space](https://codeforces.com/problemset/problem/1517/D)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>||[Journey](https://codeforces.com/problemset/problem/1476/D)|Codeforces||||
+|<ul><li>- [ ] Done</li></ul>||[Camel Train](https://atcoder.jp/contests/aising2020/tasks/aising2020_e)|AtCoder||||
+|<ul><li>- [ ] Done</li></ul>||[Lamps](https://atcoder.jp/contests/hhkb2020/tasks/hhkb2020_e)|AtCoder||||
+|<ul><li>- [ ] Done</li></ul>||[Handshake](https://atcoder.jp/contests/abc149/tasks/abc149_e)|AtCoder||||
+|<ul><li>- [ ] Done</li></ul>||[Distance on Large Perfect Binary Tree](https://atcoder.jp/contests/abc220/tasks/abc220_e)|AtCoder||
+|<ul><li>- [ ] Done</li></ul>||[Boboniu Chats with Du](https://codeforces.com/problemset/problem/1394/A)|Codeforces||
+|<ul><li>- [ ] Done</li></ul>||[Bicolorings](https://codeforces.com/problemset/problem/1051/D)|Codeforces||
+|<ul><li>- [ ] Done</li></ul>||[Gluttony](https://atcoder.jp/contests/abc144/tasks/abc144_e)|AtCoder||
+|<ul><li>- [ ] Done</li></ul>||[Minimum Array](https://codeforces.com/problemset/problem/1157/E)|Codeforces||
+|<ul><li>- [ ] Done</li></ul>||[Explorer Space](https://codeforces.com/problemset/problem/1517/D)|Codeforces||
 
 # Ladder 18 [] 20, 21
 
