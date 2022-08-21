@@ -32,3 +32,10 @@ void centeroid(int u){
 }
 
 ```
+
+### Finding centeroid of any subtree
+
+Trick: Choose vertex 'v' which has subtree size > n/2 and least among those. Claim: 'v' has to be centeroid.
+Proof: ancestor subtree contains < n/2 as total sum = n. Now if any child subtree has size > n/2 it means that should have replaced 'v' as its size < size(v). 
+So contradiction!
+
