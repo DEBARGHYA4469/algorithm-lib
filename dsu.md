@@ -33,7 +33,7 @@ void unite(int u,int v){
     }
 }
 ```
-# Small To Large Trick 
+# Small To Large Trick / Merger Sets
 
 Problem: https://codeforces.com/contest/1620/problem/E
 
@@ -66,3 +66,5 @@ Problem: https://codeforces.com/contest/1620/problem/E
 ```
 
 Concept: Each value get merged from small to large set, increasing set size by atleast twice the size of small set. So max log N copying
+
+Sample Problem: https://codeforces.com/contest/685/problem/B [Nice Idea]
