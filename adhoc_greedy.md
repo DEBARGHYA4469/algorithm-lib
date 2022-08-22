@@ -35,3 +35,5 @@ Good Adhoc Problems:
 
 Intermediate Value Prop: Take max and min and increase that. Check the distance between two consecutive points. Observe the interval
 eg. https://codeforces.com/contest/1695/submission/164965524
+
+https://www.geeksforgeeks.org/job-sequencing-problem/ (Nice. nlogn solution using Max Heap)
