@@ -69,3 +69,112 @@ The frogs can build even higher piles of frogs this way, the only restriction is
 You are given a rooted tree with n (n ≤ 105) vertices. You are in the root. Moving along an edge takes 1 minute. You want to visit all vertices and get back to the root as fast as possible, what takes exactly 2·(n - 1) minutes. When we visit vertex v for the first time, the countdown is started there and after av minutes that vertex will be "ready". We want to minimize the moment when all vertices are ready. When will it happen? </br>
  
  `Idea: Exchange two child vertex order if 2s[u]-f[u], s[u]: size of the subtree, f[u]: sol for vertex u.`
+ 
+ ### Camel Train 
+ 
+ https://atcoder.jp/contests/aising2020/tasks/aising2020_e
+ 
+ Idea: 
+ 
+ * Observation I: call all camels red for which l >= r, and all camels blue for which r > l. Claim: all red camels should come before all blue camels. (Exch can optimize further)
+ * Observation II: for all red camels, you need to use [job sequencing algorithm](https://www.geeksforgeeks.org/job-sequencing-problem/) in a optimal way, similarly for blue camels. Using Priority Queue/ Max Heap, you can get O(nlogn) solution.
+ 
+
+ ```cpp
+struct camel{
+	int k,l,r, diff;
+};
+
+bool operator<(const camel &ref1, const camel &ref2){
+	return ref1.diff < ref2.diff;
+}
+
+bool operator>(const camel &ref1, const camel &ref2){
+	return ref1.diff > ref2.diff;
+}
+
+const int N = 200005;
+int tc,n;
+
+void print(camel c){
+	cout << c.k << "," << c.l << "," << c.r << endl;
+}
+
+int main(){
+	
+	std::ios::sync_with_stdio(false);
+	cin.tie(0);
+
+	cin >> tc;
+	while(tc--){
+
+		cin >> n;
+		vector<camel> red, blue;
+
+		for(int i=0;i<n;i++){
+			int k,l,r; cin >> k >> l >> r;
+			struct camel tmp = {k,l,r,abs(l-r)};  
+			if(l>=r) red.eb(tmp);
+			else blue.eb(tmp);
+		}
+
+		ll ans = 0ll;
+
+		sort(all(red), [&](camel ref1, camel ref2){
+			return ref1.k < ref2.k;
+		});
+
+		priority_queue<camel> q;
+		const int M1 = sz(red);
+		int j = M1-1;
+
+		for(int i=M1;i>=1;i--){
+			while(j>=0 && red[j].k >= i){
+				q.push(red[j--]);
+			}
+			if(!q.empty()){
+				ans += q.top().l;
+				q.pop();
+			}
+		}
+
+		while(!q.empty()){
+			ans += q.top().r;
+			q.pop();
+		}
+
+		sort(all(blue), [&](camel ref1, camel ref2){
+			return ref1.k < ref2.k;
+		});
+
+		const int M2 = sz(blue);
+		j = 0;
+
+		priority_queue<camel> q2;
+
+		while(j<M2 && blue[j].k <= M1) q2.push(blue[j++]);
+
+		for(int i=M1+1;i<=n;i++){
+
+			if(!q2.empty()){
+				ans += q2.top().r;
+				q2.pop();
+			}
+
+			while(j<M2 && blue[j].k <= i){
+				q2.push(blue[j++]);
+			}
+		}
+
+		while(!q2.empty()){
+			ans += q2.top().l;
+			q2.pop();
+		}
+
+		cout << ans << endl;
+ 
+	 
+	}
+
+	return 0;
+}```cpp
