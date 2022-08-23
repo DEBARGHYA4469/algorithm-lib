@@ -250,7 +250,7 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|P|[Journey](https://codeforces.com/problemset/problem/1476/D)|Codeforces|DP||15 mins|
 |<ul><li>- [x] Done</li></ul>|F|[Camel Train](https://atcoder.jp/contests/aising2020/tasks/aising2020_e)|AtCoder|Exchange Argument|Got the idea roughly|!|
 |<ul><li>- [x] Done</li></ul>|P|[Lamps](https://atcoder.jp/contests/hhkb2020/tasks/hhkb2020_e)|AtCoder|Prefix Sum||15 mins|
-|<ul><li>- [ ] Done</li></ul>||[Handshake](https://atcoder.jp/contests/abc149/tasks/abc149_e)|AtCoder||||
+|<ul><li>- [x] Done</li></ul>|F|[Handshake](https://atcoder.jp/contests/abc149/tasks/abc149_e)|AtCoder|Trick:: Binary Search + Sorted Matrix|Got fixated on the diagonal traversal idea, Nice Trick|!|
 |<ul><li>- [ ] Done</li></ul>||[Distance on Large Perfect Binary Tree](https://atcoder.jp/contests/abc220/tasks/abc220_e)|AtCoder||
 |<ul><li>- [ ] Done</li></ul>||[Boboniu Chats with Du](https://codeforces.com/problemset/problem/1394/A)|Codeforces||
 |<ul><li>- [ ] Done</li></ul>||[Bicolorings](https://codeforces.com/problemset/problem/1051/D)|Codeforces||
