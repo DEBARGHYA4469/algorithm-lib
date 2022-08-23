@@ -1,4 +1,4 @@
-* Largest Rectange in a Histogram
+### Largest Rectange in a Histogram
 
 A = {H1, H2, H3,...,HN-1,HN}. 
 
@@ -24,21 +24,24 @@ A = {H1, H2, H3,...,HN-1,HN}.
 ```
 
 
-* https://leetcode.com/problems/maximum-building-height/ (Greedy Stays Ahead!)
 
-* https://www.geeksforgeeks.org/minimum-increment-decrement-to-make-array-elements-equal/
+### Good Adhoc Problems:
 
-* Good Adhoc Problems:
 - https://codeforces.com/contest/1582/problem/D [Nice Observation]
-= https://codeforces.com/problemset/problem/343/C [Greedy+Binary Search]
+- https://codeforces.com/problemset/problem/343/C [Greedy+Binary Search]
+- https://leetcode.com/problems/maximum-building-height/ (Greedy Stays Ahead!)
+- https://www.geeksforgeeks.org/minimum-increment-decrement-to-make-array-elements-equal/
 
 
-* Intermediate Value Prop: Take max and min and increase that. Check the distance between two consecutive points. Observe the interval
+
+### Intermediate Value Property:
+Take max and min and increase that. Check the distance between two consecutive points. Observe the interval
 eg. https://codeforces.com/contest/1695/submission/164965524
 
+### Job Sequencing  
 https://www.geeksforgeeks.org/job-sequencing-problem/ (Nice. nlogn solution using Max Heap)
 
-* Nice Binary Search Trick:
+### Nice Binary Search Trick:
 
 Problem : Given a matrix whose elements are taken as a combination from a array i.e M[i][j] = a[i] op a[j]. How do you find max sum taking m elements from the matrix? 
 
