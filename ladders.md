@@ -254,6 +254,6 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|P|[Distance on Large Perfect Binary Tree](https://atcoder.jp/contests/abc220/tasks/abc220_e)|AtCoder|Math+Binary|Using wrong modulus|2 hrs|
 |<ul><li>- [x] Done</li></ul>|P|[Boboniu Chats with Du](https://codeforces.com/problemset/problem/1394/A)|Codeforces|Greedy|Base Case|1 hr 30 mins|
 |<ul><li>- [x] Done</li></ul>|P|[Bicolorings](https://codeforces.com/problemset/problem/1051/D)|Codeforces|DP||40 mins|
-|<ul><li>- [ ] Done</li></ul>||[Gluttony](https://atcoder.jp/contests/abc144/tasks/abc144_e)|AtCoder|||
+|<ul><li>- [x] Done</li></ul>|P|[Gluttony](https://atcoder.jp/contests/abc144/tasks/abc144_e)|AtCoder|Binary Search|Easy|10 mins|
 |<ul><li>- [ ] Done</li></ul>||[Minimum Array](https://codeforces.com/problemset/problem/1157/E)|Codeforces|||
 |<ul><li>- [ ] Done</li></ul>||[Explorer Space](https://codeforces.com/problemset/problem/1517/D)|Codeforces|||
