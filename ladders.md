@@ -256,4 +256,4 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|P|[Bicolorings](https://codeforces.com/problemset/problem/1051/D)|Codeforces|DP||40 mins|
 |<ul><li>- [x] Done</li></ul>|P|[Gluttony](https://atcoder.jp/contests/abc144/tasks/abc144_e)|AtCoder|Binary Search|Easy|10 mins|
 |<ul><li>- [x] Done</li></ul>|P|[Minimum Array](https://codeforces.com/problemset/problem/1157/E)|Codeforces|MultiSet|Easy|10 mins| 
-|<ul><li>- [x] Done</li></ul>|P|[Explorer Space](https://codeforces.com/problemset/problem/1517/D)|Codeforces|DP+Observation|1 hr|
+|<ul><li>- [x] Done</li></ul>|P|[Explorer Space](https://codeforces.com/problemset/problem/1517/D)|Codeforces|DP|Nice Observation|1 hr|
