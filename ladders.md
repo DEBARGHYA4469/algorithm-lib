@@ -228,7 +228,7 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|10|[Amusement Park](https://atcoder.jp/contests/abc216/tasks/abc216_e)|AtCoder|Math+Implementation|Think around BS|
 
 
-# Ladder 16 [ Completed ] 16-21
+# Ladder Name: 16 [ Completed ] 
 
 | Checkbox | Status  | Problem Name | Online Judge | Ideas | Mistakes | Time Required |
 |---|:---:|:---:|---|---|---|---|
@@ -243,7 +243,7 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|P|[Directed Roads](https://codeforces.com/problemset/problem/711/D)|Codeforces|Graph::Cycles, Implementation|Edge Cases|>2 hrs|
 |<ul><li>- [x] Done</li></ul>|F|[Kay and Snowflake](https://codeforces.com/problemset/problem/685/B)|Codeforces|Centeroid+Merger Sets|Segment Tree::MLE|!|
 
-# Ladder 17 [ Ongoing ] 
+# Ladder Name: 17 [ Completed ] 
 
 | Checkbox | Status | Problem Name | Online Judge | Ideas | Mistakes | Time Required |
 |---|:---:|:---:|---|---|---|---|
