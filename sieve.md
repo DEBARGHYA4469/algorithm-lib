@@ -33,6 +33,8 @@ Sieve of Eratosthenes having Linear Time Complexity </br>
 </br></br>
 <a href="https://www.codecogs.com/eqnedit.php?latex=\\x&space;=&space;2^23^35\\&space;5&space;\rightarrow&space;3^15\rightarrow&space;3^25\rightarrow&space;3^35\rightarrow&space;2^13^35\rightarrow&space;2^23^35" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\\x&space;=&space;2^23^35\\&space;5&space;\rightarrow&space;3^15\rightarrow&space;3^25\rightarrow&space;3^35\rightarrow&space;2^13^35\rightarrow&space;2^23^35" title="\\x = 2^23^35\\ 5 \rightarrow 3^15\rightarrow 3^25\rightarrow 3^35\rightarrow 2^13^35\rightarrow 2^23^35" /></a>
 
+Harmonic Lemma: 1 + 1/2 + 1/3  + .... 1/n ~ log(n)
+
 ```cpp
  void sieve(){
 	
@@ -65,6 +67,8 @@ Sieve of Eratosthenes having Linear Time Complexity </br>
 
 **Sum of all factors of a number** </br>
 <a href="https://www.codecogs.com/eqnedit.php?latex=\sum_{x|n}x&space;=&space;\prod_{prime\:p^\alpha|n}&space;\frac{p^{\alpha&plus;1}-1}{p-1}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum_{x|n}x&space;=&space;\prod_{prime\:p^\alpha|n}&space;\frac{p^{\alpha&plus;1}-1}{p-1}" title="\sum_{x|n}x = \prod_{prime\:p^\alpha|n} \frac{p^{\alpha+1}-1}{p-1}" /></a>
+
+Sum function is multiplicative!
 
 </br>
 
