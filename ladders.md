@@ -257,3 +257,18 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|P|[Gluttony](https://atcoder.jp/contests/abc144/tasks/abc144_e)|AtCoder|Binary Search|Easy|10 mins|
 |<ul><li>- [x] Done</li></ul>|P|[Minimum Array](https://codeforces.com/problemset/problem/1157/E)|Codeforces|MultiSet|Easy|10 mins| 
 |<ul><li>- [x] Done</li></ul>|P|[Explorer Space](https://codeforces.com/problemset/problem/1517/D)|Codeforces|DP|Nice Observation|1 hr|
+
+# Ladder 18 [ Ongoing ]
+
+| Checkbox | ID  | Problem Name | Online Judge | Ideas | Mistakes | Time Required |
+|---|:---:|:---:|---|---|---|---|
+|<ul><li>- [x] Done</li></ul>|1|[Short Task](https://codeforces.com/problemset/problem/1512/G)|Codeforces|Sieve+Math||!|
+|<ul><li>- [ ] Done</li></ul>|2|[Two Hundred Twenty One (easy version)](https://codeforces.com/problemset/problem/1562/D1)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|3|[Orac and Medians](https://codeforces.com/problemset/problem/1349/B)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|4|[Skyscrapers (hard version)](https://codeforces.com/problemset/problem/1313/C2)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|5|[Recover it!](https://codeforces.com/problemset/problem/1176/D)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|6|[Colored Rooks](https://codeforces.com/problemset/problem/1068/C)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|7|[Clear Symmetry](https://codeforces.com/problemset/problem/201/A)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|8|[Substring and Subsequence](https://codeforces.com/problemset/problem/163/A)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|9|[Mike and gcd problem](https://codeforces.com/problemset/problem/798/C)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>|10|[Three Blocks Palindrome (easy version)](https://codeforces.com/problemset/problem/1335/E1)|Codeforces|5|
