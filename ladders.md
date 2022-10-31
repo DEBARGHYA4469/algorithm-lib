@@ -262,10 +262,10 @@ Ladders = 26
 
 | Checkbox | ID  | Problem Name | Online Judge | Ideas | Mistakes | Time Required |
 |---|:---:|:---:|---|---|---|---|
-|<ul><li>- [x] Done</li></ul>|1|[Short Task](https://codeforces.com/problemset/problem/1512/G)|Codeforces|Sieve+Math||!|
-|<ul><li>- [x] Done</li></ul>|2|[Two Hundred Twenty One (easy version)](https://codeforces.com/problemset/problem/1562/D1)|Codeforces|Intermediate Value Theorem|Hard|!|
-|<ul><li>- [x] Done</li></ul>|3|[Orac and Medians](https://codeforces.com/problemset/problem/1349/B)|Codeforces|Constructive|Medium|!|
-|<ul><li>- [x] Done</li></ul>|4|[Skyscrapers (hard version)](https://codeforces.com/problemset/problem/1313/C2)|Codeforces|Monotone Stack DP + Solution Construction|2 hrs|
+|<ul><li>- [x] Done</li></ul>|F|[Short Task](https://codeforces.com/problemset/problem/1512/G)|Codeforces|Sieve+Math||!|
+|<ul><li>- [x] Done</li></ul>|F|[Two Hundred Twenty One (easy version)](https://codeforces.com/problemset/problem/1562/D1)|Codeforces|Intermediate Value Theorem|Hard|!|
+|<ul><li>- [x] Done</li></ul>|F|[Orac and Medians](https://codeforces.com/problemset/problem/1349/B)|Codeforces|Constructive|Medium|!|
+|<ul><li>- [x] Done</li></ul>|P|[Skyscrapers (hard version)](https://codeforces.com/problemset/problem/1313/C2)|Codeforces|Monotone Stack DP + Solution Construction|2 hrs|
 |<ul><li>- [ ] Done</li></ul>|5|[Recover it!](https://codeforces.com/problemset/problem/1176/D)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|6|[Colored Rooks](https://codeforces.com/problemset/problem/1068/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|7|[Clear Symmetry](https://codeforces.com/problemset/problem/201/A)|Codeforces|5|
