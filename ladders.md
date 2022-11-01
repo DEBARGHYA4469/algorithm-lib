@@ -267,8 +267,8 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|F|[Orac and Medians](https://codeforces.com/problemset/problem/1349/B)|Codeforces|Constructive|Medium|!|
 |<ul><li>- [x] Done</li></ul>|P|[Skyscrapers (hard version)](https://codeforces.com/problemset/problem/1313/C2)|Codeforces|Monotone Stack DP + Solution Construction||2 hrs|
 |<ul><li>- [x] Done</li></ul>|P|[Recover it!](https://codeforces.com/problemset/problem/1176/D)|Codeforces|Constructive+Extremal|Easy|20 mins|
-|<ul><li>- [ ] Done</li></ul>|6|[Colored Rooks](https://codeforces.com/problemset/problem/1068/C)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|7|[Clear Symmetry](https://codeforces.com/problemset/problem/201/A)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|8|[Substring and Subsequence](https://codeforces.com/problemset/problem/163/A)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|9|[Mike and gcd problem](https://codeforces.com/problemset/problem/798/C)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|10|[Three Blocks Palindrome (easy version)](https://codeforces.com/problemset/problem/1335/E1)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>||[Moving Chips](https://codeforces.com/problemset/problem/1680/E)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>||[Clear Symmetry](https://codeforces.com/problemset/problem/201/A)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>||[Substring and Subsequence](https://codeforces.com/problemset/problem/163/A)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>||[Mike and gcd problem](https://codeforces.com/problemset/problem/798/C)|Codeforces|||
+|<ul><li>- [ ] Done</li></ul>||[Array Shuffling](https://codeforces.com/problemset/problem/1672/F1)|Codeforces|||
