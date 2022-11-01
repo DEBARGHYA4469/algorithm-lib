@@ -267,7 +267,7 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|F|[Orac and Medians](https://codeforces.com/problemset/problem/1349/B)|Codeforces|Constructive|Medium|!|
 |<ul><li>- [x] Done</li></ul>|P|[Skyscrapers (hard version)](https://codeforces.com/problemset/problem/1313/C2)|Codeforces|Monotone Stack DP + Solution Construction||2 hrs|
 |<ul><li>- [x] Done</li></ul>|P|[Recover it!](https://codeforces.com/problemset/problem/1176/D)|Codeforces|Constructive+Extremal|Easy|20 mins|
-|<ul><li>- [ ] Done</li></ul>||[Moving Chips](https://codeforces.com/problemset/problem/1680/E)|Codeforces|||
+|<ul><li>- [x] Done</li></ul>|F|[Moving Chips](https://codeforces.com/problemset/problem/1680/E)|Codeforces|DP, Greedy|Took forever to dbg. stupid mistakes|!|
 |<ul><li>- [ ] Done</li></ul>||[Clear Symmetry](https://codeforces.com/problemset/problem/201/A)|Codeforces|||
 |<ul><li>- [ ] Done</li></ul>||[Substring and Subsequence](https://codeforces.com/problemset/problem/163/A)|Codeforces|||
 |<ul><li>- [ ] Done</li></ul>||[Mike and gcd problem](https://codeforces.com/problemset/problem/798/C)|Codeforces|||
