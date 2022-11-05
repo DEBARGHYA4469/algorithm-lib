@@ -269,6 +269,6 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|P|[Recover it!](https://codeforces.com/problemset/problem/1176/D)|Codeforces|Constructive+Extremal|Easy|20 mins|
 |<ul><li>- [x] Done</li></ul>|F|[Moving Chips](https://codeforces.com/problemset/problem/1680/E)|Codeforces|DP, Greedy|Took forever to dbg. stupid mistakes|!|
 |<ul><li>- [x] Done</li></ul>|F|[Clear Symmetry](https://codeforces.com/problemset/problem/201/A)|Codeforces|Nice Constructive!|Odd, Even|!|
-|<ul><li>- [ ] Done</li></ul>||[Substring and Subsequence](https://codeforces.com/problemset/problem/163/A)|Codeforces|||
+|<ul><li>- [x] Done</li></ul>|F|[Substring and Subsequence](https://codeforces.com/problemset/problem/163/A)|Codeforces|Subsequence DP|Missed classical idea|!|
 |<ul><li>- [ ] Done</li></ul>||[Mike and gcd problem](https://codeforces.com/problemset/problem/798/C)|Codeforces|||
 |<ul><li>- [ ] Done</li></ul>||[Array Shuffling](https://codeforces.com/problemset/problem/1672/F1)|Codeforces|||
