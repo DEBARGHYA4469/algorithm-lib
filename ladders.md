@@ -271,4 +271,4 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|F|[Clear Symmetry](https://codeforces.com/problemset/problem/201/A)|Codeforces|Nice Constructive!|Odd, Even|!|
 |<ul><li>- [x] Done</li></ul>|F|[Substring and Subsequence](https://codeforces.com/problemset/problem/163/A)|Codeforces|Subsequence DP|Missed classical idea|!|
 |<ul><li>- [x] Done</li></ul>|P|[Mike and gcd problem](https://codeforces.com/problemset/problem/798/C)|Codeforces|Math+Observation|Messed up implementation|>2hrs|
-|<ul><li>- [ ] Done</li></ul>||[Array Shuffling](https://codeforces.com/problemset/problem/1672/F1)|Codeforces|||
+|<ul><li>- [X] Done</li></ul>|P|[Array Shuffling](https://codeforces.com/problemset/problem/1672/F1)|Codeforces|Graph!|Never declare vector/array inside main!|20 mins|
