@@ -277,7 +277,7 @@ Ladders = 26
 
 | Checkbox | ID  | Problem Name | Online Judge | Ideas | Mistakes | Time Required |
 |---|:---:|:---:|---|---|---|---|
-|<ul><li>- [ ] Done</li></ul>||[Sleeping Schedule](https://codeforces.com/problemset/problem/1324/E)|Codeforces||||
+|<ul><li>- [x] Done</li></ul>|P|[Sleeping Schedule](https://codeforces.com/problemset/problem/1324/E)|Codeforces|DP||10 mins|
 |<ul><li>- [ ] Done</li></ul>||[AB-string](https://codeforces.com/problemset/problem/1238/D)|Codeforces||||
 |<ul><li>- [ ] Done</li></ul>||[Colored Rectangles](https://codeforces.com/problemset/problem/1398/D)|Codeforces||||
 |<ul><li>- [ ] Done</li></ul>||[Hills And Valleys](https://codeforces.com/problemset/problem/1467/B)|Codeforces||||
