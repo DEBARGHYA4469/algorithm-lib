@@ -273,35 +273,35 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|P|[Mike and gcd problem](https://codeforces.com/problemset/problem/798/C)|Codeforces|Math+Observation|Messed up implementation|>2hrs|
 |<ul><li>- [X] Done</li></ul>|P|[Array Shuffling](https://codeforces.com/problemset/problem/1672/F1)|Codeforces|Graph!|Never declare local array [ref](https://stackoverflow.com/questions/25942222/matrix-multiplication-in-c-gives-runtime-error)|20 mins|
 
-# Ladder 19  
+# Ladder 19 [ ONGOING ]
 
 | Checkbox | ID  | Problem Name | Online Judge | Ideas | Mistakes | Time Required |
 |---|:---:|:---:|---|---|---|---|
-|<ul><li>- [ ] Done</li></ul>|1|[Sleeping Schedule](https://codeforces.com/problemset/problem/1324/E)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|2|[AB-string](https://codeforces.com/problemset/problem/1238/D)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|3|[Colored Rectangles](https://codeforces.com/problemset/problem/1398/D)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|4|[Hills And Valleys](https://codeforces.com/problemset/problem/1467/B)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|5|[Pinkie Pie Eats Patty-cakes](https://codeforces.com/problemset/problem/1393/C)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|6|[Baby Ehab Partitions Again](https://codeforces.com/problemset/problem/1516/C)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|7|[Ayoub's function](https://codeforces.com/problemset/problem/1301/C)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|8|[Tree Diameter](https://codeforces.com/problemset/problem/1146/C)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|9|[Choosing flowers](https://codeforces.com/problemset/problem/1379/C)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|10|[XOR Guessing](https://codeforces.com/problemset/problem/1207/E)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>||[Sleeping Schedule](https://codeforces.com/problemset/problem/1324/E)|Codeforces||||
+|<ul><li>- [ ] Done</li></ul>||[AB-string](https://codeforces.com/problemset/problem/1238/D)|Codeforces||||
+|<ul><li>- [ ] Done</li></ul>||[Colored Rectangles](https://codeforces.com/problemset/problem/1398/D)|Codeforces||||
+|<ul><li>- [ ] Done</li></ul>||[Hills And Valleys](https://codeforces.com/problemset/problem/1467/B)|Codeforces||||
+|<ul><li>- [ ] Done</li></ul>||[Pinkie Pie Eats Patty-cakes](https://codeforces.com/problemset/problem/1393/C)|Codeforces||||
+|<ul><li>- [ ] Done</li></ul>||[XOR Inverse](https://codeforces.com/problemset/problem/1416/C)|Codeforces||||
+|<ul><li>- [ ] Done</li></ul>||[Ayoub's function](https://codeforces.com/problemset/problem/1301/C)|Codeforces||||
+|<ul><li>- [ ] Done</li></ul>||[Tree Diameter](https://codeforces.com/problemset/problem/1146/C)|Codeforces||||
+|<ul><li>- [ ] Done</li></ul>||[Choosing flowers](https://codeforces.com/problemset/problem/1379/C)|Codeforces||||
+|<ul><li>- [ ] Done</li></ul>||[XOR Guessing](https://codeforces.com/problemset/problem/1207/E)|Codeforces||||
 
-# Ladder 20 
+# Ladder 20 [ ONGOING ]
 
 | Checkbox | ID  | Problem Name | Online Judge | Ideas | Mistakes | Time Required |
 |---|:---:|:---:|---|---|---|---|
-|<ul><li>- [ ] Done</li></ul>|1|[Dwarves, Hats and Extrasensory Abilities](https://codeforces.com/problemset/problem/1063/C)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|2|[Tree with Maximum Cost](https://codeforces.com/problemset/problem/1092/F)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|3|[GameGame](https://codeforces.com/problemset/problem/1383/B)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|4|[The Fair Nut and the Best Path](https://codeforces.com/problemset/problem/1083/A)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|5|[Yet Another Subarray Problem](https://codeforces.com/problemset/problem/1197/D)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|6|[Little Girl and Maximum XOR](https://codeforces.com/problemset/problem/276/D)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|7|[Obtain a Permutation](https://codeforces.com/problemset/problem/1294/E)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|8|[Cut and Stick](https://codeforces.com/problemset/problem/1514/D)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|9|[Beautiful Array](https://codeforces.com/problemset/problem/1155/D)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|10|[Cheap Dinner](https://codeforces.com/problemset/problem/1487/E)|Codeforces|5|
+|<ul><li>- [ ] Done</li></ul>||[Dwarves, Hats and Extrasensory Abilities](https://codeforces.com/problemset/problem/1063/C)|Codeforces||||
+|<ul><li>- [ ] Done</li></ul>||[Tree with Maximum Cost](https://codeforces.com/problemset/problem/1092/F)|Codeforces||||
+|<ul><li>- [ ] Done</li></ul>||[GameGame](https://codeforces.com/problemset/problem/1383/B)|Codeforces||||
+|<ul><li>- [ ] Done</li></ul>||[The Fair Nut and the Best Path](https://codeforces.com/problemset/problem/1083/A)|Codeforces||||
+|<ul><li>- [ ] Done</li></ul>||[Yet Another Subarray Problem](https://codeforces.com/problemset/problem/1197/D)|Codeforces||||
+|<ul><li>- [ ] Done</li></ul>||[Little Girl and Maximum XOR](https://codeforces.com/problemset/problem/276/D)|Codeforces||||
+|<ul><li>- [ ] Done</li></ul>||[Obtain a Permutation](https://codeforces.com/problemset/problem/1294/E)|Codeforces||||
+|<ul><li>- [ ] Done</li></ul>||[Cut and Stick](https://codeforces.com/problemset/problem/1514/D)|Codeforces||||
+|<ul><li>- [ ] Done</li></ul>||[Beautiful Array](https://codeforces.com/problemset/problem/1155/D)|Codeforces||||
+|<ul><li>- [ ] Done</li></ul>||[Cheap Dinner](https://codeforces.com/problemset/problem/1487/E)|Codeforces||||
 
 # Ladder 21 
 
