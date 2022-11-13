@@ -279,7 +279,7 @@ Ladders = 26
 |---|:---:|:---:|---|---|---|---|
 |<ul><li>- [x] Done</li></ul>|P|[Sleeping Schedule](https://codeforces.com/problemset/problem/1324/E)|Codeforces|DP||10 mins|
 |<ul><li>- [x] Done</li></ul>|P|[AB-string](https://codeforces.com/problemset/problem/1238/D)|Codeforces|Adhoc||10 mins|
-|<ul><li>- [ ] Done</li></ul>||[Colored Rectangles](https://codeforces.com/problemset/problem/1398/D)|Codeforces||||
+|<ul><li>- [x] Done</li></ul>|P|[Colored Rectangles](https://codeforces.com/problemset/problem/1398/D)|Codeforces|DP: Classical||15 mins|
 |<ul><li>- [ ] Done</li></ul>||[Hills And Valleys](https://codeforces.com/problemset/problem/1467/B)|Codeforces||||
 |<ul><li>- [ ] Done</li></ul>||[Pinkie Pie Eats Patty-cakes](https://codeforces.com/problemset/problem/1393/C)|Codeforces||||
 |<ul><li>- [ ] Done</li></ul>||[XOR Inverse](https://codeforces.com/problemset/problem/1416/C)|Codeforces||||
