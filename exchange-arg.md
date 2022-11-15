@@ -80,7 +80,7 @@ You are given a rooted tree with n (n ≤ 105) vertices. You are in the root
  * Observation II: for all red camels, you need to use [job sequencing algorithm](https://www.geeksforgeeks.org/job-sequencing-problem/) in a optimal way, similarly for blue camels. Using Priority Queue/ Max Heap, you can get O(nlogn) solution.
  
 
- ```cpp
+```cpp
 struct camel{
 	int k,l,r, diff;
 };
@@ -177,4 +177,19 @@ int main(){
 	}
 
 	return 0;
-}```cpp
+}
+```
+				   
+## Pinkie Pie Eats Patty Cakes
+				   
+https://codeforces.com/contest/1393/problem/C
+				   
+In this problem, given a string s, example: AABCCABAB, you have to rearrange the letters in such a way that min distance between any two similar characters is as large as possible
+				   
+Approach 1: O(n log n log n)
+
+* Binary search on the distance.
+* For a fixed distance. Idea is to take the character that is most frequent and has not occured in the last "distance" indices. 
+* Why does this logic work? 
+* ....solved.....|(a,b) . You have choice now to select a or b, & freq[a] > freq[b].
+*  Exchanging (a,b) preserve optimality. 
