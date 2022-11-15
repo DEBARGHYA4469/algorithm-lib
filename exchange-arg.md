@@ -192,4 +192,16 @@ Approach 1: O(n log n log n)
 * For a fixed distance. Idea is to take the character that is most frequent and has not occured in the last "distance" indices. 
 * Why does this logic work? 
 * ....solved.....|(a,b) . You have choice now to select a or b, & freq[a] > freq[b].
-*  Exchanging (a,b) preserve optimality. 
+*  Exchanging (a,b) preserve optimality. How? Take cases 
+* So might as well take the most frequent available character & process.
+	
+Approach 2: O(n)
+
+* Let max frequency be m and it occures p times. 
+* Make m-1 bins. 
+* Now the smallest bin size should be maximum as possible. 
+* Intuition: If you need to maximize the minimum, distribute equally.
+* How to ensure nothing in the bin breaks the optimality?
+* abc|.....|abc|.....|abc|....|abc|....|abc|....|abc|....|abc|....|abc
+* Now, find the largest frequent element. Start putting in bins one by one. If any bins left on the right, start with the next one.
+* Observe that the next element will not make a complete round trip once more. so distance remains the size of the smallest bin. 
