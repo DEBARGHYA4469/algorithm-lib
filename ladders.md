@@ -282,7 +282,7 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|P|[Colored Rectangles](https://codeforces.com/problemset/problem/1398/D)|Codeforces|DP: Classical||15 mins|
 |<ul><li>- [x] Done</li></ul>|F|[Hills And Valleys](https://codeforces.com/problemset/problem/1467/B)|Codeforces|Local Max/Minima|use automation for case work!|!|
 |<ul><li>- [x] Done</li></ul>|F|[Pinkie Pie Eats Patty-cakes](https://codeforces.com/problemset/problem/1393/C)|Codeforces|Greedy|Exchange Argument|!|
-|<ul><li>- [ ] Done</li></ul>||[XOR Inverse](https://codeforces.com/problemset/problem/1416/C)|Codeforces||||
+|<ul><li>- [x] Done</li></ul>|P|[XOR Inverse](https://codeforces.com/problemset/problem/1416/C)|Codeforces|Bit Trie||2 hrs|
 |<ul><li>- [ ] Done</li></ul>||[Ayoub's function](https://codeforces.com/problemset/problem/1301/C)|Codeforces||||
 |<ul><li>- [ ] Done</li></ul>||[Tree Diameter](https://codeforces.com/problemset/problem/1146/C)|Codeforces||||
 |<ul><li>- [ ] Done</li></ul>||[Choosing flowers](https://codeforces.com/problemset/problem/1379/C)|Codeforces||||
