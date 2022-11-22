@@ -284,8 +284,8 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|F|[Pinkie Pie Eats Patty-cakes](https://codeforces.com/problemset/problem/1393/C)|Codeforces|Greedy|Exchange Argument|!|
 |<ul><li>- [x] Done</li></ul>|P|[XOR Inverse](https://codeforces.com/problemset/problem/1416/C)|Codeforces|Bit Trie||2 hrs|
 |<ul><li>- [x] Done</li></ul>|P|[Ayoub's function](https://codeforces.com/problemset/problem/1301/C)|Codeforces|Math||5 min|
-|<ul><li>- [ ] Done</li></ul>||[Tree Diameter](https://codeforces.com/problemset/problem/1146/C)|Codeforces||||
-|<ul><li>- [ ] Done</li></ul>||[Choosing flowers](https://codeforces.com/problemset/problem/1379/C)|Codeforces||||
+|<ul><li>- [x] Done</li></ul>|P|[Tree Diameter](https://codeforces.com/problemset/problem/1146/C)|Codeforces|Classical Idea||5 min|
+|<ul><li>- [x] Done</li></ul>|F|[Choosing flowers](https://codeforces.com/problemset/problem/1379/C)|Codeforces|Hard Greedy|Optimize to avoid case work|!|
 |<ul><li>- [ ] Done</li></ul>||[XOR Guessing](https://codeforces.com/problemset/problem/1207/E)|Codeforces||||
 
 # Ladder 20 [ ONGOING ]
