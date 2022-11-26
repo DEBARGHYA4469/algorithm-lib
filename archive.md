@@ -1,35 +1,4 @@
 
-# Ladder 19  
-
-| Checkbox | ID  | Problem Name | Online Judge | Ideas | Mistakes | Time Required |
-|---|:---:|:---:|---|---|---|---|
-|<ul><li>- [ ] Done</li></ul>|1|[Sleeping Schedule](https://codeforces.com/problemset/problem/1324/E)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|2|[AB-string](https://codeforces.com/problemset/problem/1238/D)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|3|[Colored Rectangles](https://codeforces.com/problemset/problem/1398/D)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|4|[Hills And Valleys](https://codeforces.com/problemset/problem/1467/B)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|5|[Pinkie Pie Eats Patty-cakes](https://codeforces.com/problemset/problem/1393/C)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|6|[Baby Ehab Partitions Again](https://codeforces.com/problemset/problem/1516/C)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|7|[Ayoub's function](https://codeforces.com/problemset/problem/1301/C)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|8|[Tree Diameter](https://codeforces.com/problemset/problem/1146/C)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|9|[Choosing flowers](https://codeforces.com/problemset/problem/1379/C)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|10|[XOR Guessing](https://codeforces.com/problemset/problem/1207/E)|Codeforces|5|
-
-
-# Ladder 20 
-
-| Checkbox | ID  | Problem Name | Online Judge | Ideas | Mistakes | Time Required |
-|---|:---:|:---:|---|---|---|---|
-|<ul><li>- [ ] Done</li></ul>|1|[Dwarves, Hats and Extrasensory Abilities](https://codeforces.com/problemset/problem/1063/C)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|2|[Tree with Maximum Cost](https://codeforces.com/problemset/problem/1092/F)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|3|[GameGame](https://codeforces.com/problemset/problem/1383/B)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|4|[The Fair Nut and the Best Path](https://codeforces.com/problemset/problem/1083/A)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|5|[Yet Another Subarray Problem](https://codeforces.com/problemset/problem/1197/D)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|6|[Little Girl and Maximum XOR](https://codeforces.com/problemset/problem/276/D)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|7|[Obtain a Permutation](https://codeforces.com/problemset/problem/1294/E)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|8|[Cut and Stick](https://codeforces.com/problemset/problem/1514/D)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|9|[Beautiful Array](https://codeforces.com/problemset/problem/1155/D)|Codeforces|5|
-|<ul><li>- [ ] Done</li></ul>|10|[Cheap Dinner](https://codeforces.com/problemset/problem/1487/E)|Codeforces|5|
-
 # Ladder 21 
 
 | Checkbox | ID  | Problem Name | Online Judge | Ideas | Mistakes | Time Required |
@@ -123,4 +92,3 @@
 |<ul><li>- [ ] Done</li></ul>|8|[Petya and Spiders](https://codeforces.com/problemset/problem/111/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|9|[Flea](https://codeforces.com/problemset/problem/32/C)|Codeforces|5|
 |<ul><li>- [ ] Done</li></ul>|10|[Catch Overflow!](https://codeforces.com/contest/1175/problem/B)|Codeforces|5|
-
