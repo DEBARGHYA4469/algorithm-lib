@@ -205,3 +205,8 @@ Approach 2: O(n)
 * abc|.....|abc|.....|abc|....|abc|....|abc|....|abc|....|abc|....|abc
 * Now, find the largest frequent element. Start putting in bins one by one. If any bins left on the right, start with the next one.
 * Observe that the next element will not make a complete round trip once more. so distance remains the size of the smallest bin. 
+
+### Doremy's City Construction
+https://codeforces.com/contest/1764/problem/C
+	
+
