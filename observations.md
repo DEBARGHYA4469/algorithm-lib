@@ -59,3 +59,4 @@
 * https://atcoder.jp/contests/abc236/tasks/abc236_e [Average/Median Maximization Trick]
 * https://codeforces.com/contest/1684/problem/E [Nice Observation required around MEX, Greedy]
 * https://codeforces.com/contest/1316/problem/C [Extremal Principle + Nice Observation]
+* https://codeforces.com/contest/1764/problem/C [Nice Observation + Bipartite + Exchange Argument]
