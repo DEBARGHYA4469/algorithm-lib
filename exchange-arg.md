@@ -52,7 +52,7 @@ he fights bad one with H(less) and good with H-d[bad]+a[bad]=H-t. Both cases he 
   }
 ```
 
- #### Altruistic Amphibians
+ ### Altruistic Amphibians
  
  A set of frogs have accidentally fallen to the bottom of a large pit. Their only means of escaping the pit is to jump out of it. Each frog i is described by three parameters (li,wi,hi) where li is its leap capacity, wi its weight, and hi its height. The leap capacity specifies how high that frog can jump. If a frog's leap capacity is strictly larger than the depth of the pit, the frog can directly escape the pit. However, these frogs are altruistic. Rather than selfishly saving themselves and leaving the frogs with too limited leap capacity behind, they collectively aim to save as many of them from the pit as possible.
 
@@ -64,7 +64,7 @@ The frogs can build even higher piles of frogs this way, the only restriction is
  
  `Quick Idea: Let us suppose a solution exist, say F1, F2, F3, ....., FN where F1 escapes before F2. We can see that W1 < W2. Once we get a sorted domain of solution we can apply other constraints through dp.`  
 
-####  Farm Craft (DP on Trees + Ex. Args) 
+###  Farm Craft (DP on Trees + Ex. Args) 
                                                                                                                              
 You are given a rooted tree with n (n ≤ 105) vertices. You are in the root. Moving along an edge takes 1 minute. You want to visit all vertices and get back to the root as fast as possible, what takes exactly 2·(n - 1) minutes. When we visit vertex v for the first time, the countdown is started there and after av minutes that vertex will be "ready". We want to minimize the moment when all vertices are ready. When will it happen? </br>
  
@@ -180,7 +180,7 @@ int main(){
 }
 ```
 				   
-## Pinkie Pie Eats Patty Cakes
+### Pinkie Pie Eats Patty Cakes
 				   
 https://codeforces.com/contest/1393/problem/C
 				   
