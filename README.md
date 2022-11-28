@@ -61,49 +61,50 @@ template <class T,class U> bool chmax(T &x, U y){ if(x<y){ x=y; return true; } r
 const long double pi = acos(-1.0);
 const int mod = 1e9+7;
 
-int par[UFMAX],rnk[UFMAX];
-int compsize[UFMAX];
-int max_comp_size=0;
+inline ll ceildiv(ll a,ll b){
+	if(a==0) return 0;
+	else return (a-1)/b+1;
+}	
 
-// SET UFMAX
-void initdsu(int n){
-	for(int i=1;i<=n;i++){
-		par[i] = i;
-		rnk[i] = 1;
-		compsize[i]=1;
-	}
-	max_comp_size=0;
+
+void output_vector(const vector<int> v){
+	for(int k:v) cout << k << " ";
+	cout << endl;
 }
 
-int root(int u){
-	if(par[u]==u) return u;
-	return par[u]=root(par[u]);
+int main(){
+	
+	std::ios::sync_with_stdio(false);
+	cin.tie(0);
+
+	return 0;
+}
+```
+
+### Combinatorics Template 
+
+```cpp
+inline int mul(int x,int y){    ll z = 1ll; z=z*x*y;   z%=mod; return (int)z; }
+inline int add(int x,int y){    ll z = 0ll; z=z+x+y;   z%=mod; return (int)z; }
+inline int sub(int x,int y){    ll z=0ll;   z=x+mod-y; z%=mod; return (int)z; }
+
+inline int binpow(int x,int y){
+
+    ll z = 1ll;
+    while(y){
+        if(y&1) z=mul(z,x);
+        x = mul(x,x);
+        y>>=1;
+    }
+    return (int)z;
 }
 
-void unite(int u,int v){
+inline int inv(int x){ return binpow(x,mod-2); }
+```
 
-	int r1 = root(u), r2 = root(v);
-	if(r1==r2) return;
-    if(rnk[r1]>rnk[r2]){
-    	par[r2] = r1;
-    	compsize[r1]+=compsize[r2];
-    	compsize[r2]=0;
-    	chmax(max_comp_size,compsize[r1]);
-    }
-    else if(rnk[r1]<rnk[r2]){
-    	par[r1] = r2;
-   		compsize[r2]+=compsize[r1];
-   		compsize[r1]=0;
-   		chmax(max_comp_size,compsize[r2]);
-    }
-    else{
-    	par[r2] = r1, rnk[r1]++;
-    	compsize[r1]+=compsize[r2];
-    	compsize[r2]=0;
-    	chmax(max_comp_size,compsize[r1]);
-    }
-}
+### Number Theory Template 
 
+```cpp
 // Use Wheel factorization for large PMax
 const int PMax = 1e5+5;
 int lp[PMax];
@@ -156,39 +157,50 @@ vector<int> divisors(int num,const vector<int> lp){
 	}
 	return d;
 }
+```
 
-inline ll ceildiv(ll a,ll b){
-	if(a==0) return 0;
-	else return (a-1)/b+1;
-}	
+### Union-Find Template 
+```cpp
+int par[UFMAX],rnk[UFMAX];
+int compsize[UFMAX];
+int max_comp_size=0;
 
-inline int mul(int x,int y){    ll z = 1ll; z=z*x*y;   z%=mod; return (int)z; }
-inline int add(int x,int y){    ll z = 0ll; z=z+x+y;   z%=mod; return (int)z; }
-inline int sub(int x,int y){    ll z=0ll;   z=x+mod-y; z%=mod; return (int)z; }
+// SET UFMAX
+void initdsu(int n){
+	for(int i=1;i<=n;i++){
+		par[i] = i;
+		rnk[i] = 1;
+		compsize[i]=1;
+	}
+	max_comp_size=0;
+}
 
-inline int binpow(int x,int y){
+int root(int u){
+	if(par[u]==u) return u;
+	return par[u]=root(par[u]);
+}
 
-    ll z = 1ll;
-    while(y){
-        if(y&1) z=mul(z,x);
-        x = mul(x,x);
-        y>>=1;
+void unite(int u,int v){
+
+	int r1 = root(u), r2 = root(v);
+	if(r1==r2) return;
+    if(rnk[r1]>rnk[r2]){
+    	par[r2] = r1;
+    	compsize[r1]+=compsize[r2];
+    	compsize[r2]=0;
+    	chmax(max_comp_size,compsize[r1]);
     }
-    return (int)z;
-}
-
-inline int inv(int x){ return binpow(x,mod-2); }
-
-void output_vector(const vector<int> v){
-	for(int k:v) cout << k << " ";
-	cout << endl;
-}
-
-int main(){
-	
-	std::ios::sync_with_stdio(false);
-	cin.tie(0);
-
-	return 0;
+    else if(rnk[r1]<rnk[r2]){
+    	par[r1] = r2;
+   		compsize[r2]+=compsize[r1];
+   		compsize[r1]=0;
+   		chmax(max_comp_size,compsize[r2]);
+    }
+    else{
+    	par[r2] = r1, rnk[r1]++;
+    	compsize[r1]+=compsize[r2];
+    	compsize[r2]=0;
+    	chmax(max_comp_size,compsize[r1]);
+    }
 }
 ```
