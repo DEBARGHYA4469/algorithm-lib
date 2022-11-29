@@ -293,7 +293,7 @@ Ladders = 26
 | Checkbox | ID  | Problem Name | Online Judge | Ideas | Mistakes | Time Required |
 |---|:---:|:---:|---|---|---|---|
 |<ul><li>- [x] Done</li></ul>|F|[Dwarves, Hats and Extrasensory Abilities](https://codeforces.com/problemset/problem/1063/C)|Codeforces|Interactive Puzzle||!|
-|<ul><li>- [ ] Done</li></ul>||[Tree with Maximum Cost](https://codeforces.com/problemset/problem/1092/F)|Codeforces||||
+|<ul><li>- [x] Done</li></ul>|P|[Tree with Maximum Cost](https://codeforces.com/problemset/problem/1092/F)|Codeforces|DP on Trees, Rerooting||30 min|
 |<ul><li>- [ ] Done</li></ul>||[GameGame](https://codeforces.com/problemset/problem/1383/B)|Codeforces||||
 |<ul><li>- [ ] Done</li></ul>||[The Fair Nut and the Best Path](https://codeforces.com/problemset/problem/1083/A)|Codeforces||||
 |<ul><li>- [ ] Done</li></ul>||[Yet Another Subarray Problem](https://codeforces.com/problemset/problem/1197/D)|Codeforces||||
