@@ -294,7 +294,7 @@ Ladders = 26
 |---|:---:|:---:|---|---|---|---|
 |<ul><li>- [x] Done</li></ul>|F|[Dwarves, Hats and Extrasensory Abilities](https://codeforces.com/problemset/problem/1063/C)|Codeforces|Interactive Puzzle||!|
 |<ul><li>- [x] Done</li></ul>|P|[Tree with Maximum Cost](https://codeforces.com/problemset/problem/1092/F)|Codeforces|DP on Trees, Rerooting||30 min|
-|<ul><li>- [x] Done</li></ul>|F|[GameGame](https://codeforces.com/problemset/problem/1383/B)|Codeforces|Nim Games, Puzzle||!|
+|<ul><li>- [x] Done</li></ul>|F|[GameGame](https://codeforces.com/problemset/problem/1383/B)|Codeforces|Nim Games, Puzzle|For maximization/minimation, MSB->LSB|!|
 |<ul><li>- [ ] Done</li></ul>||[The Fair Nut and the Best Path](https://codeforces.com/problemset/problem/1083/A)|Codeforces||||
 |<ul><li>- [ ] Done</li></ul>||[Yet Another Subarray Problem](https://codeforces.com/problemset/problem/1197/D)|Codeforces||||
 |<ul><li>- [ ] Done</li></ul>||[Little Girl and Maximum XOR](https://codeforces.com/problemset/problem/276/D)|Codeforces||||
