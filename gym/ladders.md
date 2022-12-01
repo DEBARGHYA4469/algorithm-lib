@@ -260,7 +260,7 @@ Ladders = 26
 
 # Ladder  Name: 18 [ Completed  ]
 
-| Checkbox | ID  | Problem Name | Online Judge | Ideas | Mistakes | Time Required |
+| Checkbox | Status  | Problem Name | Online Judge | Ideas | Mistakes | Time Required |
 |---|:---:|:---:|---|---|---|---|
 |<ul><li>- [x] Done</li></ul>|F|[Short Task](https://codeforces.com/problemset/problem/1512/G)|Codeforces|Sieve+Math||!|
 |<ul><li>- [x] Done</li></ul>|F|[Two Hundred Twenty One (easy version)](https://codeforces.com/problemset/problem/1562/D1)|Codeforces|Intermediate Value Theorem|Hard|!|
@@ -275,7 +275,7 @@ Ladders = 26
 
 # Ladder  Name: 19 [ Completed  ]
 
-| Checkbox | ID  | Problem Name | Online Judge | Ideas | Mistakes | Time Required |
+| Checkbox | Status  | Problem Name | Online Judge | Ideas | Mistakes | Time Required |
 |---|:---:|:---:|---|---|---|---|
 |<ul><li>- [x] Done</li></ul>|P|[Sleeping Schedule](https://codeforces.com/problemset/problem/1324/E)|Codeforces|DP||10 mins|
 |<ul><li>- [x] Done</li></ul>|P|[AB-string](https://codeforces.com/problemset/problem/1238/D)|Codeforces|Adhoc||10 mins|
@@ -290,7 +290,7 @@ Ladders = 26
 
 # Ladder Name: 20 [ ONGOING ]
 
-| Checkbox | ID  | Problem Name | Online Judge | Ideas | Mistakes | Time Required |
+| Checkbox | Status  | Problem Name | Online Judge | Ideas | Mistakes | Time Required |
 |---|:---:|:---:|---|---|---|---|
 |<ul><li>- [x] Done</li></ul>|F|[Dwarves, Hats and Extrasensory Abilities](https://codeforces.com/problemset/problem/1063/C)|Codeforces|Interactive Puzzle||!|
 |<ul><li>- [x] Done</li></ul>|P|[Tree with Maximum Cost](https://codeforces.com/problemset/problem/1092/F)|Codeforces|DP on Trees, Rerooting||30 min|
@@ -300,5 +300,5 @@ Ladders = 26
 |<ul><li>- [ ] Done</li></ul>||[Little Girl and Maximum XOR](https://codeforces.com/problemset/problem/276/D)|Codeforces||||
 |<ul><li>- [ ] Done</li></ul>||[Obtain a Permutation](https://codeforces.com/problemset/problem/1294/E)|Codeforces||||
 |<ul><li>- [ ] Done</li></ul>||[Cut and Stick](https://codeforces.com/problemset/problem/1514/D)|Codeforces||||
-|<ul><li>- [ ] Done</li></ul>||[Beautiful Array](https://codeforces.com/problemset/problem/1155/D)|Codeforces||||
+|<ul><li>- [x] Done</li></ul>|P|[Beautiful Array](https://codeforces.com/problemset/problem/1155/D)|Codeforces|Prefix Sum, Kadanes||1 hr|
 |<ul><li>- [ ] Done</li></ul>||[Cheap Dinner](https://codeforces.com/problemset/problem/1487/E)|Codeforces||||
