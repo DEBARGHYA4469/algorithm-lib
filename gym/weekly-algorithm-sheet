@@ -228,7 +228,7 @@ Pattern DP
 13	CF82D - Two out of Three						Very Nice DP problem with Solution Construction, Structure Hyp				 			
 14	ABC054 D - Mixing Experiment						Forward and Backward DP examples. Easy								
 15	ABC125 D - Flipping Signs						Easy Mathematical Solution Exist								
-
+16      CF1155D - Beautiful Array						Kadane's Algorithm: Tweak needed. DP on the structure
 
 Dynamic Programming (Tutorial from NOI.PH IOI Training 2018)																
 
