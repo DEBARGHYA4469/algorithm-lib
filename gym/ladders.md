@@ -298,7 +298,7 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|P|[The Fair Nut and the Best Path](https://codeforces.com/problemset/problem/1083/A)|Codeforces|DP on Trees, Rerooting||30 min|
 |<ul><li>- [x] Done</li></ul>|F|[Yet Another Subarray Problem](https://codeforces.com/problemset/problem/1197/D)|Codeforces|Kadanes|DP Transitions|!|
 |<ul><li>- [x] Done</li></ul>|P|[Little Girl and Maximum XOR](https://codeforces.com/problemset/problem/276/D)|Codeforces|Math||5 mins|
-|<ul><li>- [ ] Done</li></ul>||[Obtain a Permutation](https://codeforces.com/problemset/problem/1294/E)|Codeforces||||
+|<ul><li>- [x] Done</li></ul>||[Obtain a Permutation](https://codeforces.com/problemset/problem/1294/E)|Codeforces|Math||5 min|
 |<ul><li>- [ ] Done</li></ul>||[Cut and Stick](https://codeforces.com/problemset/problem/1514/D)|Codeforces||||
 |<ul><li>- [x] Done</li></ul>|P|[Beautiful Array](https://codeforces.com/problemset/problem/1155/D)|Codeforces|Kadanes|DP Transitions**|1 hr|
 |<ul><li>- [ ] Done</li></ul>||[Cheap Dinner](https://codeforces.com/problemset/problem/1487/E)|Codeforces||||
