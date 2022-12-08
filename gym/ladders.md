@@ -288,7 +288,7 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|F|[Choosing flowers](https://codeforces.com/problemset/problem/1379/C)|Codeforces|Hard Greedy|Optimize to avoid case work|!|
 |<ul><li>- [x] Done</li></ul>|F|[XOR Guessing](https://codeforces.com/problemset/problem/1207/E)|Codeforces|Puzzle, Interactive||!|
 
-# Ladder Name: 20 [ ONGOING ]
+# Ladder Name: 20 [ Completed ]
 
 | Checkbox | Status  | Problem Name | Online Judge | Ideas | Mistakes | Time Required |
 |---|:---:|:---:|---|---|---|---|
@@ -301,4 +301,4 @@ Ladders = 26
 |<ul><li>- [x] Done</li></ul>|P|[Obtain a Permutation](https://codeforces.com/problemset/problem/1294/E)|Codeforces|Math||5 min|
 |<ul><li>- [x] Done</li></ul>|F|[Cut and Stick](https://codeforces.com/problemset/problem/1514/D)|Codeforces|Segment Tree+Majority|Nice Idea**, Learn MO's algorithm||
 |<ul><li>- [x] Done</li></ul>|P|[Beautiful Array](https://codeforces.com/problemset/problem/1155/D)|Codeforces|Kadanes|DP Transitions**|1 hr|
-|<ul><li>- [ ] Done</li></ul>||[Cheap Dinner](https://codeforces.com/problemset/problem/1487/E)|Codeforces||||
+|<ul><li>- [x] Done</li></ul>|P|[Cheap Dinner](https://codeforces.com/problemset/problem/1487/E)|Codeforces|Greedy||1 hr|
