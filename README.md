@@ -4,7 +4,6 @@
 #include <ext/pb_ds/assoc_container.hpp>
 #include <bits/stdc++.h>
 
-#define log(...) cerr << __LINE__ << ": "; logger(#__VA_ARGS__,__VA_ARGS__)
 #define eb emplace_back
 #define fi first 
 #define se second 
@@ -29,6 +28,8 @@
 #define LOG 17
 #define nth_element(s,n) *(s.find_by_order(n-1)) 
 #define count_smaller(s,n) s.order_of_key(n)  
+#define raffle_draw(l,r) uniform_int_distribution<int>(l,r)(prng)
+#define log(...) cerr << __LINE__ << ": "; logger(#__VA_ARGS__,__VA_ARGS__)
 
 using namespace std;
 using namespace __gnu_pbds;
@@ -58,15 +59,15 @@ void remove_duplicates(vector<T> &v){
 template <class T,class U> bool chmin(T &x, U y){ if(x>y){ x=y; return true; } return false; }
 template <class T,class U> bool chmax(T &x, U y){ if(x<y){ x=y; return true; } return false; }
 
+mt19937 prng(chrono::steady_clock::now().time_since_epoch().count()); // mersenne twister
 const long double pi = acos(-1.0);
 const int mod = 1e9+7;
+
 
 inline ll ceildiv(ll a,ll b){
 	if(a==0) return 0;
 	else return (a-1)/b+1;
 }	
-
-
 void output_vector(const vector<int> v){
 	for(int k:v) cout << k << " ";
 	cout << endl;
