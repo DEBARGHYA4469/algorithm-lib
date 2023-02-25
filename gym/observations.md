@@ -60,3 +60,4 @@
 * https://codeforces.com/contest/1684/problem/E [Nice Observation required around MEX, Greedy]
 * https://codeforces.com/contest/1316/problem/C [Extremal Principle + Nice Observation]
 * https://codeforces.com/contest/1764/problem/C [Nice Observation + Bipartite + Exchange Argument]
+* https://codeforces.com/problemset/problem/1775/E [Difficult Observation + Bijection + Prefix Sum]
