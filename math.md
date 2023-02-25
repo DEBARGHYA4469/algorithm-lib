@@ -139,3 +139,9 @@ Given a specific point, to find closest or farthest distance from it:
 
 > ans= max(dist(x0, x)) = max(max(x0+y0-x-y,x0-y0-x+y,-x0+y0+x-y,-x0-y0+x+y))) = max(x0+y0-min(x+y),x0-y0-min(x-y),-x0+y0+max(x-y),-x0-y0+max(x,y))
 
+
+# Subsequence -> Subarray (Pref Sum)
+
+Given a signed (+/-) operation in subsequence, it can be converted to contiguous operation in prefix sum array and prove it is a bijection. Operation in pref sum world is tractable and easier to solve. Cool transformation trick. 
+
+Eg. https://codeforces.com/problemset/problem/1775/E
