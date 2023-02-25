@@ -68,9 +68,10 @@ inline ll ceildiv(ll a,ll b){
 	if(a==0) return 0;
 	else return (a-1)/b+1;
 }	
-void output_vector(const vector<int> v){
-	for(int k:v) cout << k << " ";
-	cout << endl;
+
+template<class T> void output_vector(const vector<T> v){
+	for(T k:v) cerr << k << " ";
+	cerr << endl;
 }
 
 int main(){
