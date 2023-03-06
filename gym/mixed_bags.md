@@ -2,7 +2,7 @@
 
 | ID  | Problem Name | Ideas | Mistakes |
 |---:|:---:|---|---|
-|1|[KBEAUTIFUL](https://www.codechef.com/problems/KBEAUTIFUL)|||
+|1|[KBEAUTIFUL](https://www.codechef.com/problems/KBEAUTIFUL)|Observations+Star and Bars Counting||
 |2|[Counting Factorizations](https://codeforces.com/contest/1794/problem/D)|||
 |3|[PILESPARITY](https://www.codechef.com/START58B/problems/PILESPARITY)|||
 |4|[REDGREEN](https://www.codechef.com/problems/REDGREEN)|||
