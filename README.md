@@ -1,6 +1,7 @@
-Compilation [command](https://codeforces.com/blog/entry/79024?locale=ru): `g++ -Wall -Wextra -Wshadow -D_GLIBCXX_ASSERTIONS -DDEBUG -ggdb3 -fmax-errors=2 -std=c++17` 
+# CP Template
 
-# cp template
+
+Compilation [command](https://codeforces.com/blog/entry/79024?locale=ru): `g++ -Wall -Wextra -Wshadow -D_GLIBCXX_ASSERTIONS -DDEBUG -ggdb3 -fmax-errors=2 -std=c++17` 
 
 ```cpp
 #include <ext/pb_ds/assoc_container.hpp>
