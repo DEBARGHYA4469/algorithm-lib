@@ -3,7 +3,7 @@
 | ID  | Problem Name | Ideas | Mistakes |
 |---:|:---:|---|---|
 |1|[KBEAUTIFUL](https://www.codechef.com/problems/KBEAUTIFUL)|Observations+Star and Bars Counting, Pref Optimize||
-|2|[Counting Factorizations](https://codeforces.com/contest/1794/problem/D)|||
+|2|[Counting Factorizations](https://codeforces.com/contest/1794/problem/D)|Easy Combinatorial DP||
 |3|[PILESPARITY](https://www.codechef.com/START58B/problems/PILESPARITY)|||
 |4|[REDGREEN](https://www.codechef.com/problems/REDGREEN)|||
 |5|[ALCARR](https://www.codechef.com/problems/ALCARR)|||
