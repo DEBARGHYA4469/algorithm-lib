@@ -6,7 +6,7 @@
 |2|[Counting Factorizations](https://codeforces.com/contest/1794/problem/D)|Easy Combinatorial DP||
 |3|[PILESPARITY](https://www.codechef.com/START58B/problems/PILESPARITY)|Classical Sprague-Grundy||
 |4|[REDGREEN](https://www.codechef.com/problems/REDGREEN)|Easy||
-|5|[ALCARR](https://www.codechef.com/problems/ALCARR)|||
+|5|[ALCARR](https://www.codechef.com/problems/ALCARR)|Expected Value + Combinatorics||
 |6|[SUBARRAYGAME](https://www.codechef.com/problems/SUBARRAYGAME)|||
 |7|[TWONIM](https://www.codechef.com/problems/TWONIM)|||
 |8|[GAMEOFPILES2](https://www.codechef.com/JULY221B/problems/GAMEOFPILES2)|||
