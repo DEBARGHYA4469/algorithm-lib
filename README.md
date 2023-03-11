@@ -104,6 +104,20 @@ inline int binpow(int x,int y){
 }
 
 inline int inv(int x){ return binpow(x,mod-2); }
+
+const int N = 400004;
+int fac[N], rfac[N];
+void fasetup(){
+	fac[0] = rfac[0] = 1;
+	for(int i=1;i<N;i++) fac[i] = mul(fac[i-1],i);
+	rfac[N-1] = inv(fac[N-1]);
+	for(int i=N-2;i>0;i--) rfac[i] = mul(rfac[i+1], i+1);
+} 
+
+int choose(int n,int r){
+	assert(n>=r);
+	return mul(fac[n], mul(rfac[r],rfac[n-r])); 
+}
 ```
 
 ### Number Theory Template 
