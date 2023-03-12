@@ -4,8 +4,6 @@
 
 <details>
 <summary>My programming Template</summary>
-	
-<br>
 
 
 ```cpp
@@ -90,18 +88,14 @@ int main(){
 	return 0;
 }
 ```	
-
-
 </details>
 
-
----
+--- 
 
 <details>
 	<summary> Combinatorics Template </summary>
-<br>
-	
-	
+
+
 ```cpp
 inline int mul(int x,int y){    ll z = 1ll; z=z*x*y;   z%=mod; return (int)z; }
 inline int add(int x,int y){    ll z = 0ll; z=z+x+y;   z%=mod; return (int)z; }
@@ -134,8 +128,6 @@ int choose(int n,int r){
 	return mul(fac[n], mul(rfac[r],rfac[n-r])); 
 }
 ```
-
-
 </details>
 	
 	
@@ -143,7 +135,7 @@ int choose(int n,int r){
  
 <details> 
 	<summary>Number Theory Template</summary>
-<br>
+
 	
 
 ```cpp
@@ -200,8 +192,6 @@ vector<int> divisors(int num,const vector<int> lp){
 	return d;
 }
 ```
-
-	
 </details>
 	
 	
@@ -211,7 +201,6 @@ vector<int> divisors(int num,const vector<int> lp){
 	<summary> Disjoint Set Template </summary>
 	
 	
-<br> 
 	
 	
 ```cpp
@@ -257,9 +246,7 @@ void unite(int u,int v){
     	chmax(max_comp_size,compsize[r1]);
     }
 }
-```
-
-			      
+```		      
 </details>
 
 
@@ -271,7 +258,7 @@ void unite(int u,int v){
 <details>
 	<summary> Mathematical Theorems</summary>
 
-<br>
+
 	
 [Custom Ceil Function](math/math.md#a)
 
