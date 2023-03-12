@@ -11,6 +11,7 @@ include:
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
 kramdown:
+  input: GFM
   parse_block_html: true
 markdown: redcarpet
 redcarpet:
