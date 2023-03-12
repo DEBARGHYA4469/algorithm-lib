@@ -138,7 +138,8 @@ int choose(int n,int r){
 ---
  
 <details markdown="1"> 
-<summary> Number Theory Template </summary>
+<summary>Number Theory Template
+</summary>
 
 
 ```cpp
@@ -195,13 +196,15 @@ vector<int> divisors(int num,const vector<int> lp){
 	return d;
 }
 ```
+
 </details>
 	
 	
 ---
 
 <details markdown="1">
-<summary> Disjoint Set Template </summary>
+<summary>Disjoint Set Template
+</summary>
 	
 	
 ```cpp
@@ -247,7 +250,8 @@ void unite(int u,int v){
     	chmax(max_comp_size,compsize[r1]);
     }
 }
-```		
+```
+
 </details>
 
 
@@ -257,7 +261,8 @@ void unite(int u,int v){
 ### Useful Notes
 
 <details markdown="1">
-<summary> Mathematical Theorems </summary>
+<summary>Mathematical Theorems
+</summary>
 
 
 ---
@@ -310,7 +315,8 @@ void unite(int u,int v){
 ---
 
 <details markdown="1">
-<summary> Trees and Graphs </summary>
+<summary>Trees and Graphs
+</summary>
 
 
 ---
@@ -370,7 +376,9 @@ void unite(int u,int v){
 ---
 
 <details markdown="1">
-<summary> Greedy Techniques </summary>
+<summary>
+Greedy Techniques
+</summary>
 	
 	
 ---
@@ -405,7 +413,8 @@ void unite(int u,int v){
 ---
 
 <details markdown="1">
-<summary> Dynamic Programming </summary>
+<summary>Dynamic Programming
+</summary>
 
 
 ---
@@ -449,7 +458,8 @@ void unite(int u,int v){
 --- 
 
 <details markdown="1">
-<summary> Game Theory </summary>
+<summary>Game Theory
+</summary>
 	
 	
 [Games on arbitrary graphs](games/games.md)
@@ -465,7 +475,8 @@ void unite(int u,int v){
 ---
 
 <details markdown="1">
-<summary> Range Queries </summary>
+<summary>Range Queries
+</summary>
 
 
 ---
@@ -499,7 +510,8 @@ void unite(int u,int v){
 ---
 
 <details markdown="1">
-<summary> String Algorithms </summary>
+<summary>String Algorithms
+</summary>
 	
 
 	
@@ -522,7 +534,8 @@ void unite(int u,int v){
 ---
 
 <details markdown="1">
-<summary> Miscellaneous Stuff </summary>
+<summary>Miscellaneous Stuff
+</summary>
 
 
 ---
