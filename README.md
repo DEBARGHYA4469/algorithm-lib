@@ -93,8 +93,10 @@ int main(){
 
 
 --- 
+
 <details markdown="1">
-<summary> Combinatorics Template </summary>
+<summary>Combinatorics Template
+</summary>
 
 
 ```cpp
@@ -129,6 +131,7 @@ int choose(int n,int r){
 	return mul(fac[n], mul(rfac[r],rfac[n-r])); 
 }
 ```
+
 </details>
 	
 	
