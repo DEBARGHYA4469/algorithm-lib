@@ -6,7 +6,8 @@
 	<summary> My programming Template </summary>
 	
 <br>
-	
+
+
 ```cpp
 #include <ext/pb_ds/assoc_container.hpp>
 #include <bits/stdc++.h>
@@ -90,6 +91,7 @@ int main(){
 }
 ```	
 
+
 </details>
 
 ---
@@ -97,6 +99,7 @@ int main(){
 <details>
 	<summary> Combinatorics Template </summary>
 <br>
+	
 	
 ```cpp
 inline int mul(int x,int y){    ll z = 1ll; z=z*x*y;   z%=mod; return (int)z; }
@@ -131,6 +134,7 @@ int choose(int n,int r){
 }
 ```
 
+
 </details>
 	
 ---
@@ -139,6 +143,7 @@ int choose(int n,int r){
 	<summary>Number Theory Template</summary>
 <br>
 	
+
 ```cpp
 // Use Wheel factorization for large PMax
 const int PMax = 1e5+5;
@@ -193,6 +198,7 @@ vector<int> divisors(int num,const vector<int> lp){
 	return d;
 }
 ```
+
 	
 </details>
 	
@@ -202,6 +208,7 @@ vector<int> divisors(int num,const vector<int> lp){
 	<summary> Disjoint Set Template </summary>
 	
 <br> 
+	
 	
 ```cpp
 int par[UFMAX],rnk[UFMAX];
@@ -247,6 +254,7 @@ void unite(int u,int v){
     }
 }
 ```
+
 			      
 </details>
 
