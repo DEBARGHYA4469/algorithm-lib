@@ -366,7 +366,7 @@ void unite(int u,int v){
 <details>
 	<summary>Greedy Techniques</summary>
 	
-	<br>
+<br>
 
 [Minimum Increment Decrement to make array equal](greedy/adhoc_greedy.md)
 	
@@ -399,7 +399,7 @@ void unite(int u,int v){
 <details>
 	<summary>Dynamic Programming</summary>
 	
-	<br>
+<br>
 
 [Max Subarray Sum, Kadane's algorithm](dp/adhoc-dp.md)
 
@@ -442,7 +442,7 @@ void unite(int u,int v){
 <details>
 	<summary> Game Theory </summary>
 	
-	<br>
+<br>
 	
 [Games on arbitrary graphs](games/games.md)
 
@@ -459,7 +459,7 @@ void unite(int u,int v){
 <details>
 	<summary> Range queries </summary>
 	
-	<br>
+<br>
 
 [Binary Lifting, LCA of trees](range-queries/query.md)
 
@@ -492,7 +492,7 @@ void unite(int u,int v){
 <details>
 	<summary> Miscellaneous Stuff </summary>
 	
-	<br>
+<br>
 	
 [Some useful bit hacks, bitsets](others/bit-hacks.md)
 
