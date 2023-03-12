@@ -222,3 +222,31 @@ void unite(int u,int v){
     }
 }
 ```
+
+##### Table of Contents  
+[Custom Ceil Function](math#a)
+
+[Lazy Caterer](#b) 
+
+[Chinese Remainder Theorem](#c) 
+
+[Derangement](#d) 
+
+[Chicken Mcnugget Theorem](#e) 
+
+[Erdos Szekeres Theorem](#f) 
+
+[Cyclicity](#g)
+
+[Parity of Permutation](#h) 
+
+[Rank in Arbitrarty Bases](#i) 
+
+[Floyd Cycle](#j) 
+
+[Manhattern Trick](#k) 
+
+[Subsequence to Subarray Transformation Trick](#l)
+
+[Effect of subarray on SAD](#m) 
+## Headers
