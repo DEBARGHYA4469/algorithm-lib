@@ -14,7 +14,7 @@ Idea:
 
 * Given an array {a[0], a[1], a[2], ..., a[N-1]}. If you remove elements, SAD decreases or remains same, conversely if you add elements, SAD increases or remains same. 
 
-**Observation - 2 (Hard!) **
+**Observation - 2 (Hard!)**
 
 * If you remove a subarray {a[l], a[l+1], ..., a[r]}, SAD remains same iff {a[l-1], a[l], a[l+1],...,a[r], a[r+1]} is a sorted sequence. 
 
@@ -30,7 +30,7 @@ Proof:
 - SAD(after operation) = a[r+1] - a[l-1]. It can be proven that SAD(after operation) < SAD(before operation).
 - Removing such subarrays does not work 
 
-**Observation - 3(Medium) **
+**Observation - 3(Medium)**
 	
 - Given an array {3,4,1,6,2,7,5,10,12,14,9,19}. 
 - Find all such sequences from which you can extract subarrays
