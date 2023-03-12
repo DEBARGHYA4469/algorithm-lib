@@ -3,7 +3,6 @@
 [Compile: ](https://codeforces.com/blog/entry/79024?locale=ru) `g++ -Wall -Wextra -Wshadow -D_GLIBCXX_ASSERTIONS -DDEBUG -ggdb3 -fmax-errors=2 -fsanitize=address,undefined -std=c++17` 
 
 <details>
-
 <summary>My programming Template</summary>
 	
 <br>
@@ -95,6 +94,7 @@ int main(){
 
 </details>
 
+
 ---
 
 <details>
@@ -137,6 +137,7 @@ int choose(int n,int r){
 
 
 </details>
+	
 	
 ---
  
@@ -203,10 +204,12 @@ vector<int> divisors(int num,const vector<int> lp){
 	
 </details>
 	
+	
 ---
 
 <details>
 	<summary> Disjoint Set Template </summary>
+	
 	
 <br> 
 	
@@ -258,6 +261,7 @@ void unite(int u,int v){
 
 			      
 </details>
+
 
 ---
 	
@@ -312,6 +316,7 @@ void unite(int u,int v){
 [Meet in the Middle aka MiTM](math/cses.md)
 
 </details>
+
 
 ---
 
