@@ -3,7 +3,7 @@
 [Compile: ](https://codeforces.com/blog/entry/79024?locale=ru) `g++ -Wall -Wextra -Wshadow -D_GLIBCXX_ASSERTIONS -DDEBUG -ggdb3 -fmax-errors=2 -fsanitize=address,undefined -std=c++17` 
 
 <details>
-<summary>My programming Template</summary>
+<summary> My programming Template </summary>
 
 
 ```cpp
@@ -86,14 +86,13 @@ int main(){
 	cin.tie(0);
 
 	return 0;
-}
-```	
+}```
 </details>
 
 --- 
 
 <details>
-	<summary> Combinatorics Template </summary>
+<summary> Combinatorics Template </summary>
 
 
 ```cpp
@@ -134,7 +133,7 @@ int choose(int n,int r){
 ---
  
 <details> 
-	<summary>Number Theory Template</summary>
+<summary>Number Theory Template</summary>
 
 	
 
@@ -198,7 +197,7 @@ vector<int> divisors(int num,const vector<int> lp){
 ---
 
 <details>
-	<summary> Disjoint Set Template </summary>
+<summary> Disjoint Set Template </summary>
 	
 	
 	
@@ -256,7 +255,7 @@ void unite(int u,int v){
 ### Useful Notes
 
 <details>
-	<summary> Mathematical Theorems</summary>
+<summary> Mathematical Theorems </summary>
 
 
 	
@@ -308,9 +307,9 @@ void unite(int u,int v){
 ---
 
 <details>
-	<summary> Tree and Graphs </summary>
+<summary> Trees and Graphs </summary>
 
-<br>
+
 
 [Cyclicity in undirected graph](graph/graph.md#a)
 
@@ -367,9 +366,9 @@ void unite(int u,int v){
 ---
 
 <details>
-	<summary>Greedy Techniques</summary>
+<summary> Greedy Techniques </summary>
 	
-<br>
+
 
 [Minimum Increment Decrement to make array equal](greedy/adhoc_greedy.md)
 	
@@ -400,9 +399,8 @@ void unite(int u,int v){
 ---
 
 <details>
-	<summary>Dynamic Programming</summary>
+<summary> Dynamic Programming </summary>
 	
-<br>
 
 [Max Subarray Sum, Kadane's algorithm](dp/adhoc-dp.md)
 
@@ -443,9 +441,8 @@ void unite(int u,int v){
 --- 
 
 <details>
-	<summary> Game Theory </summary>
+<summary> Game Theory </summary>
 	
-<br>
 	
 [Games on arbitrary graphs](games/games.md)
 
@@ -460,10 +457,9 @@ void unite(int u,int v){
 ---
 
 <details>
-	<summary> Range queries </summary>
+<summary> Range Queries </summary>
 	
-<br>
-
+	
 [Binary Lifting, LCA of trees](range-queries/query.md)
 
 [Fenwick Tree, 1D, 2D, difference array trick](range-queries/query.md)
@@ -493,9 +489,9 @@ void unite(int u,int v){
 ---
 
 <details>
-	<summary> String Algorithms </summary>
+<summary> String Algorithms </summary>
 	
-<br>
+
 	
 [Minimum Palindromic Cuts](string/adhoc-strings.md)
 
@@ -516,9 +512,8 @@ void unite(int u,int v){
 ---
 
 <details>
-	<summary> Miscellaneous Stuff </summary>
+<summary> Miscellaneous Stuff </summary>
 	
-<br>
 
 [K-Majority Voting algorithm aka Boyer-Moore](others/voting.md) 
 
