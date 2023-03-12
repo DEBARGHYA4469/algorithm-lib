@@ -297,3 +297,63 @@ void unite(int u,int v){
 [Minimum Excludent aka MEX](math/mex.md)
 
 </details>
+
+---
+
+<details>
+	<summary> Tree and Graphs </summary>
+
+<br>
+
+[Cyclicity in undirected graph](graph/graph.md#a)
+
+[Cyclicity in directed graph, coloring technique](graph/graph.md#b)
+
+[All simple cycles in a undirected graph, w/o composite cycles](graph/graph.md#c)
+
+[All tricks using union-find algorithm](graph/graph.md#d)
+
+[Small to Large Trick, Merger Sets, a DSU trick](graph/dsu.md)
+
+[Tarjan's algorithm to find articulation points, bridges](graph/graph.md#e)
+
+[Finding transitive closure of a graph using Floyd Warshall](graph/graph.md#g)
+
+[BFS on complement graph if the graph is sparse](graph/graph.md#h)
+
+[All topological ordering](graph/graph.md#i)
+
+[Kahn's algorithm for topological ordering](graph/graph.md#j)
+
+[Maximal/Minimal Topological ordering](graph/graph.md#k)
+
+[Floyd Warshall for finding shortest paths](graph/graph.md#l)
+
+[Minimum Spanning Tree, Prim vs Kruskal](graph/graph.md#m)
+
+[Dijkstra's shortest path algoritm for non-negative edges](graph/graph.md#o)
+
+[Use Bellman Ford for negative edge weights](graph/graph.md#p)
+
+[Detect negative cycle using Bellman Ford](graph/graph.md#q)
+
+[0/1 BFS Trick](graph/graph.md#r)
+
+[Strongly connected component aka SCC](graph/graph.md#s)
+
+[Kosaraju's algorithm for condensed SCC](graph/graph.md#t)
+
+[Finding centeroid a tree, subtree, cut tree](graph/centeroid.md)
+
+[Euler Tour, relation between vertices, propagating tree](graph/euler-tour.md)
+
+[Everything about Trie](graph/trie.md)
+
+[Trie and binary MEX](graph/trie.md)
+
+[Bit prefix Trie and XOR operations](graph/trie.md)
+
+[Games on Trie](graph/trie.md)
+
+</details>
+

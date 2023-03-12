@@ -1,6 +1,46 @@
 # Graphs
 
+### Table of contents
+
+[Cyclicity in undirected graph](#a)
+
+[Cyclicity in directed graph, coloring technique](#b)
+
+[All simple cycles in a undirected graph, w/o composite cycles](#c)
+
+[All tricks using union-find algorithm](#d)
+
+[Tarjan's algorithm to find articulation points, bridges](#e)
+
+[Finding transitive closure of a graph using Floyd Warshall](#g)
+
+[BFS on complement graph if the graph is sparse](#h)
+
+[All topological ordering](#i)
+
+[Kahn's algorithm for topological ordering](#j)
+
+[Maximal/Minimal Topological ordering](#k)
+
+[Floyd Warshall for finding shortest paths](#l)
+
+[Minimum Spanning Tree, Prim vs Kruskal](#m)
+
+[Dijkstra's shortest path algoritm for non-negative edges](#o)
+
+[Use Bellman Ford for negative edge weights](#p)
+
+[Detect negative cycle using Bellman Ford](#q)
+
+[0/1 BFS Trick](#r)
+
+[Strongly connected component aka SCC](#s)
+
+[Kosaraju's algorithm for condensed SCC](#t)
+
 ### Cyclicity in a undirected graph
+
+<a name="a"/>
 
 ```cpp
     
@@ -41,6 +81,8 @@
 
 ### Cyclicity in Directed Graphs
 
+<a name="b"/>
+
 ```cpp
       vi color,par;
       
@@ -63,6 +105,9 @@
 ```
 
 ### All simple cycles in a undirected graph
+
+<a name="c"/>
+
 <img width="615" alt="image" src="https://user-images.githubusercontent.com/21307343/185361935-5d501484-7283-462b-9642-b64a17a34389.png">
 
 Think in terms of DFS Tree! This algorithm does not work for composite cycles.
@@ -96,6 +141,8 @@ void dfs(int u,int p=-1){
 
 ### DSU: Union Find
 
+<a name="d"/>
+
 ```cpp
     int par[1000], rank[1000];
     
@@ -118,6 +165,9 @@ void dfs(int u,int p=-1){
 to it by road and not by rails, say, mp1[root_roads[u]]-mp2[root_roads[u],root_rails[u]]` </br> </br>
 
 ## Tarjan's Articulation Point
+
+<a name="e"/>
+
 ![image](https://user-images.githubusercontent.com/21307343/132128610-75200a76-b2b6-44d2-a36e-c25588c1f964.png)
 
 ```cpp
@@ -140,6 +190,8 @@ to it by road and not by rails, say, mp1[root_roads[u]]-mp2[root_roads[u],root_r
 
 ## Tarjan's Bridges Algorithm
 
+<a name="f"/>
+
 ```cpp
     void dfs(int u,int p=-1){
           low[u] = disc[u] = ++timer;
@@ -157,10 +209,14 @@ to it by road and not by rails, say, mp1[root_roads[u]]-mp2[root_roads[u],root_r
 
 ## Transitive Closure
 
+<a name="g"/>
+
 `For undirected graph, use DSU` </br>
 `For directed graph, use Floyd Warshall/DFS` </br>
 
 ## BFS on a complement graph if the graph is sparse
+
+<a name="h"/>
 
 ```cpp
       vi d(n+1,-1);
@@ -187,6 +243,8 @@ to it by road and not by rails, say, mp1[root_roads[u]]-mp2[root_roads[u],root_r
 ```
 
 ## Topological Sort
+
+<a name="i"/>
 
 DFS method 
 
@@ -225,6 +283,8 @@ DFS method
 
 #### Kahn's Algorithm
 
+<a name="j"/>
+
 ```cpp
     void topo_sort(){
         vi in(V,0);
@@ -248,11 +308,16 @@ DFS method
     } 
 ```
 
+<a name="k"/>
+
 `Min Topological Ordering: Topological Sorting is lexicographically smallest, idea: normal Kahn, in[], pick lex smallest vertex everytime`
 
 `Min Topological Labelling: Topological labelling is lexicographically smallest, idea: reverse Kahn, out[], pick lex largest vertex everytime and place it in the front`
 
 #### Floyd Warshall
+
+<a name="l"/>
+
 ```cpp
 void floyd(){
         for(int k=0;k<V;k++){
@@ -265,6 +330,8 @@ void floyd(){
 }
 ```
 ## Minimum Spanning Tree
+
+<a name="m"/>
 
 ```cpp
     // Prim: idea, Among all the reachable vertex choose the cheapest one.
@@ -287,6 +354,8 @@ void floyd(){
         return ans;
     }
 ```
+
+<a name="n"/>
 
 ```cpp
     // kruskal: idea, Among all edges which can be added choose the one min val
@@ -316,6 +385,8 @@ https://atcoder.jp/contests/abc164/tasks/abc164_e
 
 ### Dijkstra
 
+<a name="o"/>
+
 ```cpp
     void dijkstra(int u){
         for(int i=0;i<N;i++) d[i] = inf;
@@ -335,6 +406,8 @@ https://atcoder.jp/contests/abc164/tasks/abc164_e
 ```
 
 ### Bellman ford
+
+<a name="p"/>
 
 ```cpp
     void bellman(int u){
@@ -357,6 +430,8 @@ https://atcoder.jp/contests/abc164/tasks/abc164_e
 
 ### Detect Negative Cycle
 
+<a name="q"/>
+
 ```cpp
     bool bellman(int u){
         for(int i=0;i<N;i++) d[i] = inf;
@@ -376,6 +451,8 @@ https://atcoder.jp/contests/abc164/tasks/abc164_e
 ```
 
 ### 0/1 BFS
+
+<a name="r"/>
 
 ```cpp
     void bfs_01(int s){
@@ -398,6 +475,8 @@ https://atcoder.jp/contests/abc164/tasks/abc164_e
 ```
 
 ### Strongly Connected Components
+
+<a name="s"/>
 
 ![image](https://user-images.githubusercontent.com/21307343/132205089-151c6cab-f372-4e52-94b0-ec2c09166a4d.png)
 
@@ -436,6 +515,8 @@ https://atcoder.jp/contests/abc164/tasks/abc164_e
 ```
 
 ## Condensed SCC
+
+<a name="t"/>
 
 ```cpp
     vi g_scc[MaxN], root[MaxN];
