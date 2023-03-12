@@ -3,7 +3,7 @@
 [Compile: ](https://codeforces.com/blog/entry/79024?locale=ru) `g++ -Wall -Wextra -Wshadow -D_GLIBCXX_ASSERTIONS -DDEBUG -ggdb3 -fmax-errors=2 -fsanitize=address,undefined -std=c++17` 
 
 <details markdown="1"> 
- 	<summary> My Programming Template </summary>
+<summary>My Programming Template</summary>
 
 ```cpp
 #include <ext/pb_ds/assoc_container.hpp>
