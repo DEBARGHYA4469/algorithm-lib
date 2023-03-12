@@ -5,6 +5,8 @@
 <details markdown=1> <summary markdown="span">  My programming Template </summary>
 
 ```cpp
+
+
 #include <ext/pb_ds/assoc_container.hpp>
 #include <bits/stdc++.h>
 
@@ -85,7 +87,10 @@ int main(){
 
 	return 0;
 }
+
 ```
+
+
 </details>
 
 --- 
@@ -95,6 +100,8 @@ int main(){
 
 
 ```cpp
+
+
 inline int mul(int x,int y){    ll z = 1ll; z=z*x*y;   z%=mod; return (int)z; }
 inline int add(int x,int y){    ll z = 0ll; z=z+x+y;   z%=mod; return (int)z; }
 inline int sub(int x,int y){    ll z=0ll;   z=x+mod-y; z%=mod; return (int)z; }
@@ -125,7 +132,10 @@ int choose(int n,int r){
 	assert(n>=r);
 	return mul(fac[n], mul(rfac[r],rfac[n-r])); 
 }
+
+
 ```
+
 </details>
 	
 	
@@ -137,6 +147,7 @@ int choose(int n,int r){
 	
 
 ```cpp
+
 // Use Wheel factorization for large PMax
 const int PMax = 1e5+5;
 int lp[PMax];
@@ -189,7 +200,9 @@ vector<int> divisors(int num,const vector<int> lp){
 	}
 	return d;
 }
+
 ```
+
 </details>
 	
 	
@@ -202,6 +215,7 @@ vector<int> divisors(int num,const vector<int> lp){
 	
 	
 ```cpp
+
 int par[UFMAX],rnk[UFMAX];
 int compsize[UFMAX];
 int max_comp_size=0;
@@ -244,7 +258,9 @@ void unite(int u,int v){
     	chmax(max_comp_size,compsize[r1]);
     }
 }
-```		      
+
+```		
+
 </details>
 
 
