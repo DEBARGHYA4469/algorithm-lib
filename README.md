@@ -89,6 +89,7 @@ int main(){
 	return 0;
 }
 ```	
+
 </details>
 
 ---
@@ -129,6 +130,7 @@ int choose(int n,int r){
 	return mul(fac[n], mul(rfac[r],rfac[n-r])); 
 }
 ```
+
 </details>
 	
 ---
