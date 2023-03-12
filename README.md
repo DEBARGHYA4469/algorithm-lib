@@ -3,9 +3,9 @@
 [Compile: ](https://codeforces.com/blog/entry/79024?locale=ru) `g++ -Wall -Wextra -Wshadow -D_GLIBCXX_ASSERTIONS -DDEBUG -ggdb3 -fmax-errors=2 -fsanitize=address,undefined -std=c++17` 
 
 <details>
-<summary> My programming Template </summary>
+	<summary> My programming Template </summary>
 
-
+<pre>
 ```cpp
 #include <ext/pb_ds/assoc_container.hpp>
 #include <bits/stdc++.h>
@@ -88,7 +88,7 @@ int main(){
 	return 0;
 }
 ```
-
+</pre>
 </details>
 
 --- 
