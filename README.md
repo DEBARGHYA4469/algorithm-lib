@@ -86,7 +86,9 @@ int main(){
 	cin.tie(0);
 
 	return 0;
-}```
+}
+```
+
 </details>
 
 --- 
@@ -258,6 +260,7 @@ void unite(int u,int v){
 <summary> Mathematical Theorems </summary>
 
 
+---
 	
 [Custom Ceil Function](math/math.md#a)
 
@@ -310,6 +313,7 @@ void unite(int u,int v){
 <summary> Trees and Graphs </summary>
 
 
+---
 
 [Cyclicity in undirected graph](graph/graph.md#a)
 
@@ -368,6 +372,8 @@ void unite(int u,int v){
 <details>
 <summary> Greedy Techniques </summary>
 	
+	
+---
 
 
 [Minimum Increment Decrement to make array equal](greedy/adhoc_greedy.md)
@@ -400,7 +406,9 @@ void unite(int u,int v){
 
 <details>
 <summary> Dynamic Programming </summary>
-	
+
+
+---
 
 [Max Subarray Sum, Kadane's algorithm](dp/adhoc-dp.md)
 
@@ -458,7 +466,9 @@ void unite(int u,int v){
 
 <details>
 <summary> Range Queries </summary>
-	
+
+
+---
 	
 [Binary Lifting, LCA of trees](range-queries/query.md)
 
@@ -513,7 +523,9 @@ void unite(int u,int v){
 
 <details>
 <summary> Miscellaneous Stuff </summary>
-	
+
+
+---
 
 [K-Majority Voting algorithm aka Boyer-Moore](others/voting.md) 
 
