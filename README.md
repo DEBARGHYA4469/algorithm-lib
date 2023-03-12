@@ -254,7 +254,7 @@ void unite(int u,int v){
 ### Useful Notes
 
 <details>
-	<summary> Mathematical ideas and some important theorems for CP</summary>
+	<summary> Mathematical Theorems</summary>
 
 <br>
 	
@@ -295,6 +295,10 @@ void unite(int u,int v){
 [Inclusion Exclusion Principle](math/combinatorics.md#b)
 
 [Minimum Excludent aka MEX](math/mex.md)
+
+[No. of Co-prime pairs](math/cses.md)
+
+[Meet in the Middle aka MiTM](math/cses.md)
 
 </details>
 
@@ -356,4 +360,150 @@ void unite(int u,int v){
 [Games on Trie](graph/trie.md)
 
 </details>
+
+---
+
+<details>
+	<summary>Greedy Techniques</summary>
+	
+	<br>
+
+[Minimum Increment Decrement to make array equal](greedy/adhoc_greedy.md)
+	
+[Largest Area in a Histogram using NGE](greedy/adhoc_greedy.md)
+
+[Intermediate Value Property Trick](greedy/adhoc_greedy.md)
+
+[Job Sequencing Problems](greedy/adhoc_greedy.md)
+
+[A Nice Binary Search Trick](greedy/adhoc_greedy.md)
+
+[Find frequency of element in a given range using upperbound, lowerbound](greedy/adhoc_greedy.md)
+
+[All techniques using exchange arguments, powerful proving technique](greedy/exchange-arg.md)
+
+[Invariance and Extremal Ideas](greedy/invariance.md)
+
+[Generic sliding window algoritm](greedy/sliding-window.md)
+
+[Comparing a subarray with a sliding window technique](greedy/sliding-window.md)
+
+[Find closest pair, minimum euclidean distance](greedy/sweepline.md)
+
+[Klee's algorithm for union of intersecting segments](greedy/sweepline.md)
+
+</details>
+
+---
+
+<details>
+	<summary>Dynamic Programming</summary>
+	
+	<br>
+
+[Max Subarray Sum, Kadane's algorithm](dp/adhoc-dp.md)
+
+[Max Subarray Product](dp/adhoc-dp.md)
+
+[All variants of buy-sell share problems](dp/adhoc-dp.md)
+
+[Bitmasking: Assigment Problem](dp/bitmask.md)
+
+[Bitmasking: Held Karp for TSP like problem](dp/bitmask.md)
+
+[Masking over Primes](dp/bitmask.md)
+
+[Enumerating submasks](dp/bitmask.md)
+
+[Profile DP, DP on broken pipes](dp/bitmask.md)
+
+[All tricks in digit DP problems, including LCM trick, pair of numbers](dp/digit-dp.md)
+
+[Divisibility problems using DP](dp/divisibility.md)
+
+[Everything about IN-OUT dp on tree aka Rerooting technique, Tree Distances, Tree Matching](dp/dp-on-trees.md)
+
+[Inclusion and Exclusion DP](dp/dp-on-trees.md)
+
+[Solving any structural dp problems using kadane's approach](dp/dp_tricks.md)
+
+[Subsequence & Substring comparison of two strings type problems](dp/subsequence_dp.md)
+
+[Everything about Sieve of Eratosthenes, Prime Factorization, Harmonic Lemma](dp/sieve.md)
+
+[Next Element Array technique used in various AND, OR, bitwise problems](dp/next-array.md)
+
+[Matrix Exponentiation Trick](dp/matrixexpo.md)
+
+</details>
+
+--- 
+
+<details>
+	<summary> Game Theory </summary>
+	
+	<br>
+	
+[Games on arbitrary graphs](games/games.md)
+
+[NIM games](games/games.md)
+
+[Sprague Grundy Theorem](games/games.md)
+
+[Converting games to NIM forms using MEX](games/games.md)
+
+</details>
+
+---
+
+<details>
+	<summary> Range queries </summary>
+	
+	<br>
+
+[Binary Lifting, LCA of trees](range-queries/query.md)
+
+[Fenwick Tree, 1D, 2D, difference array trick](range-queries/query.md)
+
+[Sparse Table](range-queries/query.md)
+
+[Segment Tree 1D, 2D, Lazy Propagation](range-queries/query.md)
+
+[Merge Sort Tree](range-queries/query.md)
+
+[Sqrt Decomposition](range-queries/query.md)
+
+[Counting Inversions using Fenwick Tree](range-queries/query.md)
+
+[Order Statistics using Fenwick Tree](range-queries/query.md)
+
+[Classical Fenwick Tree application in DP, Coordinate Compression](range-queries/query.md)
+
+[Segment Tree, Bit manipulation and Lazy propagation](range-queries/query.md)
+
+[Ordered Statistics using PBDS](range-queries/ordered-sets.md)
+
+[Interesting RMQ problems from SPOJ](range-queries/spoj-rmq-sprint.md)
+
+</details>
+
+---
+
+<details>
+	<summary> Miscellaneous Stuff </summary>
+	
+	<br>
+	
+[Some useful bit hacks, bitsets](others/bit-hacks.md)
+
+[Minimum, Maximum XOR values of pair of numbers](others/classical_ideas.md)
+
+[Coordinate Compression](others/coordinate-compression.md)
+
+[Ternary Search for unimodal data](others/ternery-search.md)
+
+</details>
+
+---
+
 
