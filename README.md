@@ -3,7 +3,8 @@
 [Compile: ](https://codeforces.com/blog/entry/79024?locale=ru) `g++ -Wall -Wextra -Wshadow -D_GLIBCXX_ASSERTIONS -DDEBUG -ggdb3 -fmax-errors=2 -fsanitize=address,undefined -std=c++17` 
 
 <details>
-	<summary> My programming template </summary>	
+	<summary> My programming Template </summary>
+	
 <br>
 	
 ```cpp
@@ -87,14 +88,13 @@ int main(){
 
 	return 0;
 }
-```
-	
+```	
 </details>
 
 ---
 
 <details>
-	<summary> Combinatorics template </summary>
+	<summary> Combinatorics Template </summary>
 <br>
 	
 ```cpp
@@ -134,7 +134,7 @@ int choose(int n,int r){
 ---
  
 <details> 
-	<summary>Number Theory template</summary>
+	<summary>Number Theory Template</summary>
 <br>
 	
 ```cpp
@@ -197,7 +197,7 @@ vector<int> divisors(int num,const vector<int> lp){
 ---
 
 <details>
-	<summary> Disjoint Set template </summary>
+	<summary> Disjoint Set Template </summary>
 	
 <br> 
 	
