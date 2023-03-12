@@ -461,7 +461,8 @@ Greedy Techniques
 <summary>Game Theory
 </summary>
 	
-	
+---
+
 [Games on arbitrary graphs](games/games.md)
 
 [NIM games](games/games.md)
@@ -477,7 +478,6 @@ Greedy Techniques
 <details markdown="1">
 <summary>Range Queries
 </summary>
-
 
 ---
 	
