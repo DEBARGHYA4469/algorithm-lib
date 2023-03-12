@@ -2,12 +2,10 @@
 
 [Compile: ](https://codeforces.com/blog/entry/79024?locale=ru) `g++ -Wall -Wextra -Wshadow -D_GLIBCXX_ASSERTIONS -DDEBUG -ggdb3 -fmax-errors=2 -fsanitize=address,undefined -std=c++17` 
 
-<details> 
-	<summary> 
+<details markdown="1"> 
+ 	<summary> 
 		My programming Template 
 	</summary>
-
-<p>
 
 ```cpp
 
@@ -92,15 +90,13 @@ int main(){
 
 	return 0;
 }
-
 ```
-</p>
 
 </details>
 
 --- 
 
-<details>
+<details markdown="1">
 <summary> Combinatorics Template </summary>
 
 
@@ -137,8 +133,6 @@ int choose(int n,int r){
 	assert(n>=r);
 	return mul(fac[n], mul(rfac[r],rfac[n-r])); 
 }
-
-
 ```
 
 </details>
@@ -146,8 +140,8 @@ int choose(int n,int r){
 	
 ---
  
-<details> 
-<summary>Number Theory Template</summary>
+<details markdown="1"> 
+<summary> Number Theory Template </summary>
 
 	
 
@@ -205,7 +199,6 @@ vector<int> divisors(int num,const vector<int> lp){
 	}
 	return d;
 }
-
 ```
 
 </details>
@@ -213,7 +206,7 @@ vector<int> divisors(int num,const vector<int> lp){
 	
 ---
 
-<details>
+<details markdown="1">
 <summary> Disjoint Set Template </summary>
 	
 	
@@ -263,7 +256,6 @@ void unite(int u,int v){
     	chmax(max_comp_size,compsize[r1]);
     }
 }
-
 ```		
 
 </details>
@@ -274,7 +266,7 @@ void unite(int u,int v){
 
 ### Useful Notes
 
-<details>
+<details markdown="1">
 <summary> Mathematical Theorems </summary>
 
 
@@ -327,7 +319,7 @@ void unite(int u,int v){
 
 ---
 
-<details>
+<details markdown="1">
 <summary> Trees and Graphs </summary>
 
 
@@ -387,7 +379,7 @@ void unite(int u,int v){
 
 ---
 
-<details>
+<details markdown="1">
 <summary> Greedy Techniques </summary>
 	
 	
@@ -422,7 +414,7 @@ void unite(int u,int v){
 
 ---
 
-<details>
+<details markdown="1">
 <summary> Dynamic Programming </summary>
 
 
@@ -466,7 +458,7 @@ void unite(int u,int v){
 
 --- 
 
-<details>
+<details markdown="1">
 <summary> Game Theory </summary>
 	
 	
@@ -482,7 +474,7 @@ void unite(int u,int v){
 
 ---
 
-<details>
+<details markdown="1">
 <summary> Range Queries </summary>
 
 
@@ -516,7 +508,7 @@ void unite(int u,int v){
 
 ---
 
-<details>
+<details markdown="1">
 <summary> String Algorithms </summary>
 	
 
@@ -539,7 +531,7 @@ void unite(int u,int v){
 
 ---
 
-<details>
+<details markdown="1">
 <summary> Miscellaneous Stuff </summary>
 
 
