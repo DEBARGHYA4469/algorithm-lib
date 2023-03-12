@@ -3,13 +3,9 @@
 [Compile: ](https://codeforces.com/blog/entry/79024?locale=ru) `g++ -Wall -Wextra -Wshadow -D_GLIBCXX_ASSERTIONS -DDEBUG -ggdb3 -fmax-errors=2 -fsanitize=address,undefined -std=c++17` 
 
 <details markdown="1"> 
- 	<summary> 
-		My programming Template 
-	</summary>
+ 	<summary> My Programming Template </summary>
 
 ```cpp
-
-
 #include <ext/pb_ds/assoc_container.hpp>
 #include <bits/stdc++.h>
 
@@ -91,18 +87,15 @@ int main(){
 	return 0;
 }
 ```
-
 </details>
 
---- 
 
+--- 
 <details markdown="1">
 <summary> Combinatorics Template </summary>
 
 
 ```cpp
-
-
 inline int mul(int x,int y){    ll z = 1ll; z=z*x*y;   z%=mod; return (int)z; }
 inline int add(int x,int y){    ll z = 0ll; z=z+x+y;   z%=mod; return (int)z; }
 inline int sub(int x,int y){    ll z=0ll;   z=x+mod-y; z%=mod; return (int)z; }
@@ -134,7 +127,6 @@ int choose(int n,int r){
 	return mul(fac[n], mul(rfac[r],rfac[n-r])); 
 }
 ```
-
 </details>
 	
 	
@@ -143,10 +135,8 @@ int choose(int n,int r){
 <details markdown="1"> 
 <summary> Number Theory Template </summary>
 
-	
 
 ```cpp
-
 // Use Wheel factorization for large PMax
 const int PMax = 1e5+5;
 int lp[PMax];
@@ -200,7 +190,6 @@ vector<int> divisors(int num,const vector<int> lp){
 	return d;
 }
 ```
-
 </details>
 	
 	
@@ -210,10 +199,7 @@ vector<int> divisors(int num,const vector<int> lp){
 <summary> Disjoint Set Template </summary>
 	
 	
-	
-	
 ```cpp
-
 int par[UFMAX],rnk[UFMAX];
 int compsize[UFMAX];
 int max_comp_size=0;
@@ -257,7 +243,6 @@ void unite(int u,int v){
     }
 }
 ```		
-
 </details>
 
 
