@@ -517,7 +517,7 @@ void unite(int u,int v){
 	
 <br>
 
-[k-Majority Voting algorithm aka Boyer-Moore](others/voting.md) 
+[K-Majority Voting algorithm aka Boyer-Moore](others/voting.md) 
 
 [Some useful bit hacks, bitsets](others/bit-hacks.md)
 
