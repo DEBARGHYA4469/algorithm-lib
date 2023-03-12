@@ -1,4 +1,33 @@
+##### Table of Contents  
+[Custom Ceil Function](#a)
+
+[Lazy Caterer](#b) 
+
+[Chinese Remainder Theorem](#c) 
+
+[Derangement](#d) 
+
+[Chicken Mcnugget Theorem](#e) 
+
+[Erdos Szekeres Theorem](#f) 
+
+[Cyclicity](#g)
+
+[Parity of Permutation](#h) 
+
+[Rank in Arbitrarty Bases](#i) 
+
+[Floyd Cycle](#j) 
+
+[Manhattern Trick](#k) 
+
+[Subsequence to Subarray Transformation Trick](#l)
+
+[Effect of subarray on SAD](#m) 
+## Headers
+
 # Custom Ceil function
+<a name="a"/>
 
 ```cpp
     inline int ceildiv(int a,int b){
@@ -8,7 +37,7 @@
 ```
 
 # Lazy Caterer
-
+<a name="b"/>
 `F[N] = F[N-1] + N`
 
 Intuitive explaination: You can assume some lines N already existing. </br>
@@ -20,6 +49,7 @@ Consider a line far away(pink) which intersects with all the lines N(all divergi
 Now coming to cake cutting problem, since this construction exists, we can zoom(scale in) out everything and fit in the cake geometry. 
 
 # Chinese Remainder Theorem
+<a name="c"/>
 
 If Alice has x number of apples such that she can divide the apples in mi groups with ri remaining, for some i's. What is the minimum no of apples she posses?</br>
 
@@ -68,18 +98,20 @@ inline ll crt(ll r[],ll m[]){
 ```
 
 # Derangement
+<a name="d"/>
 Solving permutation with fixed points k or more: N! - Sum{D(N,k)} k = 0...K-1 https://en.wikipedia.org/wiki/Rencontres_numbers and calcuate.
 
 <li> D[N] =  (N-1)(D[N-1]+D[N-2])
 
 # Chicken McNugget Theorem
-	
+<a name="e"/>
 If there are two number a,b which are relatively prime, the greatest number which can be represented using a & b is (a-1)(b-1)+1.
 	
 <li> Proof: ax + by = N, a(x+tb) + b(y-tb) = N, If N > (a-1)(b-1) then a(x+tb) + b(y-tb) > (a-1)(b-1) </br>
 <li> Fix x+tb in [0,b-1], a(b-1) + b(y-tb) > (a-1)(b-1) => y-ta >= 0, hence proved!  
 	
 # Erdos Szekeres Theorem
+<a name="f"/>
 	
 If there are ab+1 elements in a sequence then there always exits a monotonic increasing subsequence or decreasing subsequence of length a. </br>
 Hint : (x[i],y[i]) Consider at each point #monotonic increasing sequence vs #monotonic decreasing sequence.
@@ -89,13 +121,14 @@ Hint : (x[i],y[i]) Consider at each point #monotonic increasing sequence vs #mon
 let a[i],b[i] be longest increasing/decreasing subsequence till i including x[i]. Then claim that no two tuple exists (a[i],b[i]) & (a[j],b[j]) s.t a[i]=a[j] and b[i]=b[j]. So total distinct tuples: (k-1)x(k-1), we need a sequence of (k-1)x(k-1)+1
 
 # Cyclicity
-
+<a name="g"/>
 https://codeforces.com/contest/1367/problem/E
 
 ![image](https://user-images.githubusercontent.com/21307343/142450332-ebf17b94-a154-4307-afef-b31d9a364158.png)
 
 
-# Parity of Permutation: 
+# Parity of Permutation:
+<a name="h"/>
 <li> https://www.geeksforgeeks.org/number-of-transpositions-in-a-permutation/
 <li> https://www.geeksforgeeks.org/even-and-odd-permutations-and-their-theorems/
 
@@ -108,7 +141,8 @@ Proof:</br>
     
 * Problem: https://codeforces.com/contest/1585/problem/D
 
-# Rank in Arbitrary Bases
+# Rank in Arbitrary Bises
+<a name="i"/>
 
 Lets say the wts of the groups be given as:   (w8|w7|w6|w5|w4|w3|w2|w1|w0)
 
@@ -126,10 +160,12 @@ x0 = x % w0 ---> x/=w0
 x1 = x % w1 ---> x/=w1.... and so on!
 
 # Floyd Cycle
+<a name="j"/>
 ![image](https://user-images.githubusercontent.com/21307343/151416181-5eea8fa1-905b-4511-9132-3d96ff92bc38.png)
 
 
 # Manhatten Trick
+<a name="k"/>
 
 Also called 45 degree rotation trick, given any Manhatten metric convert it to Chebyshev metric.
 |x| = max(x,-x) </br>
@@ -141,7 +177,10 @@ Given a specific point, to find closest or farthest distance from it:
 
 
 # Subsequence -> Subarray (Pref Sum)
+<a name="l"/>
 
 Given a signed (+/-) operation in subsequence, it can be converted to contiguous operation in prefix sum array and prove it is a bijection. Operation in pref sum world is tractable and easier to solve. Cool transformation trick. 
 
 Eg. https://codeforces.com/problemset/problem/1775/E
+
+<a name="m"/>
