@@ -384,7 +384,7 @@ void unite(int u,int v){
 
 [Invariance and Extremal Ideas](greedy/invariance.md)
 
-[Generic sliding window algoritm](greedy/sliding-window.md)
+[Generic sliding window algorithm](greedy/sliding-window.md)
 
 [Comparing a subarray with a sliding window technique](greedy/sliding-window.md)
 
@@ -502,9 +502,9 @@ void unite(int u,int v){
 
 [Don't be a Subsequences](string/adhoc-strings.md)
 
-[KMP function, Z algorithm, periodicity of strings][string/kmp.md]
+[KMP function, Z algorithm, periodicity of strings](string/kmp.md)
 
-[Polynomial Hashing aka Rolling Hash][string/polyhash.md]
+[Polynomial Hashing aka Rolling Hash](string/polyhash.md)
 
 [Rabin Karp, Lexicographically minimal shift, double hashing](string/polyhash.md)
 
