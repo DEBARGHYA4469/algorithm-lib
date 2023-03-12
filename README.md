@@ -490,6 +490,29 @@ void unite(int u,int v){
 ---
 
 <details>
+	<summary> String Algorithms </summary>
+	
+<br>
+	
+[Minimum Palindromic Cuts](string/adhoc-strings.md)
+
+[Scatter Palindromes](string/adhoc-strings.md)
+
+[Distinct Subsequences](string/adhoc-strings.md)
+
+[Don't be a Subsequences](string/adhoc-strings.md)
+
+[KMP function, Z algorithm, periodicity of strings][string/kmp.md]
+
+[Polynomial Hashing aka Rolling Hash][string/polyhash.md]
+
+[Rabin Karp, Lexicographically minimal shift, double hashing](string/polyhash.md)
+
+</details>
+
+---
+
+<details>
 	<summary> Miscellaneous Stuff </summary>
 	
 <br>
