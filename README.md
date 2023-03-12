@@ -258,30 +258,42 @@ void unite(int u,int v){
 
 <br>
 	
-[Custom Ceil Function](/math.md#a)
+[Custom Ceil Function](math/math.md#a)
 
-[Lazy Caterer](/math.md#b) 
+[Lazy Caterer](math/math.md#b) 
 
-[Chinese Remainder Theorem](/math.md#c) 
+[Chinese Remainder Theorem](math/math.md#c) 
 
-[Derangement](/math.md#d) 
+[Derangement](math/math.md#d) 
 
-[Chicken Mcnugget Theorem](/math.md#e) 
+[Chicken Mcnugget Theorem](math/math.md#e) 
 
-[Erdos Szekeres Theorem](/math.md#f) 
+[Erdos Szekeres Theorem](math/math.md#f) 
 
-[Cyclicity](/math.md#g)
+[Cyclicity](math/math.md#g)
 
-[Parity of Permutation](/math.md#h) 
+[Parity of Permutation](math/math.md#h) 
 
-[Rank in Arbitrarty Bases](/math.md#i) 
+[Rank in Arbitrarty Bases](math/math.md#i) 
 
-[Floyd Cycle](/math.md#j) 
+[Floyd Cycle](math/math.md#j) 
 
-[Manhattern Trick](/math.md#k) 
+[Manhattern Trick](math/math.md#k) 
 
-[Subsequence to Subarray Transformation Trick](/math.md#l)
+[Subsequence to Subarray Transformation Trick](math/math.md#l)
 
-[Effect of subarray on SAD](/math.md#m)
+[Effect of subarray on SAD](math/sad.md)
+
+[How to solve diophantine equations](math/diophantine.md#a)
+
+[Gaussian Elimination in GF(2), Max XOR Subsequence](math/gaussian-elimination.md)
+
+[Euclid extended division algorithm for LCM/GCD](math/gcd-lcm.md)
+
+[Catalan Number, Dyck Path](math/combinatorics.md#a)
+
+[Inclusion Exclusion Principle](math/combinatorics.md#b)
+
+[Minimum Excludent aka MEX](math/mex.md)
 
 </details>

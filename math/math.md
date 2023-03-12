@@ -24,7 +24,6 @@
 [Subsequence to Subarray Transformation Trick](#l)
 
 [Effect of subarray on SAD](#m) 
-## Headers
 
 # Custom Ceil function
 <a name="a"/>
@@ -182,5 +181,3 @@ Given a specific point, to find closest or farthest distance from it:
 Given a signed (+/-) operation in subsequence, it can be converted to contiguous operation in prefix sum array and prove it is a bijection. Operation in pref sum world is tractable and easier to solve. Cool transformation trick. 
 
 Eg. https://codeforces.com/problemset/problem/1775/E
-
-<a name="m"/>
