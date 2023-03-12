@@ -513,7 +513,7 @@ Greedy Techniques
 <summary>String Algorithms
 </summary>
 	
-
+---
 	
 [Minimum Palindromic Cuts](string/adhoc-strings.md)
 
