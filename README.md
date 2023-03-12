@@ -282,7 +282,7 @@ void unite(int u,int v){
 
 [Subsequence to Subarray Transformation Trick](math/math.md#l)
 
-[Effect of subarray on SAD](math/sad.md)
+[Some properties of sum of absolute differences aka SAD](math/sad.md)
 
 [How to solve diophantine equations](math/diophantine.md#a)
 
@@ -516,7 +516,9 @@ void unite(int u,int v){
 	<summary> Miscellaneous Stuff </summary>
 	
 <br>
-	
+
+[k-Majority Voting algorithm aka Boyer-Moore](others/voting.md) 
+
 [Some useful bit hacks, bitsets](others/bit-hacks.md)
 
 [Minimum, Maximum XOR values of pair of numbers](others/classical_ideas.md)
