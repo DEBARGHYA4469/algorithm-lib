@@ -224,7 +224,7 @@ void unite(int u,int v){
 ```
 
 ##### Table of Contents  
-[Custom Ceil Function](math#a)
+[Custom Ceil Function](/math.md#a)
 
 [Lazy Caterer](#b) 
 
