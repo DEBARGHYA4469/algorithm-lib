@@ -94,7 +94,7 @@ int main(){
 ---
 
 <details>
-	<summary> Combinatorics Template </summary>
+	<summary> Combinatorics template </summary>
 <br>
 	
 ```cpp
@@ -134,7 +134,7 @@ int choose(int n,int r){
 ---
  
 <details> 
-	<summary>Number Theory Template</summary>
+	<summary>Number Theory template</summary>
 <br>
 	
 ```cpp
