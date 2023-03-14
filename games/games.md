@@ -64,6 +64,25 @@ Solution:
 
 Prove: g(2k) = 2, g(2k+1) = 0 for k>2. Induction 
 
+2. https://www.codechef.com/problems/TWONIM
+
+There are n piles of stone, you can remove any pile, but you lose if opponent gets a pile with XOR = 0. 
+
+Solution: 
+  
+    *   N = 0 : Winning State 
+    *   N = 1:  Losing State
+    *   N = 2:  Wining State
+    *   N = 3:  Losing if XOR != 0 
+    *   N = 4:  Winning. And if XOR != 0 you can make next player play XOR != 0. 
+    
+    
+    Easy induction: 
+         N is even, player wins! 
+         N is odd, player wins only if XOR = 0. 
+ 
+ 
+
 
 
 
