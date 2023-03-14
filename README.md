@@ -501,7 +501,7 @@ Greedy Techniques
 
 [Segment Tree, Bit manipulation and Lazy propagation](range-queries/query.md)
 
-[Ordered Statistics using PBDS](range-queries/ordered-sets.md)
+[Ordered Statistics using PBDS](range-queries/ordered_sets.md)
 
 [Interesting RMQ problems from SPOJ](range-queries/spoj-rmq-sprint.md)
 
