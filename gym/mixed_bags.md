@@ -27,3 +27,5 @@
 |23|[STR3](https://www.codechef.com/problems/STR3)|||
 |24|[Arena](https://codeforces.com/problemset/problem/1606/E)|||
 |25|[EQUALHAMMING](https://www.codechef.com/problems/EQUALHAMMING)|||
+|26|[Memory and Scores](https://codeforces.com.cn/problemset/problem/712/D)|||
+
