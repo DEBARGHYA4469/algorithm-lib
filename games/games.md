@@ -82,8 +82,61 @@ Solution:
          N is odd, player wins only if XOR = 0. 
  
  
+ ## Strategize the game backward 
+ 
+  Problem: Alice and Bob are playing a game in turns. There are N piles with varying number of coins. Game ends when exactly two piles are empty. Player who cannot make a move loses. Who wins if they play optimally?  
+  
+  https://www.codechef.com/JULY221B/problems/GAMEOFPILES2 (Hard) </br>
+  **Related Puzzle**: https://www.geeksforgeeks.org/puzzle-20-5-pirates-and-100-gold-coins/
+ 
+   Let's consider first the simple version of the game. Where player who first empties a pile wins. 
+   
+   Strategy:
+   
+        If there is a one, it's a instant win for first player (Alice!)
+        None of the players will expose any 1 to the other opponent. So, losing position is [2,2,2,2,2,2,2].
+        # moves required to reach to this losing position = S - (2*N). 
+        So if S is odd, second player loses. 
+        
+   Now consider our version of the game: 
+        
+   Strategy:
+         
+        Case: 1 
+                [There are at least two ones. ex. {1,1,2,2,3,4,5,6.....}]
+                None of the players can touch any ones. So they play on the other values. 
+                Till they are reduced after which they cannot touch them as it results in instant loss. So, the forced losition position [1,1,1,1,1,1,1]
+                # moves required to reach this losing position = S - N 
+                So, if (S-N) is odd, second player loses. 
+                
+        Case: 2
+              There is exactly 1 one. ex. [1,2,2,3,3,4....]
+              Alice makes the first move. He can take the one. In that case problem reduces to game 1, where second player wins if S' is even. So Alice is the second
+              player, so (S-1) has to be even, S has to odd. 
+              S is odd, Alice wins! 
+              
+              Consider S is even. 
+              Case 2a: There is not two value. So Alice takes one value from any other element. 
+                       Array now looks like [1,2,2,2,3,4...]. Note: It has exactly 1 one. And S' is odd. So second player (Alice) always loses. 
+              Case 2b: There is a two value. So Alice takes one from it and the array now becomes [1,1,2,2,3,4....]. Now this is Case: 1
+                       Second player(Alice) wins when (S-1-N) is even, i.e (S-N) is odd, otherwise, Bob wins! 
+                       
+         Case: 3 
+              There are no ones. ex. [2,2,2,2,3,3,4,4,5....]
+          
+              Observation: 
+              
+  
+                  If first pile empties after odd moves, then Bob starts the game on (S-odd) sum. And Alice loses if S-odd is odd => S = even
+                  If first pile empties after even moves, then Alice starts the game on (S-even) sum. And Bob loses if S-even is odd => S = odd. or 
+                  Alice loses if S is even.
 
-
+                  Either way if S is even Alice loses else Bob loses. 
+              
+              
+        
+       
+       
 
 
 
