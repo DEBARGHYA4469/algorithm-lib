@@ -471,6 +471,8 @@ Greedy Techniques
 
 [Converting games to NIM forms using MEX](games/games.md)
 
+[Strategize the game backward, Parity Tricks](games/games.md)
+
 </details>
 
 ---
