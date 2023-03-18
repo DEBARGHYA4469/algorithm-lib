@@ -552,6 +552,8 @@ Greedy Techniques
 
 [Ternary Search for unimodal data](others/ternery-search.md)
 
+[Some non-trivial tricks used in DP and Graphs](gym/weekly-algorithm-sheet)
+
 </details>
 
 ---
