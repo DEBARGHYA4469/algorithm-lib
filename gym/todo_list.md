@@ -5,3 +5,4 @@ ToDo Topics
 * Slope Trick 
 * Prefix Automation
 * SOS DP
+* Generating Functions
