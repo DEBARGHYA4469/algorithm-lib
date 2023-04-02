@@ -309,6 +309,8 @@ void unite(int u,int v){
 
 [Meet in the Middle aka MiTM](math/cses.md)
 
+[Generating Functions](math/generating_functions.md)
+
 </details>
 
 
