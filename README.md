@@ -355,6 +355,8 @@ void unite(int u,int v){
 
 [Detect negative cycle using Bellman Ford](graph/graph.md#q)
 
+[Shortest Cycle in undirected graph using BFS](graph/graph.md#q1)
+
 [0/1 BFS Trick](graph/graph.md#r)
 
 [Strongly connected component aka SCC](graph/graph.md#s)
