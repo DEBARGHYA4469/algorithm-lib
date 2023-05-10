@@ -32,6 +32,8 @@
 
 [Detect negative cycle using Bellman Ford](#q)
 
+[Find shortest cycle using BFS and edge deletion](#q1)
+
 [0/1 BFS Trick](#r)
 
 [Strongly connected component aka SCC](#s)
@@ -448,6 +450,70 @@ https://atcoder.jp/contests/abc164/tasks/abc164_e
         if(opt) return 1;
         return 0;
      }
+```
+
+### Find shortest cycle using BFS and edge deletion
+
+https://codeforces.com/contest/1817/problem/B
+
+<a name="q1"/>
+
+```cpp
+bool bfs(int a, int b){
+		
+	queue<int> q; 
+	q.push(a); 
+	vi parent(n+3,-1); 
+	vector<bool> vis(n+3,0);
+	parent[a] = -1;
+	vis[a] = true;
+	
+	while(!q.empty()){
+		auto u = q.front();
+		q.pop();
+		
+		// check if the shortest cycle is formed. 
+		
+		if(u==b){
+		
+			fish.clear();
+			unordered_set<int> cycle;
+			cycle.insert(b); 
+			fish.eb(a,b);
+			while(u!=a){
+				fish.eb(u,parent[u]);
+				u = parent[u];
+				cycle.insert(u);
+			}
+			
+			int c=0;
+			for(int f: g[a]){
+				if(cycle.find(f) == cycle.end()){
+					c++;
+					fish.eb(f,a);
+				}
+				if(c==2){					
+					return true;
+				}
+			}
+			return false;
+		}
+		
+		for(int v: g[u]){
+			if((u==a && v==b) || (v==a && u==b)) continue; // delete this edge 
+			if(v==parent[u]) continue; 			
+			
+			if(!vis[v]){
+				vis[v] = true;
+				parent[v] = u;
+				q.push(v);
+			}
+		}
+	}
+	
+	return false;
+}
+ 
 ```
 
 ### 0/1 BFS
