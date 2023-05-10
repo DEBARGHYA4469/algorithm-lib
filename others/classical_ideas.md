@@ -6,13 +6,15 @@
 
 ### Some ideas for 0/1 Structures in Arrays and Matrices
 
-1. https://codeforces.com/contest/1546/problem/D
+1. https://codeforces.com/contest/1546/problem/D 
+
+
 
 Problem: You are given an array of 0s and 1s. Any 1 can jump over another 1 if the next spot is available. How many different arrangements can be possible? 
 
-Solution: </br> </br> 
+Solution: </br>
 
-a. Idea 1: Os and 1s are identical. Take advantage of that fact in transformation.
+a. Idea 1: Os and 1s are identical. Take advantage of that fact in transformation. (Very interesting idea!) </br></br>
         Claim: All 11 pairs are always together as a entity.</br> </br>
         Proof: </br>
                 ......1a 1b 1c.... </br>
@@ -27,9 +29,7 @@ a. Idea 1: Os and 1s are identical. Take advantage of that fact in transformatio
 b. Given any arrangement, 10000(11)10001101, however you change the state the ones remain paired. 
 Continuing the same logic, pair all the 1s possible. Eg. 10000(11)1000(11)01. So it is effectively only the pairs that move. 
 
-c. So let there be x number of pairs. n - 2x fixed places. Stars Bars problem. 
-   X stars and (n-2X) bars. 
-
+c. So let there be x number of pairs. "xxx1xxx" same as "xx1xxxx". So only 0 are real separators.
                 
                 
                 
