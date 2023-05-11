@@ -10,7 +10,7 @@
 |6|[SUBARRAYGAME](https://www.codechef.com/problems/SUBARRAYGAME)|Hard Observations, Sprague Grundy||
 |7|[TWONIM](https://www.codechef.com/problems/TWONIM)|Inductive, Game Theory!||
 |8|[GAMEOFPILES2](https://www.codechef.com/JULY221B/problems/GAMEOFPILES2)|Hard, Strategize in Reverse Order, Parity||
-|9|[AquaMoon and Chess](https://codeforces.com/problemset/problem/1545/B)|||
+|9|[AquaMoon and Chess](https://codeforces.com/problemset/problem/1545/B)|Well Known Idea, Transformation||
 |10|[Beautiful Decomposition](https://codeforces.com/problemset/problem/279/E)|||
 |11|[GAMEAAM](https://www.codechef.com/COOK42/problems/GAMEAAM)|||
 |12|[TWKNGS](https://www.codechef.com/problems/TWKNGS)|||
