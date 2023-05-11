@@ -4,7 +4,7 @@
 3. https://www.geeksforgeeks.org/maximum-xor-of-two-numbers-in-an-array/
 4. https://www.geeksforgeeks.org/minimum-xor-value-pair/
 
-### Some ideas for 0/1 Structures in Arrays and Matrices
+### Some ideas for solving structures with 0 or 1 values
 
 1. https://codeforces.com/contest/1546/problem/D 
 
