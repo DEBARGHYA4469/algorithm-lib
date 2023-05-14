@@ -11,7 +11,7 @@
 |7|[TWONIM](https://www.codechef.com/problems/TWONIM)|Inductive, Game Theory!||
 |8|[GAMEOFPILES2](https://www.codechef.com/JULY221B/problems/GAMEOFPILES2)|Hard, Strategize in Reverse Order, Parity||
 |9|[AquaMoon and Chess](https://codeforces.com/problemset/problem/1545/B)|Well Known Idea, Transformation||
-|10|[Beautiful Decomposition](https://codeforces.com/problemset/problem/279/E)|||
+|10|[Memory and Scores](https://codeforces.com.cn/problemset/problem/712/D)|Generating Functions, Combinatorics||
 |11|[GAMEAAM](https://www.codechef.com/COOK42/problems/GAMEAAM)|||
 |12|[TWKNGS](https://www.codechef.com/problems/TWKNGS)|||
 |13|[MINMAXARR](https://www.codechef.com/problems/MINMAXARR)|||
@@ -27,7 +27,7 @@
 |23|[STR3](https://www.codechef.com/problems/STR3)|||
 |24|[Arena](https://codeforces.com/problemset/problem/1606/E)|||
 |25|[EQUALHAMMING](https://www.codechef.com/problems/EQUALHAMMING)|||
-|26|[Memory and Scores](https://codeforces.com.cn/problemset/problem/712/D)|Generating Functions, Combinatorics||
+|26|[Beautiful Decomposition](https://codeforces.com/problemset/problem/279/E)|||
 
 ## Educational Bags
 
@@ -62,6 +62,9 @@
 |27|[Christmas Trees](https://codeforces.com/problemset/problem/1283/D)|||
 |28|[Balanced Path](https://atcoder.jp/contests/abc147/tasks/abc147_e)|||
 |29|[Get Everything](https://atcoder.jp/contests/abc142/tasks/abc142_e)|||
-|30|[]()|||
-|31|[]()|||
-|32|[]()|||
+|30|[Paths and Trees](https://codeforces.com/problemset/problem/545/E)|||
+|31|[Minimizing Difference](https://codeforces.com/problemset/problem/1244/E)|||
+|32|[Make It Connected](https://codeforces.com/problemset/problem/1095/F)|||
+|33|[Memory for Arrays](https://codeforces.com/contest/309/problem/C)|||
+|34|[Berserk And Fireball](https://codeforces.com/problemset/problem/1380/D)|||
+|35|[Mouse Hunt](https://codeforces.com/problemset/problem/1027/D)|||
