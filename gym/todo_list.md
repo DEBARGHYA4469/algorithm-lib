@@ -6,3 +6,4 @@ ToDo Topics
 * Prefix Automation
 * SOS DP
 * Generating Functions
+* MO's algorithm
