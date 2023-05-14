@@ -29,3 +29,39 @@
 |25|[EQUALHAMMING](https://www.codechef.com/problems/EQUALHAMMING)|||
 |26|[Memory and Scores](https://codeforces.com.cn/problemset/problem/712/D)|Generating Functions, Combinatorics||
 
+## Educational Bags
+
+| ID  | Problem Name | Ideas | Mistakes |
+|---:|:---:|---|---|
+|1|[Unique Palindromes](https://codeforces.com/problemset/problem/1823/D)|||
+|2|[Binary String Sorting](https://codeforces.com/problemset/problem/1809/D)|||
+|3|[Petya, Petya, Petr, and Palindromes](https://codeforces.com/problemset/problem/1808/D)|||
+|4|[Music Festival](https://codeforces.com/problemset/problem/1801/C)|||
+|5|[The Sports Festival](https://codeforces.com/problemset/problem/1509/C)|||
+|6|[Stoned Game](https://codeforces.com/problemset/problem/1396/B)|||
+|7|[Roads not only in Berland](https://codeforces.com/problemset/problem/25/D)|||
+|8|[Armchairs](https://codeforces.com/problemset/problem/1525/D)|||
+|9|[Little Elephant and Array](https://codeforces.com/contest/220/problem/B)|||
+|10|[Make The Fence Great Again](https://codeforces.com/problemset/problem/1221/D)|||
+|11|[Slime](https://codeforces.com/problemset/problem/1038/D)|||
+|12|[Recover an RBS](https://codeforces.com/problemset/problem/1709/C)|||
+|13|[TediousLee](https://codeforces.com/problemset/problem/1369/D)|||
+|14|[Edge Weight Assignment](https://codeforces.com/problemset/problem/1338/B)|||
+|15|[Compress Words](https://codeforces.com/problemset/problem/1200/E)|||
+|16|[Tree Painting](https://codeforces.com/problemset/problem/1187/E)|||
+|17|[New Year Parties](https://codeforces.com/problemset/problem/1283/E)|||
+|18|[Clear the String](https://codeforces.com/problemset/problem/1132/F)|||
+|19|[Flood Fill](https://codeforces.com/problemset/problem/1114/D)|||
+|20|[Fools and Roads](https://codeforces.com/problemset/problem/191/C)|||
+|21|[Coloring Edges](https://codeforces.com/problemset/problem/1217/D)|||
+|22|[Restore Permutation](https://codeforces.com/problemset/problem/1208/D)|||
+|23|[Vanya and Scales](https://codeforces.com/problemset/problem/552/C)|||
+|24|[0-1 MST](https://codeforces.com/problemset/problem/1242/B)|||
+|25|[Zookeeper and The Infinite Zoo](https://codeforces.com/problemset/problem/1491/D)|||
+|26|[Minimum Euler Cycle](https://codeforces.com/problemset/problem/1334/D)|||
+|27|[Christmas Trees](https://codeforces.com/problemset/problem/1283/D)|||
+|28|[Balanced Path](https://atcoder.jp/contests/abc147/tasks/abc147_e)|||
+|29|[Get Everything](https://atcoder.jp/contests/abc142/tasks/abc142_e)|||
+|30|[]()|||
+|31|[]()|||
+|32|[]()|||
