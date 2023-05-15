@@ -13,26 +13,12 @@
 |9|[AquaMoon and Chess](https://codeforces.com/problemset/problem/1545/B)|Well Known Idea, Transformation||
 |10|[Memory and Scores](https://codeforces.com.cn/problemset/problem/712/D)|Generating Functions, Combinatorics||
 |11|[GAMEAAM](https://www.codechef.com/COOK42/problems/GAMEAAM)|Sprague Grundy, Euler Division|Edge Case Handling!, Lack Concrete Idea|
-|12|[TWKNGS](https://www.codechef.com/problems/TWKNGS)|||
-|13|[MINMAXARR](https://www.codechef.com/problems/MINMAXARR)|||
-|14|[FDIVGAME](https://www.codechef.com/problems/FDIVGAME)|||
-|15|[AVOIDALT](https://www.codechef.com/START32B/problems/AVOIDALT)|||
-|16|[REC19D](https://www.codechef.com/REC1921/problems/REC19D)|||
-|17|[CMED207](https://www.codechef.com/MEDC2021/problems/CMED207)|||
-|18|[Shuffle](https://codeforces.com/problemset/problem/1622/D)|||
-|19|[Phoenix and Computers](https://codeforces.com/problemset/problem/1515/E)|||
-|20|[TUZGMBR](https://www.codechef.com/problems/TUZGMBR/)|||
-|21|[ARRGAME](https://www.codechef.com/problems/ARRGAME)|||
-|22|[GARRANGE](https://www.codechef.com/problems/GARRANGE)|||
-|23|[STR3](https://www.codechef.com/problems/STR3)|||
-|24|[Arena](https://codeforces.com/problemset/problem/1606/E)|||
-|25|[EQUALHAMMING](https://www.codechef.com/problems/EQUALHAMMING)|||
-|26|[Beautiful Decomposition](https://codeforces.com/problemset/problem/279/E)|||
+
 
 ## Educational Bags
 
-| ID  | Problem Name | Ideas | Mistakes |
-|---:|:---:|---|---|
+| ID  | Problem Name | Ideas | Mistakes |Status| Time |  
+|---:|:---:|---|---|---|---|
 |1|[Unique Palindromes](https://codeforces.com/problemset/problem/1823/D)|||
 |2|[Binary String Sorting](https://codeforces.com/problemset/problem/1809/D)|||
 |3|[Petya, Petya, Petr, and Palindromes](https://codeforces.com/problemset/problem/1808/D)|||
@@ -68,3 +54,18 @@
 |33|[Memory for Arrays](https://codeforces.com/contest/309/problem/C)|||
 |34|[Berserk And Fireball](https://codeforces.com/problemset/problem/1380/D)|||
 |35|[Mouse Hunt](https://codeforces.com/problemset/problem/1027/D)|||
+|36|[TWKNGS](https://www.codechef.com/problems/TWKNGS)|||
+|37|[MINMAXARR](https://www.codechef.com/problems/MINMAXARR)|||
+|38|[FDIVGAME](https://www.codechef.com/problems/FDIVGAME)|||
+|39|[AVOIDALT](https://www.codechef.com/START32B/problems/AVOIDALT)|||
+|40|[REC19D](https://www.codechef.com/REC1921/problems/REC19D)|||
+|41|[CMED207](https://www.codechef.com/MEDC2021/problems/CMED207)|||
+|42|[Shuffle](https://codeforces.com/problemset/problem/1622/D)|||
+|43|[Phoenix and Computers](https://codeforces.com/problemset/problem/1515/E)|||
+|44|[TUZGMBR](https://www.codechef.com/problems/TUZGMBR/)|||
+|45|[ARRGAME](https://www.codechef.com/problems/ARRGAME)|||
+|46|[GARRANGE](https://www.codechef.com/problems/GARRANGE)|||
+|47|[STR3](https://www.codechef.com/problems/STR3)|||
+|48|[Arena](https://codeforces.com/problemset/problem/1606/E)|||
+|49|[EQUALHAMMING](https://www.codechef.com/problems/EQUALHAMMING)|||
+|50|[Beautiful Decomposition](https://codeforces.com/problemset/problem/279/E)|||
