@@ -12,7 +12,7 @@
 |8|[GAMEOFPILES2](https://www.codechef.com/JULY221B/problems/GAMEOFPILES2)|Hard, Strategize in Reverse Order, Parity||
 |9|[AquaMoon and Chess](https://codeforces.com/problemset/problem/1545/B)|Well Known Idea, Transformation||
 |10|[Memory and Scores](https://codeforces.com.cn/problemset/problem/712/D)|Generating Functions, Combinatorics||
-|11|[GAMEAAM](https://www.codechef.com/COOK42/problems/GAMEAAM)|Sprague Grundy, Piggy Back on Euler Division|Edge Case Handling!, Lack Concrete Idea|
+|11|[GAMEAAM](https://www.codechef.com/COOK42/problems/GAMEAAM)|Sprague Grundy, Euler Division|Edge Case Handling!, Lack Concrete Idea|
 |12|[TWKNGS](https://www.codechef.com/problems/TWKNGS)|||
 |13|[MINMAXARR](https://www.codechef.com/problems/MINMAXARR)|||
 |14|[FDIVGAME](https://www.codechef.com/problems/FDIVGAME)|||
