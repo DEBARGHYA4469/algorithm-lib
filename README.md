@@ -289,6 +289,8 @@ void unite(int u,int v){
 
 [Manhattern Trick](math/math.md#k) 
 
+[Complexity of Euclid's dvision Lemma](math/math.md#o)
+
 [Subsequence to Subarray Transformation Trick](math/math.md#l)
 
 [Some properties of sum of absolute differences aka SAD](math/sad.md)
