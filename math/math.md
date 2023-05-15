@@ -25,6 +25,8 @@
 
 [Effect of subarray on SAD](#m) 
 
+[Complexity of Euclid's dvision Lemma](#o)
+
 # Custom Ceil function
 <a name="a"/>
 
@@ -181,3 +183,30 @@ Given a specific point, to find closest or farthest distance from it:
 Given a signed (+/-) operation in subsequence, it can be converted to contiguous operation in prefix sum array and prove it is a bijection. Operation in pref sum world is tractable and easier to solve. Cool transformation trick. 
 
 Eg. https://codeforces.com/problemset/problem/1775/E
+
+# Complexity of Euclid's Division Lemma
+<a name="o"/>
+
+* Start with gcd(a,b).
+* After one step, (a%b, b)
+* After second step, (b%(a%b), a%b)
+* Initial Sum = a + b
+* Final Sum = (a%b) + (b%(a%b)) = c + d
+* c + bk = a => a > c + b
+* d + ck = b => b > d + c
+* a + b > c + d + d + b
+* a + b > c + d + d + c 
+* a + b > 2 (d+c)
+* d + c < (a+b)/2 
+* After two rounds of the algorithm sum of a+b halves. So logarithm time 
+
+Another cute way of looking at the complexity: 
+
+* Consider a = Fibo[N], b = Fibo[N-1]
+* Worst Case when a = Fibo(N), b = Fibo(N-1) and  the algorithm goes like:
+* (f(n), f(n-1)) -> (f(n)-f(n-1), f(n-1)) -> (f(n-1), f(n-2)) ----> 1 
+* f(n) = phi ^ n : Bennet's formula
+* n = log(f(n)) or n = log(min(a,b)) 
+
+* Trivia: GCD(Fibo(N), Fibo(N-1)) = Fibo(GCD(N,N-1)) = Fibo(1) = 1 [Proof: https://www.cut-the-knot.org/arithmetic/algebra/FibonacciGCD.shtml]
+
