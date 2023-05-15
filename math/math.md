@@ -208,5 +208,6 @@ Another cute way of looking at the complexity:
 * f(n) = phi ^ n : Bennet's formula
 * n = log(f(n)) or n = log(min(a,b)) 
 
-* Trivia: GCD(Fibo(N), Fibo(N-1)) = Fibo(GCD(N,N-1)) = Fibo(1) = 1 [Proof: https://www.cut-the-knot.org/arithmetic/algebra/FibonacciGCD.shtml]
+* Trivia: GCD(Fibo(N), Fibo(N-1)) = Fibo(GCD(N,N-1)) = Fibo(1) = 1 Proof: 
+* https://www.cut-the-knot.org/arithmetic/algebra/FibonacciGCD.shtml
 
