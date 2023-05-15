@@ -81,7 +81,46 @@ Solution:
          N is even, player wins! 
          N is odd, player wins only if XOR = 0. 
  
- 
+ 3. https://www.codechef.com/COOK42/problems/GAMEAAM
+
+Problem: There are n piles of pair of numbers. In one turn, pick a pile and decrease larger by some multiple of smaller. Who wins? 
+
+Solution: 
+
+Let's solve for one-pile then Sprague Grundy. 
+
+* For one pile: What is the grundy value for (a,b)?
+* Assume : a > b.
+
+Strategy : 1
+
+Construct the Grundy Table
+
+a/b | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
+--- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
+1 | 0 |  |  |   |  |   |   |   |   |   |  
+2 | 1 | 0  |  |   |  |   |   |   |   |   |  
+3 | 2 | 0 | 0 |   |  |   |   |   |   |   |  
+4 | 3 | 1 | 0 | 0 |  |   |   |   |   |   |  
+5 | 4 | 1 | 1 | 0 | 0 |   |   |   |   |   |  
+6 | 5 | 2 | 1 | 0 |  | 0  |   |   |   |   |  
+7 | 6 | 2 | 1 | 1 |  |   | 0  |   |   |   |  
+8 | 7 | 3 | 2 | 1 |  |   |   | 0  |   |   |  
+9 | 8 | 3 | 2 | 1 |  |   |   |   | 0  |   |  
+10 | 9 | 4 | 2 | 2 |  |   |   |   |   | 0  |  
+11 | 10 | 4 | 3 |   |  |   |   |   |   |   |  
+12 | 11 | 5 | 3 |   |  |   |   |   |   |   |  
+13 | 12 | 5 | 3 |   |  |   |   |   |   |   |  
+
+* From the pattern we see no clear pattern emerging. Now think if can derive the table on the fly? 
+* Let SG(a % b, b) = x. 
+* (a,b) transitions to (a-b,b),(a-2b,b),(a-3b,b),(a-4b,b),(a-5b,b),(a-6b,b)...(a%b, b)
+* No of such transitions = floor a/b = K 
+* SG Values are of form: {x, 0, 1, 2, 3, 4,...,x-1, x+1, x+2, x+3...}
+* If K <= x, MEX = K-1, Else MEX = k.
+* How does this help? We can piggy-back on Euclid's algorithm complexity log(min(a,b))[Fib complexity]     
+
+
  ## Strategize the game backward 
  
   Problem: Alice and Bob are playing a game in turns. There are N piles with varying number of coins. Game ends when exactly two piles are empty. Player who cannot make a move loses. Who wins if they play optimally?  
