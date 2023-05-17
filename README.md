@@ -537,6 +537,8 @@ Greedy Techniques
 
 [Rabin Karp, Lexicographically minimal shift, double hashing](string/polyhash.md)
 
+[Fun with Palindromes](string/palindrome.md#fun-with-palindromes)
+
 </details>
 
 ---
