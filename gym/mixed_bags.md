@@ -19,9 +19,9 @@
 
 | ID  | Problem Name | Ideas | Mistakes |Status| Time |  
 |---:|:---:|---|---|---|---|
-|1|[Unique Palindromes](https://codeforces.com/problemset/problem/1823/D)|||
-|2|[Binary String Sorting](https://codeforces.com/problemset/problem/1809/D)|||
-|3|[Petya, Petya, Petr, and Palindromes](https://codeforces.com/problemset/problem/1808/D)|||
+|1|[Unique Palindromes](https://codeforces.com/problemset/problem/1823/D)|Constructive, Palindrome|[a=a+b results in TLE, use push_back ](https://stackoverflow.com/questions/611263/efficient-string-concatenation-in-c)|F|!|
+|2|[Binary String Sorting](https://codeforces.com/problemset/problem/1809/D)|Greedy||P|10 mins|
+|3|[Petya, Petya, Petr, and Palindromes](https://codeforces.com/problemset/problem/1808/D)|Nice Idea, Contribution to Sum Trick|calculating over dynamic for ranges missed|F|!|
 |4|[Music Festival](https://codeforces.com/problemset/problem/1801/C)|||
 |5|[The Sports Festival](https://codeforces.com/problemset/problem/1509/C)|||
 |6|[Stoned Game](https://codeforces.com/problemset/problem/1396/B)|||
