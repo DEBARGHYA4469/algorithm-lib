@@ -1,7 +1,7 @@
 # Fun with Palindromes
 
 
-* Problem : 1
+#### Problem : 1
 
 Unique Palindromes. https://codeforces.com/contest/1823/problem/D
 
@@ -25,7 +25,7 @@ Idea: Constructive
 * Again due to Lemma 1, c[j] - c[j-1] <= x[j] - x[j-1] 
 * Compiling all this ideas, construction becomes simple. aaaaaaabcab|dddddcabca|eeeeeeebcabc 
 
-* Problem : 2
+#### Problem : 2
 
 Petr Petya and Palindrome. https://codeforces.com/problemset/problem/1808/D
 
