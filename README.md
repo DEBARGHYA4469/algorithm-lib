@@ -260,7 +260,7 @@ void unite(int u,int v){
 
 ### Useful Notes
 
-<details markdown="1">
+<details markdown="1" open>
 <summary>Mathematical Theorems
 </summary>
 
@@ -318,7 +318,7 @@ void unite(int u,int v){
 
 ---
 
-<details markdown="1">
+<details markdown="1" open>
 <summary>Trees and Graphs
 </summary>
 
@@ -381,7 +381,7 @@ void unite(int u,int v){
 
 ---
 
-<details markdown="1">
+<details markdown="1" open>
 <summary>
 Greedy Techniques
 </summary>
@@ -418,7 +418,7 @@ Greedy Techniques
 
 ---
 
-<details markdown="1">
+<details markdown="1" open>
 <summary>Dynamic Programming
 </summary>
 
@@ -463,7 +463,7 @@ Greedy Techniques
 
 --- 
 
-<details markdown="1">
+<details markdown="1" open>
 <summary>Game Theory
 </summary>
 	
@@ -483,7 +483,7 @@ Greedy Techniques
 
 ---
 
-<details markdown="1">
+<details markdown="1" open>
 <summary>Range Queries
 </summary>
 
@@ -517,7 +517,7 @@ Greedy Techniques
 
 ---
 
-<details markdown="1">
+<details markdown="1" open>
 <summary>String Algorithms
 </summary>
 	
@@ -543,7 +543,7 @@ Greedy Techniques
 
 ---
 
-<details markdown="1">
+<details markdown="1" open>
 <summary>Miscellaneous Stuff
 </summary>
 
