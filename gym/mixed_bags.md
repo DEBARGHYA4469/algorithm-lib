@@ -22,7 +22,7 @@
 |1|[Unique Palindromes](https://codeforces.com/problemset/problem/1823/D)|Constructive, Palindrome|[a=a+b results in TLE, use push_back ](https://stackoverflow.com/questions/611263/efficient-string-concatenation-in-c)|F|!|
 |2|[Binary String Sorting](https://codeforces.com/problemset/problem/1809/D)|Greedy||P|10 mins|
 |3|[Petya, Petya, Petr, and Palindromes](https://codeforces.com/problemset/problem/1808/D)|Nice Idea, Contribution to Sum Trick|calculating over dynamic ranges |F|!|
-|4|[Music Festival](https://codeforces.com/problemset/problem/1801/C)|Hard, DP+Fenwick Tree+Exchange Argument|Idea|F|!| 
+|4|[Music Festival](https://codeforces.com/problemset/problem/1801/C)|Hard, DP+Fenwick Tree+Exchange Argument|const vector<int> &: w/o & gives TLE. Also clean up fen used|F|!| 
 |5|[The Sports Festival](https://codeforces.com/problemset/problem/1509/C)|DP on ranges|Ref: retrospective|F|!|
 |6|[Stoned Game](https://codeforces.com/problemset/problem/1396/B)|||
 |7|[Roads not only in Berland](https://codeforces.com/problemset/problem/25/D)|||
