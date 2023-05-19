@@ -43,6 +43,7 @@
 * https://cp-algorithms.com/data_structures/fenwick.html </br>
 * [Intuition behind update](https://www.youtube.com/watch?v=Ti_U3Q_G7yM&t=2404s) </br>
 
+
 <li> 1-D BIT tree
     
 ```cpp
@@ -58,7 +59,24 @@
         for(;i<n;i=i|(i+1)) bit[i] += x;
     }
 ```
-                   
+
+1-Based Indexing 
+		 
+```cpp
+	int query(int i){
+		int ans = 0;
+		for (;i>0;i-=i&-i) ans += fen[i];
+		return ans;
+	}
+	void update(int i,int val){
+		for(;i<MAXN;i+=i&-i) fen[i] += val;
+	}
+			       
+	void clean(int i){ // This step is important for multiple test case. You clean only things you touched avoiding TLE
+		for(;i<MAXN;i+=i&-i) fen[i]=0;
+	}    
+```
+		   
 ![image](https://user-images.githubusercontent.com/21307343/132801474-bb611c3d-4daf-478c-8693-95b011a93beb.png)
 
 <li> 2-D BIT tree
