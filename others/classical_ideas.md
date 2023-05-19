@@ -33,3 +33,11 @@ c. So let there be x number of pairs. "xxx1xxx" same as "xx1xxxx". So only 0 are
                 
                 
                 
+### Some interesting properties of arrays
+
+Problems:
+
+* Given an array of integers [a1, a2, a3, a4....aN] and sum of array elements in even. If 2*maxm > sum of the elements of the array. Then there exists an interesting matching such that no two elements from an array elements match.
+* Give them indices 1,2,3,4.....N.  
+* Match i -> i + s/2. 
+* Proof: if i matches j and j-i < s/2. s/2 < s/2. Contradiction. 
