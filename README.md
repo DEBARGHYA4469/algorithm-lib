@@ -208,6 +208,8 @@ vector<int> divisors(int num,const vector<int> lp){
 	
 	
 ```cpp
+// DSU with Rank Compression + Path Compression
+
 int par[UFMAX],rnk[UFMAX];
 int compsize[UFMAX];
 int max_comp_size=0;
