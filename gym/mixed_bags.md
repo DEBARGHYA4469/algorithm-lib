@@ -26,7 +26,7 @@
 |5|[The Sports Festival](https://codeforces.com/problemset/problem/1509/C)|DP on ranges|Ref: retrospective|F|!|
 |6|[Stoned Game](https://codeforces.com/problemset/problem/1396/B)|Game, Greedy, Proof|Inductive Proof|P|20 mins|
 |7|[Roads not only in Berland](https://codeforces.com/problemset/problem/25/D)|Union Find|Easy|P|10mins|
-|8|[Armchairs](https://codeforces.com/problemset/problem/1525/D)|||
+|8|[Armchairs](https://codeforces.com/problemset/problem/1525/D)|DP|Easy|P|30 mins|
 |9|[Little Elephant and Array](https://codeforces.com/contest/220/problem/B)|||
 |10|[Make The Fence Great Again](https://codeforces.com/problemset/problem/1221/D)|||
 |11|[Slime](https://codeforces.com/problemset/problem/1038/D)|||
