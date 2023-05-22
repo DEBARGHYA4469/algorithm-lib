@@ -541,6 +541,8 @@ Greedy Techniques
 
 [Interesting RMQ problems from SPOJ](range-queries/spoj-rmq-sprint.md)
 
+[Some non-trivial ideas in RMQ/RSQ](range-queries/non-trivial-examples.md)
+
 </details>
 
 ---
