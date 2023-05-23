@@ -543,6 +543,8 @@ Greedy Techniques
 
 [Some non-trivial ideas in RMQ/RSQ](range-queries/non-trivial-examples.md)
 
+[MO's algorithm for RSQs and RMQs](range-queries/MOs_query_trick.md)
+
 </details>
 
 ---
