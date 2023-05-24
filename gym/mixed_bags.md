@@ -30,7 +30,7 @@
 |9|[Little Elephant and Array](https://codeforces.com/contest/220/problem/B)|Difference Array+Segment Tree|Doable: SQRT trick|F|!|
 |10|[Make The Fence Great Again](https://codeforces.com/problemset/problem/1221/D)|DP, Pigeon Hole||P|30 mins|
 |11|[Slime](https://codeforces.com/problemset/problem/1038/D)|Greedy|Easy|P|10 mins|
-|12|[Recover an RBS](https://codeforces.com/problemset/problem/1709/C)|||
+|12|[Recover an RBS](https://codeforces.com/problemset/problem/1709/C)|Regular Bracket Sequence, Greedy, Idea|Think in prefix sum way|F|!|
 |13|[TediousLee](https://codeforces.com/problemset/problem/1369/D)|||
 |14|[Edge Weight Assignment](https://codeforces.com/problemset/problem/1338/B)|||
 |15|[Compress Words](https://codeforces.com/problemset/problem/1200/E)|||
