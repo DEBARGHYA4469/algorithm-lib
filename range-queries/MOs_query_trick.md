@@ -60,4 +60,11 @@ for(int i=0;i<m;i++){
 
 ```
 
+Practice Problems: 
 
+* Powerful array – CF Div1 D
+* DQUERY – SPOJ
+* GERALD07 – Codechef
+* Tree and Queries – CF Div1 D
+* Jeff and Removing Periods – CF Div1 D
+* Sherlock and Inversions – Codechef
