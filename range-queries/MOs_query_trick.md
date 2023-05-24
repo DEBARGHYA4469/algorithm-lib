@@ -17,47 +17,92 @@ l pointer moves at most SQRT N times inside a block. There are M queries. so M *
 Standard Structure: 
 
 ```cpp
-
-int n; cin >> n;
-int a[n];
-for (int i=0;i<n;i++) cin >> a[i];
-
-int w = sqrt(n); 
-pii q[m];
-for(int j=0;j<m;j++){
-    int l,r; cin >> l >> r;
-    q[j] = mp(l,r);
+/*
+		MO's algorithm implementation 
+*/
+ 
+struct Query{
+	int l,r,idx;
+};
+ 
+int n,q;
+const int N = 3e5+5, Q = 2e5+5, A = 1e6+3;
+map<pii,int> idx; 
+int a[N], Ans[N]; 
+Query queries[Q];
+int freq[A];
+ 
+int s = 0;
+ 
+void add(int idx){
+	freq[a[idx]]++;
+	if(freq[a[idx]]==1) s++; 
 }
-sort(q,q+m,[&](pii a, pii b)->bool{
-      if(a.fi/w != b.fi/w) return a.fi/w < b.fi/w; 
-      else a.se < b.se; 
-});
-
-int currL = 0, currR = 0, ans = 0; 
-for(int i=0;i<m;i++){
-    auto &[l,r] = q[i];
-    
-    while(currL<L){
-       // update answer
-       currL++;
-    }
-    
-    while(currL>L){
-      // update answer 
-      currL--;
-    }
-    
-    while(currR<=R){
-      // update answer 
-      currR++;
-    }
-    
-    while(currR>R+1){
-      // update answer 
-      currR--;
-    }
+ 
+void remove(int idx){
+	freq[a[idx]]--;
+	if(freq[a[idx]]==0) s--; 
 }
-
+ 
+int main(){
+	
+	std::ios::sync_with_stdio(false);
+	cin.tie(0);
+	
+	cin >> n;
+	for (int i=0;i<n;i++) cin >> a[i];
+	
+	cin >> q;
+	for (int i=0;i<q;i++){
+		int l,r; cin >> l >> r;
+		queries[i].l = l-1;
+		queries[i].r = r-1;
+		queries[i].idx = i;
+	}
+	
+	int w = (int) sqrt(n); 
+	
+	sort(queries, queries+q, [&](const Query &a, const Query &b)->bool{
+		if(a.l/w!=b.l/w) return a.l/w < b.l/w;
+		else{
+			return a.r < b.r; 
+		}
+	});
+	
+	int currL = 0, currR = -1;
+		
+	for (int i=0;i<q;i++){
+		
+		auto query = queries[i];
+		
+		while(currL > query.l){
+			currL--;
+			add(currL);
+		}
+		
+		while(currR < query.r){
+			currR++;
+			add(currR);	
+		}
+		
+		while(currL < query.l){
+			remove(currL);
+			currL++;
+		}
+		
+		while(currR > query.r){
+			remove(currR);
+			currR--;
+		}
+		
+	
+		Ans[query.idx] = s; 
+	}
+	
+	for(int i=0;i<q;i++) cout << Ans[i] << endl;
+	
+	return 0;
+}
 ```
 
 Practice Problems: 
