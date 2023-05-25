@@ -105,6 +105,26 @@ int main(){
 }
 ```
 
+#### Alternative sorting order in MO's algorithm 
+
+Canonical version of MO can be improved by sorting even blocks in reverse order of r values.
+
+```cpp
+struct Query {
+	int l, r, idx;
+	
+	inline pair<int, int> toPair() const {
+		return make_pair(l / block, ((l / block) & 1) ? -r : +r);
+	}
+};
+```
+
+MO's algorithm can be further improved to get O(n SQRT Q) complexity. 
+
+Trick 1: Use a const block size = n / SQRT(Q). Ref: https://codeforces.com/blog/entry/61203?#comment-451304
+
+Trick 2: Use space filling curves like Hilbert curve.  Ref: https://codeforces.com/blog/entry/61203
+
 Practice Problems: 
 
 * Powerful array – CF Div1 D
