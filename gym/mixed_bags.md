@@ -31,8 +31,8 @@
 |10|[Make The Fence Great Again](https://codeforces.com/problemset/problem/1221/D)|DP, Pigeon Hole||P|30 mins|
 |11|[Slime](https://codeforces.com/problemset/problem/1038/D)|Greedy|Easy|P|10 mins|
 |12|[Recover an RBS](https://codeforces.com/problemset/problem/1709/C)|Regular Bracket Sequence, Greedy, Idea|Think in prefix sum way|F|!|
-|13|[TediousLee](https://codeforces.com/problemset/problem/1369/D)|||
-|14|[Edge Weight Assignment](https://codeforces.com/problemset/problem/1338/B)|||
+|13|[TediousLee](https://codeforces.com/problemset/problem/1369/D)|DP, Pattern|Min(DP states) can be choosen greedily|F|!|
+|14|[Edge Weight Assignment](https://codeforces.com/problemset/problem/1338/B)|Constructive, Graph, Independence|Doable|F|!|
 |15|[Compress Words](https://codeforces.com/problemset/problem/1200/E)|||
 |16|[Tree Painting](https://codeforces.com/problemset/problem/1187/E)|||
 |17|[New Year Parties](https://codeforces.com/problemset/problem/1283/E)|||
