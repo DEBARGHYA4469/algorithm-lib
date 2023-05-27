@@ -33,7 +33,7 @@
 |12|[Recover an RBS](https://codeforces.com/problemset/problem/1709/C)|Regular Bracket Sequence, Greedy, Idea|Think in prefix sum way|F|!|
 |13|[TediousLee](https://codeforces.com/problemset/problem/1369/D)|DP, Pattern|Min(DP states) can be choosen greedily|F|!|
 |14|[Edge Weight Assignment](https://codeforces.com/problemset/problem/1338/B)|Constructive, Graph, Independence|Doable|F|!|
-|15|[Compress Words](https://codeforces.com/problemset/problem/1200/E)|||
+|15|[Compress Words](https://codeforces.com/problemset/problem/1200/E)|KMP|*Always use push_back*|P||
 |16|[Tree Painting](https://codeforces.com/problemset/problem/1187/E)|||
 |17|[New Year Parties](https://codeforces.com/problemset/problem/1283/E)|||
 |18|[Clear the String](https://codeforces.com/problemset/problem/1132/F)|||
