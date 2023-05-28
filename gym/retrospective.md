@@ -25,7 +25,7 @@ Topic: DP + Exchange Argument
 * Better use the dp[i]: max coolness such that maximum so far is i.       
 
 ### https://codeforces.com/problemset/problem/346/B
-
+Lucky Common Subseuqence
 Topics: DP + KMP 
 
 Given two strings a, b, c. Find LCS of string a and b which does not contain c.  
