@@ -13,3 +13,4 @@ ToDo Topics
 2. KMP + DP : https://codeforces.com/blog/entry/14429, https://www.codechef.com/practice/tags/kmp-algorithm
 3. MO's algoritm : https://www.codechef.com/practice/tags/mo-s-algorithm
 4. Slope Trick: https://codeforces.com/blog/entry/103222
+5. Knapsacks https://codeforces.com/blog/entry/98663
