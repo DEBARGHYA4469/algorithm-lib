@@ -34,11 +34,11 @@
 |13|[TediousLee](https://codeforces.com/problemset/problem/1369/D)|DP, Pattern|Min(DP states) can be choosen greedily|F|!|
 |14|[Edge Weight Assignment](https://codeforces.com/problemset/problem/1338/B)|Constructive, Graph, Independence|Doable|F|!|
 |15|[Compress Words](https://codeforces.com/problemset/problem/1200/E)|KMP|*Always use push_back*|P||
-|16|[Tree Painting](https://codeforces.com/problemset/problem/1187/E)|||
-|17|[New Year Parties](https://codeforces.com/problemset/problem/1283/E)|||
-|18|[Clear the String](https://codeforces.com/problemset/problem/1132/F)|||
-|19|[Flood Fill](https://codeforces.com/problemset/problem/1114/D)|||
-|20|[Fools and Roads](https://codeforces.com/problemset/problem/191/C)|||
+|16|[Tree Painting](https://codeforces.com/problemset/problem/1187/E)|DP on Trees, Rerooting||P|1 hr|
+|17|[New Year Parties](https://codeforces.com/problemset/problem/1283/E)|DP+Greedy||P|1 hr|
+|18|[Clear the String](https://codeforces.com/problemset/problem/1132/F)|Range DP|Doable|F|!|
+|19|[Flood Fill](https://codeforces.com/problemset/problem/1114/D)|DP+Transitions||F|!|
+|20|[Fools and Roads](https://codeforces.com/problemset/problem/191/C)|Binary Lifting, LCA, Difference Array in Tree|diff array|F|!|
   
 ## Educational Bags II 
 
