@@ -594,6 +594,8 @@ Greedy Techniques
 
 [Some non-trivial tricks used in DP and Graphs](gym/weekly-algorithm-sheet)
 
+[Some variants of Knapsack problem](others/knapsack.md)
+
 </details>
 
 ---
