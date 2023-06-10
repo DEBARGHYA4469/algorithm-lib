@@ -274,7 +274,7 @@ int root(int u){
 }
  
 void unite(int u,int v){
-	if(rand()&1) swap(u,v);
+	if(rand()&1) swap(u,v); // randomised
 	members[root(v)] += members[root(u)];
 	par[root(u)] = v; 
 }
