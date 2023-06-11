@@ -82,6 +82,8 @@
   
 ## CodeChef Bag III 
   
+| ID  | Problem Name | Ideas | Mistakes |Status| Time |  
+|---:|:---:|---|---|---|---|
 |1|[TWKNGS](https://www.codechef.com/problems/TWKNGS)|||
 |2|[MINMAXARR](https://www.codechef.com/problems/MINMAXARR)|||
 |3|[FDIVGAME](https://www.codechef.com/problems/FDIVGAME)|||
