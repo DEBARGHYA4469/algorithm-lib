@@ -59,18 +59,37 @@
 |13|[Memory for Arrays](https://codeforces.com/contest/309/problem/C)|||
 |14|[Berserk And Fireball](https://codeforces.com/problemset/problem/1380/D)|||
 |15|[Mouse Hunt](https://codeforces.com/problemset/problem/1027/D)|||
-|16|[TWKNGS](https://www.codechef.com/problems/TWKNGS)|||
-|17|[MINMAXARR](https://www.codechef.com/problems/MINMAXARR)|||
-|18|[FDIVGAME](https://www.codechef.com/problems/FDIVGAME)|||
-|19|[AVOIDALT](https://www.codechef.com/START32B/problems/AVOIDALT)|||
-|20|[REC19D](https://www.codechef.com/REC1921/problems/REC19D)|||
-|21|[CMED207](https://www.codechef.com/MEDC2021/problems/CMED207)|||
-|22|[Shuffle](https://codeforces.com/problemset/problem/1622/D)|||
-|23|[Phoenix and Computers](https://codeforces.com/problemset/problem/1515/E)|||
-|24|[TUZGMBR](https://www.codechef.com/problems/TUZGMBR/)|||
-|25|[ARRGAME](https://www.codechef.com/problems/ARRGAME)|||
-|26|[GARRANGE](https://www.codechef.com/problems/GARRANGE)|||
-|27|[STR3](https://www.codechef.com/problems/STR3)|||
-|28|[Arena](https://codeforces.com/problemset/problem/1606/E)|||
-|29|[EQUALHAMMING](https://www.codechef.com/problems/EQUALHAMMING)|||
-|30|[Beautiful Decomposition](https://codeforces.com/problemset/problem/279/E)|||
+|16|[Shuffle](https://codeforces.com/problemset/problem/1622/D)|||
+|17|[Phoenix and Computers](https://codeforces.com/problemset/problem/1515/E)|||
+|18|[Arena](https://codeforces.com/problemset/problem/1606/E)|||
+|19|[Beautiful Decomposition](https://codeforces.com/problemset/problem/279/E)|||
+|20|[In Search of Truth](https://codeforces.com/problemset/problem/1840/G1)|||
+|21|[2+ doors](https://codeforces.com/problemset/problem/1715/D)|||
+|22|[Bracket Coloring](https://codeforces.com/contest/1837/problem/D)|||
+|23|[Difference Array](https://codeforces.com/problemset/problem/1707/B)|||
+|24|[Fox And Jumping](https://codeforces.com/problemset/problem/510/D)|||
+|25|[Generate a String](https://codeforces.com/problemset/problem/710/E)|||
+|26|[Many Perfect Squares](https://codeforces.com/problemset/problem/1781/D)|||
+|27|[Compressed Bracket Sequence](https://codeforces.com/problemset/problem/1556/C)|||
+|28|[Maximum Subarray](https://codeforces.com/contest/1796/problem/D)|||
+|29|[Mark and Lightbulbs](https://codeforces.com/problemset/problem/1705/D)|||
+|30|[Strange Beauty](https://codeforces.com/problemset/problem/1475/G)|||
+|31|[Salary Changing](https://codeforces.com/problemset/problem/1251/D)|||
+|32|[Ugly Pairs](https://codeforces.com/problemset/problem/1156/B)|||
+|33|[Bandit in a City](https://codeforces.com/problemset/problem/1436/D)|||
+|34|[Treasure Island](https://codeforces.com/problemset/problem/1214/D)|||
+|35|[Breaking the Wall](https://codeforces.com/problemset/problem/1674/E)|||
+  
+## CodeChef Bag III 
+  
+|1|[TWKNGS](https://www.codechef.com/problems/TWKNGS)|||
+|2|[MINMAXARR](https://www.codechef.com/problems/MINMAXARR)|||
+|3|[FDIVGAME](https://www.codechef.com/problems/FDIVGAME)|||
+|4|[AVOIDALT](https://www.codechef.com/START32B/problems/AVOIDALT)|||
+|5|[REC19D](https://www.codechef.com/REC1921/problems/REC19D)|||
+|6|[CMED207](https://www.codechef.com/MEDC2021/problems/CMED207)|||
+|7|[TUZGMBR](https://www.codechef.com/problems/TUZGMBR/)|||
+|8|[ARRGAME](https://www.codechef.com/problems/ARRGAME)|||
+|9|[GARRANGE](https://www.codechef.com/problems/GARRANGE)|||
+|10|[STR3](https://www.codechef.com/problems/STR3)|||
+|11|[EQUALHAMMING](https://www.codechef.com/problems/EQUALHAMMING)|||
