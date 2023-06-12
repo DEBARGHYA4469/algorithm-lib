@@ -89,9 +89,8 @@
 |3|[FDIVGAME](https://www.codechef.com/problems/FDIVGAME)|||
 |4|[AVOIDALT](https://www.codechef.com/START32B/problems/AVOIDALT)|||
 |5|[REC19D](https://www.codechef.com/REC1921/problems/REC19D)|||
-|6|[CMED207](https://www.codechef.com/MEDC2021/problems/CMED207)|||
-|7|[TUZGMBR](https://www.codechef.com/problems/TUZGMBR/)|||
-|8|[ARRGAME](https://www.codechef.com/problems/ARRGAME)|||
-|9|[GARRANGE](https://www.codechef.com/problems/GARRANGE)|||
-|10|[STR3](https://www.codechef.com/problems/STR3)|||
-|11|[EQUALHAMMING](https://www.codechef.com/problems/EQUALHAMMING)|||
+|6|[TUZGMBR](https://www.codechef.com/problems/TUZGMBR/)|||
+|7|[ARRGAME](https://www.codechef.com/problems/ARRGAME)|||
+|8|[GARRANGE](https://www.codechef.com/problems/GARRANGE)|||
+|9|[STR3](https://www.codechef.com/problems/STR3)|||
+|10|[EQUALHAMMING](https://www.codechef.com/problems/EQUALHAMMING)|||
