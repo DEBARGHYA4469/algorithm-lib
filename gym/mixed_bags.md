@@ -79,18 +79,18 @@
 |33|[Bandit in a City](https://codeforces.com/problemset/problem/1436/D)|||
 |34|[Treasure Island](https://codeforces.com/problemset/problem/1214/D)|||
 |35|[Breaking the Wall](https://codeforces.com/problemset/problem/1674/E)|||
-  
-## CodeChef Bag III 
-  
-| ID  | Problem Name | Ideas | Mistakes |Status| Time |  
-|---:|:---:|---|---|---|---|
-|1|[TWKNGS](https://www.codechef.com/problems/TWKNGS)|||
-|2|[MINMAXARR](https://www.codechef.com/problems/MINMAXARR)|||
-|3|[FDIVGAME](https://www.codechef.com/problems/FDIVGAME)|||
-|4|[AVOIDALT](https://www.codechef.com/START32B/problems/AVOIDALT)|||
-|5|[REC19D](https://www.codechef.com/REC1921/problems/REC19D)|||
-|6|[TUZGMBR](https://www.codechef.com/problems/TUZGMBR/)|||
-|7|[ARRGAME](https://www.codechef.com/problems/ARRGAME)|||
-|8|[GARRANGE](https://www.codechef.com/problems/GARRANGE)|||
-|9|[STR3](https://www.codechef.com/problems/STR3)|||
-|10|[EQUALHAMMING](https://www.codechef.com/problems/EQUALHAMMING)|||
+|36|[XOR and Favorite Number](https://codeforces.com/problemset/problem/617/E)|||
+|37|[Gift](https://codeforces.com/contest/76/problem/A)|||
+|38|[Lawnmower](https://codeforces.com/contest/116/problem/D)|||
+|39|[Jury Marks](https://codeforces.com/contest/831/problem/C)|||
+|40|[Exposition](https://codeforces.com/contest/6/problem/E)|||
+|41|[Vus the Cossack and Strings](https://codeforces.com/contest/1186/problem/C)|||
+|42|[Furlo and Rublo and Game](https://codeforces.com/problemset/problem/255/E)|||
+|43|[1-2-K Game](https://codeforces.com/contest/1194/problem/D)|||
+|44|[Tokitsukaze and Duel](https://codeforces.com/contest/1191/problem/E)|||
+|45|[Cobb](https://codeforces.com/problemset/problem/1554/B)|||
+|46|[Monsters And Spells](https://codeforces.com/problemset/problem/1626/C)|||
+|47|[Berry Jam](https://codeforces.com/problemset/problem/1278/C)|||
+|48|[Tree Tag](https://codeforces.com/problemset/problem/1404/B)|||
+|49|[Solve The Maze](https://codeforces.com/problemset/problem/1365/D)|||
+|50|[Buying gifts](https://codeforces.com/problemset/problem/1801/B)|||
