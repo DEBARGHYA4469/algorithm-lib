@@ -539,6 +539,7 @@ bool bfs(int a, int b){
         }
     }
 ```
+Problems: https://codeforces.com/contest/1063/problem/B [Nice]
 
 ### Strongly Connected Components
 
