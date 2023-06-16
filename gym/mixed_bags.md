@@ -46,7 +46,7 @@
 |---:|:---:|---|---|---|---|
 |1|[Coloring Edges](https://codeforces.com/problemset/problem/1217/D)|||
 |2|[Restore Permutation](https://codeforces.com/problemset/problem/1208/D)|||
-|3|[Vanya and Scales](https://codeforces.com/problemset/problem/552/C)|||
+|3|[Vanya and Scales](https://codeforces.com/problemset/problem/552/C)|Base Representation, Greedy||P|2 hours|
 |4|[0-1 MST](https://codeforces.com/problemset/problem/1242/B)|||
 |5|[Zookeeper and The Infinite Zoo](https://codeforces.com/problemset/problem/1491/D)|||
 |6|[Minimum Euler Cycle](https://codeforces.com/problemset/problem/1334/D)|||
@@ -70,7 +70,7 @@
 |24|[Fox And Jumping](https://codeforces.com/problemset/problem/510/D)|||
 |25|[Generate a String](https://codeforces.com/problemset/problem/710/E)|||
 |26|[Many Perfect Squares](https://codeforces.com/problemset/problem/1781/D)|||
-|27|[Compressed Bracket Sequence](https://codeforces.com/problemset/problem/1556/C)|||
+|27|[Compressed Bracket Sequence](https://codeforces.com/problemset/problem/1556/C)|Math, Adhoc||P|15 mins|
 |28|[Maximum Subarray](https://codeforces.com/contest/1796/problem/D)|||
 |29|[Mark and Lightbulbs](https://codeforces.com/problemset/problem/1705/D)|||
 |30|[Strange Beauty](https://codeforces.com/problemset/problem/1475/G)|||
