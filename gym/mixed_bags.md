@@ -88,7 +88,7 @@
 |42|[Furlo and Rublo and Game](https://codeforces.com/problemset/problem/255/E)|||
 |43|[1-2-K Game](https://codeforces.com/contest/1194/problem/D)|||
 |44|[Tokitsukaze and Duel](https://codeforces.com/contest/1191/problem/E)|||
-|45|[Cobb](https://codeforces.com/problemset/problem/1554/B)|||
+|45|[Cobb](https://codeforces.com/problemset/problem/1554/B)|Greedy, Brute Force||P|1hr 30 mins|
 |46|[Monsters And Spells](https://codeforces.com/problemset/problem/1626/C)|||
 |47|[Berry Jam](https://codeforces.com/problemset/problem/1278/C)|||
 |48|[Tree Tag](https://codeforces.com/problemset/problem/1404/B)|||
