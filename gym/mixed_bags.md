@@ -83,7 +83,7 @@
 |37|[Gift](https://codeforces.com/contest/76/problem/A)|||
 |38|[Lawnmower](https://codeforces.com/contest/116/problem/D)|||
 |39|[Jury Marks](https://codeforces.com/contest/831/problem/C)|||
-|40|[Exposition](https://codeforces.com/contest/6/problem/E)|||
+|40|[Exposition](https://codeforces.com/contest/6/problem/E)|Sliding Window, Multiset||F|!|
 |41|[Vus the Cossack and Strings](https://codeforces.com/contest/1186/problem/C)|||
 |42|[Furlo and Rublo and Game](https://codeforces.com/problemset/problem/255/E)|||
 |43|[1-2-K Game](https://codeforces.com/contest/1194/problem/D)|||
