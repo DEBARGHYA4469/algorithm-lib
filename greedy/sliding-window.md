@@ -49,3 +49,5 @@ void subwindow(int v){
 	if(!tmp) zeros++;
 }
 ```
+
+https://codeforces.com/problemset/problem/6/E [MultiSet, Sliding Window, Nice]
