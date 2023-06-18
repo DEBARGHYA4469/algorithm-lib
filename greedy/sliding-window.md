@@ -10,14 +10,16 @@ https://codeforces.com/contest/514/problem/D [Very Good Example]
 How to apply sliding window generically? 
 
 ```cpp
-    for(int l=0,r;l<n;l++){ // left boundary of the sliding window
+    for(int l=0,r=-1;l<n;l++){ // left boundary of the sliding window
         r = max(r, l-1);
         while(r+1 < n){
             // check if the boundary is extendible
-            if extendible? 
+            // temporarily modify the window
+	    if extendible? 
                 modify window 
                 r++;
             else 
+		rollback window 
                 break;
         }
         
