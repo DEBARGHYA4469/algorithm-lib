@@ -64,5 +64,10 @@ For type = pair<int, pair<int,int>>
 
 vector<type> a;
 
-1. upper_bound(all(a), mp(target, mp(INF, INF)));
-2. lower_bound(all(a), mp(target, mp(-INF, -INF))); 
+UB = upper_bound(all(a), mp(target, mp(INF, INF)));
+
+LB = lower_bound(all(a), mp(target, mp(-INF, -INF))); 
+
+1. First Element > target : UB == a.end() ? ABSENT: (*UB), idx = UB-a.begin();  
+2. First Element >= target : LB == a.end() ? ABSENT : (*LB), idx = LB-a.begin();
+3. Last Element <= target : UB != a.begin() ? *(--UB): ABSENT 
