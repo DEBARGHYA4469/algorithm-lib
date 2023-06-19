@@ -1,6 +1,6 @@
-# Interval based problems
+# Intervals
 
-## Given a set of intervals <[l,r]>, and a target interval X: [L,R]. What is the minimum number of intervals used to cover X?
+### Given a set of intervals <[l,r]>, and a target interval X: [L,R]. What is the minimum number of intervals used to cover X?
 
 Idea 1: Jump Game type solution. Constraints: [MAX - MIN] < 10^5, or else use coordinate compression to make MAX-MIN ~ O(N).
 
@@ -68,9 +68,7 @@ for (int i=0;ladder<T;ladder=max_reachable, ++Ans){
 }
 ``` 
 	
-## Given a set of intervals <[l,r]>. Merge the intervals into non-overlapping intervals. 
-
-Idea 1: 
+### Given a set of intervals <[l,r]>. Merge the intervals into non-overlapping intervals. 
 
 	Code: 
 ```cpp
@@ -88,3 +86,14 @@ for (int i=1;i<n;i++){
 }
 Ans.eb(start, end); 		
 ```
+# Schedules
+
+### Given a set of jobs [starts at, ends at]. How many maximum jobs can you schedule in a single processor?  
+
+
+Solution: The first job is always the job with the leftmost "ends at". You can always exchange any other job for this. (Exchange Argument). 
+Sort by ends at. Pick a job and move to the next job. If the next job is overlapping skip, else pick that job.  
+
+### Given a set of jobs [starts at, ends at]. How many maximum jobs can you schedule in 2 processors?
+
+Solution: Pick a job and run
