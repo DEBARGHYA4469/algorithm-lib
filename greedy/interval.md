@@ -94,6 +94,43 @@ Ans.eb(start, end);
 Solution: The first job is always the job with the leftmost "ends at". You can always exchange any other job for this. (Exchange Argument). 
 Sort by ends at. Pick a job and move to the next job. If the next job is overlapping skip, else pick that job.  
 
-### Given a set of jobs [starts at, ends at]. How many maximum jobs can you schedule in 2 processors?
+### Given a set of jobs [starts at, ends at]. Can you schedule the jobs in 2 processors?
 
-Solution: Pick a job and run
+Solution: Pick a job within a minimum start time. and run the job in one of the processors. Now pick the next one. If it fits in either select any if not select the one where it fits. If not, it is impossible to schedule.  
+
+### Given a set of jobs [starts at, ends at]. What is the minimum no of processors to schedule all of them? 
+
+Solution: Minimum no of processors is the time where they intersect most. Use +1 for ( and -1 for ). Min no of processors is the maximum value at any time.
+Now how to find the schedules? 
+
+- Sort using start time.
+- Schedule ith job in any processor where it fits.
+- To find any processor where it fits. Store the processors in increasing order of their end time. Select the heap top.  
+- If it does not fit, increases processor count by 1. 
+
+Complexity = NlogN 
+
+### Given a set of jobs [time required, due time]. What is the minimum value of maximum lateness max(0, finish time - due time) across all jobs? 
+
+Solution: 
+
+- Consider two jobs one after another a, b.
+- If a|b. Lateness = t[a] + t[b] - d[b]
+- If b|a Lateness = t[a] + t[b] - d[a].
+- If d[b] < d[a]. we should switch to b|a. Exchange argument.
+- Hence sort by their due time and schedule one after another.
+
+### Given a set of jobs [starts at, ends at, profit]. Select a subset of non-overlapping jobs to maximize profit. 
+
+Solution:
+
+- Let dp[i] : denote max profit scheduling jobs 1...N
+- Transition:
+    	- Sort the jobs based on their end-times.
+	- If you schedule job i, you can schedule jobs j, end-time[j] < start[i].
+   	- Let j be largest such j.
+   	- dp[i] = max(dp[i-1], dp[j] + profit[i])
+   	- How to find j?
+   	- j = *(--upper_bound(v, v+m, start[i]))
+ 
+  Complexity: NlogN
