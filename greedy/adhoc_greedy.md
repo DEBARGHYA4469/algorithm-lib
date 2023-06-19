@@ -58,4 +58,11 @@ Given any array [a[1], a[2], a[3], a[4], ....a[N]], an element val and a given r
 
 Ans : Create a array of vectors g[val] -> vector<int> {}. Now frequency(l,r,val) = upper_bound(all(g[val]),r) - lower_bound(all(g[val]),l).
 
+### Upperbound and Lowerbound on Tuples
 
+For type = pair<int, pair<int,int>> 
+
+vector<type> a;
+
+1. upper_bound(all(a), mp(target, mp(INF, INF)));
+2. lower_bound(all(a), mp(target, mp(-INF, -INF))); 
