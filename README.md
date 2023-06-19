@@ -443,7 +443,7 @@ Greedy Techniques
 
 [Klee's algorithm for union of intersecting segments](greedy/sweepline.md)
 
-[Solving Interval based problems greedily!](greedy/interval.md)
+[Intervals and Schedules](greedy/interval.md)
 
 </details>
 
