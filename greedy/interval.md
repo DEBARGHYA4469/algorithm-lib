@@ -55,7 +55,18 @@ Return ladder>=R ? ++Ans, -1;
 ```
 
 Complexity: O(NlogN)
-	
+
+Simple Implementation
+
+```cpp
+int Ans = 0;
+int ladder=0, max_reach=0;
+sort(all(intervals));
+for (int i=0;ladder<T;ladder=max_reachable, ++Ans){
+	for(;i<N && interval[i].fi <= ladder;++i) chmax(max_reachable, interval[i].se);
+	if(ladder == max_reachable) return -1;
+}
+``` 
 	
 ## Given a set of intervals <[l,r]>. Merge the intervals into non-overlapping intervals. 
 
