@@ -445,7 +445,7 @@ Greedy Techniques
 
 [Intervals and Schedules](greedy/interval.md)
 
-[UpperBound and LowerBound on Tuples](adhoc_greedy.md#upperbound-and-lowerbound-on-tuples)
+[UpperBound and LowerBound on Tuples](adhoc_greedy/upperbound-and-lowerbound-on-tuples)
 
 </details>
 
