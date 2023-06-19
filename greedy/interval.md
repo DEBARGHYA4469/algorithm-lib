@@ -1,6 +1,6 @@
 # Intervals
 
-### Given a set of intervals <[l,r]>, and a target interval X: [L,R]. What is the minimum number of intervals used to cover X?
+### 1. Given a set of intervals <[l,r]>, and a target interval X: [L,R]. What is the minimum number of intervals used to cover X?
 
 Idea 1: Jump Game type solution. Constraints: [MAX - MIN] < 10^5, or else use coordinate compression to make MAX-MIN ~ O(N).
 
@@ -68,7 +68,7 @@ for (int i=0;ladder<T;ladder=max_reachable, ++Ans){
 }
 ``` 
 	
-### Given a set of intervals <[l,r]>. Merge the intervals into non-overlapping intervals. 
+### 2. Given a set of intervals <[l,r]>. Merge the intervals into non-overlapping intervals. 
 
 	Code: 
 ```cpp
@@ -88,17 +88,17 @@ Ans.eb(start, end);
 ```
 # Schedules
 
-### Given a set of jobs [starts at, ends at]. How many maximum jobs can you schedule in a single processor?  
+### 3. Given a set of jobs [starts at, ends at]. How many maximum jobs can you schedule in a single processor?  
 
 
 Solution: The first job is always the job with the leftmost "ends at". You can always exchange any other job for this. (Exchange Argument). 
 Sort by ends at. Pick a job and move to the next job. If the next job is overlapping skip, else pick that job.  
 
-### Given a set of jobs [starts at, ends at]. Can you schedule the jobs in 2 processors?
+### 4. Given a set of jobs [starts at, ends at]. Can you schedule the jobs in 2 processors?
 
 Solution: Pick a job within a minimum start time. and run the job in one of the processors. Now pick the next one. If it fits in either select any if not select the one where it fits. If not, it is impossible to schedule.  
 
-### Given a set of jobs [starts at, ends at]. What is the minimum no of processors to schedule all of them? 
+### 5. Given a set of jobs [starts at, ends at]. What is the minimum no of processors to schedule all of them? 
 
 Solution: Minimum no of processors is the time where they intersect most. Use +1 for ( and -1 for ). Min no of processors is the maximum value at any time.
 Now how to find the schedules? 
@@ -110,7 +110,7 @@ Now how to find the schedules?
 
 Complexity = NlogN 
 
-### Given a set of jobs [time required, due time]. What is the minimum value of maximum lateness max(0, finish time - due time) across all jobs? 
+### 6. Given a set of jobs [time required, due time]. What is the minimum value of maximum lateness max(0, finish time - due time) across all jobs? 
 
 Solution: 
 
@@ -120,7 +120,7 @@ Solution:
 - If d[b] < d[a]. we should switch to b|a. Exchange argument.
 - Hence sort by their due time and schedule one after another.
 
-### Given a set of jobs [starts at, ends at, profit]. Select a subset of non-overlapping jobs to maximize profit. 
+### 7. Given a set of jobs [starts at, ends at, profit]. Select a subset of non-overlapping jobs to maximize profit. 
 
 Solution:
 
