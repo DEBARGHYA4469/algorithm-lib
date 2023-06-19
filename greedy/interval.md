@@ -13,12 +13,12 @@ for (int i=0;i<N;i++) chmax (right[max(X.L, intervals[i].L)], intervals[i].R);
 int max_reach = right[X.L], ladder = max_reach, count = 0; 
 bool ok = right[X.L] >= X.L; 
 for (int i=X.L+1;i<=X.R;i++){
-if (i==ladder+1){
+	if (i==ladder+1){
 		count++; 
-ladder = max_reach; 	
-ok &= (i <= ladder);
-}
-chmax (max_reach, right[i]); 
+		ladder = max_reach; 	
+		ok &= (i <= ladder);
+	}
+	chmax (max_reach, right[i]); 
 }
 
 cout << (ok ? count:-1) << endl;  
@@ -42,12 +42,12 @@ for(;i<N;i++){
 	if(ladder>=R) return Ans; 
 	if(interval[i].fi > max_reachable) return -1; 
 	else{
-	if(interval[i].fi>ladder){
-		Ans++;
-		ladder=max_reachable; 
-}
-chmax (max_reachable, interval[i].se); 
-}
+		if(interval[i].fi>ladder){
+			Ans++;
+			ladder=max_reachable; 
+		}
+		chmax (max_reachable, interval[i].se); 
+	}
 }
 if(ladder>=R) return Ans; 
 Ladder = max_reachable; 
@@ -71,9 +71,9 @@ vector<pii> Ans;
 for (int i=1;i<n;i++){
 	if(intervals[i].fi<=end) chmax(end, interval[i].se);
 	else{
-	Ans.eb(start, end);
-tie(start, end) = interval[i]; 
-}
+		Ans.eb(start, end);
+		tie(start, end) = interval[i]; 
+	}
 }
 Ans.eb(start, end); 		
 ```
