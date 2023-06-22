@@ -64,7 +64,7 @@
 |18|[Arena](https://codeforces.com/problemset/problem/1606/E)|||
 |19|[Beautiful Decomposition](https://codeforces.com/problemset/problem/279/E)|||
 |20|[In Search of Truth](https://codeforces.com/problemset/problem/1840/G1)|||
-|21|[2+ doors](https://codeforces.com/problemset/problem/1715/D)|||
+|21|[2+ doors](https://codeforces.com/problemset/problem/1715/D)|Lexicographical*, Graph, Bitwise|Imp: Can you greedily fill from begin?|F|!|
 |22|[Bracket Coloring](https://codeforces.com/contest/1837/problem/D)|||
 |23|[Difference Array](https://codeforces.com/problemset/problem/1707/B)|||
 |24|[Fox And Jumping](https://codeforces.com/problemset/problem/510/D)|||
