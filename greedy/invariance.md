@@ -95,5 +95,19 @@ Idea 2: Graph Based. Standard trick: if A[i]->[A[i+1],A[i+2],....] for all i, co
 ### Problem 6: 
 https://codeforces.com/contest/1615/problem/C 
 	
-Idea: Whenever there is some weird process going on, think about the bipartiteness, if btw consecutive operations some structure remains intact. Then greedily solve for the varying part.
+Idea: Whenever there is some weird process going on, think about the bipartite-ness, if btw consecutive operations some structure remains intact. Then greedily solve for the varying part.
 						
+### Problem 7: 
+
+https://codeforces.com/contest/1845/problem/D
+
+Observations:
+
+* At the point where you freeze the rating point K. After that some ----, +-..+., -----, ++.
+* Simulate the process, it dips to K at some point(possibly no!). 
+* Consider the first and last such occurrence. say l,r 
+* It is as good as removing segment [l,r].
+* So the Optimal answer is  Total Sum - Sum of some subarray!
+* Can we minimize the subarray? What is the value of K?
+* K = pref[l-1].
+* After r, it cannot go below K. If it goes there is some prefix r...N which is negative. So [l,r] is not the minimum subarray!
