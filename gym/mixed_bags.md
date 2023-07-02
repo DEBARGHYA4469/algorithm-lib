@@ -46,7 +46,7 @@
 |---:|:---:|---|---|---|---|
 |1|[Coloring Edges](https://codeforces.com/problemset/problem/1217/D)|||
 |2|[Restore Permutation](https://codeforces.com/problemset/problem/1208/D)|||
-|3|[Vanya and Scales](https://codeforces.com/problemset/problem/552/C)|Base Representation, Greedy||P|2 hours|
+|3|[Boxes and Balls](https://codeforces.com/problemset/problem/1845/E)|||||
 |4|[0-1 MST](https://codeforces.com/problemset/problem/1242/B)|||
 |5|[Zookeeper and The Infinite Zoo](https://codeforces.com/problemset/problem/1491/D)|||
 |6|[Minimum Euler Cycle](https://codeforces.com/problemset/problem/1334/D)|||
