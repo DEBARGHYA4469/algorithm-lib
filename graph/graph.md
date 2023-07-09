@@ -141,6 +141,8 @@ void dfs(int u,int p=-1){
 }
 ```
 
+https://www.geeksforgeeks.org/tree-back-edge-and-cross-edges-in-dfs-of-graph/amp/ [Back Edge, Foreward Edge, Cross Edge] 
+
 ### DSU: Union Find
 
 <a name="d"/>
