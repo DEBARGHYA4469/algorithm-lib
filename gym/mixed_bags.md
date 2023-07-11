@@ -45,7 +45,7 @@
 | ID  | Problem Name | Ideas | Mistakes |Status| Time |  
 |---:|:---:|---|---|---|---|
 |1|[Coloring Edges](https://codeforces.com/problemset/problem/1217/D)|DFS Tree, Back Edge, Cycle||F|!|
-|2|[Restore Permutation](https://codeforces.com/problemset/problem/1208/D)|Fenwick Tree||1 hr|P| 
+|2|[Restore Permutation](https://codeforces.com/problemset/problem/1208/D)|Fenwick Tree||P|1 hr| 
 |3|[Vanya and Scales](https://codeforces.com/problemset/problem/552/C)|Base Representation, Greedy||P|2 hours|
 |4|[0-1 MST](https://codeforces.com/problemset/problem/1242/B)|||
 |5|[Zookeeper and The Infinite Zoo](https://codeforces.com/problemset/problem/1491/D)|Bitwise, LSB->MSB|Concrete!|F|!|
