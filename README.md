@@ -382,6 +382,8 @@ void unite(int u,int v){
 
 [Dijkstra's shortest path algoritm for non-negative edges](graph/graph.md#o)
 
+[Kth shortest path and ghostness in dikjstra's algorithm](graph/graph.md#o1)
+
 [Use Bellman Ford for negative edge weights](graph/graph.md#p)
 
 [Detect negative cycle using Bellman Ford](graph/graph.md#q)
