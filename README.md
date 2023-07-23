@@ -595,6 +595,8 @@ Greedy Techniques
 
 [Some useful bit hacks, bitsets](others/bit-hacks.md)
 
+[Bitset Magic and DP optimizations](others/bitset.md)
+
 [Minimum, Maximum XOR values of pair of numbers](others/classical_ideas.md)
 
 [Coordinate Compression](others/coordinate-compression.md)
