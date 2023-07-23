@@ -28,7 +28,7 @@
 
 [Dijkstra's shortest path algoritm for non-negative edges](#o)
 
-[K-shortest path and ghosness in dijkstra](#o1)
+[K-shortest path and ghostness in dijkstra](#o1)
 
 [Use Bellman Ford for negative edge weights](#p)
 
@@ -412,6 +412,7 @@ https://atcoder.jp/contests/abc164/tasks/abc164_e
 ```
 
 #### K-shortest paths and ghosness in dijkstra
+<a name="o1"/>
 
 https://cses.fi/problemset/task/1196/
 
