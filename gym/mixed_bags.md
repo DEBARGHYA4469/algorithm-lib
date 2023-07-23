@@ -50,8 +50,8 @@
 |4|[0-1 MST](https://codeforces.com/problemset/problem/1242/B)|BFS on complement graph||P|5 mins|
 |5|[Zookeeper and The Infinite Zoo](https://codeforces.com/problemset/problem/1491/D)|Bitwise, LSB->MSB|Concrete!|F|!|
 |6|[Minimum Euler Cycle](https://codeforces.com/problemset/problem/1334/D)|Constructive, Lexicographical||P|10 min|
-|7|[Christmas Trees](https://codeforces.com/problemset/problem/1283/D)|||
-|8|[Balanced Path](https://atcoder.jp/contests/abc147/tasks/abc147_e)|||
+|7|[Christmas Trees](https://codeforces.com/problemset/problem/1283/D)|Adhoc, Set||P|10 mins|
+|8|[Balanced Path](https://atcoder.jp/contests/abc147/tasks/abc147_e)|Bitset, DP||P|30 mins| 
 |9|[Get Everything](https://atcoder.jp/contests/abc142/tasks/abc142_e)|Bitwise|.|P||
 |10|[Paths and Trees](https://codeforces.com/problemset/problem/545/E)|||
 |11|[Minimizing Difference](https://codeforces.com/problemset/problem/1244/E)|||
