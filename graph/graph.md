@@ -412,6 +412,7 @@ https://atcoder.jp/contests/abc164/tasks/abc164_e
 ```
 
 #### K-shortest paths and ghosness in dijkstra
+
 <a name="o1"/>
 
 https://cses.fi/problemset/task/1196/
