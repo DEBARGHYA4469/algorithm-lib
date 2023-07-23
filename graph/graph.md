@@ -28,6 +28,8 @@
 
 [Dijkstra's shortest path algoritm for non-negative edges](#o)
 
+[K-shortest path and ghosness in dijkstra](#o1)
+
 [Use Bellman Ford for negative edge weights](#p)
 
 [Detect negative cycle using Bellman Ford](#q)
@@ -407,6 +409,54 @@ https://atcoder.jp/contests/abc164/tasks/abc164_e
             for(auto &v:g[u.se]) if(chmin(d[v.se],d[u.se]+v.fi)) q.push(mp(d[v.se],v.se));
         }
     }
+```
+
+#### K-shortest paths and ghosness in dijkstra
+
+https://cses.fi/problemset/task/1196/
+
+```cpp
+const int N = 1e5+5; 
+ll n,m,k;
+vector<pair<ll,ll>> g[N];
+ll ghostness[N]; 
+ 
+int main(){
+	
+	std::ios::sync_with_stdio(false);
+	cin.tie(0);
+	
+	cin >> n >> m >> k;
+	for(int i=0;i<m;++i){
+		ll a,b,c; cin >> a >> b >> c;
+		g[a].eb(b,c);
+	}
+	
+	for(int i=1;i<=n;++i) ghostness[i] = k; 
+	
+	priority_queue<pair<ll,ll>, vector<pair<ll,ll>>, greater<pair<ll,ll>>> q;
+	q.push(mp(0ll, 1ll));
+	
+	vector<ll> kshort; 
+	 
+	while(!q.empty()){
+		auto u = q.top();
+		q.pop();
+		
+		if(ghostness[u.se]>0ll){
+			if(u.se == n) kshort.eb(u.fi);
+			ghostness[u.se]--;
+			
+			for(auto v: g[u.se]){
+				q.push(mp(u.fi + v.se, v.fi)); 
+			}
+		} 
+	}	
+	
+	output_vector(kshort);
+	
+	return 0;
+}
 ```
 
 ### Bellman ford
