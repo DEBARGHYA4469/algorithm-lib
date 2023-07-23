@@ -25,3 +25,55 @@ BITSET operations
 
 BITSET supports all boolean operations. 
 
+DP optimization using Bitset: 
+
+Example 1: https://atcoder.jp/contests/abc147/tasks/abc147_e
+
+```cpp
+const int N = 85; 
+int H,W;
+int a[N][N], b[N][N], c[N][N]; 
+bitset<4*N*N> dp[N][N]; 
+ 
+int main(){
+	
+	std::ios::sync_with_stdio(false);
+	cin.tie(0);
+ 
+	cin >> H >> W;
+	for (int i=0;i<H;i++) for (int j=0;j<W;++j) cin >> a[i][j];
+	for (int i=0;i<H;i++) for (int j=0;j<W;++j) {
+		cin >> b[i][j];
+		c[i][j] = a[i][j] - b[i][j];
+	}
+	
+	int offset = 2*N*N; 
+	dp[0][0].set(c[0][0] + offset);
+	dp[0][0].set(-c[0][0] + offset);
+	
+	//cout << dp[0][0] << endl; 
+ 
+	for (int i=0;i<H;i++){
+		for (int j=0;j<W;j++){
+			if(i) {
+				dp[i][j] |= dp[i-1][j] << abs(c[i][j]);
+				dp[i][j] |= dp[i-1][j] >> abs(c[i][j]);	
+			}
+			if(j){
+				dp[i][j] |= dp[i][j-1] >> abs(c[i][j]); 
+				dp[i][j] |= dp[i][j-1] << abs(c[i][j]); 
+			}
+		}
+	}
+	
+	int Ans = 1e9;
+	for (int i=0; i<4*N*N;i++){
+		if(dp[H-1][W-1].test(i)) chmin(Ans, abs(i-offset));
+	}
+	  	
+	cout << Ans << endl;
+	
+	return 0;
+}
+```
+
