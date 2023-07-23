@@ -52,7 +52,7 @@
 |6|[Minimum Euler Cycle](https://codeforces.com/problemset/problem/1334/D)|Constructive, Lexicographical||P|10 min|
 |7|[Christmas Trees](https://codeforces.com/problemset/problem/1283/D)|||
 |8|[Balanced Path](https://atcoder.jp/contests/abc147/tasks/abc147_e)|||
-|9|[Get Everything](https://atcoder.jp/contests/abc142/tasks/abc142_e)|.|.|P||
+|9|[Get Everything](https://atcoder.jp/contests/abc142/tasks/abc142_e)|Bitwise|.|P||
 |10|[Paths and Trees](https://codeforces.com/problemset/problem/545/E)|||
 |11|[Minimizing Difference](https://codeforces.com/problemset/problem/1244/E)|||
 |12|[Make It Connected](https://codeforces.com/problemset/problem/1095/F)|||
