@@ -55,7 +55,7 @@
 |9|[Get Everything](https://atcoder.jp/contests/abc142/tasks/abc142_e)|Bitwise|.|P||
 |10|[Paths and Trees](https://codeforces.com/problemset/problem/545/E)|||
 |11|[Minimizing Difference](https://codeforces.com/problemset/problem/1244/E)|||
-|12|[Make It Connected](https://codeforces.com/problemset/problem/1095/F)|||
+|12|[Make It Connected](https://codeforces.com/problemset/problem/1095/F)|Kruskal, Easy||P|5 mins|
 |13|[Memory for Arrays](https://codeforces.com/contest/309/problem/C)|||
 |14|[Berserk And Fireball](https://codeforces.com/problemset/problem/1380/D)|||
 |15|[Mouse Hunt](https://codeforces.com/problemset/problem/1027/D)|||
