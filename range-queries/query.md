@@ -163,6 +163,27 @@
         }
     }
 ```
+
+Eg. 
+
+```cpp
+const int LOG = 41;
+int logv[N], MinST[N][LOG], MaxST[N][LOG];
+
+void init(){  for (int i=2;i<N;i++) logv[i] = logv[i/2] + 1; }
+void build(int n){
+    for (int i=1;i<=n;++i)  MinST[i][0] = MaxST[i][0] = a[i];
+    for (int j=1;j<=logv[n];j++){
+        for (int i=1;i+(1<<j)-1<=n;++i){
+            MinST[i][j] = min(MinST[i][j-1], MinST[i+(1<<(j-1))][j-1]);
+            MaxST[i][j] = max(MaxST[i][j-1], MaxST[i+(1<<(j-1))][j-1]);
+        }
+    }
+}
+int querymin(int l, int r){ int j = logv[r-l+1]; return min(MinST[l][j], MinST[r-(1<<j)+1][j]); }
+int querymax(int l, int r){ int j = logv[r-l+1]; return max(MaxST[l][j], MaxST[r-(1<<j)+1][j]); }
+```
+
 ## Segment Trees
 
 * a[l...r] : evaluate some function, modify some values, etc
