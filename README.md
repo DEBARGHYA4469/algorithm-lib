@@ -92,7 +92,72 @@ int main(){
 </details>
 
 
---- 
+
+<details markdown="1">
+<summary>Stress Test PY Template
+</summary>
+
+```py
+import filecmp
+import os
+import random
+import sys
+import subprocess
+
+my_solution = sys.argv[1]
+test_solution = sys.argv[2]
+
+my_solution_exe = my_solution.split(".cpp")[0]
+test_solution_exe = test_solution.split(".cpp")[0]
+
+input_file = "in.txt"
+my_solution_out = "out1.txt"
+test_solution_out = "out2.txt"
+
+def generate_input_file():
+    '''
+            Write code here to generate the input file
+            Tips:
+                1. Use random.randint(l,r) : to generate random number between l...r
+                2. Perm = list(range(1,n)) random.shuffle(Perm) : to generate a randome permutation
+        '''
+def test_case(i):
+    generate_input_file()
+    os.system(f"./{my_solution_exe} < {input_file} > {my_solution_out}")
+    os.system(f"./{test_solution_exe} < {input_file} > {test_solution_out}")
+    ok = filecmp.cmp(my_solution_out, test_solution_out)
+    if ok:
+        print(f"Test {i} passed.")
+    else:
+        print("ERROR, match out1.txt and out2.txt.")
+        sys.exit(0)
+
+def run_commands(cmd):
+    print(cmd)
+    try:
+        cmd = cmd.split(" ")
+        subprocess.run(cmd, check=True)
+    except subprocess.CalledProcessError as e:
+        print ("Error:", e)
+
+def compile_command(cpp_file):
+    compilation_flags = "-Wall -Wextra -Wshadow -D_GLIBCXX_ASSERTIONS -DDEBUG -ggdb3 -fmax-errors=2 -fsanitize=address,undefined -std=c++17"
+    exe_name = cpp_file.split(".cpp")[0]
+    return f"g++ {compilation_flags} {exe_name} {cpp_file}"
+
+if __name__ == '__main__':
+
+    run_commands(compile_command(my_solution))
+    run_commands(compile_command(test_solution))
+
+    for i in range(1,10000):
+        test_case(i)
+
+
+```
+</details>
+
+---
 
 <details markdown="1">
 <summary>Combinatorics Template
@@ -135,7 +200,7 @@ int choose(int n,int r){
 </details>
 	
 	
----
+
  
 <details markdown="1"> 
 <summary>Number Theory Template
@@ -200,7 +265,6 @@ vector<int> divisors(int num,const vector<int> lp){
 </details>
 	
 	
----
 
 <details markdown="1">
 <summary>Disjoint Set Template
@@ -283,74 +347,15 @@ void unite(int u,int v){
 
 </details>
 
-
 ---
-	
 
 ### Useful Notes
 
-<details markdown="1" open>
-<summary>Mathematical Theorems
-</summary>
-
-
----
-	
-[Custom Ceil Function](math/math.md#a)
-
-[Lazy Caterer](math/math.md#b) 
-
-[Chinese Remainder Theorem](math/math.md#c) 
-
-[Derangement](math/math.md#d) 
-
-[Chicken Mcnugget Theorem](math/math.md#e) 
-
-[Erdos Szekeres Theorem](math/math.md#f) 
-
-[Cyclicity](math/math.md#g)
-
-[Parity of Permutation](math/math.md#h) 
-
-[Rank in Arbitrarty Bases](math/math.md#i) 
-
-[Floyd Cycle](math/math.md#j) 
-
-[Manhattern Trick](math/math.md#k) 
-
-[Complexity of Euclid's dvision Lemma](math/math.md#o)
-
-[Subsequence to Subarray Transformation Trick](math/math.md#l)
-
-[Some properties of sum of absolute differences aka SAD](math/sad.md)
-
-[How to solve diophantine equations](math/diophantine.md#a)
-
-[Gaussian Elimination in GF(2), Max XOR Subsequence](math/gaussian-elimination.md)
-
-[Euclid extended division algorithm for LCM/GCD](math/gcd-lcm.md)
-
-[Catalan Number, Dyck Path](math/combinatorics.md#a)
-
-[Inclusion Exclusion Principle](math/combinatorics.md#b)
-
-[Minimum Excludent aka MEX](math/mex.md)
-
-[No. of Co-prime pairs](math/cses.md)
-
-[Meet in the Middle aka MiTM](math/cses.md)
-
-[Generating Functions](math/generating_functions.md)
-
-</details>
-
-
 ---
 
-<details markdown="1" open>
+<details markdown="1">
 <summary>Trees and Graphs
 </summary>
-
 
 ---
 
@@ -410,16 +415,66 @@ void unite(int u,int v){
 
 </details>
 
----
+<details markdown="1">
+<summary>Mathematical Techniques
+</summary>
 
-<details markdown="1" open>
+---
+	
+[Custom Ceil Function](math/math.md#a)
+
+[Lazy Caterer](math/math.md#b) 
+
+[Chinese Remainder Theorem](math/math.md#c) 
+
+[Derangement](math/math.md#d) 
+
+[Chicken Mcnugget Theorem](math/math.md#e) 
+
+[Erdos Szekeres Theorem](math/math.md#f) 
+
+[Cyclicity](math/math.md#g)
+
+[Parity of Permutation](math/math.md#h) 
+
+[Rank in Arbitrarty Bases](math/math.md#i) 
+
+[Floyd Cycle](math/math.md#j) 
+
+[Manhattern Trick](math/math.md#k) 
+
+[Complexity of Euclid's dvision Lemma](math/math.md#o)
+
+[Subsequence to Subarray Transformation Trick](math/math.md#l)
+
+[Some properties of sum of absolute differences aka SAD](math/sad.md)
+
+[How to solve diophantine equations](math/diophantine.md#a)
+
+[Gaussian Elimination in GF(2), Max XOR Subsequence](math/gaussian-elimination.md)
+
+[Euclid extended division algorithm for LCM/GCD](math/gcd-lcm.md)
+
+[Catalan Number, Dyck Path](math/combinatorics.md#a)
+
+[Inclusion Exclusion Principle](math/combinatorics.md#b)
+
+[Minimum Excludent aka MEX](math/mex.md)
+
+[No. of Co-prime pairs](math/cses.md)
+
+[Meet in the Middle aka MiTM](math/cses.md)
+
+[Generating Functions](math/generating_functions.md)
+
+</details>
+
+<details markdown="1">
 <summary>
 Greedy Techniques
 </summary>
-	
-	
----
 
+---
 
 [Minimum Increment Decrement to make array equal](greedy/adhoc_greedy.md)
 	
@@ -451,12 +506,10 @@ Greedy Techniques
 
 </details>
 
----
 
-<details markdown="1" open>
+<details markdown="1">
 <summary>Dynamic Programming
 </summary>
-
 
 ---
 
@@ -496,9 +549,8 @@ Greedy Techniques
 
 </details>
 
---- 
 
-<details markdown="1" open>
+<details markdown="1">
 <summary>Game Theory
 </summary>
 	
@@ -516,9 +568,8 @@ Greedy Techniques
 
 </details>
 
----
 
-<details markdown="1" open>
+<details markdown="1">
 <summary>Range Queries
 </summary>
 
@@ -556,12 +607,11 @@ Greedy Techniques
 
 </details>
 
----
 
-<details markdown="1" open>
+<details markdown="1">
 <summary>String Algorithms
 </summary>
-	
+
 ---
 	
 [Minimum Palindromic Cuts](string/adhoc-strings.md)
@@ -582,12 +632,10 @@ Greedy Techniques
 
 </details>
 
----
 
-<details markdown="1" open>
+<details markdown="1">
 <summary>Miscellaneous Stuff
 </summary>
-
 
 ---
 
