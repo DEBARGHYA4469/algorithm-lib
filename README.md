@@ -373,7 +373,7 @@ void unite(int u,int v){
 
 [Finding transitive closure of a graph using Floyd Warshall](graph/graph.md#g)
 
-[BFS on complement graph if the graph is sparse](graph/graph.md#h)
+[BFS on complement graph aka Pie for a Pie trick](graph/graph.md#h)
 
 [All topological ordering](graph/graph.md#i)
 
