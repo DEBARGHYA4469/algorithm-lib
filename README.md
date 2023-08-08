@@ -655,6 +655,8 @@ Greedy Techniques
 
 [Some variants of Knapsack problem](others/knapsack.md)
 
+[All about permutations and transpositions](others/permutation.md)
+
 </details>
 
 ---
