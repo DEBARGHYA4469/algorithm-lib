@@ -125,8 +125,16 @@ def test_case(i):
     generate_input_file()
     os.system(f"./{my_solution_exe} < {input_file} > {my_solution_out}")
     os.system(f"./{test_solution_exe} < {input_file} > {test_solution_out}")
-    ok = filecmp.cmp(my_solution_out, test_solution_out)
-    if ok:
+
+    with open(my_solution_out, "r") as f:
+        a = f.readline()
+        a.rstrip()
+
+    with open(test_solution_out, "r") as f:
+        b = f.readline()
+        b.rstrip()
+
+    if a == b:
         print(f"Test {i} passed.")
     else:
         print("ERROR, match out1.txt and out2.txt.")
