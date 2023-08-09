@@ -69,11 +69,11 @@
 		return ans;
 	}
 	void update(int i,int val){
-		for(;i<MAXN;i+=i&-i) fen[i] += val;
+		for(;i<n;i+=i&-i) fen[i] += val;
 	}
 			       
 	void clean(int i){ // This step is important for multiple test case. You clean only things you touched avoiding TLE
-		for(;i<MAXN;i+=i&-i) fen[i]=0;
+		for(;i<n;i+=i&-i) fen[i]=0;
 	}    
 ```
 		   
