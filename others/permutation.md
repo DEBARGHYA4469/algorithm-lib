@@ -29,6 +29,11 @@ Each permutation can be decomposed into disjoint cycles. E.g. [23154] = (123)(45
 - How to find the vertex v which is reached if you travel k times along the permutation graph from a vertex u?
 - Use Binary Lifting!
 
+ Problems: 
+ 
+ 1. CSES Planet Queries I https://cses.fi/problemset/task/1750
+ 2. CSES Planet Queries II https://cses.fi/problemset/task/1160
+
 ## Transpositions
 
 - Swaps in an array are called transpositions.
