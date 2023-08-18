@@ -15,9 +15,9 @@ BITSET optimization (32 factor optimization)
 ```cpp
       for (int i=0;i<n;i++){
           for (int x=0; (1<<x) <= m[i]; x++){
-              dp |= a[i] * (1<<x);
+              dp |= dp << (a[i] * (1<<x));
               m[i] -= 1<<x;
           }
-          dp |= a[i] * m[i];  
+          dp |= dp << a[i] * m[i];  
       }
 ```
