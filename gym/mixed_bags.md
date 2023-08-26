@@ -53,10 +53,10 @@
 |7|[Christmas Trees](https://codeforces.com/problemset/problem/1283/D)|Adhoc, Set||P|10 mins|
 |8|[Balanced Path](https://atcoder.jp/contests/abc147/tasks/abc147_e)|Bitset, DP||P|30 mins| 
 |9|[Get Everything](https://atcoder.jp/contests/abc142/tasks/abc142_e)|Bitwise|.|P||
-|10|[Paths and Trees](https://codeforces.com/problemset/problem/545/E)|||
+|10|[Paths and Trees](https://codeforces.com/problemset/problem/545/E)|Modified Dijstra|.|P|1 Hr|
 |11|[Minimizing Difference](https://codeforces.com/problemset/problem/1244/E)|Upperbound, Lowerbound||P| 1 hr| 
 |12|[Make It Connected](https://codeforces.com/problemset/problem/1095/F)|Kruskal, Easy||P|5 mins|
-|13|[Memory for Arrays](https://codeforces.com/contest/309/problem/C)|||
+|13|[Memory for Arrays](https://codeforces.com/contest/309/problem/C)|Greedy, Bitwise|.|P|1 Hr| 
 |14|[Berserk And Fireball](https://codeforces.com/problemset/problem/1380/D)|||
 |15|[Mouse Hunt](https://codeforces.com/problemset/problem/1027/D)|||
 |16|[Shuffle](https://codeforces.com/problemset/problem/1622/D)|||
