@@ -57,7 +57,7 @@
 |11|[Minimizing Difference](https://codeforces.com/problemset/problem/1244/E)|Upperbound, Lowerbound||P| 1 hr| 
 |12|[Make It Connected](https://codeforces.com/problemset/problem/1095/F)|Kruskal, Easy||P|5 mins|
 |13|[Memory for Arrays](https://codeforces.com/contest/309/problem/C)|Greedy, Bitwise|.|P|1 Hr| 
-|14|[Berserk And Fireball](https://codeforces.com/problemset/problem/1380/D)|||
+|14|[Berserk And Fireball](https://codeforces.com/problemset/problem/1380/D)|Math|.|P|2 Hr| 
 |15|[Mouse Hunt](https://codeforces.com/problemset/problem/1027/D)|||
 |16|[Shuffle](https://codeforces.com/problemset/problem/1622/D)|||
 |17|[Phoenix and Computers](https://codeforces.com/problemset/problem/1515/E)|||
