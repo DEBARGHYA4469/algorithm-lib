@@ -62,8 +62,8 @@
 |16|[Shuffle](https://codeforces.com/problemset/problem/1622/D)|Combinatorics|.|P||
 |17|[Phoenix and Computers](https://codeforces.com/problemset/problem/1515/E)|DP+Combinatorics|* Imp: Independent contrubution|F||
 |18|[Arena](https://codeforces.com/problemset/problem/1606/E)|DP, State Transitions|Observation, Independence|F|!|
-|19|[Beautiful Decomposition](https://codeforces.com/problemset/problem/279/E)|||
-|20|[In Search of Truth](https://codeforces.com/problemset/problem/1840/G1)|||
+|19|[Beautiful Decomposition](https://codeforces.com/problemset/problem/279/E)|Greedy, Bitwise||P|30 mins|
+|20|[In Search of Truth](https://codeforces.com/problemset/problem/1840/G1)|Constructive, Math|Nice Idea**|F|!|
 |21|[2+ doors](https://codeforces.com/problemset/problem/1715/D)|Lexicographical*, Graph, Bitwise|Imp: Can you greedily fill from begin?|F|!|
 |22|[Bracket Coloring](https://codeforces.com/contest/1837/problem/D)|||
 |23|[Difference Array](https://codeforces.com/problemset/problem/1707/B)|||
