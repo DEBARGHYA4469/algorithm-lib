@@ -23,9 +23,10 @@
 
 [Subsequence to Subarray Transformation Trick](#l)
 
-[Effect of subarray on SAD](#m) 
-
 [Complexity of Euclid's dvision Lemma](#o)
+
+[Difference Array, Sort, Repeat](#p)
+
 
 # Custom Ceil function
 <a name="a"/>
@@ -210,4 +211,36 @@ Another cute way of looking at the complexity:
 
 * Trivia: GCD(Fibo(N), Fibo(N-1)) = Fibo(GCD(N,N-1)) = Fibo(1) = 1 Proof: 
 * https://www.cut-the-knot.org/arithmetic/algebra/FibonacciGCD.shtml
+
+# Difference Array, Sort, Repeat
+<a name="p"/>
+
+This is cool complexity trick I learnt while solving https://codeforces.com/contest/1707/problem/B.
+
+Claim: After some iteration, non-zero elements will perish! Let's say after k operations on the array, there will be m non-zero element. 
+
+Proof:
+* [1,1,1,1,1,1] <- [1,2,3,4,5,6..] <- [1,3,6,10,15,21] <- [1,4,10,20,35..] and so on.
+* After k times inverting, the largest element is at least m * (m+1) * (m+2) * (m+3) * ....(m+k-1) / k! = Choose(m + k - 1, k) 
+
+https://en.wikipedia.org/wiki/Tetrahedral_number
+
+* That means the largest number should be at least m^k/k^k ~ (m/k) ^ k.
+* Given any sequence of n numbers, it will rapidly reduce the number of non-zero elements.
+* Take k = log A, gives m = log A.
+* Complexity : O(nlogn * log A).
+* Based on limits of n and A bound can further be reduced to O(nlogA).
+
+Other ideas here: 
+
+(Imp) Idea : BITWISE proofs (ref: [aryanc403](https://discuss.codechef.com/t/array-ops-editorial/100450/5)):
+
+* Consider MSB of all numbers. Call it M1.
+* After 1st iteration at most one element can have M1 turned on!. Say x1. 
+* After 2nd iteration at most two element can have M2 turned on!. x1, x2. All other numbers M2 will be turned off.
+* After 3rd iteration at most three element can have M3 turned on!. x1, x2, x3. All other will have M3 turned off. 
+* Let the numbers of iteration K be log A.
+* So after log A iterations, at most log A elements have at least 1 bit turned off, rest of the elements will be 0.
+* Hence after log A iteration, log A non-zero element remains!
+
 
