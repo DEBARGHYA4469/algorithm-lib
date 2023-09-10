@@ -475,6 +475,8 @@ void unite(int u,int v){
 
 [Generating Functions](math/generating_functions.md)
 
+[Difference Array, Sort, Repeat](math/math.md#p)
+
 </details>
 
 <details markdown="1">
