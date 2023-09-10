@@ -29,4 +29,5 @@ https://en.cppreference.com/w/cpp/utility/bitset
   
   #### Greedy Bitwise
   
-  For problems related to maximising or minimization some bitwise SUM/PRODUCT, go bitwise from MSB TO LSB greedily.
+  1. For problems related to maximising or minimization some bitwise SUM/PRODUCT, go bitwise from MSB TO LSB greedily.
+  2. For prolems of difference between numbers, sometimes it is convenient to look the number in binary form, because after MSB of the number usually dictates the bigger the number and MSB of all numbers except one will be turned on. Ref: ArrayOps Codechef
