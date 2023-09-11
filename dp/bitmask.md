@@ -61,7 +61,6 @@ Prime Mask:
 
 <li> GCD of numbers = primeMask[i] & primeMask[j]
 <li> LCM of numbers = primeMask[i] | primeMask[j]
-<li> Prime Divisors = (1<<ith prime) & primesMask[i]==0 ? 
 <li> Divisors = Iterating over submasks
 
 GCD Set-Cover. Eg. https://codeforces.com/problemset/problem/510/D
