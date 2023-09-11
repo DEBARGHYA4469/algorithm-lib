@@ -63,6 +63,17 @@ Prime Mask:
 <li> LCM of numbers = primeMask[i] | primeMask[j]
 <li> Prime Divisors = (1<<ith prime) & primesMask[i]==0 ? 
 <li> Divisors = Iterating over submasks
+
+GCD Set-Cover. Eg. https://codeforces.com/problemset/problem/510/D
+
+Say you have a number a[i]. You want to know the set cover with min cost and gcd = 1. 
+
+* a[i] ~ 10^9 will have max 10 prime numbers. Create a mask of this prime numbers [0000000000].
+* mask[i] is on if there is a set such that number is not divisible by prime[i].
+* Ans is the cost of [1111111111].
+* For each mask we will foreward calculate next masks by OR'ing the current mask.
+* Fact: Number of distinct GCDs of a set of numbers is small!   
+
     
 #### Submask Enumeration
 
