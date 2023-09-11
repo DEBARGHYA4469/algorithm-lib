@@ -40,7 +40,7 @@
 |19|[Flood Fill](https://codeforces.com/problemset/problem/1114/D)|DP+Transitions||F|!|
 |20|[Fools and Roads](https://codeforces.com/problemset/problem/191/C)|Binary Lifting, LCA, Difference Array in Tree|diff array|F|!|
   
-## Educational Bags II 
+## Educational Bags II [Due Date: 18th Sep, 2023]
 
 | ID  | Problem Name | Ideas | Mistakes |Status| Time |  
 |---:|:---:|---|---|---|---|
