@@ -67,9 +67,9 @@
 |21|[2+ doors](https://codeforces.com/problemset/problem/1715/D)|Lexicographical*, Graph, Bitwise|Imp: Can you greedily fill from begin?|F|!|
 |22|[Bracket Coloring](https://codeforces.com/contest/1837/problem/D)|Greedy, Bitwise proof||P|20 mins|
 |23|[Difference Array](https://codeforces.com/problemset/problem/1707/B)|Greedy, *IMP Idea|Complexity optimization|F|!|
-|24|[Fox And Jumping](https://codeforces.com/problemset/problem/510/D)|||
+|24|[Fox And Jumping](https://codeforces.com/problemset/problem/510/D)|Subset Cover for GCD, Prime Mask||P|10 mins|
 |25|[Generate a String](https://codeforces.com/problemset/problem/710/E)|||
-|26|[Many Perfect Squares](https://codeforces.com/problemset/problem/1781/D)|||
+|26|[Many Perfect Squares](https://codeforces.com/problemset/problem/1781/D)|Math, Factorization||P|1 Hr|
 |27|[Compressed Bracket Sequence](https://codeforces.com/problemset/problem/1556/C)|Math, Adhoc||P|15 mins|
 |28|[Maximum Subarray](https://codeforces.com/contest/1796/problem/D)|||
 |29|[Mark and Lightbulbs](https://codeforces.com/problemset/problem/1705/D)|||
