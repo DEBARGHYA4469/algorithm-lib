@@ -68,10 +68,10 @@
 |22|[Bracket Coloring](https://codeforces.com/contest/1837/problem/D)|Greedy, Bitwise proof||P|20 mins|
 |23|[Difference Array](https://codeforces.com/problemset/problem/1707/B)|Greedy, *IMP Idea|Complexity optimization|F|!|
 |24|[Fox And Jumping](https://codeforces.com/problemset/problem/510/D)|Subset Cover for GCD, Prime Mask||P|10 mins|
-|25|[Generate a String](https://codeforces.com/problemset/problem/710/E)|||
+|25|[Generate a String](https://codeforces.com/problemset/problem/710/E)|DP|**Optimize bidirectional states|F|!|
 |26|[Many Perfect Squares](https://codeforces.com/problemset/problem/1781/D)|Math, Factorization||P|1 Hr|
 |27|[Compressed Bracket Sequence](https://codeforces.com/problemset/problem/1556/C)|Math, Adhoc||P|15 mins|
-|28|[Maximum Subarray](https://codeforces.com/contest/1796/problem/D)|||
+|28|[Maximum Subarray](https://codeforces.com/contest/1796/problem/D)|DP|Kadanes|P|10 mins|
 |29|[Mark and Lightbulbs](https://codeforces.com/problemset/problem/1705/D)|||
 |30|[Strange Beauty](https://codeforces.com/problemset/problem/1475/G)|||
 |31|[Salary Changing](https://codeforces.com/problemset/problem/1251/D)|||
