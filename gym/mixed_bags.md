@@ -72,7 +72,7 @@
 |26|[Many Perfect Squares](https://codeforces.com/problemset/problem/1781/D)|Math, Factorization||P|1 Hr|
 |27|[Compressed Bracket Sequence](https://codeforces.com/problemset/problem/1556/C)|Math, Adhoc||P|15 mins|
 |28|[Maximum Subarray](https://codeforces.com/contest/1796/problem/D)|DP|Kadanes|P|10 mins|
-|29|[Mark and Lightbulbs](https://codeforces.com/problemset/problem/1705/D)|||
+|29|[Mark and Lightbulbs](https://codeforces.com/problemset/problem/1705/D)|Greedy, Invariance|Math|F|!|
 |30|[Strange Beauty](https://codeforces.com/problemset/problem/1475/G)|||
 |31|[Salary Changing](https://codeforces.com/problemset/problem/1251/D)|||
 |32|[Ugly Pairs](https://codeforces.com/problemset/problem/1156/B)|||
