@@ -112,18 +112,18 @@ Observations:
 * K = pref[l-1].
 * After r, it cannot go below K. If it goes there is some prefix r...N which is negative. So [l,r] is not the minimum subarray!
 
-  ### Problem 8:
+### Problem 8:
+  
+https://codeforces.com/contest/1705/problem/D
 
-  Mark and Light Bulbs
-
-	Observations: 
+Observations: 
 
 * Operation: Toggle x[i] if x[i-1] !=y[i+1] corresponds to x[i] -> x[i] ^ x[i-1] ^ x[i+1]
 * Consider : {x1, x2, x3, x4, x5, x6, x7} and the transformed array : {x1 ^ x2, x2 ^ x3, x3 ^ x4, … so on}. Bijection exists under the transformation.!
 * Toggle corresponds to swap’ing adjacent elements in the transformed array. 
 * So just compare the transformed array. (classical) 
 
-	Intuition: 
+Intuition: 
 
 * Check an example pattern: 000000100000110111101111001010101001001001111001
 * How does the pattern transform?
