@@ -90,7 +90,7 @@
 |44|[Tokitsukaze and Duel](https://codeforces.com/contest/1191/problem/E)|||
 |45|[Cobb](https://codeforces.com/problemset/problem/1554/B)|Greedy, Brute Force||P|1hr 30 mins|
 |46|[Monsters And Spells](https://codeforces.com/problemset/problem/1626/C)|||
-|47|[Berry Jam](https://codeforces.com/problemset/problem/1278/C)|||
+|47|[Berry Jam](https://codeforces.com/problemset/problem/1278/C)|Prefix Sum||P|10 mins|
 |48|[Tree Tag](https://codeforces.com/problemset/problem/1404/B)|||
 |49|[Solve The Maze](https://codeforces.com/problemset/problem/1365/D)|BFS||P|10 mins|
 |50|[Buying gifts](https://codeforces.com/problemset/problem/1801/B)|||
