@@ -133,7 +133,26 @@ pair<ll,ll> factor(ll n) {
     return mp(even,odd);
 }
 ```
-# All Divisors:
+
+### State Transition over Divisors (Imp)
+
+Exploit harmonic lemma to optimize N^2 to NlogN whenever there is a state transition for divisors. Ex. https://codeforces.com/contest/1475/problem/G 
+
+Here, in an array you need to transition from f[divisor of x] to f[x]. 
+1st level of optimization is SQRT(N) for calculating divisors. So N SQRT (N) 
+
+Using Harmonic Lemma, you can get NlogN. 
+
+```cpp
+for (int i=1;i<N;i++){
+	dp[i] += cnt[i];
+ 	for (int j= 2*i;j<n;j+=i){ // i, 2i, 3i, 4i, 5i 
+		chmax (dp[j], dp[i]);
+	}
+}
+```
+
+### All Divisors:
 ```cpp
 void sieve(){
 	for(int i=2;i<=MaxN;i++){
@@ -161,4 +180,8 @@ vi divisors(int num){
 		}
 	}
 	return d;
-}```
+}
+
+```cpp
+
+
