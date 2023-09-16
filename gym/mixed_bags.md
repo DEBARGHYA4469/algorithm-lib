@@ -74,8 +74,8 @@
 |28|[Maximum Subarray](https://codeforces.com/contest/1796/problem/D)|DP|Kadanes|P|10 mins|
 |29|[Mark and Lightbulbs](https://codeforces.com/problemset/problem/1705/D)|Greedy, Invariance|Math|F|!|
 |30|[Strange Beauty](https://codeforces.com/problemset/problem/1475/G)|Sieve, Harmonic Lemma||P|10 mins|
-|31|[Salary Changing](https://codeforces.com/problemset/problem/1251/D)|Case Work||P|15 mins|
-|32|[Ugly Pairs](https://codeforces.com/problemset/problem/1156/B)|||
+|31|[Salary Changing](https://codeforces.com/problemset/problem/1251/D)|||
+|32|[Ugly Pairs](https://codeforces.com/problemset/problem/1156/B)|Case Work||P|15 mins|
 |33|[Bandit in a City](https://codeforces.com/problemset/problem/1436/D)|||
 |34|[Treasure Island](https://codeforces.com/problemset/problem/1214/D)|||
 |35|[Breaking the Wall](https://codeforces.com/problemset/problem/1674/E)|||
