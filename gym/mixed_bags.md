@@ -93,4 +93,4 @@
 |47|[Berry Jam](https://codeforces.com/problemset/problem/1278/C)|Prefix Sum||P|10 mins|
 |48|[Tree Tag](https://codeforces.com/problemset/problem/1404/B)|||
 |49|[Solve The Maze](https://codeforces.com/problemset/problem/1365/D)|BFS||P|10 mins|
-|50|[Buying gifts](https://codeforces.com/problemset/problem/1801/B)|||
+|50|[Buying gifts](https://codeforces.com/problemset/problem/1801/B)|Greedy, Adhoc, Upperbound||P|30 mins|
