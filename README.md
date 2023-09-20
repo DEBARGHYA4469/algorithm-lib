@@ -576,6 +576,8 @@ Greedy Techniques
 
 [Strategize the game backward, Parity Tricks](games/games.md)
 
+[Tag games on Trees, Graphs][games/games_on_graphs.md)
+
 </details>
 
 
