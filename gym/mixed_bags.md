@@ -87,9 +87,9 @@
 |41|[Vus the Cossack and Strings](https://codeforces.com/contest/1186/problem/C)|||
 |42|[Furlo and Rublo and Game](https://codeforces.com/problemset/problem/255/E)|||
 |43|[1-2-K Game](https://codeforces.com/contest/1194/problem/D)|||
-|44|[Tokitsukaze and Duel](https://codeforces.com/contest/1191/problem/E)|||
+|44|[Tokitsukaze and Duel](https://codeforces.com/contest/1191/problem/E)|Game, Case Work||P|1 Hr 30 mins|
 |45|[Cobb](https://codeforces.com/problemset/problem/1554/B)|Greedy, Brute Force||P|1hr 30 mins|
-|46|[Monsters And Spells](https://codeforces.com/problemset/problem/1626/C)|||
+|46|[Monsters And Spells](https://codeforces.com/problemset/problem/1626/C)|Greedy|Case work|F|!|
 |47|[Berry Jam](https://codeforces.com/problemset/problem/1278/C)|Prefix Sum||P|10 mins|
 |48|[Tree Tag](https://codeforces.com/problemset/problem/1404/B)|Imp: Diamater concept, Games|Case Work + Observation|F|!|
 |49|[Solve The Maze](https://codeforces.com/problemset/problem/1365/D)|BFS||P|10 mins|
