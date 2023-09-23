@@ -84,7 +84,7 @@
 |38|[Lawnmower](https://codeforces.com/contest/116/problem/D)|||
 |39|[Jury Marks](https://codeforces.com/contest/831/problem/C)|||
 |40|[Exposition](https://codeforces.com/contest/6/problem/E)|Sliding Window, Multiset||F|!|
-|41|[Vus the Cossack and Strings](https://codeforces.com/contest/1186/problem/C)|||
+|41|[Vus the Cossack and Strings](https://codeforces.com/contest/1186/problem/C)|Greedy||P|10 mins|
 |42|[Furlo and Rublo and Game](https://codeforces.com/problemset/problem/255/E)|Sprague Grundy|Further optimization using frequency array|F|>2 Hr|
 |43|[1-2-K Game](https://codeforces.com/contest/1194/problem/D)|Sprague Grundy||P|50 mins|
 |44|[Tokitsukaze and Duel](https://codeforces.com/contest/1191/problem/E)|Game, Case Work||P|1hr 30 mins|
