@@ -86,8 +86,8 @@
 |40|[Exposition](https://codeforces.com/contest/6/problem/E)|Sliding Window, Multiset||F|!|
 |41|[Vus the Cossack and Strings](https://codeforces.com/contest/1186/problem/C)|||
 |42|[Furlo and Rublo and Game](https://codeforces.com/problemset/problem/255/E)|||
-|43|[1-2-K Game](https://codeforces.com/contest/1194/problem/D)|||
-|44|[Tokitsukaze and Duel](https://codeforces.com/contest/1191/problem/E)|Game, Case Work||P|1 Hr 30 mins|
+|43|[1-2-K Game](https://codeforces.com/contest/1194/problem/D)|Sprague Grundy||P|50 mins|
+|44|[Tokitsukaze and Duel](https://codeforces.com/contest/1191/problem/E)|Game, Case Work||P|1hr 30 mins|
 |45|[Cobb](https://codeforces.com/problemset/problem/1554/B)|Greedy, Brute Force||P|1hr 30 mins|
 |46|[Monsters And Spells](https://codeforces.com/problemset/problem/1626/C)|Greedy|Case work|F|!|
 |47|[Berry Jam](https://codeforces.com/problemset/problem/1278/C)|Prefix Sum||P|10 mins|
