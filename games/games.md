@@ -118,8 +118,24 @@ a/b | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
 * No of such transitions = floor a/b = K 
 * SG Values are of form: {x, 0, 1, 2, 3, 4,...,x-1, x+1, x+2, x+3...}
 * If K <= x, MEX = K-1, Else MEX = k.
-* How does this help? We can piggy-back on Euclid's algorithm complexity log(min(a,b))[Fib complexity]     
+* How does this help? We can piggy-back on Euclid's algorithm complexity log(min(a,b))[Fib complexity]
 
+3. Furlo and Rublo and Game : https://codeforces.com/contest/256/problem/C
+
+Observation:
+
+* X Transitions to Y in [X^1/4, Y^1/2], 0 <= Y < X
+* After some case work, found patterns are non-trivial!
+* Can you brute? Yes.
+* A[i][ <= 1e12.
+  - Y[A[i]] lies in [1e3, 1e6]
+  - Need a way to calculate grundy values of all numbers in range [1, 1e6]
+  - In O(1) can you say, for how many states in range (L,R) MEX = m.
+  - Store cumulative_frequency[mex][i].
+  - Maximum MEX values is less (?)
+
+Mistakes : Finding y such that y^4 >= val. Highest value of y cannot be of order A. It has to be ~ 1e4
+ 
 
  ## Strategize the game backward 
  
