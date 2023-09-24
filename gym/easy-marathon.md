@@ -98,7 +98,7 @@ Sprint - F
 |64|[Inversion Counting](https://codeforces.com/contest/911/problem/D)||||
 |65|[No Prime Differences](https://codeforces.com/problemset/problem/1838/C)||||
 |66|[Buying Shovels](https://codeforces.com/problemset/problem/1360/D)||||
-|67|[Vanya and Lanterns](Vanya and Lanterns)||||
+|67|[Vanya and Lanterns]([Vanya and Lanterns](https://codeforces.com/problemset/problem/492/B))||||
 |68|[Random Teams](https://codeforces.com/problemset/problem/478/B)||||
 |69|[Product of Three Numbers](https://codeforces.com/problemset/problem/1294/C)||||
 |70|[Sorted Adjacent Differences](https://codeforces.com/problemset/problem/1339/B)||||
