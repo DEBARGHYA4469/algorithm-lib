@@ -58,16 +58,16 @@ Sprint - D
 
 | ID  | Problem Name | Ideas | Mistakes |Status| Time |  
 |---:|:---:|---|---|---|---
-|37|[]()||||
+|37|[Jury Meeting](https://codeforces.com/contest/1569/problem/C)||||
 |38|[Polo the Penguin and Matrix](https://codeforces.com/problemset/problem/289/B)||||
-|39|[]()||||
-|40|[]()||||
-|41|[]()||||
-|42|[]()||||
-|43|[]()||||
-|44|[]()||||
-|45|[]()||||
-|46|[]()||||
+|39|[Double Sort](https://codeforces.com/contest/1681/problem/C)||||
+|40|[Card Trick](https://codeforces.com/contest/1681/problem/B)||||
+|41|[Dolce Vita](https://codeforces.com/contest/1671/problem/C)||||
+|42|[Water the Trees](https://codeforces.com/contest/1661/problem/C)||||
+|43|[XY Sequence](https://codeforces.com/contest/1657/problem/B)||||
+|44|[Fault-tolerant Network](https://codeforces.com/contest/1651/problem/C)||||
+|45|[Prove Him Wrong](https://codeforces.com/contest/1651/problem/B)||||
+|46|[Cross Coloring](https://codeforces.com/contest/1644/problem/D)||||
 |47|[Wish List](https://atcoder.jp/contests/abc288/tasks/abc288_e)||||
 |48|[Find Permutation](https://atcoder.jp/contests/abc291/tasks/abc291_e)||||
 
@@ -75,16 +75,16 @@ Sprint - E
 
 | ID  | Problem Name | Ideas | Mistakes |Status| Time |  
 |---:|:---:|---|---|---|---
-|49|[]()||||
-|50|[]()||||
-|51|[]()||||
-|52|[]()||||
-|53|[]()||||
-|54|[]()||||
-|55|[]()||||
-|56|[]()|||
-|57|[]()||||
-|58|[]()||||
+|49|[Robot Collisions](https://codeforces.com/contest/1525/problem/C)||||
+|50|[Yet Another Card Deck](https://codeforces.com/contest/1511/problem/C)||||
+|51|[Two Brackets](https://codeforces.com/contest/1452/problem/C)||||
+|52|[Barrels](https://codeforces.com/contest/1430/problem/B)||||
+|53|[RPG Protagonist](https://codeforces.com/contest/1400/problem/B)||||
+|54|[Mixing Water](https://codeforces.com/contest/1359/problem/C)||||
+|55|[Game with Chips](https://codeforces.com/contest/1327/problem/C)||||
+|56|[Bicolored RBS](https://codeforces.com/contest/1167/problem/D)|||
+|57|[Playlist](https://codeforces.com/contest/1140/problem/C)||||
+|58|[Maximum Sum on Even Positions](https://codeforces.com/contest/1373/problem/D)||||
 |59|[Impartial Gift](https://atcoder.jp/contests/abc302/tasks/abc302_d)||||
 |60|[Peaceful Teams](https://atcoder.jp/contests/abc310/tasks/abc310_d)||||
 
@@ -92,16 +92,16 @@ Sprint - F
 
 | ID  | Problem Name | Ideas | Mistakes |Status| Time |  
 |---:|:---:|---|---|---|---
-|61|[]()||||
-|62|[]()||||
-|63|[]()||||
-|64|[]()||||
-|65|[]()||||
-|66|[]()||||
-|67|[]()||||
-|68|[]()||||
-|69|[]()||||
-|70|[]()||||
+|61|[Emotes](https://codeforces.com/contest/1117/problem/B)||||
+|62|[Boxes Packing](https://codeforces.com/contest/903/problem/C)||||
+|63|[The Modcrab](https://codeforces.com/contest/903/problem/B)||||
+|64|[Inversion Counting](https://codeforces.com/contest/911/problem/D)||||
+|65|[No Prime Differences](https://codeforces.com/problemset/problem/1838/C)||||
+|66|[Buying Shovels](https://codeforces.com/problemset/problem/1360/D)||||
+|67|[Vanya and Lanterns](Vanya and Lanterns)||||
+|68|[Random Teams](https://codeforces.com/problemset/problem/478/B)||||
+|69|[Product of Three Numbers](https://codeforces.com/problemset/problem/1294/C)||||
+|70|[Sorted Adjacent Differences](https://codeforces.com/problemset/problem/1339/B)||||
 |71|[Add and Mex](https://atcoder.jp/contests/abc272/tasks/abc272_e)||||
 |72|[Apple Baskets on Circle](https://atcoder.jp/contests/abc270/tasks/abc270_e)||||
 
@@ -109,20 +109,13 @@ Sprint - G
 
 | ID  | Problem Name | Ideas | Mistakes |Status| Time |  
 |---:|:---:|---|---|---|---
-|73|[]()||||
-|74|[]()||||
-|75|[]()||||
-|76|[]()||||
-|77|[]()||||
-|78|[]()||||
-|79|[]()||||
-|80|[]()||||
-|82|[]()||||
-|83|[]()||||
-|84|[]()||||
-|85|[]()||||
-|86|[]()||||
-|87|[]()||||
-|88|[Tying Rope](https://atcoder.jp/contests/abc293/tasks/abc293_d)||||
-|89|[Match Matching](https://atcoder.jp/contests/abc118/tasks/abc118_d)||||
-|90|[Bus Stops](https://atcoder.jp/contests/abc319/tasks/abc319_e)||||
+|73|[Jumps](https://codeforces.com/contest/1455/problem/B)||||
+|74|[Islands War](https://atcoder.jp/contests/abc103/tasks/abc103_d)||||
+|75|[Unordered Subsequence](https://codeforces.com/contest/27/problem/C)||||
+|76|[Pairs](https://codeforces.com/contest/1463/problem/D)||||
+|77|[Find The Array](https://codeforces.com/contest/1463/problem/B)||||
+|78|[Busy Robot](https://codeforces.com/contest/1463/problem/C)||||
+|79|[Good String](https://codeforces.com/contest/1389/problem/C)||||
+|80|[Tying Rope](https://atcoder.jp/contests/abc293/tasks/abc293_d)||||
+|81|[Match Matching](https://atcoder.jp/contests/abc118/tasks/abc118_d)||||
+|82|[Bus Stops](https://atcoder.jp/contests/abc319/tasks/abc319_e)||||
