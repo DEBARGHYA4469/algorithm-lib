@@ -81,8 +81,8 @@
 |35|[Breaking the Wall](https://codeforces.com/problemset/problem/1674/E)|||
 |36|[XOR and Favorite Number](https://codeforces.com/problemset/problem/617/E)|||
 |37|[Gift](https://codeforces.com/contest/76/problem/A)|||
-|38|[Lawnmower](https://codeforces.com/contest/116/problem/D)|||
-|39|[Jury Marks](https://codeforces.com/contest/831/problem/C)|||
+|38|[Lawnmower](https://codeforces.com/contest/116/problem/D)|Greedy||P|40 mins|
+|39|[Jury Marks](https://codeforces.com/contest/831/problem/C)|Greedy||P|15 mins|
 |40|[Exposition](https://codeforces.com/contest/6/problem/E)|Sliding Window, Multiset||F|!|
 |41|[Vus the Cossack and Strings](https://codeforces.com/contest/1186/problem/C)|Greedy||P|10 mins|
 |42|[Furlo and Rublo and Game](https://codeforces.com/problemset/problem/255/E)|Sprague Grundy|Further optimization using frequency array|F|>2 Hr|
