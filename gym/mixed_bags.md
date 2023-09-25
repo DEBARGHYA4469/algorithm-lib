@@ -80,7 +80,7 @@
 |34|[Treasure Island](https://codeforces.com/problemset/problem/1214/D)|||
 |35|[Breaking the Wall](https://codeforces.com/problemset/problem/1674/E)|||
 |36|[XOR and Favorite Number](https://codeforces.com/problemset/problem/617/E)|||
-|37|[Gift](https://codeforces.com/contest/76/problem/A)|||
+|37|[Gift](https://codeforces.com/contest/76/problem/A)|Min Spanning Tree + DSU|Hard|F|!|
 |38|[Lawnmower](https://codeforces.com/contest/116/problem/D)|Greedy||P|40 mins|
 |39|[Jury Marks](https://codeforces.com/contest/831/problem/C)|Greedy||P|15 mins|
 |40|[Exposition](https://codeforces.com/contest/6/problem/E)|Sliding Window, Multiset||F|!|
