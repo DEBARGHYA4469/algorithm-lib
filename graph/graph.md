@@ -386,7 +386,15 @@ void floyd(){
 
 `Some-times if dependency of some edge is given, then you can use edges as vertices for MST/dijkstra` </br></br>
 `Very important dijkstra trick: Dijkstra can be used as dynamic programming strategy where the substructure is implicit` </br></br>
+`Min Spanning Tree has O(MlogM) for sorting the edges complexity, But if you get a mst adding a new edge can only change the number of edges in MST by at most 1 in O(N) operation`
+	- Idea: Maintain a sorted edge list with MST edges so far. 
+ 	- Add new edge. Either it connects or creates a new cycle. 
+  	- Either way we need a way to get the new MST in O(N). 
+   	- Connecting is easy but breaking a cycle is tedious.
+    	- So sort the new list in O(N), sorting an already sorted list + 1 extra edge. ~ N edges. 
+     	- Go through the sorted list again and create the MST. O(N). 
 
+https://codeforces.com/contest/76/problem/A
 https://atcoder.jp/contests/abc164/tasks/abc164_e
 
 ### Dijkstra
