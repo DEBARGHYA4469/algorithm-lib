@@ -243,4 +243,7 @@ Other ideas here:
 * So after log A iterations, at most log A elements have at least 1 bit turned off, rest of the elements will be 0.
 * Hence after log A iteration, log A non-zero element remains!
 
+### Prime and Perfect Squares 
+
+Main Idea : Even powers of primes in a number neutralize in the whole process among themselves. Consider only prime factors ^ (power % 2) for the problems. 
 
