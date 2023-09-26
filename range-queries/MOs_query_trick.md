@@ -134,7 +134,7 @@ Practice Problems:
 * Jeff and Removing Periods – CF Div1 D
 * Sherlock and Inversions – Codechef
 
-/ ******* problems based on MO ******/ 
+#### Problems of MO's algorithm
 
 1. https://codeforces.com/contest/617/problem/E
 
