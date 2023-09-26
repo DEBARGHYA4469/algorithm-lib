@@ -133,3 +133,83 @@ Practice Problems:
 * Tree and Queries – CF Div1 D
 * Jeff and Removing Periods – CF Div1 D
 * Sherlock and Inversions – Codechef
+
+/ ******* problems based on MO ******/ 
+
+1. https://codeforces.com/contest/617/problem/E
+
+```cpp
+int n,m,k; 
+
+int B; 
+const int N = 100004;
+ll arr[N], Ans[N]; 
+
+struct Query{ 
+    int l,r,idx; 
+    inline pii toPair() const {
+        int block = l/B;
+        return mp(block, (block & 1) ? -r : r); 
+    }
+};
+
+const int A = 1 << 21; 
+ll cnt[A];
+
+ll mo_window_answer = 0; 
+
+void add (int val) {
+    mo_window_answer += cnt[val xor k]; 
+    cnt [val] ++; 
+} 
+
+void remove (int val) {
+    cnt [val] --;
+    mo_window_answer -= cnt[val xor k]; 
+}
+
+Query q[N]; 
+
+int main(){
+	
+	std::ios::sync_with_stdio(false);
+	cin.tie(0);
+    
+	
+	cin >> n >> m >> k;
+	
+	for (int i=1;i<=n;i++) cin >> arr[i]; 
+	for (int i=1;i<=n;i++) arr[i] = arr[i] xor arr[i-1]; 
+	
+	for (int i=0;i<m;i++) {
+		int l,r; cin >> l >> r;
+		q[i] = { --l,r,i}; 
+	}
+
+	B = sqrt(n); 
+	
+	sort (q, q+m, [&](const Query &x, const Query y)->bool{
+		return x.toPair() < y.toPair(); 
+	});
+
+	int currL = 1, currR = 1;
+	add (arr[1]); 
+
+	for (int i=0;i<m;i++) {
+	
+		Query tmp = q[i];
+		int L = tmp.l, R = tmp.r, index = tmp.idx; 
+		
+		while (L < currL) add (arr[--currL]);	
+		while (R > currR) add (arr[++currR]);
+		while (L > currL) remove (arr[currL++]); 
+		while (R < currR) remove (arr[currR--]);
+		
+		Ans [index] = mo_window_answer; 
+	}
+
+	for (int i=0;i<m;i++) cout << Ans [i] << endl;
+
+	return 0;
+}
+```
