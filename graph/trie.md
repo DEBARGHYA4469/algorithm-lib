@@ -263,3 +263,5 @@ void solve(){
 * https://codeforces.com/contest/1554/problem/C [Implicit Binary Trie+MEX+XOR]
 
 Binary Spider: Excellent Example of using 0/1 TRIE: https://codeforces.com/contest/1625/submission/142741971
+
+https://docs.google.com/document/d/1ezSrX_8hN5ud2J7bdmHDpeB4FrqKn7PhNcFNFRntBJc/edit?usp=sharing
