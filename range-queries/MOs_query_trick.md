@@ -213,3 +213,108 @@ int main(){
 	return 0;
 }
 ```
+
+2. No of inversion count in a range l...r (offline)
+
+```cpp
+const int N = 2e5 + 5;
+int B; 
+
+struct ${
+    int l,r,idx; 
+    inline pii toPair() const {
+        int bid = l/B; 
+        return mp(bid, (bid & 1) ? -r : r); 
+    }
+} q[N]; 
+
+int n,m; 
+int arr[N+3], b[N+3]; 
+
+/* Fenwick for the l...r window */
+
+ll fen[N+3], res[N+3];
+void update (int i, int val) { for (;i<N;i+=i&-i) fen[i] += val;  }
+ll query (int r) {
+    ll ans = 0;
+    for (;r>0;r-=r&-r) ans += fen[r];
+    return ans; 
+}
+
+/* Fenwick for the l...r window */
+
+int main(){
+	
+	std::ios::sync_with_stdio(false);
+	cin.tie(0);
+	
+	cin >> n >> m;
+	for (int i=0;i<n;i++) { 
+	    cin >> arr[i]; 
+	    b[i] = arr[i]; 
+	}
+	
+	sort (b, b+n);
+	int cnt = 0; 
+	map<int, int> coord; 
+	for (int i=0;i<n;i++){ 
+	    int val = b[i]; 
+	    coord[val] = ++cnt;
+	    while (i+1<n && val == b[i+1]) i++;  
+	}
+	
+	for (int i=0;i<n;i++) {
+		arr[i] = coord[arr[i]];
+	}
+	
+	B = sqrt(N); 
+
+	for (int i=0;i<m;i++) {
+	    cin >> q[i].l >> q[i].r; 
+	    q[i].l--, q[i].r--;
+	    q[i].idx = i; 
+	}
+	
+	sort (q, q+m, [&](const $ &x, const $ &y)->bool{
+	    return x.toPair() > y.toPair(); 
+	});
+	
+	int currL = 0, currR = -1;
+   	
+   	long long ans = 0; 
+    
+	for (int i=0;i<m;i++) {
+	    int L,R,idx; 
+	    L = q[i].l, R = q[i].r, idx = q[i].idx;  
+	    
+	    while (L < currL) {
+	        int val = arr[currL - 1]; 
+	        ans += query(val-1); // smaller than val  
+	        update (val, +1);
+	        currL--;
+	    } 
+	    while (R > currR){
+	        int val = arr[currR + 1];
+	        ans += query(n+1) - query(val); // greater than val
+	        update (val, +1); 
+	        currR++; 
+	    }
+	    while (L > currL){
+	        int val = arr [currL]; 
+	        update (val, -1); 
+	        ans -= query(val-1); // smaller than val
+	        currL++; 
+	    }
+	    while (R < currR){
+	        int val = arr [currR]; 
+	        update (val, -1); 
+	        ans -= query(n) - query(val); // greater than val 
+	        currR--;
+	    }
+	    	    
+	    res[idx] = ans; 
+	}
+	
+	for (int i=0;i<m;i++) cout << res[i] << endl;
+```
+
