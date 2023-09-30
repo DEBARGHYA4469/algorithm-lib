@@ -15,7 +15,7 @@
 |11|[GAMEAAM](https://www.codechef.com/COOK42/problems/GAMEAAM)|Sprague Grundy, Euler Division|Edge Case Handling!, Lack Concrete Idea|
 
 
-## Educational Bags I 
+## Educational Bags I [Success Rate : 9/20]
 
 | ID  | Problem Name | Ideas | Mistakes |Status| Time |  
 |---:|:---:|---|---|---|---|
@@ -40,7 +40,7 @@
 |19|[Flood Fill](https://codeforces.com/problemset/problem/1114/D)|DP+Transitions||F|!|
 |20|[Fools and Roads](https://codeforces.com/problemset/problem/191/C)|Binary Lifting, LCA, Difference Array in Tree|diff array|F|!|
   
-## Educational Bags II [Due Date: 18th Sep, 2023]
+## Educational Bags II [Success Rate: 34/50]
 
 | ID  | Problem Name | Ideas | Mistakes |Status| Time |  
 |---:|:---:|---|---|---|---|
