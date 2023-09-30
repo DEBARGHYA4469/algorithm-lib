@@ -76,7 +76,7 @@
 |30|[Strange Beauty](https://codeforces.com/problemset/problem/1475/G)|Sieve, Harmonic Lemma||P|10 mins|
 |31|[Salary Changing](https://codeforces.com/problemset/problem/1251/D)|Binary Search|Predecating the monotonic function|P|1 Hr|
 |32|[Ugly Pairs](https://codeforces.com/problemset/problem/1156/B)|Case Work||P|15 mins|
-|33|[Bandit in a City](https://codeforces.com/problemset/problem/1436/D)|||
+|33|[Bandit in a City](https://codeforces.com/problemset/problem/1436/D)|Optimal Games, Pigeon Hole|Concrete Proof, Game Theory|F|!|
 |34|[Treasure Island](https://codeforces.com/problemset/problem/1214/D)|Prefix Sum|[Some Nice Ideas](https://codeforces.com/contest/1214/submission/60184416)|P|>3 Hr| 
 |35|[Breaking the Wall](https://codeforces.com/problemset/problem/1674/E)|Greedy, Interesting||P|15 mins|
 |36|[XOR and Favorite Number](https://codeforces.com/problemset/problem/617/E)|MO's algorithm||F|!|
