@@ -1,7 +1,7 @@
 ## Easy Problems only for fast coding practise
 
 * Total Count: 90 
-* Time Line : 26th Sep - 10th Oct
+* Time Line : 17 Nov -> 1 Dec  [15 days]
 
 Sprint - A 
 
