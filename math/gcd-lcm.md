@@ -29,3 +29,7 @@ int extgcd(int a,int b,int &x,int &y){
       return g;
 }
 ```
+
+Practise Problems:
+
+* https://codeforces.com/contest/1900/problem/D [Divisors, GCD, Sieve]
