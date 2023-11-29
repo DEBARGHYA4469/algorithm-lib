@@ -7,12 +7,12 @@ Sprint - A
 
 | ID  | Problem Name | Ideas | Mistakes |Status| Time |  
 |---:|:---:|---|---|---|---|
-|1|[Kolya and Tandem Repeat](https://codeforces.com/problemset/problem/443/B)||P||
-|2|[Friends and Presents](https://codeforces.com/problemset/problem/483/B)||P||
-|3|[Tetrahedron](https://codeforces.com/contest/166/problem/E)||P||
-|4|[View Angle](https://codeforces.com/problemset/problem/257/C)||||
-|5|[Little Elephant and Problem](https://codeforces.com/problemset/problem/220/A)||P||
-|6|[Cut Ribbon](https://codeforces.com/problemset/problem/189/A)||||
+|1|[Kolya and Tandem Repeat](https://codeforces.com/problemset/problem/443/B)|||P||
+|2|[Friends and Presents](https://codeforces.com/problemset/problem/483/B)|||P||
+|3|[Tetrahedron](https://codeforces.com/contest/166/problem/E)|||P||
+|4|[View Angle](https://codeforces.com/problemset/problem/257/C)|||P||
+|5|[Little Elephant and Problem](https://codeforces.com/problemset/problem/220/A)|||P||
+|6|[Cut Ribbon](https://codeforces.com/problemset/problem/189/A)|||P|
 |7|[Building Permutation](https://codeforces.com/problemset/problem/285/C)||||
 |8|[Tram](https://codeforces.com/problemset/problem/116/A)||||
 |9|[Required Length](https://codeforces.com/contest/1681/problem/D)||||
