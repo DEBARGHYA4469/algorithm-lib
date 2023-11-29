@@ -13,9 +13,9 @@ Sprint - A
 |4|[View Angle](https://codeforces.com/problemset/problem/257/C)|||P||
 |5|[Little Elephant and Problem](https://codeforces.com/problemset/problem/220/A)|||P||
 |6|[Cut Ribbon](https://codeforces.com/problemset/problem/189/A)|||P|
-|7|[Building Permutation](https://codeforces.com/problemset/problem/285/C)||||
-|8|[Tram](https://codeforces.com/problemset/problem/116/A)||||
-|9|[Required Length](https://codeforces.com/contest/1681/problem/D)||||
+|7|[Building Permutation](https://codeforces.com/problemset/problem/285/C)|||P|
+|8|[Tram](https://codeforces.com/problemset/problem/116/A)|||P|
+|9|[Required Length](https://codeforces.com/contest/1681/problem/D)|Very Nice||F|Very Nice|
 |10|[Chinese Restaurant](https://atcoder.jp/contests/abc268/tasks/abc268_e)||||
 |11|[President](https://atcoder.jp/contests/abc317/tasks/abc317_d)||||
 |12|[Bus Stops](https://atcoder.jp/contests/abc319/tasks/abc319_e)||||
