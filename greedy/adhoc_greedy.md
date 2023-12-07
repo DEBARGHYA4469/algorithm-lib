@@ -70,4 +70,7 @@ LB = lower_bound(all(a), mp(target, mp(-INF, -INF)));
 
 1. First Element > target : UB == a.end() ? ABSENT: (*UB), idx = UB-a.begin();  
 2. First Element >= target : LB == a.end() ? ABSENT : (*LB), idx = LB-a.begin();
-3. Last Element <= target : UB != a.begin() ? *(--UB): ABSENT 
+3. Last Element <= target : UB != a.begin() ? *(--UB): ABSENT
+
+Problems:
+      - https://codeforces.com/problemset/problem/1852/A (Ntaris's set, Nice Idea with backward simulation)
