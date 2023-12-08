@@ -669,6 +669,8 @@ Greedy Techniques
 
 [All about permutations and transpositions](others/permutation.md)
 
+[CF blog: Collection of little techniques](https://codeforces.com/blog/entry/100910)
+
 </details>
 
 ---
