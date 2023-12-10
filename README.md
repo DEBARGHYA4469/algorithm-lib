@@ -402,7 +402,78 @@ void unite(int u,int v){
 
 </details>
 
+<details markdown="1">
+<summary> Segment Tree Template
+</summary>
+
+```cpp
+/* 1-based segment tree template */
+
+const int ST_MAX = 2e5+3;
+int _array[ST_MAX];
+
+struct Node{
+    // 0. add node variables and constructors 
+    ll v,p,s,l,r,w; 
+	Node(): v(0),p(0),s(0),l(-1),r(-1),w(0) {}
+	Node(ll x) : v(1),p(1),s(1),l(x),r(x),w(1) {}
+	Node(const Node &T): v(T.v),p(T.p),s(T.s),l(T.l),r(T.r),w(T.w) {} 
+};
+
+int _n; // $ set _n 
+class SegmentTree {
+    public: 
+        Node *_t;
+    public:
+        
+        SegmentTree () {
+            _t = new Node[_n*6]; 
+        }
+
+        Node combine (Node lc, Node rc){
+            Node res;
+            /* 1. add your combine code along with empty node  */
+            if(!lc.w) return Node(rc);
+            if(!rc.w) return Node(lc);
+            res.w = lc.w+rc.w;
+            res.l = lc.l; 
+            res.r = rc.r;
+            res.v = lc.v + rc.v + ((rc.l >= lc.r)? lc.s*rc.p: 0);
+            res.p = (lc.p==lc.w && rc.l >= lc.r)? lc.w+rc.p:lc.p; 
+            res.s = (rc.s==rc.w && lc.r <= rc.l)? lc.s+rc.w:rc.s;
+            return res;
+        }
+
+        Node query (const int& l, const int& r, int v=1, int tl=1, int tr=_n){
+            if (r<tl||l>tr) return Node (); 
+            if (tl>=l && tr<=r) return _t[v]; 
+            return combine (query(l, r, v<<1, tl, tm), 
+                query(l, r, v<<1|1, tm+1, tr));
+        }
+
+        void build (int v=1, int tl=1, int tr=_n){
+            if (tl==tr) _t[v] = Node(_array[tl]); 
+            else {
+                build (v<<1, tl, tm);
+                build (v<<1|1, tm+1, tr); 
+                _t[v] = combine (_t[v<<1], _t[v<<1|1]); 
+            }
+        }
+
+        // point update 
+        void update (const int& pos, const int& val, int v=1, int tl=1, int tr=_n){
+            if (tl==tr) _t[v] = Node(val);  
+            else {
+                if (pos <= tm) update (pos, val, v<<1, tl, tm);
+                else update (pos, val, v<<1|1, tm+1, tr); 
+                _t[v] = combine (_t[v<<1], _t[v<<1|1]);  
+            }
+        }
+};
+```
+</details>
 ---
+
 
 ### Useful Notes
 
