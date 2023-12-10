@@ -29,9 +29,6 @@
 #define vvi vector<vector<int>>
 #define setbits(v) __builtin_popcount(v)
 #define setbitsll(v) __builtin_popcountll(v)
-#define MaxN 500005
-#define UFMAX 1
-#define LOG 17
 #define nth_element(s,n) *(s.find_by_order(n-1)) 
 #define count_smaller(s,n) s.order_of_key(n)  
 #define raffle_draw(l,r) uniform_int_distribution<int>(l,r)(prng)
@@ -40,6 +37,20 @@
 using namespace std;
 using namespace __gnu_pbds;
 
+typedef long long ll;
+typedef unsigned long long ull;
+typedef pair<int,int> pii;
+typedef pair<ll,ll> pll;
+typedef tree<int, null_type, less<int>, rb_tree_tag, tree_order_statistics_node_update> ordered_set; //pbds
+
+template <class T,class U> bool chmin(T &x, U y){ if(x>y){ x=y; return true; } return false; }
+template <class T,class U> bool chmax(T &x, U y){ if(x<y){ x=y; return true; } return false; }
+
+mt19937 prng(chrono::steady_clock::now().time_since_epoch().count()); // mersenne twister
+const long double pi = acos(-1.0);
+const int mod = 1e9+7;
+
+/* logging utitlies */
 template<typename ...Args>
 void logger(string vars, Args&&... values){
 	cerr << "[";
@@ -50,34 +61,70 @@ void logger(string vars, Args&&... values){
 	cerr << "]\n";
 }
 
-typedef long long ll;
-typedef unsigned long long ull;
-typedef pair<int,int> pii;
-typedef pair<ll,ll> pll;
-typedef tree<int, null_type, less<int>, rb_tree_tag, tree_order_statistics_node_update> ordered_set; //pbds
-
-template <class T>
-void remove_duplicates(vector<T> &v){
-	sort(all(v));
-	v.erase(unique(all(v)),v.end());
+/* i/o stream utilities */
+ostream& operator <<(ostream& out, pair<int,int> const& v){
+    out << v.fi << "," << v.se; 
+    return out; 
 }
 
-template <class T,class U> bool chmin(T &x, U y){ if(x>y){ x=y; return true; } return false; }
-template <class T,class U> bool chmax(T &x, U y){ if(x<y){ x=y; return true; } return false; }
+template<typename T>
+ostream& operator <<(ostream& out, const vector<T>& v){
+    for (const T& x: v) out << x << " "; 
+    return out; 
+}
 
-mt19937 prng(chrono::steady_clock::now().time_since_epoch().count()); // mersenne twister
-const long double pi = acos(-1.0);
-const int mod = 1e9+7;
+template<typename T, typename S>
+ostream& operator <<(ostream& out, const map<T,S>& v){
+    for (auto& x: v) out << x.fi << "-->" << x.se; 
+    return out; 
+}
 
+template<typename T>
+ostream& operator <<(ostream& out, const set<T>& v){
+    for (auto& x: v) cout << x << " ";
+    return out;
+}
 
-inline ll ceildiv(ll a,ll b){
-	if(a==0) return 0;
-	else return (a-1)/b+1;
-}	
+template<typename T>
+ostream& operator <<(ostream& out, const multiset<T>& v){
+    for (auto& x: v) cout << x << " ";
+    return out;
+}
 
-template<class T> void output_vector(const vector<T> v){
-	for(T k:v) cerr << k << " ";
-	cerr << endl;
+/* adhoc utilities */  
+inline ll ceil_divide(ll a,ll b){   return a ? (a-1)/b + 1 : 0; }	
+
+template <class T>
+void remove_duplicates(vector<T> &v){ sort(all(v)); v.erase(unique(all(v)),v.end());}
+
+string to_binary(ll v){
+    if(!v) return "0";
+    string s="";
+    while (v>0){
+        s += static_cast<char>(v%2 + '0');
+        v/=2;
+    }
+    reverse(all(s));
+    return s; 
+    
+}
+
+const int MAXSV = 1000000;
+bool _vis[MAXSV]; 
+int _lpf[MAXSV]; // lowest prime factor, set MAXSV =   
+void sieve_with_lpf(){
+    for (int i=2;i<MAXSV;i+=2) _lpf[i] = 2; 
+    for (ll i=3;i<MAXSV;i+=2) {
+        if (!_vis[i]){
+            _lpf[i] = i;
+            for (ll j=i;(i*j)<MAXSV;j+=2){ 
+                if (!_vis[i*j]){
+                    _vis[i*j] = true; 
+                    _lpf[i*j] = i;
+                }
+            }
+        }
+    }    
 }
 
 int main(){
