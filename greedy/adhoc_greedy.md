@@ -23,17 +23,6 @@ A = {H1, H2, H3,...,HN-1,HN}.
       }
 ```
 
-
-
-### Good Adhoc Problems:
-
-- https://codeforces.com/contest/1582/problem/D [Nice Observation]
-- https://codeforces.com/problemset/problem/343/C [Greedy+Binary Search]
-- https://leetcode.com/problems/maximum-building-height/ (Greedy Stays Ahead!)
-- https://www.geeksforgeeks.org/minimum-increment-decrement-to-make-array-elements-equal/
-
-
-
 ### Intermediate Value Property:
 Take max and min and increase that. Check the distance between two consecutive points. Observe the interval
 eg. https://codeforces.com/contest/1695/submission/164965524
@@ -74,3 +63,20 @@ LB = lower_bound(all(a), mp(target, mp(-INF, -INF)));
 
 Problems:
       - https://codeforces.com/problemset/problem/1852/A (Ntaris's set, Nice Idea with backward simulation)
+
+### Change of slope trick 
+
+For problems, where there are multiple linear graphs with varying slope and your result is a sum of all such graphs, say ans = g1(x) + g2(x) + ... + gm(x). 
+If you need to iterate across n points and find the value of the function at n points, brute force approach is calculate for each point, value of each function, so total complexity is O(n*m). 
+
+You can optimize this by observing that ans[i] has correlation with ans[i-1] in terms of how slopes changes. In general if the functions are perfectly linear, you could store m_total = m_1 + m_2 + m_3 + m_4 ... m_N. In each iteration i you can just increase the value by m_total. 
+
+Now if the slopes for each of g_i changes at some point, mark the "inflection" points and how the slope changes. When you are at the inflection point change the value accordingly. In general to achieve this store two maps:
+
+- change_of_slope[p] (at point p)
+- slope[p] (current slope)
+- val [p] = val [p-1] + slope [p]
+- slope[p+1] = slope [p] + change_of_slope[p].
+
+Ex. https://atcoder.jp/contests/abc268/tasks/abc268_e
+ 
