@@ -92,7 +92,7 @@ ostream& operator <<(ostream& out, const multiset<T>& v){
 }
 
 /* adhoc utilities */  
-inline ll ceil_divide(ll a,ll b){   return a ? (a-1)/b + 1 : 0; }	
+inline ll ceil_divide(ll a,ll b){   return (a+b-1)/b; }	
 
 template <class T>
 void remove_duplicates(vector<T> &v){ sort(all(v)); v.erase(unique(all(v)),v.end());}
