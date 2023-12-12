@@ -632,6 +632,8 @@ Greedy Techniques
 
 [UpperBound and LowerBound on Tuples](greedy/adhoc_greedy.md)
 
+[Change of slope trick](greedy/adhoc_greedy.md)
+
 </details>
 
 
