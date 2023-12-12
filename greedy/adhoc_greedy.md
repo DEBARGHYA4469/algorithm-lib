@@ -1,3 +1,13 @@
+Topics
+
+1. Largest Rectangle in a Histogram
+2. Intermediate Value trick
+3. Job Sequencing
+4. A Binary Search trick
+5. Frequency of a element in a range
+6. Upperbound and Lowerbound on tuples
+7. Change of slope trick
+
 ### Largest Rectange in a Histogram
 
 A = {H1, H2, H3,...,HN-1,HN}. 
