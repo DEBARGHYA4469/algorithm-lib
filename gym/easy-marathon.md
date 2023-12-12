@@ -16,9 +16,9 @@ Sprint - A
 |7|[Building Permutation](https://codeforces.com/problemset/problem/285/C)|||P|
 |8|[Tram](https://codeforces.com/problemset/problem/116/A)|||P|
 |9|[Required Length](https://codeforces.com/contest/1681/problem/D)|Very Nice||F|Very Nice|
-|10|[Chinese Restaurant](https://atcoder.jp/contests/abc268/tasks/abc268_e)||||
-|11|[President](https://atcoder.jp/contests/abc317/tasks/abc317_d)||||
-|12|[Bus Stops](https://atcoder.jp/contests/abc319/tasks/abc319_e)||||
+|10|[Chinese Restaurant](https://atcoder.jp/contests/abc268/tasks/abc268_e)|Instructive, Nice||F|Slope Trick|
+|11|[President](https://atcoder.jp/contests/abc317/tasks/abc317_d)|Classic Knapsack||P||
+|12|[Bus Stops](https://atcoder.jp/contests/abc319/tasks/abc319_e)|LCM Trick||P|Very Nice||
 
 Sprint - B 
 
