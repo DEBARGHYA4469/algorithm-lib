@@ -63,3 +63,11 @@
 * https://codeforces.com/problemset/problem/1775/E [Difficult Observation + Bijection + Prefix Sum]
 * https://codeforces.com/contest/1845/problem/D [Nice Observation, Prefix Sum]
 * https://codeforces.com/contest/1660/problem/E [Diagonal Wrap on Cyclic Transformation]
+
+### Good Adhoc Problems:
+
+- https://codeforces.com/contest/1582/problem/D [Nice Observation]
+- https://codeforces.com/problemset/problem/343/C [Greedy+Binary Search]
+- https://leetcode.com/problems/maximum-building-height/ (Greedy Stays Ahead!)
+- https://www.geeksforgeeks.org/minimum-increment-decrement-to-make-array-elements-equal/
+
