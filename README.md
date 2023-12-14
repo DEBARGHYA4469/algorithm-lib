@@ -414,10 +414,7 @@ int _array[ST_MAX];
 
 struct Node{
     // 0. add node variables and constructors 
-    ll v,p,s,l,r,w; 
-	Node(): v(0),p(0),s(0),l(-1),r(-1),w(0) {}
-	Node(ll x) : v(1),p(1),s(1),l(x),r(x),w(1) {}
-	Node(const Node &T): v(T.v),p(T.p),s(T.s),l(T.l),r(T.r),w(T.w) {} 
+    
 };
 
 int _n; // $ set _n 
@@ -433,14 +430,6 @@ class SegmentTree {
         Node combine (Node lc, Node rc){
             Node res;
             /* 1. add your combine code along with empty node  */
-            if(!lc.w) return Node(rc);
-            if(!rc.w) return Node(lc);
-            res.w = lc.w+rc.w;
-            res.l = lc.l; 
-            res.r = rc.r;
-            res.v = lc.v + rc.v + ((rc.l >= lc.r)? lc.s*rc.p: 0);
-            res.p = (lc.p==lc.w && rc.l >= lc.r)? lc.w+rc.p:lc.p; 
-            res.s = (rc.s==rc.w && lc.r <= rc.l)? lc.s+rc.w:rc.s;
             return res;
         }
 
