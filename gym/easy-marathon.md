@@ -24,18 +24,18 @@ Sprint - B
 
 | ID  | Problem Name | Ideas | Mistakes |Status| Time |  
 |---:|:---:|---|---|---|---|
-|13|[Best Binary String](https://codeforces.com/contest/1837/problem/C)||||
-|14|[Make Palindrome](https://codeforces.com/contest/600/problem/C)||||
-|15|[Two Binary Strings](https://codeforces.com/contest/1861/problem/B)||||
-|16|[Fancy Coins](https://codeforces.com/contest/1860/problem/B)||||
-|17|[Monsters](https://codeforces.com/contest/1849/problem/B)||||
-|18|[Binary String Copying](https://codeforces.com/contest/1849/problem/C)||||
-|19|[Comparison String](https://codeforces.com/contest/1837/problem/B)||||
-|20|[Sort the Subarray](https://codeforces.com/contest/1821/problem/B)||||
-|21|[Long Legs](https://codeforces.com/contest/1814/problem/B)||||
-|22|[Yet Another Tournament](https://codeforces.com/contest/1783/problem/C)||||
-|23|[Somen Nagashi](https://atcoder.jp/contests/abc320/tasks/abc320_e/editorial)||||
-|24|[Family and Insurance](https://atcoder.jp/contests/abc309/tasks/abc309_e)||||
+|13|[Best Binary String](https://codeforces.com/contest/1837/problem/C)|||P||
+|14|[Make Palindrome](https://codeforces.com/contest/600/problem/C)|||P||
+|15|[Two Binary Strings](https://codeforces.com/contest/1861/problem/B)|||P||
+|16|[Fancy Coins](https://codeforces.com/contest/1860/problem/B)|||F|Think about remainder|
+|17|[Monsters](https://codeforces.com/contest/1849/problem/B)|||P||
+|18|[Binary String Copying](https://codeforces.com/contest/1849/problem/C)|||P||
+|19|[Comparison String](https://codeforces.com/contest/1837/problem/B)|||P||
+|20|[Sort the Subarray](https://codeforces.com/contest/1821/problem/B)|||P||
+|21|[Long Legs](https://codeforces.com/contest/1814/problem/B)|||F|Think about remainder|
+|22|[Yet Another Tournament](https://codeforces.com/contest/1783/problem/C)|||P||
+|23|[Somen Nagashi](https://atcoder.jp/contests/abc320/tasks/abc320_e/editorial)|||P||
+|24|[Family and Insurance](https://atcoder.jp/contests/abc309/tasks/abc309_e)|||P||
 
 Sprint - C 
 
