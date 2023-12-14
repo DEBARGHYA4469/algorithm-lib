@@ -414,7 +414,7 @@ int _array[ST_MAX];
 
 struct Node{
     // 0. add node variables and constructors 
-    
+    // int node_variables;
 };
 
 int _n; // $ set _n 
