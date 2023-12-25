@@ -623,6 +623,8 @@ Greedy Techniques
 
 [Change of slope trick](greedy/adhoc_greedy.md)
 
+[Linear Transformation trick](greedy/adhoc_greedy.md)
+
 </details>
 
 
