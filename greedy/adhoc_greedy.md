@@ -93,18 +93,18 @@ Ex. https://atcoder.jp/contests/abc268/tasks/abc268_e
 
 ### Linear Transformation trick
 
-Some problems become more tractable if you just change the origin, or perform a linear transformation. 
-Example: 
-      a. Average trick : 
-            - Lets say a in a graph it is asked to max/min the average of the path weights. 
-                  i.e (w[1] + w[2] + w[3] ... + w[k])/k 
-            - You can consider S*k = w[1] + w[2] + .... + w[k] 
-            - (w[1] - S) + (w[2] - S) + ... + (w[k] - S) = 0.
-            - Transform each edge weight w[i] -> w[i] - S. Find if a path with sum = zero exist. 
-      b. Other cases:       
-            - Say you are given, a process where you are to replace every x in the array {x} with y,z such that y + z = x + k. 
-            - You could just tranform x -> x' s.t x' = x + d so that the constant vanishes. 
-            - In this example d = -k. In doing so, problem simplifies to replace x' with y',z' s.t y'+z' = x'. 
+Some problems become more tractable if you just change the origin, or perform a linear transformation.
 
-Ex. https://codeforces.com/contest/1909/problem/D
+* Average trick:
+   - Lets say a in a graph it is asked to max/min the average of the path weights. 
+     i.e (w[1] + w[2] + w[3] ... + w[k])/k 
+   - You can consider S*k = w[1] + w[2] + .... + w[k] 
+   - (w[1] - S) + (w[2] - S) + ... + (w[k] - S) = 0.
+   - Transform each edge weight w[i] -> w[i] - S. Find if a path with sum = zero exist. 
+* Other cases:       
+   - Say you are given, a process where you are to replace every x in the array {x} with y,z such that y + z = x + k.
+   - You could just tranform x -> x' s.t x' = x + d so that the constant vanishes. 
+   - In this example d = -k. In doing so, problem simplifies to replace x' with y',z' s.t y'+z' = x'. 
+
+Ex. https://codeforces.com/contest/1909/problem/D 
  
