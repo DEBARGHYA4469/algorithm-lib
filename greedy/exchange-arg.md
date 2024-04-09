@@ -208,5 +208,15 @@ Approach 2: O(n)
 
 ### Doremy's City Construction
 https://codeforces.com/contest/1764/problem/C
+
+### Doremy's Connecting Plan 
+https://codeforces.com/contest/1889/problem/B
+
+There are n cities with a[i] people in each of them. You can create a road between city i and j iff connected_component[i] + connected_component[j] >= ijc. Can you connect all ? 
+
+Solution: 
+
+observation: All cities get connected to city 1 one by one in optimal setup. [Proof by construction]
+Exchange Argument: In the optimal setup it is always good to swap `(X + a[i] >= i*c, X + a[j] >= j*c) iff a[i] - i*c < a[j] - j*c.`. Sort and verify the optimal arrangement. 
 	
 
