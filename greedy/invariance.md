@@ -134,3 +134,12 @@ Intuition:
 * 01s and 10s are invariants. (Spotting the invariance is the key)
 * Every 01 gets mapped in sorted fashion between initial and final string!
 
+### Problem 9: 
+
+https://codeforces.com/problemset/problem/1852/B
+
+Main Idea: If the constraint is such that (a + b > 0) count matters and ab != 0. Then a transformation exists to preserve this constraints. 
+Ex. -2 -3 -3 -3 5 5 5 5. You can flatten this array to have only distinct integers. Why it works because it only matters the order of two absolute values and signs. Preserve the sign!, As for absolute values, if you flatten, the order of the values remain same!.
+
+Once you have this next idea is simple is to attack the problem extremally. 
+
