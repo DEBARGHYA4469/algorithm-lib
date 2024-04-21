@@ -143,3 +143,10 @@ Ex. -2 -3 -3 -3 5 5 5 5. You can flatten this array to have only distinct intege
 
 Once you have this next idea is simple is to attack the problem extremally. 
 
+### Problem 10: 
+
+https://codeforces.com/problemset/problem/1704/D 
+
+Given a complicated process, try to find out some invariances. Think about prefix sums in this cases. Solution will be easy to find once you find out the invariances. 
+Also for this problem it is good to think in terms of center of mass. Each operations moves a particle one to he left and one to the right so that the center of mass remains same. 
+
