@@ -58,6 +58,10 @@ Given any array [a[1], a[2], a[3], a[4], ....a[N]], an element val and a given r
 
 Ans : Create a array of vectors g[val] -> vector<int> {}. Now frequency(l,r,val) = upper_bound(all(g[val]),r) - lower_bound(all(g[val]),l).
 
+### Find how many elements are there between l and r in an array 
+
+Ans : lower_bound (r+1) - lower_bound (l) 
+
 ### Upperbound and Lowerbound on Tuples
 
 For type = pair<int, pair<int,int>> 
