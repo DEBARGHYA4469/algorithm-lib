@@ -116,4 +116,14 @@ https://cp-algorithms.com/dynamic_programming/profile-dynamics.html
     cout << dp[n][0];
     
 ```
+Weighted Subset Sum: 
+
+https://codeforces.com/problemset/problem/1552/D
+
+- If you are required to check if a weighted sum of a subset is equal to a given number.
+- One way to go about is to do a knapsack if the maximum weight is less than some A. dp[i][A] -> dp[i+1][A'], A' can be negative. Complexity : O(N * MAX A)
+- Alternatively, if you know the weights are less than some small number (say <= b = 4). Represent all masks from 1 through 4 << N. And calculate sum of the subsets as per mask representation. Say 0 : w1, 1 : w2, 2 : w3, 3 : w4.  Complexity: (4^N * N)
+- Recursively, solve (idx, mask_base_4).
+
+ 
     
