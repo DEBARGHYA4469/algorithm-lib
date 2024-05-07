@@ -574,6 +574,8 @@ class SegmentTree {
 
 [Inclusion Exclusion Principle](math/combinatorics.md#b)
 
+[Prime Factorization, Sieve, Divisors of Large numbers](math/prime-factorization.md)
+
 [Minimum Excludent aka MEX](math/mex.md)
 
 [No. of Co-prime pairs](math/cses.md)
