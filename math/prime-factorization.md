@@ -1,7 +1,7 @@
 
 Sieve | lowest prime factor divisor | Prime Factorize a large number | Divisors 
 
-```
+```cpp
 vector<int> p; 
 int sieve [MAXN]; 
 auto sievef = [&] (int MAXN) -> void {
