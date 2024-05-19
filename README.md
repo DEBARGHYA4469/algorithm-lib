@@ -461,8 +461,6 @@ class SegmentTree {
 };
 ```
 </details>
----
-
 
 ### Useful Notes
 
@@ -585,6 +583,8 @@ class SegmentTree {
 [Generating Functions](math/generating_functions.md)
 
 [Difference Array, Sort, Repeat](math/math.md#p)
+
+[Expected Value Problems](math/expected_value.md)
 
 </details>
 
