@@ -467,322 +467,322 @@ class SegmentTree {
 ---
 
 <details markdown="1">
-<summary>Trees and Graphs
+<summary>Trees and Graphs (27)
 </summary>
 
 ---
 
-[Cyclicity in undirected graph](graph/graph.md#a)
+[1. Cyclicity in undirected graph](graph/graph.md#a)
 
-[Cyclicity in directed graph, coloring technique](graph/graph.md#b)
+[2. Cyclicity in directed graph, coloring technique](graph/graph.md#b)
 
-[All simple cycles in a undirected graph, w/o composite cycles](graph/graph.md#c)
+[3. All simple cycles in a undirected graph, w/o composite cycles](graph/graph.md#c)
 
-[All tricks using union-find algorithm](graph/graph.md#d)
+[4. All tricks using union-find algorithm](graph/graph.md#d)
 
-[Small to Large Trick, Merger Sets, a DSU trick](graph/dsu.md)
+[5. Small to Large Trick, Merger Sets, a DSU trick](graph/dsu.md)
 
-[Tarjan's algorithm to find articulation points, bridges](graph/graph.md#e)
+[6. Tarjan's algorithm to find articulation points, bridges](graph/graph.md#e)
 
-[Finding transitive closure of a graph using Floyd Warshall](graph/graph.md#g)
+[7. Finding transitive closure of a graph using Floyd Warshall](graph/graph.md#g)
 
-[BFS on complement graph aka Pie for a Pie trick](graph/graph.md#h)
+[8. BFS on complement graph aka Pie for a Pie trick](graph/graph.md#h)
 
-[All topological ordering](graph/graph.md#i)
+[9. All topological ordering](graph/graph.md#i)
 
-[Kahn's algorithm for topological ordering](graph/graph.md#j)
+[10. Kahn's algorithm for topological ordering](graph/graph.md#j)
 
-[Maximal/Minimal Topological ordering](graph/graph.md#k)
+[11. Maximal/Minimal Topological ordering](graph/graph.md#k)
 
-[Floyd Warshall for finding shortest paths](graph/graph.md#l)
+[12. Floyd Warshall for finding shortest paths](graph/graph.md#l)
 
-[Minimum Spanning Tree, Prim vs Kruskal](graph/graph.md#m)
+[13. Minimum Spanning Tree, Prim vs Kruskal](graph/graph.md#m)
 
-[Dijkstra's shortest path algoritm for non-negative edges](graph/graph.md#o)
+[14. Dijkstra's shortest path algoritm for non-negative edges](graph/graph.md#o)
 
-[Kth shortest path and ghostness in dikjstra's algorithm](graph/graph.md#o1)
+[15. Kth shortest path and ghostness in dikjstra's algorithm](graph/graph.md#o1)
 
-[Use Bellman Ford for negative edge weights](graph/graph.md#p)
+[16. Use Bellman Ford for negative edge weights](graph/graph.md#p)
 
-[Detect negative cycle using Bellman Ford](graph/graph.md#q)
+[17. Detect negative cycle using Bellman Ford](graph/graph.md#q)
 
-[Shortest Cycle in undirected graph using BFS](graph/graph.md#q1)
+[18. Shortest Cycle in undirected graph using BFS](graph/graph.md#q1)
 
-[0/1 BFS Trick](graph/graph.md#r)
+[19. 0/1 BFS Trick](graph/graph.md#r)
 
-[Strongly connected component aka SCC](graph/graph.md#s)
+[20. Strongly connected component aka SCC](graph/graph.md#s)
 
-[Kosaraju's algorithm for condensed SCC](graph/graph.md#t)
+[21. Kosaraju's algorithm for condensed SCC](graph/graph.md#t)
 
-[Finding centeroid a tree, subtree, cut tree](graph/centeroid.md)
+[22. Finding centeroid a tree, subtree, cut tree](graph/centeroid.md)
 
-[Euler Tour, relation between vertices, propagating tree](graph/euler-tour.md)
+[23. Euler Tour, relation between vertices, propagating tree](graph/euler-tour.md)
 
-[Everything about Trie](graph/trie.md)
+[24. Everything about Trie](graph/trie.md)
 
-[Trie and binary MEX](graph/trie.md)
+[25. Trie and binary MEX](graph/trie.md)
 
-[Bit prefix Trie and XOR operations](graph/trie.md)
+[26. Bit prefix Trie and XOR operations](graph/trie.md)
 
-[Games on Trie](graph/trie.md)
+[27. Games on Trie](graph/trie.md)
 
 </details>
 
 <details markdown="1">
-<summary>Mathematical Techniques
+<summary>Mathematical Techniques (27)
 </summary>
 
 ---
 	
-[Custom Ceil Function](math/math.md#a)
+[1. Custom Ceil Function](math/math.md#a)
 
-[Lazy Caterer](math/math.md#b) 
+[2. Lazy Caterer](math/math.md#b) 
 
-[Chinese Remainder Theorem](math/math.md#c) 
+[3. Chinese Remainder Theorem](math/math.md#c) 
 
-[Derangement](math/math.md#d) 
+[4. Derangement](math/math.md#d) 
 
-[Chicken Mcnugget Theorem](math/math.md#e) 
+[5. Chicken Mcnugget Theorem](math/math.md#e) 
 
-[Erdos Szekeres Theorem](math/math.md#f) 
+[6. Erdos Szekeres Theorem](math/math.md#f) 
 
-[Cyclicity](math/math.md#g)
+[7. Cyclicity](math/math.md#g)
 
-[Parity of Permutation](math/math.md#h) 
+[8. Parity of Permutation](math/math.md#h) 
 
-[Rank in Arbitrarty Bases](math/math.md#i) 
+[9. Rank in Arbitrarty Bases](math/math.md#i) 
 
-[Floyd Cycle](math/math.md#j) 
+[10. Floyd Cycle](math/math.md#j) 
 
-[Manhattern Trick](math/math.md#k) 
+[11. Manhattern Trick](math/math.md#k) 
 
-[Complexity of Euclid's dvision Lemma](math/math.md#o)
+[12. Complexity of Euclid's dvision Lemma](math/math.md#o)
 
-[Subsequence to Subarray Transformation Trick](math/math.md#l)
+[13. Subsequence to Subarray Transformation Trick](math/math.md#l)
 
-[Some properties of sum of absolute differences aka SAD](math/sad.md)
+[14. Some properties of sum of absolute differences aka SAD](math/sad.md)
 
-[How to solve diophantine equations](math/diophantine.md#a)
+[15. How to solve diophantine equations](math/diophantine.md#a)
 
-[Gaussian Elimination in GF(2), Max XOR Subsequence](math/gaussian-elimination.md)
+[16. Gaussian Elimination in GF(2), Max XOR Subsequence](math/gaussian-elimination.md)
 
-[Euclid extended division algorithm for LCM/GCD](math/gcd-lcm.md)
+[17. Euclid extended division algorithm for LCM/GCD](math/gcd-lcm.md)
 
-[Catalan Number, Dyck Path](math/combinatorics.md#a)
+[18. Catalan Number, Dyck Path](math/combinatorics.md#a)
 
-[Inclusion Exclusion Principle](math/combinatorics.md#b)
+[19. Inclusion Exclusion Principle](math/combinatorics.md#b)
 
-[Prime Factorization, Sieve, Divisors of Large numbers](math/prime-factorization.md)
+[20. Prime Factorization, Sieve, Divisors of Large numbers](math/prime-factorization.md)
 
-[Minimum Excludent aka MEX](math/mex.md)
+[21. Minimum Excludent aka MEX](math/mex.md)
 
-[No. of Co-prime pairs](math/cses.md)
+[22. No. of Co-prime pairs](math/cses.md)
 
-[Meet in the Middle aka MiTM](math/cses.md)
+[23. Meet in the Middle aka MiTM](math/cses.md)
 
-[Generating Functions](math/generating_functions.md)
+[24. Generating Functions](math/generating_functions.md)
 
-[Difference Array, Sort, Repeat](math/math.md#p)
+[26. Difference Array, Sort, Repeat](math/math.md#p)
 
-[Expected Value Problems](math/expected_value.md)
+[27. Expected Value Problems](math/expected_value.md)
 
 </details>
 
 <details markdown="1">
 <summary>
-Greedy Techniques
+Greedy Techniques (16)
 </summary>
 
 ---
 
-[Minimum Increment Decrement to make array equal](greedy/adhoc_greedy.md)
+[1. Minimum Increment Decrement to make array equal](greedy/adhoc_greedy.md)
 	
-[Largest Area in a Histogram using NGE](greedy/adhoc_greedy.md)
+[2. Largest Area in a Histogram using NGE](greedy/adhoc_greedy.md)
 
-[Intermediate Value Property Trick](greedy/adhoc_greedy.md)
+[3. Intermediate Value Property Trick](greedy/adhoc_greedy.md)
 
-[Job Sequencing Problems](greedy/adhoc_greedy.md)
+[4. Job Sequencing Problems](greedy/adhoc_greedy.md)
 
-[A Nice Binary Search Trick](greedy/adhoc_greedy.md)
+[5. A Nice Binary Search Trick](greedy/adhoc_greedy.md)
 
-[Find frequency of element in a given range using upperbound, lowerbound](greedy/adhoc_greedy.md)
+[6. Find frequency of element in a given range using upperbound, lowerbound](greedy/adhoc_greedy.md)
 
-[All techniques using exchange arguments, powerful proving technique](greedy/exchange-arg.md)
+[7. All techniques using exchange arguments, powerful proving technique](greedy/exchange-arg.md)
 
-[Invariance and Extremal Ideas](greedy/invariance.md)
+[8. Invariance and Extremal Ideas](greedy/invariance.md)
 
-[Generic sliding window algorithm](greedy/sliding-window.md)
+[9. Generic sliding window algorithm](greedy/sliding-window.md)
 
-[Comparing a subarray with a sliding window technique](greedy/sliding-window.md)
+[10. Comparing a subarray with a sliding window technique](greedy/sliding-window.md)
 
-[Find closest pair, minimum euclidean distance](greedy/sweepline.md)
+[11. Find closest pair, minimum euclidean distance](greedy/sweepline.md)
 
-[Klee's algorithm for union of intersecting segments](greedy/sweepline.md)
+[12. Klee's algorithm for union of intersecting segments](greedy/sweepline.md)
 
-[Intervals and Schedules](greedy/interval.md)
+[13. Intervals and Schedules](greedy/interval.md)
 
-[UpperBound and LowerBound on Tuples](greedy/adhoc_greedy.md)
+[14. UpperBound and LowerBound on Tuples](greedy/adhoc_greedy.md)
 
-[Change of slope trick](greedy/adhoc_greedy.md)
+[15. Change of slope trick](greedy/adhoc_greedy.md)
 
-[Linear Transformation trick](greedy/adhoc_greedy.md)
+[16. Linear Transformation trick](greedy/adhoc_greedy.md)
 
 </details>
 
 
 <details markdown="1">
-<summary>Dynamic Programming
+<summary>Dynamic Programming (17)
 </summary>
 
 ---
 
-[Max Subarray Sum, Kadane's algorithm](dp/adhoc-dp.md)
+[1. Max Subarray Sum, Kadane's algorithm](dp/adhoc-dp.md)
 
-[Max Subarray Product](dp/adhoc-dp.md)
+[2. Max Subarray Product](dp/adhoc-dp.md)
 
-[All variants of buy-sell share problems](dp/adhoc-dp.md)
+[3. All variants of buy-sell share problems](dp/adhoc-dp.md)
 
-[Bitmasking: Assigment Problem](dp/bitmask.md)
+[4. Bitmasking: Assigment Problem](dp/bitmask.md)
 
-[Bitmasking: Held Karp for TSP like problem](dp/bitmask.md)
+[5. Bitmasking: Held Karp for TSP like problem](dp/bitmask.md)
 
-[Masking over Primes](dp/bitmask.md)
+[6. Masking over Primes](dp/bitmask.md)
 
-[Enumerating submasks](dp/bitmask.md)
+[7. Enumerating submasks](dp/bitmask.md)
 
-[Profile DP, DP on broken pipes](dp/bitmask.md)
+[8. Profile DP, DP on broken pipes](dp/bitmask.md)
 
-[All tricks in digit DP problems, including LCM trick, pair of numbers](dp/digit-dp.md)
+[9. All tricks in digit DP problems, including LCM trick, pair of numbers](dp/digit-dp.md)
 
-[Divisibility problems using DP](dp/divisibility.md)
+[10. Divisibility problems using DP](dp/divisibility.md)
 
-[Everything about IN-OUT dp on tree aka Rerooting technique, Tree Distances, Tree Matching](dp/dp-on-trees.md)
+[11. Everything about IN-OUT dp on tree aka Rerooting technique, Tree Distances, Tree Matching](dp/dp-on-trees.md)
 
-[Inclusion and Exclusion DP](dp/dp-on-trees.md)
+[12. Inclusion and Exclusion DP](dp/dp-on-trees.md)
 
-[Solving any structural dp problems using kadane's approach](dp/dp_tricks.md)
+[13. Solving any structural dp problems using kadane's approach](dp/dp_tricks.md)
 
-[Subsequence & Substring comparison of two strings type problems](dp/subsequence_dp.md)
+[14. Subsequence & Substring comparison of two strings type problems](dp/subsequence_dp.md)
 
-[Everything about Sieve of Eratosthenes, Prime Factorization, Harmonic Lemma](dp/sieve.md)
+[15. Everything about Sieve of Eratosthenes, Prime Factorization, Harmonic Lemma](dp/sieve.md)
 
-[Next Element Array technique used in various AND, OR, bitwise problems](dp/next-array.md)
+[16. Next Element Array technique used in various AND, OR, bitwise problems](dp/next-array.md)
 
-[Matrix Exponentiation Trick](dp/matrixexpo.md)
+[17. Matrix Exponentiation Trick](dp/matrixexpo.md)
 
 </details>
 
 
 <details markdown="1">
-<summary>Game Theory
+<summary>Game Theory (6)
 </summary>
 	
 ---
 
-[Games on arbitrary graphs](games/games.md)
+[1. Games on arbitrary graphs](games/games.md)
 
-[NIM games](games/games.md)
+[2. NIM games](games/games.md)
 
-[Sprague Grundy Theorem](games/games.md)
+[3. Sprague Grundy Theorem](games/games.md)
 
-[Converting games to NIM forms using MEX](games/games.md)
+[4. Converting games to NIM forms using MEX](games/games.md)
 
-[Strategize the game backward, Parity Tricks](games/games.md)
+[5. Strategize the game backward, Parity Tricks](games/games.md)
 
-[Tag games on Trees, Graphs](games/games_on_graphs.md)
-
-</details>
-
-
-<details markdown="1">
-<summary>Range Queries
-</summary>
-
----
-	
-[Binary Lifting, LCA of trees](range-queries/query.md)
-
-[Fenwick Tree, 1D, 2D, difference array trick](range-queries/query.md)
-
-[Sparse Table](range-queries/query.md)
-
-[Segment Tree 1D, 2D, Lazy Propagation](range-queries/query.md)
-
-[Merge Sort Tree](range-queries/query.md)
-
-[Sqrt Decomposition](range-queries/query.md)
-
-[Counting Inversions using Fenwick Tree](range-queries/query.md)
-
-[Order Statistics using Fenwick Tree](range-queries/query.md)
-
-[Classical Fenwick Tree application in DP, Coordinate Compression](range-queries/query.md)
-
-[Segment Tree, Bit manipulation and Lazy propagation](range-queries/query.md)
-
-[Get the nearest element from a given element in a range](range-queries/query.md)
-
-[Ordered Statistics using PBDS](range-queries/ordered_sets.md)
-
-[Interesting RMQ problems from SPOJ](range-queries/spoj-rmq-sprint.md)
-
-[Some non-trivial ideas in RMQ/RSQ](range-queries/non-trivial-examples.md)
-
-[MO's algorithm for RSQs and RMQs](range-queries/mo_query_trick.md)
+[6. Tag games on Trees, Graphs](games/games_on_graphs.md)
 
 </details>
 
 
 <details markdown="1">
-<summary>String Algorithms
+<summary>Range Queries (15)
 </summary>
 
 ---
 	
-[Minimum Palindromic Cuts](string/adhoc-strings.md)
+[1. Binary Lifting, LCA of trees](range-queries/query.md)
 
-[Scatter Palindromes](string/adhoc-strings.md)
+[2. Fenwick Tree, 1D, 2D, difference array trick](range-queries/query.md)
 
-[Distinct Subsequences](string/adhoc-strings.md)
+[3. Sparse Table](range-queries/query.md)
 
-[Don't be a Subsequences](string/adhoc-strings.md)
+[4. Segment Tree 1D, 2D, Lazy Propagation](range-queries/query.md)
 
-[KMP function, Z algorithm, periodicity of strings](string/kmp.md)
+[5. Merge Sort Tree](range-queries/query.md)
 
-[Polynomial Hashing aka Rolling Hash](string/polyhash.md)
+[6. Sqrt Decomposition](range-queries/query.md)
 
-[Rabin Karp, Lexicographically minimal shift, double hashing](string/polyhash.md)
+[7. Counting Inversions using Fenwick Tree](range-queries/query.md)
 
-[Fun with Palindromes](string/palindrome.md#fun-with-palindromes)
+[8. Order Statistics using Fenwick Tree](range-queries/query.md)
+
+[9. Classical Fenwick Tree application in DP, Coordinate Compression](range-queries/query.md)
+
+[10. Segment Tree, Bit manipulation and Lazy propagation](range-queries/query.md)
+
+[11. Get the nearest element from a given element in a range](range-queries/query.md)
+
+[12. Ordered Statistics using PBDS](range-queries/ordered_sets.md)
+
+[13. Interesting RMQ problems from SPOJ](range-queries/spoj-rmq-sprint.md)
+
+[14. Some non-trivial ideas in RMQ/RSQ](range-queries/non-trivial-examples.md)
+
+[15. MO's algorithm for RSQs and RMQs](range-queries/mo_query_trick.md)
 
 </details>
 
 
 <details markdown="1">
-<summary>Miscellaneous Stuff
+<summary>String Algorithms (8)
+</summary>
+
+---
+	
+[1. Minimum Palindromic Cuts](string/adhoc-strings.md)
+
+[2. Scatter Palindromes](string/adhoc-strings.md)
+
+[3. Distinct Subsequences](string/adhoc-strings.md)
+
+[4. Don't be a Subsequences](string/adhoc-strings.md)
+
+[5. KMP function, Z algorithm, periodicity of strings](string/kmp.md)
+
+[6. Polynomial Hashing aka Rolling Hash](string/polyhash.md)
+
+[7. Rabin Karp, Lexicographically minimal shift, double hashing](string/polyhash.md)
+
+[8. Fun with Palindromes](string/palindrome.md#fun-with-palindromes)
+
+</details>
+
+
+<details markdown="1">
+<summary>Miscellaneous Stuff (10)
 </summary>
 
 ---
 
-[K-Majority Voting algorithm aka Boyer-Moore](others/voting.md) 
+[1. K-Majority Voting algorithm aka Boyer-Moore](others/voting.md) 
 
-[Some useful bit hacks, bitsets](others/bit-hacks.md)
+[2. Some useful bit hacks, bitsets](others/bit-hacks.md)
 
-[Bitset Magic and DP optimizations](others/bitsets.md)
+[3. Bitset Magic and DP optimizations](others/bitsets.md)
 
-[Minimum, Maximum XOR values of pair of numbers](others/classical_ideas.md)
+[4. Minimum, Maximum XOR values of pair of numbers](others/classical_ideas.md)
 
-[Coordinate Compression](others/coordinate-compression.md)
+[5. Coordinate Compression](others/coordinate-compression.md)
 
-[Ternary Search for unimodal data](others/ternery-search.md)
+[6. Ternary Search for unimodal data](others/ternery-search.md)
 
-[Some non-trivial tricks used in DP and Graphs](gym/weekly-algorithm-sheet)
+[7. Some non-trivial tricks used in DP and Graphs](gym/weekly-algorithm-sheet)
 
-[Some variants of Knapsack problem](others/knapsack.md)
+[8. Some variants of Knapsack problem](others/knapsack.md)
 
-[All about permutations and transpositions](others/permutation.md)
+[9. All about permutations and transpositions](others/permutation.md)
 
-[CF blog: Collection of little techniques](https://codeforces.com/blog/entry/100910)
+[10. CF blog: Collection of little techniques](https://codeforces.com/blog/entry/100910)
 
 </details>
 
