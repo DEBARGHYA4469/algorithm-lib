@@ -9,6 +9,9 @@ CXXFLAGS = -Wall -Wextra -std=c++17
 # Source file
 SRC = test.cpp
 
+# Input file 
+INP = inp.txt
+
 # Output executable
 EXEC = a.exe
 
@@ -21,7 +24,7 @@ $(EXEC): $(SRC)
 
 # Rule to run the executable
 run: $(EXEC)
-	@./$(EXEC)
+	@./$(EXEC) < $(INP)
 
 # Clean target to remove the executable
 clean:
