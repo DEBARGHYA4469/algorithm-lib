@@ -109,24 +109,6 @@ string to_binary(ll v){
     
 }
 
-const int MAXSV = 1000000;
-bool _vis[MAXSV]; 
-int _lpf[MAXSV]; // lowest prime factor, set MAXSV =   
-void sieve_with_lpf(){
-    for (int i=2;i<MAXSV;i+=2) _lpf[i] = 2; 
-    for (ll i=3;i<MAXSV;i+=2) {
-        if (!_vis[i]){
-            _lpf[i] = i;
-            for (ll j=i;(i*j)<MAXSV;j+=2){ 
-                if (!_vis[i*j]){
-                    _vis[i*j] = true; 
-                    _lpf[i*j] = i;
-                }
-            }
-        }
-    }    
-}
-
 int main(){
 	
 	std::ios::sync_with_stdio(false);
