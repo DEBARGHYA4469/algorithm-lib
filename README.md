@@ -390,29 +390,42 @@ void unite(int u,int v){
 
 ```cpp
 /* 1-based segment tree template */
+// $set : infinite, ST_MAX, Node constructor, combine code
 
-const int ST_MAX = 2e5+3;
+
+const int ST_MAX = <>;
 int _array[ST_MAX];
+const int infinite = <>;
 
 struct Node{
     // 0. add node variables and constructors 
     // int node_variables;
+	int val;	
+	Node () {
+		val = infinite; 
+	} 
+	Node (int val) : val (val) {} 
 };
 
 int _n; // $ set _n 
 class SegmentTree {
-    public: 
+    public:
+		
         Node *_t;
     public:
         
-        SegmentTree () {
+        SegmentTree (int n) {
+            _n = n;
             _t = new Node[_n*6]; 
         }
 
         Node combine (Node lc, Node rc){
             Node res;
             /* 1. add your combine code along with empty node  */
-            return res;
+			if (lc.val == infinite) return rc; 
+			else if (rc.val == infinite) return lc; 
+			int va = max (lc.val, rc.val);  
+            return Node (va);
         }
 
         Node query (const int& l, const int& r, int v=1, int tl=1, int tr=_n){
@@ -441,6 +454,7 @@ class SegmentTree {
             }
         }
 };
+/* Segment Tree tested*/
 ```
 </details>
 
