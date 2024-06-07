@@ -175,6 +175,9 @@ Given a specific point, to find closest or farthest distance from it:
 
 > ans= max(dist(x0, x)) = max(max(x0+y0-x-y,x0-y0-x+y,-x0+y0+x-y,-x0-y0+x+y))) = max(x0+y0-min(x+y),x0-y0-min(x-y),-x0+y0+max(x-y),-x0-y0+max(x,y))
 
+Practice problems: 
+> https://codeforces.com/contest/1979/problem/E
+
 
 # Subsequence -> Subarray (Pref Sum)
 
