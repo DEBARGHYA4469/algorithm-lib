@@ -44,7 +44,6 @@
 
 ### Cyclicity in a undirected graph
 
-<a name="a"/>
 
 ```cpp
     
@@ -85,8 +84,6 @@
 
 ### Cyclicity in Directed Graphs
 
-<a name="b"/>
-
 ```cpp
       vi color,par;
       
@@ -109,8 +106,6 @@
 ```
 
 ### All simple cycles in a undirected graph
-
-<a name="c"/>
 
 <img width="615" alt="image" src="https://user-images.githubusercontent.com/21307343/185361935-5d501484-7283-462b-9642-b64a17a34389.png">
 
@@ -147,8 +142,6 @@ https://www.geeksforgeeks.org/tree-back-edge-and-cross-edges-in-dfs-of-graph/amp
 
 ### DSU: Union Find
 
-<a name="d"/>
-
 ```cpp
     int par[1000], rank[1000];
     
@@ -172,7 +165,6 @@ to it by road and not by rails, say, mp1[root_roads[u]]-mp2[root_roads[u],root_r
 
 ## Tarjan's Articulation Point
 
-<a name="e"/>
 
 ![image](https://user-images.githubusercontent.com/21307343/132128610-75200a76-b2b6-44d2-a36e-c25588c1f964.png)
 
@@ -196,8 +188,6 @@ to it by road and not by rails, say, mp1[root_roads[u]]-mp2[root_roads[u],root_r
 
 ## Tarjan's Bridges Algorithm
 
-<a name="f"/>
-
 ```cpp
     void dfs(int u,int p=-1){
           low[u] = disc[u] = ++timer;
@@ -215,14 +205,10 @@ to it by road and not by rails, say, mp1[root_roads[u]]-mp2[root_roads[u],root_r
 
 ## Transitive Closure
 
-<a name="g"/>
-
 `For undirected graph, use DSU` </br>
 `For directed graph, use Floyd Warshall/DFS` </br>
 
 ## BFS on a complement graph if the graph is sparse
-
-<a name="h"/>
 
 ```cpp
       vi d(n+1,-1);
@@ -249,8 +235,6 @@ to it by road and not by rails, say, mp1[root_roads[u]]-mp2[root_roads[u],root_r
 ```
 
 ## Topological Sort
-
-<a name="i"/>
 
 DFS method 
 
@@ -289,8 +273,6 @@ DFS method
 
 #### Kahn's Algorithm
 
-<a name="j"/>
-
 ```cpp
     void topo_sort(){
         vi in(V,0);
@@ -314,15 +296,12 @@ DFS method
     } 
 ```
 
-<a name="k"/>
-
 `Min Topological Ordering: Topological Sorting is lexicographically smallest, idea: normal Kahn, in[], pick lex smallest vertex everytime`
 
 `Min Topological Labelling: Topological labelling is lexicographically smallest, idea: reverse Kahn, out[], pick lex largest vertex everytime and place it in the front`
 
 #### Floyd Warshall
 
-<a name="l"/>
 
 ```cpp
 void floyd(){
@@ -336,8 +315,6 @@ void floyd(){
 }
 ```
 ## Minimum Spanning Tree
-
-<a name="m"/>
 
 ```cpp
     // Prim: idea, Among all the reachable vertex choose the cheapest one.
@@ -360,8 +337,6 @@ void floyd(){
         return ans;
     }
 ```
-
-<a name="n"/>
 
 ```cpp
     // kruskal: idea, Among all edges which can be added choose the one min val
@@ -401,8 +376,6 @@ https://atcoder.jp/contests/abc164/tasks/abc164_e
 
 ### Dijkstra
 
-<a name="o"/>
-
 ```cpp
     void dijkstra(int u){
         for(int i=0;i<N;i++) d[i] = inf;
@@ -422,8 +395,6 @@ https://atcoder.jp/contests/abc164/tasks/abc164_e
 ```
 
 #### K-shortest paths and ghosness in dijkstra
-
-<a name="o1"/>
 
 https://cses.fi/problemset/task/1196/
 
@@ -473,8 +444,6 @@ int main(){
 
 ### Bellman ford
 
-<a name="p"/>
-
 ```cpp
     void bellman(int u){
         for(int i=0;i<N;i++) d[i] = inf;
@@ -495,8 +464,6 @@ int main(){
 ```
 
 ### Detect Negative Cycle
-
-<a name="q"/>
 
 ```cpp
     bool bellman(int u){
@@ -519,8 +486,6 @@ int main(){
 ### Find shortest cycle using BFS and edge deletion
 
 https://codeforces.com/contest/1817/problem/B
-
-<a name="q1"/>
 
 ```cpp
 bool bfs(int a, int b){
@@ -582,8 +547,6 @@ bool bfs(int a, int b){
 
 ### 0/1 BFS
 
-<a name="r"/>
-
 ```cpp
     void bfs_01(int s){
         for(int i=0;i<N;i++) d[i] = inf;
@@ -606,8 +569,6 @@ bool bfs(int a, int b){
 Problems: https://codeforces.com/contest/1063/problem/B [Nice]
 
 ### Strongly Connected Components
-
-<a name="s"/>
 
 ![image](https://user-images.githubusercontent.com/21307343/132205089-151c6cab-f372-4e52-94b0-ec2c09166a4d.png)
 
@@ -646,8 +607,6 @@ Problems: https://codeforces.com/contest/1063/problem/B [Nice]
 ```
 
 ## Condensed SCC
-
-<a name="t"/>
 
 ```cpp
     vi g_scc[MaxN], root[MaxN];
