@@ -233,10 +233,11 @@ int choose(int n,int r){
 	return mul(fac[n], mul(rfac[r],rfac[n-r])); 
 }
 ```
-
 </details>
-	
-<details markdown="1">  <summary> Number Theory Template </summary>
+
+<details markdown="1">  
+<summary> Number Theory Template 
+</summary>
 
 ```cpp
 // Use Wheel factorization for large PMax
