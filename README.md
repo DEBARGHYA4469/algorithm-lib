@@ -236,13 +236,7 @@ int choose(int n,int r){
 
 </details>
 	
-	
-
- 
-<details markdown="1"> 
-<summary>Number Theory Template
-</summary>
-
+<details markdown="1">  <summary> Number Theory Template </summary>
 
 ```cpp
 // Use Wheel factorization for large PMax
