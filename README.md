@@ -451,6 +451,68 @@ class SegmentTree {
 ```
 </details>
 
+<details markdown="1">
+<summary> Hashing Template 
+</summary>
+
+```cpp
+struct HashInt {
+	static const int mx=1e9+7, my=1e9+9;
+	long long x, y;
+	HashInt () = default;
+	HashInt (long long x_) : x(x_), y(x_) {}
+	HashInt (long long x_, long long y_) : x(x_), y(y_) {}
+	HashInt operator + (const HashInt& other) const{
+		HashInt tmp; 
+		tmp.x = (x + other.x) % mx;
+		tmp.y = (y + other.y) % my;
+		return tmp;
+	}
+	HashInt operator - (const HashInt& other) const{
+		HashInt tmp; 
+		tmp.x = (mx + x - other.x) % mx;
+		tmp.y = (my + y - other.y) % my; 		
+		return tmp;
+	}
+	HashInt operator * (const HashInt& other) const{
+		HashInt tmp; 
+		tmp.x = (x * other.x) % mx;
+		tmp.y = (y * other.y) % my; 		
+		return tmp;
+	}
+	bool operator == (const HashInt& other) const{
+		return x == other.x && y == other.y;
+	}
+	operator pair<long long ,long long> () const {
+		return make_pair (x, y);
+	}
+}; 
+
+namespace RollHash{
+	const int P=239017, N_ = 9e5+4;
+	HashInt p[N_], H[N_]; 
+	void init() { /* <always call init> */ 
+		p[0] = 1;
+		for (int i=1;i<N_;i++){
+			p[i] = p[i-1] * P; 
+		}
+	}
+	void gen_hashes (const string& str){
+		int n = str.size();
+		H[0] = str[0];
+		for (int i=1;i<n;i++){
+			H[i] = H[i-1] * P + str[i];
+		}
+	}
+		
+	HashInt hasher (int l, int r) { return l ? H[r] - H[l-1] * p[r-l+1] : H[r]; }
+};
+
+using namespace RollHash;
+```
+
+</details>
+
 ### Useful Notes
 
 ---
