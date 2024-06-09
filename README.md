@@ -502,6 +502,41 @@ namespace RollHash{
 
 using namespace RollHash;
 ```
+</details>
+
+
+
+<details markdown="1">
+<summary> Sliding Window Template 
+</summary>
+
+```cpp
+    for(int l=0,r=-1;l<n;l++){ // left boundary of the sliding window
+        r = max(r, l-1);
+        while(r+1 < n){
+			/* modify the window*/
+			if extendible? 
+                r++;
+            else 
+				/* rollback window  */ 
+				break;
+        
+			if(chmax(max_length, r-l+1)){
+				// record answer from window
+			}
+		}
+        // modify window to delete left boundary to proceed to the next, l++ happens
+    }
+```
+
+</details>
+
+<details markdown="1">
+<summary> MO Query Template 
+</summary>
+
+```cpp
+```
 
 </details>
 
