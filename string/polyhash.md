@@ -1,3 +1,32 @@
+
+ Zobrist's Hashing 
+
+```cpp
+ struct Hash {
+	long long x, y; 
+	Hash () {
+		x = prng (); 
+		y = prng (); 
+	}
+	Hash (int x_, int y_) {
+		x = x_; 
+		y = y_; 
+	}
+	Hash operator ^ (const Hash &other) {
+		Hash tmp; 
+		tmp.x = x ^ other.x;
+		tmp.y = y ^ other.y;
+		return tmp;
+	}
+	operator pair<long long ,long long> () const {
+		return make_pair (x, y);
+	}
+}; 
+```
+Problem : https://codeforces.com/contest/1977/problem/D
+
+ Rolling + Double Hashing: 
+ 
  https://codeforces.com/problemset/problem/514/C
  ```cpp
  const int P=239017, mx=1e9+7, my=1e9+9;
