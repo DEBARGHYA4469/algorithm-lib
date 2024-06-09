@@ -238,58 +238,50 @@ int choose(int n,int r){
 </summary>
 
 ```cpp
-// Use Wheel factorization for large PMax
-const int PMax = 1e5+5;
-int lp[PMax];
-void sieve(){ 
-	
-	vector<int> prime;
+vector<int> p; 
+int sieve [MAXN]; 
+auto sievef = [&] (int MAXN) -> void {
+    sieve[1] = 1;
+    for (int i = 2; i < MAXN; i++){
+        if (sieve[i]) continue;
+        p.emplace_back (i); 
+        for (int j = i; j < MAXN; j += i){
+            sieve [j] = i; 
+        }
+    }
+};
 
-	for(int i=2;i<=PMax;i++){
-  		if(!lp[i]){ 
-    		lp[i]=i; 
-    		prime.eb(i); 
-  		}
-  		for(int j=0;j<(int)sz(prime) && prime[j]<=lp[i] && i*prime[j]<=PMax;j++){
-    		lp[i*prime[j]] = prime[j];      
-  		}
-	}
+auto factor = [&](int n) -> vector<pii> {
+    vector<pii> res;
+    for (int &x : p){
+        if (x * x > n) break;
+        else if (n % x) continue;
+        res.emplace_back (x, 0); 
+        while (n % x == 0) {
+            res.back().se++; 
+            n /= x; 
+        } 
+    }
+    if (n > 1) res.emplace_back (n, 1); 
+    return res; 
+};
 
-}
+vi divisors (int n) {
+    vi d = {1};
+    while (n > 1){
+        int m = 0;
+        int q = sieve[n];
+        while (n % q == 0) { m++; n /= q; }
+        int dsize = d.size();
+        int pw = q; 
+        for (int i = 0;i < m; i++) {
+            for (int j = 0; j < dsize; j++) d.emplace_back (d[j] * pw);
+            pw *= q;
+        } 
+    }
+    return d; 
+} 
 
-vector<int> factor(int num){
-
-	vector<int> f;
-	while(num!=1){
-		f.eb(lp[num]);
-
-		int tmp = lp[num];
-		while(num>0 && num % tmp==0) num /= tmp;
-	}
-	return f;
-}
-
-vector<int> divisors(int num,const vector<int> lp){
-
-	vector<int> d={1};
-	while(num>1){
-		int spf=lp[num];
-		int m=0;
-		while(num%spf==0) num/=spf,m++;
-
-		int dz = (int)sz(d);
-		int pw = spf;
-
-		for(int i=0;i<m;i++){
-			for(int k=0;k<dz;k++){
-				d.eb(d[k]*pw);
-			}
-			pw*=spf;
-		}
-
-	}
-	return d;
-}
 ```
 
 </details>
