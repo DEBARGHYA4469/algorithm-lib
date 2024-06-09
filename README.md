@@ -536,6 +536,37 @@ for(int l=0,r=-1;l<n;l++){ // left boundary of the sliding window
 </summary>
 
 ```cpp
+int B; 
+
+struct Query{
+
+	int l, r, idx; 
+	pair<int, int> toPair () const {
+		int b = l/B; 
+		return {b, (b&1)?-r:r};
+	}
+	bool operator < (const Query& other) {
+		return toPair () < other.toPair();
+	}
+};
+
+long long curr = 0; 
+void add (int); 
+void remove (int);
+
+void solve_offline (vector<Query> q) {
+	sort (all(q));
+	int currL = 1, currR = 1;
+	add (arr[1]); 	
+	for (int Q: q){
+		int L,R,idx; 
+		while (L < currL) add (arr[--currL]);	
+		while (R > currR) add (arr[++currR]);
+		while (L > currL) remove (arr[currL++]); 
+		while (R < currR) remove (arr[currR--]);
+		answer[idx] = curr;
+	}
+} 
 ```
 
 </details>
