@@ -511,22 +511,22 @@ using namespace RollHash;
 </summary>
 
 ```cpp
-    for(int l=0,r=-1;l<n;l++){ // left boundary of the sliding window
-        r = max(r, l-1);
-        while(r+1 < n){
-			/* modify the window*/
-			if extendible? 
-                r++;
-            else 
-				/* rollback window  */ 
-				break;
-        
-			if(chmax(max_length, r-l+1)){
-				// record answer from window
-			}
+for(int l=0,r=-1;l<n;l++){ // left boundary of the sliding window
+	r = max(r, l-1);
+	while(r+1 < n){
+		/* modify the window*/
+		if extendible? 
+			r++;
+		else 
+			/* rollback window  */ 
+		break;
+
+		if(chmax(max_length, r-l+1)){
+			// record answer from window
 		}
-        // modify window to delete left boundary to proceed to the next, l++ happens
-    }
+	}
+	// modify window to delete left boundary to proceed to the next, l++ happens
+}
 ```
 
 </details>
