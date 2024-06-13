@@ -296,79 +296,33 @@ vi divisors (int n) {
 <summary>Disjoint Set Template
 </summary>
 	
-	
 ```cpp
-// DSU with Rank Compression + Path Compression
+/* Usage: DSU S(n); S.unite (1, 2); S.totalSize(2); */
 
-int par[UFMAX],rnk[UFMAX];
-int compsize[UFMAX];
-int max_comp_size=0;
-
-// SET UFMAX
-void initdsu(int n){
-	for(int i=1;i<=n;i++){
-		par[i] = i;
-		rnk[i] = 1;
-		compsize[i]=1;
+struct DSU {
+	vector <int> par, size_;
+	int biggest; 
+	DSU (int n) : par (n+1), size_(n+1, 1), biggest(1) { 
+		for (int i=0;i<=n;i++) { 
+			par[i] = i;
+			size_[i] = vis[i];
+		}			
 	}
-	max_comp_size=0;
-}
-
-int root(int u){
-	if(par[u]==u) return u;
-	return par[u]=root(par[u]);
-}
-
-void unite(int u,int v){
-
-	int r1 = root(u), r2 = root(v);
-	if(r1==r2) return;
-    if(rnk[r1]>rnk[r2]){
-    	par[r2] = r1;
-    	compsize[r1]+=compsize[r2];
-    	compsize[r2]=0;
-    	chmax(max_comp_size,compsize[r1]);
-    }
-    else if(rnk[r1]<rnk[r2]){
-    	par[r1] = r2;
-   		compsize[r2]+=compsize[r1];
-   		compsize[r1]=0;
-   		chmax(max_comp_size,compsize[r2]);
-    }
-    else{
-    	par[r2] = r1, rnk[r1]++;
-    	compsize[r1]+=compsize[r2];
-    	compsize[r2]=0;
-    	chmax(max_comp_size,compsize[r1]);
-    }
-}
-```
-
-```cpp
-
-// DSU w/o Rank Compression and using randomized Union + Path Compression
-
-const int MAXN = 1005;
-int par[MAXN], members[MAXN];
- 
-void init(){
-	for (int i=1;i<=n;i++){
-		par[i] = i;
-		members[i] = 1; 
+	int root (int u) {
+		if (par[u] == u) return u; 
+		return par[u] = root (par[u]);
 	}
-}
- 
-int root(int u){
-	if(par[u]==u) return u;
-	return par[u] = root(par[u]);	
-}
- 
-void unite(int u,int v){
-	if(root(u)==root(v)) return;
-	if(rand()&1) swap(u,v);
-	members[root(v)] += members[root(u)];
-	par[root(u)] = v; 
-}
+	void unite (int u, int v){
+		if (root(u) == root(v)) return; 
+		if (rand() & 1) swap (u, v); 
+		size_[root(v)] += size_[root(u)];
+		par[root(u)] = v;
+		chmax (biggest, size_[root(v)]);
+	}
+	int totalSize (int u) {
+		return size_[root(u)]; 
+	} 
+};
 ```
 
 </details>
