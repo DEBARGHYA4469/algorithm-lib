@@ -826,7 +826,7 @@ Greedy Techniques (16)
 
 
 <details markdown="1">
-<summary>Miscellaneous Stuff (10)
+<summary>Miscellaneous Stuff (11)
 </summary>
 
 ---
@@ -850,6 +850,8 @@ Greedy Techniques (16)
 [9. All about permutations and transpositions](others/permutation.md)
 
 [10. CF blog: Collection of little techniques](https://codeforces.com/blog/entry/100910)
+
+[11. Contribution Technique](others/contribution_technique.md)
 
 </details>
 
