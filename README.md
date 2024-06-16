@@ -529,6 +529,37 @@ void solve_offline (vector<Query> q) {
 
 </details>
 
+
+<details markdown="1">
+<summary> Ordered Set Template 
+</summary>
+	
+```cpp
+	struct RBTree { 
+	typedef tree<pii, 
+			null_type, 
+			less<pii>,
+			rb_tree_tag, 
+			tree_order_statistics_node_update> ord;
+	ord s;
+	int _t;
+	
+	RBTree() {  
+		_t = 0;
+	}
+	void emplace (int x) { s.insert ({x, ++_t});  }
+	void erase (int x) { s.erase (s.lower_bound({x, 0})); }
+	int less_than (int x) { return s.order_of_key({x, 0}); }
+	int less_eq (int x) { return s.order_of_key({x+1, 0}); }
+	int find_nth (int n) { 
+		if (s.find_by_order(n) == s.end()) return -1;
+		return s.find_by_order(n)->first;
+	}
+};	
+```
+</details>
+
+
 ### Useful Notes
 
 ---
