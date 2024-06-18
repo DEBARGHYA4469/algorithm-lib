@@ -440,8 +440,9 @@ struct HashInt {
 
 namespace RollHash{
 	const int P=239017, N_ = 9e5+4;
-	HashInt p[N_], H[N_]; 
-	void init() { /* <always call init> */ 
+	HashInt p[N_], H[N_];
+	<always call init before initializing test cases> 
+	void init() { 
 		p[0] = 1;
 		for (int i=1;i<N_;i++){
 			p[i] = p[i-1] * P; 
