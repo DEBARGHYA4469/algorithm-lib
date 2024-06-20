@@ -40,4 +40,8 @@ Problems:
 * Given an array of integers [a1, a2, a3, a4....aN] and sum of array elements in even. If 2*maxm > sum of the elements of the array. Then there exists an interesting matching such that no two elements from an array elements match.
 * Give them indices 1,2,3,4.....N.  
 * Match i -> i + s/2. 
-* Proof: if i matches j and j-i < s/2. s/2 < s/2. Contradiction. 
+* Proof: if i matches j and j-i < s/2. s/2 < s/2. Contradiction.
+
+### Array Sortings 
+
+* If you have a random array and given some operation on the subset of the indices you have to make it sorted, it is better to break the array conceptually into segments of increasing length and study them. https://www.codechef.com/problems/PERMREACH 
