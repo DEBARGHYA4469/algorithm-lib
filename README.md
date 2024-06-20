@@ -250,7 +250,7 @@ auto sievef = [&] (int MAXN) -> void {
         if (sieve[i]) continue;
         p.emplace_back (i); 
         for (int j = i; j < MAXN; j += i){
-            sieve [j] = i; 
+            if (!sieve[j]) sieve [j] = i; 
         }
     }
 };
