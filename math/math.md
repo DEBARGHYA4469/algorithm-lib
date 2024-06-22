@@ -106,11 +106,13 @@ Solving permutation with fixed points k or more: N! - Sum{D(N,k)} k = 0...K-1 ht
 
 # Chicken McNugget Theorem
 
+Ref : https://artofproblemsolving.com/wiki/index.php/Chicken_McNugget_Theorem
+ 
 If there are two number a,b which are relatively prime, the greatest number which can be represented using a & b is (a-1)(b-1)+1.
-	
-<li> Proof: ax + by = N, a(x+tb) + b(y-tb) = N, If N > (a-1)(b-1) then a(x+tb) + b(y-tb) > (a-1)(b-1) </br>
-<li> Fix x+tb in [0,b-1], a(b-1) + b(y-tb) > (a-1)(b-1) => y-ta >= 0, hence proved!  
-	
+
+Also exactly half of them 1 to ab - a -b is representable and half is not. 
+And if the numbers are not coprime just divide by gcd (a,b). pattern will be multiple of gcds. 
+ 
 # Erdos Szekeres Theorem
 
 	
