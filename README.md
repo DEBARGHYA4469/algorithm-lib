@@ -879,7 +879,7 @@ Greedy Techniques (16)
 
 [8. Some variants of Knapsack problem](others/knapsack.md)
 
-[9. All about permutations and transpositions](others/permutation.md)
+[9. All about permutations, transpositions and inversion count](others/permutation.md)
 
 [10. CF blog: Collection of little techniques](https://codeforces.com/blog/entry/100910)
 
