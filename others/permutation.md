@@ -95,7 +95,22 @@ Number of transpositions required to sort an array?
 - Once you have the pairs you can form q1 * q2 = p'. p'^2 decompose into q1 and q2. Construct!
 
 Square Root of a permutation : https://codeforces.com/contest/612/problem/E
-  
+
+## Counting number of permutations with inversion count k 
+
+This problem can be solved with dynamic programming in N*K time.  </br>
+Consider dp[N][K]. This denotes number of permutations with N distinct elements and K inversion count.  </br>
+- Transition : dp[N][K]
+- Sum { dp[N-1][1], dp[N-1][2], dp[N-1][3], dp[N-1][4], ..., dp[N-1][K-1] } </br>
+- Sum { dp[N-1][J] } where K <= J + N-1 or J <= K - N + 1
+
+Construction : 
+
+- Consider a permutation P[1 2 3 4 ...N-1] with J inversion counts.
+- Now you want to achieve K inversion count where increase = K - J.
+- To the end of the array add an element which is smaller than K - J elements. Number could be fractional.
+- ReMap the array to P[1...N] according to the order of the elements.
+- New permutation is unique with K inversion count and can only be obtained from (N,J) uniquely.
 
 
 
