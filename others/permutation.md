@@ -112,6 +112,25 @@ Construction :
 - ReMap the array to P[1...N] according to the order of the elements.
 - New permutation is unique with K inversion count and can only be obtained from (N,J) uniquely.
 
+```cpp
+	ll N, K; 
+	cin >> N >> K;	
+	
+	dp[1][0] = 1;
+	for (ll j=1;j<=K;j++) dp[1][j] = dp[1][j-1]; 
+	for (ll i=2;i<=N;i++){
+		for (ll inversions = 0; inversions <= K; inversions++){
+			ll mn = max (0LL, inversions - i + 1); 
+			ll mx = inversions;
+			if (mn == 0) dp[i][inversions] = dp[i-1][mx];
+			else dp[i][inversions] = (dp[i-1][mx] - dp[i-1][mn-1] + mod) % mod; 
+			if (inversions) dp[i][inversions] = (mod + dp[i][inversions] + dp[i][inversions-1]) % mod;
+		}
+	}
+	
+	if (!K) cout << 1 << endl;
+	else cout << (mod + dp[N][K] - dp[N][K-1]) % mod;
+```
 
 
 
