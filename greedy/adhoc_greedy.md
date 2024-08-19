@@ -7,7 +7,8 @@ Topics
 5. Frequency of a element in a range
 6. Upperbound and Lowerbound on tuples
 7. Change of slope trick
-8. Linear Transformation trick 
+8. Linear Transformation trick
+9. Median Problems
 
 ### Largest Rectange in a Histogram
 
@@ -111,4 +112,11 @@ Some problems become more tractable if you just change the origin, or perform a 
    - In this example d = -k. In doing so, problem simplifies to replace x' with y',z' s.t y'+z' = x'. 
 
 Ex. https://codeforces.com/contest/1909/problem/D 
+
+### Median Problems 
+
+For problems where you need to replace a segment of an array with its median, it is sometimes good to transform the array into boolean form. 
+Consider any element x. If at last you need x in the array then all elements less than x are sort of equivalent and all elements more than x are equivalent. Also after transforming the array into 0s and 1s (elements >= x), array can be further compressed. 010 can be compressed to 0 without affecting 0, 1 count. So finally what remains is a snake pattern 0101010101 which is irreducible.
+
+https://www.codechef.com/problems/OPME
  
