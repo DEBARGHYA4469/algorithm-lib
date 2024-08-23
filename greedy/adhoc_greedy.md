@@ -9,6 +9,7 @@ Topics
 7. Change of slope trick
 8. Linear Transformation trick
 9. Median Problems
+10. Non-Degenerate Triangles
 
 ### Largest Rectange in a Histogram
 
@@ -119,4 +120,10 @@ For problems where you need to replace a segment of an array with its median, it
 Consider any element x. If at last you need x in the array then all elements less than x are sort of equivalent and all elements more than x are equivalent. Also after transforming the array into 0s and 1s (elements >= x), array can be further compressed. 010 can be compressed to 0 without affecting 0, 1 count. So finally what remains is a snake pattern 0101010101 which is irreducible.
 
 https://www.codechef.com/problems/OPME
- 
+
+### Non-Degenerate Triangles 
+
+Idea is to sort the array, then consider only the inequality x1 + x2 > x3 in the sorted array. 
+
+https://www.codechef.com/problems/CNTTRIANGLE
+https://codeforces.com/contest/1991/problem/F
