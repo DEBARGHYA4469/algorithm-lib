@@ -20,8 +20,8 @@ dp[i][x][k]: denote number of ways to color first i beads such that ith bead is 
 
 Transitions: 
 	dp[i][x][k] := for a particular k, dp[i][x][k] := Sum (1...M) dp[i-1][X\{x}][k]
-	Final Answer := Sum (1...K) Sum (1...X) dp[N][X\K][K]`
-
+	Final Answer := Sum (1...K) Sum (1...X) dp[N][X\K][K]
+```
 You can simplify this further by just considering the following states: 
 
 ```
@@ -32,4 +32,8 @@ You can simplify this further by just considering the following states:
 ```
 
 Problem: https://atcoder.jp/contests/abc307/tasks/abc307_e
+
+Problem II : https://atcoder.jp/contests/abc285/tasks/abc285_e (Nice!!, Construct DP states from optimal solution)
+
+Problem III : https://atcoder.jp/contests/abc229/tasks/abc229_f (Nice!! Always track the first vertex/point in a DP for circular fashion)
 
