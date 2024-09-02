@@ -4,19 +4,21 @@ In some problems the states when they end have a constraint with the initial sta
 
 Take the example of a regular problem, given a N, find how many ways to colour N beads in a row with M colours such that there are no consecutive beads with the same colour. 
 
-`dp[i][x] : denote the number of ways to color first i beads with ith bead having color x`
+```
+dp[i][x] : denote the number of ways to color first i beads with ith bead having color x
 
-`Transitions: 
+Transitions: 
 	dp[i][x] := Sum_k (1...M \ {x}) dp[i-1][k]
 	Final Answer := Sum_X (1...M) dp[N][X] 
-`
+```
 
 Consider the same problem but now in a circular ring! Now there is an additional constraints that Nth ring is now consecutive.
 
 
-`dp[i][x][k]: denote number of ways to color first i beads such that ith bead is of color x and 1st bead of color k`
+```
+dp[i][x][k]: denote number of ways to color first i beads such that ith bead is of color x and 1st bead of color k
 
-`Transitions: 
+Transitions: 
 	dp[i][x][k] := for a particular k, dp[i][x][k] := Sum (1...M) dp[i-1][X\{x}][k]
 	Final Answer := Sum (1...K) Sum (1...X) dp[N][X\K][K]`
 
