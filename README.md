@@ -560,6 +560,25 @@ void solve_offline (vector<Query> q) {
 ```
 </details>
 
+<details markdown="1">
+<summary> Double Precision Arithmetic
+</summary>
+
+```cpp
+const double EPS = 1e-9;
+bool chequal (double a, double b) {
+    return abs (a - b) < EPS; 
+}
+
+double L2norm (pair<double, double> a, pair<double, double> b){ 
+    return sqrt (pow(a.fi - b.fi, 2) + pow(a.se - b.se, 2)); 
+}
+
+cout << setprecision (12) << fixed; 
+```
+
+</details>
+
 
 ### Useful Notes
 
@@ -628,7 +647,7 @@ void solve_offline (vector<Query> q) {
 </details>
 
 <details markdown="1">
-<summary>Mathematical Techniques (27)
+<summary>Mathematical Techniques (28)
 </summary>
 
 ---
@@ -681,15 +700,20 @@ void solve_offline (vector<Query> q) {
 
 [24. Generating Functions](math/generating_functions.md)
 
-[26. Difference Array, Sort, Repeat](math/math.md#p)
+[25. Difference Array, Sort, Repeat](math/math.md#p)
 
-[27. Expected Value Problems](math/expected_value.md)
+[26. Expected Value Problems](math/expected_value.md)
+
+[27. Hockey Stick Identity](math/math.md#o)
+
+[28. Catalan Number and problems with producer, consumer](math/math.md#o)
+
 
 </details>
 
 <details markdown="1">
 <summary>
-Greedy Techniques (16)
+Greedy Techniques (19)
 </summary>
 
 ---
@@ -726,11 +750,18 @@ Greedy Techniques (16)
 
 [16. Linear Transformation trick](greedy/adhoc_greedy.md)
 
+[17. Median Trick](greedy/adhoc_greedy.md)
+
+[18. Knapsack with weights from a permutation](greedy/adhoc_greedy.md)
+
+[19. Non-Degenerate Triangles](greedy/adhoc_greedy.md)
+
+
 </details>
 
 
 <details markdown="1">
-<summary>Dynamic Programming (17)
+<summary>Dynamic Programming (18)
 </summary>
 
 ---
@@ -768,6 +799,8 @@ Greedy Techniques (16)
 [16. Next Element Array technique used in various AND, OR, bitwise problems](dp/next-array.md)
 
 [17. Matrix Exponentiation Trick](dp/matrixexpo.md)
+
+[18. DP on Rings](dp/dp_on_ring.md)
 
 </details>
 

@@ -1,32 +1,20 @@
 ##### Table of Contents  
 [Custom Ceil Function](#a)
-
 [Lazy Caterer](#b) 
-
 [Chinese Remainder Theorem](#c) 
-
 [Derangement](#d) 
-
 [Chicken Mcnugget Theorem](#e) 
-
 [Erdos Szekeres Theorem](#f) 
-
 [Cyclicity](#g)
-
 [Parity of Permutation](#h) 
-
 [Rank in Arbitrarty Bases](#i) 
-
 [Floyd Cycle](#j) 
-
 [Manhattern Trick](#k) 
-
 [Subsequence to Subarray Transformation Trick](#l)
-
 [Complexity of Euclid's dvision Lemma](#o)
-
 [Difference Array, Sort, Repeat](#p)
-
+[Hockey Stick Identity](#q)
+[Catalan Number](#r)
 
 # Custom Ceil function
 
@@ -252,3 +240,15 @@ Other ideas here:
 
 Main Idea : Even powers of primes in a number neutralize in the whole process among themselves. Consider only prime factors ^ (power % 2) for the problems. 
 
+# Hockey Stick Identity 
+
+C(r,r) + C(r+1,r) + C(r+2,r) + C(r+3,r) + ... + C(N,r)  = C(N+1,r+1) 
+
+# Catalan Number 
+
+Catalan (N, K) = INV(binpow (N+1)) * Choose (2 * N, N) 
+
+Catalan number comes up in problems involving producer and consumer, say a consumer can only come when there is a producer. Like counting bracket balancing sequences, ants going up to the matrix top without crossing diagonal etc.
+
+Example: 
+https://www.codechef.com/problems/CNTISFN343

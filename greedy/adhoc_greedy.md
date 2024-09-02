@@ -10,6 +10,7 @@ Topics
 8. Linear Transformation trick
 9. Median Problems
 10. Non-Degenerate Triangles
+11. Knapsacking with permutations
 
 ### Largest Rectange in a Histogram
 
@@ -127,3 +128,13 @@ Idea is to sort the array, then consider only the inequality x1 + x2 > x3 in the
 
 https://www.codechef.com/problems/CNTTRIANGLE
 https://codeforces.com/contest/1991/problem/F
+
+### Knapsacking with permutations 
+
+
+In some problems you have to achieve a sum of S, from the set of permutations [1,2,.....N]. 
+To solve such problems, consider the prefix sums, 
+[1+2+3+....+x] where x is the least number such that sum (1...x) > S. Sum cannot exceed by more than equal to x. 
+So `sum(1...x) - S` is less than x. Just remove a number y = `sum(1...x) - S` to achieve S. Hence you can always achieve S if S <= C(n+1,2).
+
+https://www.codechef.com/problems/STACKED

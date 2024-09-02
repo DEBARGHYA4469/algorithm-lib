@@ -19,9 +19,12 @@
           }
     }
 ```
+Problems: 
 https://www.codechef.com/problems/DATA101
+https://codeforces.com/contest/1142/problem/B
+https://codeforces.com/contest/1516/problem/D
 
-* Finding LCA of two vertex in a binary tree
+* Finding LCA of two vertex in a binary tree using Binary Lifting
 
 ```cpp
     int lca(int u,int v){
