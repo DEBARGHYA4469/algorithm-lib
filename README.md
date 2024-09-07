@@ -303,22 +303,21 @@ struct DSU {
 	vector <int> par, size_;
 	int biggest; 
 	DSU (int n) : par (n+1), size_(n+1, 1), biggest(1) { 
-		for (int i=0;i<=n;i++) { 
-			par[i] = i;
-			size_[i] = vis[i];
-		}			
+		for (int i=0;i<=n;i++) par[i] = i;
 	}
 	int root (int u) {
 		if (par[u] == u) return u; 
 		return par[u] = root (par[u]);
 	}
 	void unite (int u, int v){
-		if (root(u) == root(v)) return; 
+		int ru = root(u), rv = root(v); 
+		if (ru == rv) return; 
 		if (rand() & 1) swap (u, v); 
-		size_[root(v)] += size_[root(u)];
-		par[root(u)] = v;
-		chmax (biggest, size_[root(v)]);
+		size_[rv] += size_[ru];
+		par[ru] = rv;
+		chmax (biggest, size_[rv]); 	
 	}
+
 	int totalSize (int u) {
 		return size_[root(u)]; 
 	} 
@@ -713,7 +712,7 @@ cout << setprecision (12) << fixed;
 
 <details markdown="1">
 <summary>
-Greedy Techniques (19)
+Greedy Techniques (20)
 </summary>
 
 ---
@@ -755,6 +754,8 @@ Greedy Techniques (19)
 [18. Knapsack with weights from a permutation](greedy/adhoc_greedy.md)
 
 [19. Non-Degenerate Triangles](greedy/adhoc_greedy.md)
+
+[20. Average Trick](greedy/adhoc_greedy.md)
 
 
 </details>

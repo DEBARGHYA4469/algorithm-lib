@@ -11,6 +11,7 @@ Topics
 9. Median Problems
 10. Non-Degenerate Triangles
 11. Knapsacking with permutations
+12. Average Trick 
 
 ### Largest Rectange in a Histogram
 
@@ -138,3 +139,14 @@ To solve such problems, consider the prefix sums,
 So `sum(1...x) - S` is less than x. Just remove a number y = `sum(1...x) - S` to achieve S. Hence you can always achieve S if S <= C(n+1,2).
 
 https://www.codechef.com/problems/STACKED
+
+
+### Average Trick 
+
+Given a graph problem on average path sum, you can assume the average is x and reduce the problem. 
+
+* e1 + e2 + ... + ek / k = x 
+* (e1 - x) + (e2 - x) + ... 
+
+Example: https://atcoder.jp/contests/abc324/tasks/abc324_f
+

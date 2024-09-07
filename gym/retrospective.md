@@ -54,3 +54,22 @@ For each i
         while(p && s[i] != virus[p+1]) p = pi[p-1]; 
         if(s[i]==virus[p+1]) change w <- f(k) 
 ```
+
+### Equal Cut : https://atcoder.jp/contests/abc102/tasks/arc100_b  
+
+You are given an array of N integers. You have to partition the array into 4 segments A,B,C,D to minimize MAX(A,B,C,D) - MIN(A,B,C,D). 
+
+- {a1, a2, a3, ..., aN} 
+- Consider a cut in A at ith point such that X,Y | Z,W. 
+- Assume X,Y is such that |X - Y| is minimal. 
+
+`...............X.........Y.............X+Y=constant`
+
+case 1: X' < X, implies Y' > Y. MAX increases, MIN decreases, which is bad. 
+
+case 2: X' > X, implies Y' < Y. if X' < Y', assumption is |X-Y| is minimal is false.  
+
+This proves minimizing |X-Y| minimizes MAX - MIN.
+Using this observation, once we fix i we just need to minimize abs(X - Y)
+
+   

@@ -9,6 +9,14 @@ Hence it reduces the time to linear.
 
 This is the heart of many greedy and dp algorithms.
 
+
+### Problem-0 (Concat Strings)
+
+Find the lexicographically smallest string obtained by concatenating strings from a dictionary, strings can be of different length. 
+
+Consider any string. You can for sure make it better by replacing a substring with another from the back if the back string is less than front string till their common length. Now the issue what do you do with strings like [a, ab, aba] etc. Here exchange argument comes to more power. Consider pair of strings, ababa or abaab which is better. So sort by this criterion!
+Ans is aabaab.
+
 ### Problem-1 (Boxes)
 There are n boxes with weight wi and strength si. If one box can be placed over the other only if its weight is no greater than the strength of the bottom box.
 What is the maximum possible no of boxes in the tower.
