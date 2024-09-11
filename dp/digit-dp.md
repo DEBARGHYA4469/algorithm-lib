@@ -2,6 +2,9 @@
 
 
 #### Problem-1
+
+- Find the sum of digits of all numbers from a to b. 
+
 ```cpp
 ll dp[20][2][180]
 int solve(string &n,int idx=0,int tight=1,int sum=0){
@@ -22,7 +25,9 @@ int query(string a,string b){ // return sum of digits of numbers from a to b
 }
 ```
 ####  D. Magic Numbers
-`If number of digits of a & b are same = n`
+
+- find the number of integers between a and b such that digit d is contained only and only in even places and the integers are multiples of m. 
+
 ```cpp
 ll dp[DIG][m][2][2];
 ll solve(int idx,int r=0,bool tightl=1,bool tightr=1){
@@ -43,13 +48,13 @@ ll solve(int idx,int r=0,bool tightl=1,bool tightr=1){
 }
 ```
 
-### LCM Trick :  Logan and DIGIT IMMUNE numbers
+#### LCM Trick :  Logan and DIGIT IMMUNE numbers
 
-`A Digit-Immune number is a number which is not divisible by any of its digits.`
-`A digit-immune number will be called an odd-digit-immune number if it contains only odd digits.`
-
-`LCM Trick: Check divisibility ` </br></br></br>
-<a href="https://www.codecogs.com/eqnedit.php?latex=\\LCM&space;=&space;LCM(a1,a2,a3,...am)\\&space;a&space;\equiv&space;r&space;(mod\:LCM)&space;\implies&space;a&space;=&space;LCM*k&plus;r\\&space;a\:mod\:a_i&space;\equiv&space;(LCM*k&plus;r)\:mod\:a_i&space;=&space;r\:mod\:a_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\\LCM&space;=&space;LCM(a1,a2,a3,...am)\\&space;a&space;\equiv&space;r&space;(mod\:LCM)&space;\implies&space;a&space;=&space;LCM*k&plus;r\\&space;a\:mod\:a_i&space;\equiv&space;(LCM*k&plus;r)\:mod\:a_i&space;=&space;r\:mod\:a_i" title="\\LCM = LCM(a1,a2,a3,...am)\\ a \equiv r (mod\:LCM) \implies a = LCM*k+r\\ a\:mod\:a_i \equiv (LCM*k+r)\:mod\:a_i = r\:mod\:a_i" /></a>
+- A Digit-Immune number is a number which is not divisible by any of its digits.
+- A digit-immune number will be called an odd-digit-immune number if it contains only odd digits i.e [3,5,7,9]
+- Find the number of Odd-Digit-Immune Number.
+- How to check for the divisibility?
+- Divisiblity of 5 := 
 
 ```cpp
 const int LCM = 63;
@@ -83,7 +88,7 @@ ll solve(int idx,bool tight,int r,int mask,int prev){
 
 ## Digit-DP on Pair of Integers
 
-### HR: Count Pairs: Used
+#### HR: Count Pairs: Used
 
 `Determine number of pairs (x,y) s.t 0<=x<y<=n, S(x) < S(y).`</br>
 
