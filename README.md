@@ -147,13 +147,31 @@ test_solution_out = "out2.txt"
 
 def generate_input_file():
     '''
-            Write code here to generate the input file
-            Tips:
-                1. Use random.randint(l,r) : to generate random number between l...r
-                2. Perm = list(range(1,n)) random.shuffle(Perm) : to generate a randome permutation
-        '''
+    Write code here to generate the input file
+    Tips:
+        1. Use random.randint(l,r) : to generate random number between l...r
+        2. Perm = list(range(1,n)) random.shuffle(Perm) : to generate a randome permutation
+    '''
+    with open (input_file, "w") as f:
+        N = 10
+        M = 3
+        f.write(f"{N} {M}\n")
+        for i in range(M):
+            K = random.randint(1,N) 
+            C = random.randint(1,100)
+            f.write (f"{K} {C}")
+            f.write ("\n")
+            
+            lst = list(range(1,N+1))
+            random.shuffle(lst)
+            lst = lst [0:K]
+            for j in lst:
+                f.write (f"{j} ")
+
+            f.write("\n")
+    
 def test_case(i):
-    generate_input_file()
+    u  = generate_input_file()
     os.system(f"./{my_solution_exe} < {input_file} > {my_solution_out}")
     os.system(f"./{test_solution_exe} < {input_file} > {test_solution_out}")
 
@@ -180,19 +198,17 @@ def run_commands(cmd):
         print ("Error:", e)
 
 def compile_command(cpp_file):
-    compilation_flags = "-Wall -Wextra -Wshadow -D_GLIBCXX_ASSERTIONS -DDEBUG -ggdb3 -fmax-errors=2 -fsanitize=address,undefined -std=c++17"
+    compilation_flags = "-std=c++17"
     exe_name = cpp_file.split(".cpp")[0]
-    return f"g++ {compilation_flags} {exe_name} {cpp_file}"
+    return f"g++ {compilation_flags} -o {exe_name} {cpp_file}"
 
 if __name__ == '__main__':
 
     run_commands(compile_command(my_solution))
     run_commands(compile_command(test_solution))
 
-    for i in range(1,10000):
+    for i in range(1,100):
         test_case(i)
-
-
 ```
 </details>
 
@@ -584,7 +600,7 @@ cout << setprecision (12) << fixed;
 ---
 
 <details markdown="1">
-<summary>Trees and Graphs (27)
+<summary>Trees and Graphs (29)
 </summary>
 
 ---
@@ -642,6 +658,10 @@ cout << setprecision (12) << fixed;
 [26. Bit prefix Trie and XOR operations](graph/trie.md)
 
 [27. Games on Trie](graph/trie.md)
+
+[28. Lazy Propagation in DSU](graph/dsu.md)
+
+[29. Functional Graphs](graph/functional-graph.md)
 
 </details>
 
@@ -757,6 +777,8 @@ Greedy Techniques (20)
 
 [20. Average Trick](greedy/adhoc_greedy.md)
 
+[21. Josephus Problem](greedy/adhoc_greedy.md)
+
 
 </details>
 
@@ -867,7 +889,7 @@ Greedy Techniques (20)
 
 
 <details markdown="1">
-<summary>String Algorithms (8)
+<summary>String Algorithms (9)
 </summary>
 
 ---
@@ -887,6 +909,8 @@ Greedy Techniques (20)
 [7. Rabin Karp, Lexicographically minimal shift, double hashing](string/polyhash.md)
 
 [8. Fun with Palindromes](string/palindrome.md#fun-with-palindromes)
+
+[9. Majority Characters in a String](string/adhoc-strings.md)
 
 </details>
 
@@ -921,6 +945,5 @@ Greedy Techniques (20)
 
 </details>
 
----
-
+---	
 

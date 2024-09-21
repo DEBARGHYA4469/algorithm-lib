@@ -11,7 +11,8 @@ Topics
 9. Median Problems
 10. Non-Degenerate Triangles
 11. Knapsacking with permutations
-12. Average Trick 
+12. Average Trick
+13. Josephus Problem 
 
 ### Largest Rectange in a Histogram
 
@@ -150,3 +151,22 @@ Given a graph problem on average path sum, you can assume the average is x and r
 
 Example: https://atcoder.jp/contests/abc324/tasks/abc324_f
 
+### Digits of a number in base b 
+
+Digits of a number in base b. After Sqrt N bases, the number can be atmost 2 digits. Similarly after N^1/3 bases, the number can be maximum of 3 digits and so on!
+ 
+https://atcoder.jp/contests/abc044/tasks/arc060_b
+
+### Josephus Problem 
+
+If there is circle with N people and knife is given to person 1. Person 1 kills kth person and passes the knife to (k+1)th person. Who remains at the end? 
+
+- relabel the people from 0 ... N-1. 
+- Solution for k = 2 is simple. 
+- Notice for N = 2^K. always person 0 remains. 
+- So find the person who is killed till we get the highest power of 2. After which he remains. 
+- For N = 100, answer = 73. 
+
+Now for general N, K. 
+
+- f (N, K) = (K + f(N - 1, K)) mod N 

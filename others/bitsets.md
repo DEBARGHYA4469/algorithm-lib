@@ -76,4 +76,5 @@ int main(){
 	return 0;
 }
 ```
+* Overflows bits are ignored in bitsets. If the value of sum is small, you can create a bitset of any collection of subsets, x | y << p for y[p] == 1. 
 

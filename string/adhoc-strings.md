@@ -78,3 +78,9 @@ Distinct Subsequence of particular length:
       
       For lexicographical order, you have to use the next function
 ```
+
+#### Majority Char in a String 
+
+[Simple Idea] Whenever there is problem involving majority of the characters in a string, one character present more than half times. There is always a subsequence AA or ABA in the string if majority is present. 
+
+Example: https://atcoder.jp/contests/abc043/tasks/arc059_b
