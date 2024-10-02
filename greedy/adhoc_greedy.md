@@ -1,5 +1,6 @@
 Topics
 
+0. General Problem Solving Tactics
 1. Largest Rectangle in a Histogram
 2. Intermediate Value trick
 3. Job Sequencing
@@ -13,6 +14,11 @@ Topics
 11. Knapsacking with permutations
 12. Average Trick
 13. Josephus Problem 
+
+### General Problem Solving Tactics
+
+[Problem Solving Strategies - Arthur Engel.pdf](https://github.com/user-attachments/files/17101216/Problem.Solving.Strategies.-.Arthur.Engel.pdf)
+
 
 ### Largest Rectange in a Histogram
 
