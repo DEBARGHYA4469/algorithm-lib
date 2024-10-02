@@ -732,7 +732,7 @@ cout << setprecision (12) << fixed;
 
 <details markdown="1">
 <summary>
-Greedy Techniques (20)
+Greedy Techniques (21)
 </summary>
 
 ---
