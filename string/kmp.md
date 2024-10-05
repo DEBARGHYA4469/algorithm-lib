@@ -117,3 +117,6 @@ for(int i=1;i<=len;i++) cnt[i]++;
               
 ```
 eg. https://codeforces.com/contest/432/problem/D
+
+
+Nice KMP problem : https://www.codechef.com/problems/CENS20C

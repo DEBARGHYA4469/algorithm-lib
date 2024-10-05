@@ -228,3 +228,40 @@ int main(){
 ```
 
 Practise Problems: https://codeforces.com/contest/109/problem/C https://codeforces.com/problemset/problem/337/D
+
+### Tree DP and complexities 
+
+* Given a tree with N vertices, N < 10^5. Find the number of trees rooted at vertex "1" which have K nodes, K < 100. 
+source : https://snuke.hatenablog.com/entry/2019/01/15/211812
+
+```cpp
+// not tested code
+const int N = 1e5 + 4, K = 103; 
+std::vector<int> g[N];
+long long dp[N][K];
+int size[N];
+void dfs(int u, int p=-1) {
+	size[u] = 1; 
+	dp[u][1] = 1; 
+	for (int v : g[u]) {
+		if (v == p) continue;
+		dfs(v, u);
+		size_t m = size[u] + size[v];
+		std::vector<long long> merged(2 * K + 1); 
+		for (int x = 0; x <= std::min(K, size[u]); x++) {
+			for (int y = 0; y <= std::min(K, size[v]); y++) {
+				merged[x + y] = dp[u][x] * dp[v][y]; 
+			}
+		}
+		for (int x = 0; x <= K; x++) dp[u][x] = merged[x]; 
+		size[u] += size[v]; 
+	}
+}
+```
+
+* Complexity is N^2 instead of usual looking N^3. 
+* With each merge, two vertices gets joined, maximum it can become is a complete graph.
+
+
+
+
