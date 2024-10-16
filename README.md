@@ -253,6 +253,27 @@ int choose(int n,int r){
 ```
 </details>
 
+<details markdown="1">
+<summary> Fenwick Tree
+</summary>
+
+
+```cpp
+void update (int i, int val) {
+    for (; i < N ; i+= i&-i) Fen[i] = max (Fen[i], val); 
+}
+int query (int r) {
+    int Ans = 0; 
+    for (; r > 0 ; r -= r&-r) Ans = max (Ans, Fen[r]);
+    return Ans; 
+}   
+
+void cleanTree (int i) {
+    for (; i<N; i += i&-i) Fen[i] = 0; 
+}
+```
+</details>
+
 <details markdown="1">  
 <summary> Number Theory Template 
 </summary>
@@ -944,6 +965,8 @@ Greedy Techniques (21)
 [11. Contribution Technique](others/contribution_technique.md)
 
 </details>
+
+[Just Practice Mode]
 
 ---	
 

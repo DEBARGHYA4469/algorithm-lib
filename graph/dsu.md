@@ -73,4 +73,24 @@ Sample Problem: https://codeforces.com/contest/685/problem/B [Nice Idea]
 In some problem you will be given to perform some operation on a set and later merge two sets. Operation performed on a set needs to be percolated down before merging two sets. This can be avoided by lazily updating the child while merging. 
 Say root_u is merging to root_v while merging update value[root_u] -= value[root_v]. Later when you accumulate the results any operation done on set V won't affect root U. 
 
-Example: https://codeforces.com/edu/course/2/lesson/7/1/practice/contest/289390/problem/C
+you can also do something like below : 
+
+```
+/*
+Consider the inverted tree. 
+	a     b 
+	  Rab
+
+Let Ra = Root(a), Rb = Root(b) 
+Make Rb root of Ra. (Unite-Step)
+int Rab = ++node; 
+G[Rab].push_back({ Node[Ra], Node[Rb] });
+...
+At last perform DFS on "node" and get all the leaf values by dfs topdown. 
+*/
+```
+
+Example: 
+
+https://codeforces.com/edu/course/2/lesson/7/1/practice/contest/289390/problem/C
+https://atcoder.jp/contests/abc314/tasks/abc314_f
