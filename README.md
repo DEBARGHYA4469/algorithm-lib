@@ -254,7 +254,7 @@ int choose(int n,int r){
 </details>
 
 <details markdown="1">
-<summary> Fenwick Tree
+<summary> Fenwick Tree Template
 </summary>
 
 
