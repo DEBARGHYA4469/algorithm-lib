@@ -89,3 +89,17 @@ a[0] = a[N+1] = inf
 	    else lo = mid + 1;
       }
 ```
+
+https://codeforces.com/problemset/problem/1301/B
+
+
+## Ternary Search using Binary Search 
+
+```cpp
+while (lo <= hi) {
+	int mid = lo + (hi - lo) / 2;
+	int x = f(mid), y = f(mid + 1); 
+	if (x < y) { chmin (Ans, x); hi = mid - 1; 
+	else { chmin (Ans, y); lo = mid + 1; }
+}
+```

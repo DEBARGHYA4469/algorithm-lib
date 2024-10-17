@@ -132,5 +132,6 @@ Solution:
    	- dp[i] = max(dp[i-1], dp[j] + profit[i])
    	- How to find j?
    	- j = *(--upper_bound(v, v+m, start[i]))
- 
-  Complexity: NlogN
+- Complexity: NlogN
+
+1. For interval problems where you are asked to calculate something optimal on a sequence of intervals which are non containing, it is good to sort the array by l and then look over r. 
