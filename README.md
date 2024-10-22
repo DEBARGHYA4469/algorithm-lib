@@ -687,7 +687,7 @@ cout << setprecision (12) << fixed;
 </details>
 
 <details markdown="1">
-<summary>Mathematical Techniques (28)
+<summary>Mathematical Techniques (29)
 </summary>
 
 ---
@@ -747,6 +747,8 @@ cout << setprecision (12) << fixed;
 [27. Hockey Stick Identity](math/math.md#o)
 
 [28. Catalan Number and problems with producer, consumer](math/math.md#o)
+
+[29. Stirling Number of Second Kind](math/math.md#s)
 
 
 </details>

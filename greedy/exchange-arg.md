@@ -226,5 +226,8 @@ Solution:
 
 observation: All cities get connected to city 1 one by one in optimal setup. [Proof by construction]
 Exchange Argument: In the optimal setup it is always good to swap `(X + a[i] >= i*c, X + a[j] >= j*c) iff a[i] - i*c < a[j] - j*c.`. Sort and verify the optimal arrangement. 
+
+Practise Problems: 
+https://codeforces.com/contest/2023/problem/A
 	
 

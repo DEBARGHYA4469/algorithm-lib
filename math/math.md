@@ -15,6 +15,7 @@
 [Difference Array, Sort, Repeat](#p)
 [Hockey Stick Identity](#q)
 [Catalan Number](#r)
+[Stirling Number of Second Kind](#s)
 
 # Custom Ceil function
 
@@ -250,5 +251,15 @@ Catalan (N, K) = INV(binpow (N+1)) * Choose (2 * N, N)
 
 Catalan number comes up in problems involving producer and consumer, say a consumer can only come when there is a producer. Like counting bracket balancing sequences, ants going up to the matrix top without crossing diagonal etc.
 
+For more review dp/catalan.md file. 
+
 Example: 
 https://www.codechef.com/problems/CNTISFN343
+
+# Stirling Number of Second Kind 
+
+Number of ways of distributing N distinguishable objects into K indistinguishable bins. 
+
+Nth item can be kept as a singleton or not. 
+
+Transition:  ```F(N, K) = F(N - 1, K - 1) + K * F(N - 1, K - 1)```
