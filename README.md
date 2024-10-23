@@ -687,7 +687,7 @@ cout << setprecision (12) << fixed;
 </details>
 
 <details markdown="1">
-<summary>Mathematical Techniques (29)
+<summary>Mathematical Techniques (30)
 </summary>
 
 ---
@@ -749,6 +749,8 @@ cout << setprecision (12) << fixed;
 [28. Catalan Number and problems with producer, consumer](math/math.md#o)
 
 [29. Stirling Number of Second Kind](math/math.md#s)
+
+[30. Stars and Bars Method](math/math.md#s)
 
 
 </details>
@@ -941,7 +943,7 @@ Greedy Techniques (21)
 
 
 <details markdown="1">
-<summary>Miscellaneous Stuff (11)
+<summary>Miscellaneous Stuff (12)
 </summary>
 
 ---
@@ -968,6 +970,8 @@ Greedy Techniques (21)
 
 [11. Contribution Technique](others/contribution_technique.md)
 
+[12. Some less common causes of TLE](others/common-errors.md)
+ 
 </details>
 
 [Just Practice Mode]

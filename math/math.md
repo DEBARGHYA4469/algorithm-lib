@@ -16,6 +16,7 @@
 [Hockey Stick Identity](#q)
 [Catalan Number](#r)
 [Stirling Number of Second Kind](#s)
+[Stars and Bars](#t)
 
 # Custom Ceil function
 
@@ -263,3 +264,21 @@ Number of ways of distributing N distinguishable objects into K indistinguishabl
 Nth item can be kept as a singleton or not. 
 
 Transition:  ```F(N, K) = F(N - 1, K - 1) + K * F(N - 1, K - 1)```
+
+# Stars and Bars Method 
+
+Many combinatorial problem can be reduced to stars and bars method. 
+Consider the problem where you need to find number of combinations of k elements in an array such that no two elements are adjacent. 
+
+Well, try to see the structure. 
+
+......x....x....x.x..x.......x.x....
+
+It is like there should be at least one dots between two crosses. 
+Consider r[1] + r[2] + ... + r[k+1] = N - K where, r[1] >= 0, r[k + 1] >= 0 and other 
+r[i] >= 1. Can you reduce this to a stars and bars problems? 
+
+Sum ... r[i] = N - K - (K - 1)
+Sum ... r[i] = N - 2K + 1, where r[i] >= 0. 
+
+Number of possibilities = C (N - 2K + 1 + K, K) = C(N - K + 1, K). 

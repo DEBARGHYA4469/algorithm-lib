@@ -16,3 +16,6 @@ State Transitions:
 * We need for each round, total health spent so far = y. MAX = MIN(x, spent + (n-1)). MIN = spent + 1.
 * So for each state we also need to store the spent health.
 * f(n, spent) = choose e1 heros out of n heros * choices of their initial health * f(n-e1, spent + (n-1)).
+
+
+
