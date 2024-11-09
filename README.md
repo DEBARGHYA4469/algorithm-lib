@@ -943,7 +943,7 @@ Greedy Techniques (21)
 
 
 <details markdown="1">
-<summary>Miscellaneous Stuff (12)
+<summary>Miscellaneous Stuff (13)
 </summary>
 
 ---
@@ -971,6 +971,8 @@ Greedy Techniques (21)
 [11. Contribution Technique](others/contribution_technique.md)
 
 [12. Some less common causes of TLE](others/common-errors.md)
+
+[13. XOR Hashing](others/xor-hashing.md)
  
 </details>
 
