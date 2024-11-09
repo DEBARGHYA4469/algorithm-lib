@@ -13,3 +13,13 @@ https://codeforces.com/contest/2025/problem/D
 https://codeforces.com/contest/2024/problem/D
 
 5. Dijkstra DP optimizations. 
+
+6. DP optimization for N^2 dp state space where total space is limited by N. 
+Let dp[i][j] say total j states are <= N. 
+You can do something like dp[i].resize(h_i);
+https://codeforces.com/contest/2030/problem/E
+
+6. Contribution technique + DP 
+Say you are given to calculate something over all subsquence. 
+You get the structure [..+ j +..]
+Ans += ways[j] * j 

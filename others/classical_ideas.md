@@ -41,7 +41,13 @@ Problems:
 * Give them indices 1,2,3,4.....N.  
 * Match i -> i + s/2. 
 * Proof: if i matches j and j-i < s/2. s/2 < s/2. Contradiction.
+-
 
 ### Array Sortings 
 
 * If you have a random array and given some operation on the subset of the indices you have to make it sorted, it is better to break the array conceptually into segments of increasing length and study them. https://www.codechef.com/problems/PERMREACH 
+
+### Traversing Diagonals of Matrix
+
+- Use x - y and x + y constants for tracing the diagonals or any other patterns as needed and traverse the array normally. sdsd
+

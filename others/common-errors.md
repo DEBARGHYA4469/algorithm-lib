@@ -27,7 +27,7 @@ Bug:
 
 case 1: (25x slower)
 
-```
+```cpp
 map<int, int> mp; 
 for (int i = 1; i <= N; i++) if(mp[i]) { cout << "Hello" << endl; } 
 
@@ -38,7 +38,7 @@ sys     0m0.281s
 
 case 2: 
 
-```
+```cpp
 map<int, int> mp;
 for (int i = 1; i <= N; i++) {
     if (mp.find(i) != mp.end()) {
@@ -55,23 +55,30 @@ sys     0m0.001s
 
 Bug: 
 
-case 1: 
+case 1: 3500x slower
 
-```
+```cpp
 const int N = 1e6;
 string s = ""; 
 for (int i = 0; i < N; i++) {
     s = s + 'a';
 }
+
+real    0m54.085s
+user    0m28.168s
+sys     0m25.899s
 ```
 
 case 2: 
 
-```
+```cpp
 const int N = 1e6;
 string s = ""; 
 for (int i = 0; i < N; i++) {
     s += 'a';
 }
+real    0m0.015s
+user    0m0.000s
+sys     0m0.007s
 ```
 

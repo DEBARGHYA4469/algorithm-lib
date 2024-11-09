@@ -63,6 +63,8 @@
 * https://codeforces.com/problemset/problem/1775/E [Difficult Observation + Bijection + Prefix Sum]
 * https://codeforces.com/contest/1845/problem/D [Nice Observation, Prefix Sum]
 * https://codeforces.com/contest/1660/problem/E [Diagonal Wrap on Cyclic Transformation]
+* https://codeforces.com/problemset/problem/2026/C [Nice Greedy Idea]
+* https://www.codechef.com/problems/SQUIDGAME2 [Combinatorics + Probability Nice Idea]
 
 ### Good Adhoc Problems:
 
