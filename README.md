@@ -438,6 +438,89 @@ class SegmentTree {
 </details>
 
 <details markdown="1">
+<summary> Lazy Propagation Template </summary>
+
+```cpp
+struct Node{
+	unsigned long long Colors;
+	Node () { Colors = 0; }	
+	Node (unsigned long long tColor) {
+		Colors = tColor;
+	} 
+};
+ 
+int _n; // $ set _n 
+class SegmentTree {
+    public:
+        Node *_t;
+    public:
+        
+        SegmentTree (int n) {
+            _n = n;
+            _t = new Node[_n * 6]; 
+        }
+ 
+        Node combine (Node lc, Node rc){
+            Node res; 
+            res.Colors = lc.Colors | rc.Colors;
+            return res;
+        }
+           
+        void pushdown(int v){
+		lazy[v << 1] = lazy[v]; 
+		lazy[v << 1 | 1] = lazy[v];
+		_t[v].Colors = lazy[v];
+		_t[v << 1].Colors = lazy[v];
+		_t[v << 1 | 1].Colors = lazy[v];
+		lazy[v] = 0;
+	}
+ 
+        Node query (const int& l, const int& r, int v = 1, int tl = 1, int tr = _n){
+            if (r < tl || l > tr) return Node (); 
+            if (tl >= l && tr <= r) {
+            	return _t[v];
+            } 
+            if(lazy[v])
+            	pushdown(v);
+            
+            Node res = combine (query(l, r, v << 1, tl, tm), 
+                query(l, r, v << 1 | 1, tm + 1, tr));
+ 
+            return res;
+        }
+ 
+	void update(int l, int r, int C, int v = 1, int tl = 1, int tr = _n){	
+ 
+		if(l > tr || r < tl) return;
+		else if(l <= tl && tr <= r) {
+			lazy[v] = 1LL << C; 
+			_t[v].Colors = 1LL << C;
+			return;
+		}
+		
+		if (lazy[v]) 
+			pushdown(v);
+			
+		update(l, r, C, v << 1, tl, tm);
+		update(l, r, C, v << 1|1, tm + 1, tr);
+		_t[v] = combine (_t[v << 1], _t[v << 1 | 1]);
+	}
+ 
+        void build (int v=1, int tl=1, int tr=_n){
+            if (tl==tr) {
+            	_t[v] = Node(1LL << Color[to[tl]]); 
+            }
+            else {
+                build (v<<1, tl, tm);
+                build (v<<1|1, tm+1, tr); 
+                _t[v] = combine (_t[v<<1], _t[v<<1|1]); 
+            }
+        }
+};
+```
+</details>
+
+<details markdown="1">
 <summary> Hashing Template 
 </summary>
 
