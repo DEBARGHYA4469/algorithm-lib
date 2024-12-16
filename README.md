@@ -438,7 +438,8 @@ class SegmentTree {
 </details>
 
 <details markdown="1">
-<summary> Lazy Propagation Template </summary>
+<summary> Lazy Propagation Template
+</summary>
 
 ```cpp
 struct Node{
