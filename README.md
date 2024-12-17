@@ -700,7 +700,7 @@ cout << setprecision (12) << fixed;
 </details>
 
 <details markdown="1">
-<summary> Reading Lines of String
+<summary> Reading Lines of String Template
 </summary>
 
 ```cpp
