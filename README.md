@@ -699,6 +699,17 @@ cout << setprecision (12) << fixed;
 
 </details>
 
+<details markdown="1">
+<summary> Reading Lines of String
+</summary>
+
+```cpp
+string s;
+getline(cin, s);
+```
+
+</details>
+
 
 ### Useful Notes
 
