@@ -1,5 +1,9 @@
 # CP Hack Tools
 
+Following notes were compiled into a book with the help of AI: 
+
+Link: https://drive.google.com/file/d/16XyECYJpwV3CXHiO0HErgdUfkcU8rLTA/view?usp=sharing
+
 <details markdown="1"> 
 <summary> My Programming Template
 </summary>
